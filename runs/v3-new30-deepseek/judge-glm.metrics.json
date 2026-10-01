@@ -1,0 +1,11 @@
+{
+  "runId": "v3-new30-deepseek",
+  "condition": "B3",
+  "judgeModel": "z-ai/glm-5.3-flash",
+  "judged": 30,
+  "failed": 0,
+  "skipped": 0,
+  "citation_validity_mean": 0.9851851851851853,
+  "faithfulness_mean": 4.533333333333333,
+  "note": "LLM judge; run the manual-verification.csv audit (>=20%) before reporting."
+}

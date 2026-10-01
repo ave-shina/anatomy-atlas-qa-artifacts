@@ -1,0 +1,11 @@
+{
+  "runId": "final-mini-r3",
+  "condition": "B3",
+  "judgeModel": "openai/gpt-4o",
+  "judged": 260,
+  "failed": 0,
+  "skipped": 70,
+  "citation_validity_mean": 0.8642948717948715,
+  "faithfulness_mean": 4.384615384615385,
+  "note": "LLM judge; run the manual-verification.csv audit (>=20%) before reporting."
+}

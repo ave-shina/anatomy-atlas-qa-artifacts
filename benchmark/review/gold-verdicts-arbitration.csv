@@ -1,0 +1,57 @@
+item_id,must_ok,optional_ok,query_ok,notes
+F-regions-008,1,1,1,author-ratified; chunk weak for function but query answerable; optionals mostly plausible
+F-regions-015,1,1,1,author-ratified; optionals cephalic/basilic/clavicle legitimate for the triangle
+F-regions-022,1,1,1,author-ratified; hand structures plausible; query answerable
+F-fasciae-007,1,0,1,author-ratified; DTM ligament/FDL/plantar aponeurosis unrelated to retinacula
+F-muscular-013,1,1,1,author-ratified; gluteal-region co-topics incl. pudendal nerve plausible
+F-muscular-020,1,1,1,author-ratified; floor-of-mouth/suprahyoid neighbors fine; soft palate adjacent
+F-joints-009,1,0,1,author-ratified; gold chunk wrong passage (SC joint); optionals not mined from target passage
+F-joints-012,1,1,1,author-ratified; all knee structures; must=target convention
+F-joints-020,1,1,1,author-ratified; laryngeal co-mentions fine; deepseek's where-objection rejected
+F-skeletal-008,1,1,1,author-ratified; upper-limb co-mentions acceptable
+F-skeletal-012,1,1,1,author-ratified; one wrong optional (supraspinous lig.) of 7 — still mostly plausible
+F-skeletal-019,1,1,1,author-ratified; tarsal co-mentions fine
+F-cardiovascular-012,1,1,1,author-ratified; mediastinal neighbors fine
+F-cardiovascular-019,1,1,1,author-ratified; celiac/upper-GI co-mentions fine
+F-cardiovascular-022,1,1,1,author-ratified; ocular co-mentions fine; lacrimal marginal
+F-lymphoid-004,1,0,1,author-ratified; cardiac chambers/pleura/cephalic vein unrelated to nodes topic
+F-lymphoid-008,1,0,1,author-ratified; azygos/cephalic veins weakly tied; nodal co-mentions fine
+F-lymphoid-011,1,0,1,author-ratified; liver/gallbladder/bile duct/aorta unrelated to spleen function
+F-nervous-016,1,1,1,author-ratified; only FDP clearly unrelated; most plexus/axilla co-mentions fine
+F-nervous-019,1,1,1,author-ratified; plexus co-mentions fine; infraclavicular nodes marginal
+F-visceral-001,1,1,1,author-ratified; salivary/head-neck co-mentions fine
+F-visceral-005,1,1,1,author-ratified; retroperitoneal co-mentions fine
+F-visceral-012,1,1,1,author-ratified; male repro co-mentions fine; target-as-must convention
+F-visceral-015,1,1,1,author-ratified; colon/peritoneal co-mentions fine
+F-visceral-019,1,0,1,author-ratified; aorta/femoral nerve unrelated; repro structures fine
+R-cardiovascular-003,1,1,0,author-ratified; arbitrary pair: no direct ACA-cavernous sinus relation (only indirect via ICA)
+R-muscular-003,1,1,0,"author-ratified; arbitrary pair: EHL dorsal vs FDB plantar, no meaningful relation"
+R-cardiovascular-008,1,1,0,"author-ratified; arbitrary pair: thoracic vein vs celiac artery, no relation"
+R-cardiovascular-012,1,1,0,author-ratified; arbitrary pair: azygos vs SMA unrelated (agree majority 0)
+R-joints-001,1,1,1,author-ratified; genuine relation: both boundaries of pelvic outlet
+R-cardiovascular-018,1,0,0,author-ratified; fully arbitrary pair; optionals also scattered
+R-cardiovascular-021,1,1,1,author-ratified; genuine foot venous-arterial relation via perforators/dorsal arch
+R-cardiovascular-026,1,1,1,author-ratified; both axillary vessels; spatial relation describable
+R-visceral-003,1,1,0,"author-ratified; arbitrary pair: gallbladder-ureter co-listed viscera, no relation"
+R-nervous-009,1,1,0,author-ratified; arbitrary pair: no direct lacrimal-medulla relation
+R-muscular-009,1,1,0,"author-ratified; arbitrary pair: forearm extensor vs rotator cuff, no relation"
+R-visceral-004,1,1,1,author-ratified; genuine: hepatic flexure inferior to right lobe of liver
+R-cardiovascular-033,1,1,0,"author-ratified; arbitrary pair: STV drains to IJV, thyrocervical trunk is subclavian branch"
+R-muscular-012,1,1,0,"author-ratified; arbitrary pair: opposite leg compartments, no direct relation"
+R-cardiovascular-036,1,1,1,"author-ratified; genuine pathway: RALV joins subcostal to form azygos, drains to SVC"
+A-muscular-001,1,0,1,author-ratified; midbrain/pons/cavernous sinus unrelated; query itself well-formed (type mislabel only)
+A-nervous-003,1,1,0,"author-ratified; Jensen's sulcus is a real term, target correct; but obscure variant, no corpus support (no_gold_chunk)"
+A-muscular-002,1,0,1,author-ratified; iliacus/inguinal ligament/femoral nerve unrelated to medial thigh
+A-muscular-003,1,0,1,author-ratified; adductor magnus/femoral nerve/fibula unrelated to TFL
+A-joints-001,1,1,1,author-ratified; pelvic-wall co-mentions fine; well-formed query
+A-regions-032,1,0,1,author-ratified; lacrimal sac/NLD/oral/temporal regions unrelated to auricle
+A-skeletal-001,1,1,1,author-ratified; knee co-mentions mostly fine; query well-formed
+A-regions-001,0,1,0,author-ratified; fragment without history: neither resolvable ambiguity nor designed negative; empty gold unjustified
+A-regions-003,0,1,0,author-ratified; same malformed fragment pattern
+A-regions-005,0,1,0,author-ratified; same malformed fragment pattern
+A-regions-011,0,1,0,author-ratified; same malformed fragment pattern
+A-regions-013,0,1,0,author-ratified; same malformed fragment pattern
+A-regions-017,1,1,1,author-ratified; valid ambiguity: 'one of them' resolvable from 3-bone history via clarification
+A-regions-021,1,1,1,author-ratified; valid ambiguity from nerve-triplet history
+A-regions-027,1,1,1,author-ratified; valid ambiguity (duplicate packet entry)
+A-regions-029,1,1,1,author-ratified; valid ambiguity from elbow-bone history

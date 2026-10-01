@@ -1,0 +1,68 @@
+{
+  "runId": "v3-new30-glm",
+  "items": 30,
+  "conditions": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "perCondition": {
+    "B1": {
+      "generations": 30,
+      "ok": 30,
+      "failed": 0,
+      "chip_precision": 0,
+      "chip_precision_optional": 1,
+      "chip_recall": 0,
+      "chip_f1": 0,
+      "chip_f1_optional": 0,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 0,
+      "extra_optional_total": 0,
+      "missed_link_total": 46,
+      "clarification_runs": 0,
+      "mean_duration_ms": 8911.666666666666
+    },
+    "B2": {
+      "generations": 30,
+      "ok": 30,
+      "failed": 0,
+      "chip_precision": 0.2416161616161616,
+      "chip_precision_optional": 0.27494949494949494,
+      "chip_recall": 0.75,
+      "chip_f1": 0.34313186813186813,
+      "chip_f1_optional": 0.34313186813186813,
+      "hallucinated_total": 1,
+      "non_renderable_total": 0,
+      "wrong_link_total": 133,
+      "extra_optional_total": 0,
+      "missed_link_total": 10,
+      "clarification_runs": 0,
+      "mean_duration_ms": 21674.666666666668
+    },
+    "B3": {
+      "generations": 30,
+      "ok": 30,
+      "failed": 0,
+      "chip_precision": 0.2586123136123136,
+      "chip_precision_optional": 0.2586123136123136,
+      "chip_recall": 1,
+      "chip_f1": 0.38910607910607914,
+      "chip_f1_optional": 0.38910607910607914,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 167,
+      "extra_optional_total": 0,
+      "missed_link_total": 0,
+      "clarification_runs": 0,
+      "mean_duration_ms": 18044.133333333335
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0.2,
+    "recall_at_6": 0.3,
+    "recall_at_10": 0.3,
+    "mrr": 0.16666666666666666
+  }
+}

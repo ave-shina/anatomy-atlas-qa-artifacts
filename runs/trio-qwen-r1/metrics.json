@@ -1,0 +1,68 @@
+{
+  "runId": "trio-qwen-r1",
+  "items": 330,
+  "conditions": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "perCondition": {
+    "B1": {
+      "generations": 330,
+      "ok": 328,
+      "failed": 2,
+      "chip_precision": 0.09090909090909091,
+      "chip_precision_optional": 1,
+      "chip_recall": 0.09090909090909091,
+      "chip_f1": 0.09090909090909091,
+      "chip_f1_optional": 0.09090909090909091,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 0,
+      "extra_optional_total": 0,
+      "missed_link_total": 400,
+      "clarification_runs": 0,
+      "mean_duration_ms": 7064.309090909091
+    },
+    "B2": {
+      "generations": 330,
+      "ok": 326,
+      "failed": 4,
+      "chip_precision": 0.2758999081726357,
+      "chip_precision_optional": 0.6008234946871315,
+      "chip_recall": 0.806060606060606,
+      "chip_f1": 0.3699781027053756,
+      "chip_f1_optional": 0.5660224391374125,
+      "hallucinated_total": 3,
+      "non_renderable_total": 169,
+      "wrong_link_total": 564,
+      "extra_optional_total": 371,
+      "missed_link_total": 77,
+      "clarification_runs": 0,
+      "mean_duration_ms": 34602.99393939394
+    },
+    "B3": {
+      "generations": 330,
+      "ok": 325,
+      "failed": 5,
+      "chip_precision": 0.3516909353272998,
+      "chip_precision_optional": 0.608053915781189,
+      "chip_recall": 0.9787878787878788,
+      "chip_f1": 0.46861196043014275,
+      "chip_f1_optional": 0.6827124895306719,
+      "hallucinated_total": 0,
+      "non_renderable_total": 183,
+      "wrong_link_total": 583,
+      "extra_optional_total": 381,
+      "missed_link_total": 11,
+      "clarification_runs": 17,
+      "mean_duration_ms": 36167.951515151515
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0.39292929292929296,
+    "recall_at_6": 0.48686868686868695,
+    "recall_at_10": 0.48686868686868695,
+    "mrr": 0.3821717171717171
+  }
+}

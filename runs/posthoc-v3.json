@@ -1,0 +1,245 @@
+{
+  "vocabKeys": 2358,
+  "meshKeys": 2358,
+  "runs": {
+    "v3-merged-deepseek": {
+      "runId": "v3-merged-deepseek",
+      "b2plusV": {
+        "n": 300,
+        "precision": 0.18192544492544493,
+        "precision_optional": 0.5347507215007212,
+        "recall": 0.585,
+        "f1": 0.2614751914751913,
+        "f1_optional": 0.42033234521469803,
+        "ci95_f1_optional": {
+          "lo": 0.3766290387172741,
+          "hi": 0.46431398340221863
+        },
+        "hallucinated_total": 0,
+        "non_renderable_total": 0,
+        "wrong_link_total": 880
+      },
+      "coverage": {
+        "B1": {
+          "n": 253,
+          "mean": 0.33659760510752285,
+          "ci95": {
+            "lo": 0.3046221918866752,
+            "hi": 0.3685612103784639
+          }
+        },
+        "B2": {
+          "n": 253,
+          "mean": 0.39599934285740557,
+          "ci95": {
+            "lo": 0.3550774176588474,
+            "hi": 0.4379621287638929
+          }
+        },
+        "B3": {
+          "n": 253,
+          "mean": 0.39922470144957145,
+          "ci95": {
+            "lo": 0.35880077216240713,
+            "hi": 0.4406381839792568
+          }
+        }
+      },
+      "coverage_pairs": {
+        "b1_vs_b3_wilcoxon_p": 0.00043344681951373865,
+        "b2_vs_b3_wilcoxon_p": 0.9292323708441688
+      },
+      "coverage_sentence_subset": {
+        "B1": {
+          "n": 108,
+          "mean": 0.3289652010301007
+        },
+        "B2": {
+          "n": 108,
+          "mean": 0.39135560343976866
+        },
+        "B3": {
+          "n": 108,
+          "mean": 0.39260618994778285
+        }
+      },
+      "fisher_hallucination_b2_vs_b3": {
+        "b2_halluc": 2,
+        "b2_links": 1763,
+        "b3_halluc": 0,
+        "b3_links": 2218,
+        "p": 0.1960572770912543
+      },
+      "latency_b3_minus_b2_ms": 1426.5242424242424
+    },
+    "v3-merged-glm": {
+      "runId": "v3-merged-glm",
+      "b2plusV": {
+        "n": 300,
+        "precision": 0.21525889850889862,
+        "precision_optional": 0.541665464165464,
+        "recall": 0.7066666666666667,
+        "f1": 0.304532227032227,
+        "f1_optional": 0.5066257929949883,
+        "ci95_f1_optional": {
+          "lo": 0.465132453603042,
+          "hi": 0.548425750061199
+        },
+        "hallucinated_total": 0,
+        "non_renderable_total": 0,
+        "wrong_link_total": 878
+      },
+      "coverage": {
+        "B1": {
+          "n": 253,
+          "mean": 0.31083467189730335,
+          "ci95": {
+            "lo": 0.2813462181117088,
+            "hi": 0.341088975136988
+          }
+        },
+        "B2": {
+          "n": 253,
+          "mean": 0.3956292302165512,
+          "ci95": {
+            "lo": 0.35596638189604585,
+            "hi": 0.43658007958698103
+          }
+        },
+        "B3": {
+          "n": 253,
+          "mean": 0.40282777006319165,
+          "ci95": {
+            "lo": 0.3634623005815951,
+            "hi": 0.4432447231661478
+          }
+        }
+      },
+      "coverage_pairs": {
+        "b1_vs_b3_wilcoxon_p": 2.2992347803452162e-7,
+        "b2_vs_b3_wilcoxon_p": 0.556323153725462
+      },
+      "coverage_sentence_subset": {
+        "B1": {
+          "n": 108,
+          "mean": 0.2866907459393175
+        },
+        "B2": {
+          "n": 108,
+          "mean": 0.3952063933600255
+        },
+        "B3": {
+          "n": 108,
+          "mean": 0.3971445953905364
+        }
+      },
+      "fisher_hallucination_b2_vs_b3": {
+        "b2_halluc": 4,
+        "b2_links": 1830,
+        "b3_halluc": 0,
+        "b3_links": 2204,
+        "p": 0.042274852061432715
+      },
+      "latency_b3_minus_b2_ms": 1231.436363636365
+    },
+    "v3-merged-qwen": {
+      "runId": "v3-merged-qwen",
+      "b2plusV": {
+        "n": 300,
+        "precision": 0.266155723905724,
+        "precision_optional": 0.6067217412217414,
+        "recall": 0.8133333333333334,
+        "f1": 0.37142886742886744,
+        "f1_optional": 0.6010531968891105,
+        "ci95_f1_optional": {
+          "lo": 0.5619967532467536,
+          "hi": 0.6399121201009744
+        },
+        "hallucinated_total": 0,
+        "non_renderable_total": 0,
+        "wrong_link_total": 777
+      },
+      "coverage": {
+        "B1": {
+          "n": 253,
+          "mean": 0.2004893455010892,
+          "ci95": {
+            "lo": 0.1747410434555992,
+            "hi": 0.2278050122564824
+          }
+        },
+        "B2": {
+          "n": 253,
+          "mean": 0.26905848794518056,
+          "ci95": {
+            "lo": 0.23321431368198334,
+            "hi": 0.3046793393696116
+          }
+        },
+        "B3": {
+          "n": 253,
+          "mean": 0.2655978941439073,
+          "ci95": {
+            "lo": 0.2321812959859192,
+            "hi": 0.2998819214997385
+          }
+        }
+      },
+      "coverage_pairs": {
+        "b1_vs_b3_wilcoxon_p": 0.000013826167290842406,
+        "b2_vs_b3_wilcoxon_p": 0.7650758673692892
+      },
+      "coverage_sentence_subset": {
+        "B1": {
+          "n": 108,
+          "mean": 0.19054228070867996
+        },
+        "B2": {
+          "n": 108,
+          "mean": 0.2658543855611746
+        },
+        "B3": {
+          "n": 108,
+          "mean": 0.2823728446148933
+        }
+      },
+      "fisher_hallucination_b2_vs_b3": {
+        "b2_halluc": 2,
+        "b2_links": 1689,
+        "b3_halluc": 0,
+        "b3_links": 1827,
+        "p": 0.23068953631162625
+      },
+      "latency_b3_minus_b2_ms": 4464.451515151515
+    }
+  },
+  "reviewAgreement": {
+    "items": 100,
+    "perColumn": {
+      "must_ok": {
+        "n": 100,
+        "raters": 3,
+        "observed_agreement": 0.96,
+        "gwet_ac1": 0.9580898274697898,
+        "fleiss_kappa": 0.1223793271574822,
+        "positive_rate": 0.9766666666666667
+      },
+      "optional_ok": {
+        "n": 100,
+        "raters": 3,
+        "observed_agreement": 0.8,
+        "gwet_ac1": 0.6851385390428212,
+        "fleiss_kappa": 0.4517543859649124,
+        "positive_rate": 0.76
+      },
+      "query_ok": {
+        "n": 100,
+        "raters": 3,
+        "observed_agreement": 0.82,
+        "gwet_ac1": 0.7399595492632185,
+        "fleiss_kappa": 0.41520467836257263,
+        "positive_rate": 0.81
+      }
+    }
+  }
+}

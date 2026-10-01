@@ -1,0 +1,11 @@
+{
+  "runId": "v3-merged-qwen",
+  "condition": "B3",
+  "judgeModel": "qwen/qwen3.8-flash",
+  "judged": 314,
+  "failed": 0,
+  "skipped": 16,
+  "citation_validity_mean": 0.8694353963083605,
+  "faithfulness_mean": 4.250814332247557,
+  "note": "v3 kit merge \u2014 stored ft-era judge records for surviving items + fresh judge records for the 30 new items (means recomputed; judged/skipped recount from merged rows, mirroring judge-run.mts skip semantics)."
+}

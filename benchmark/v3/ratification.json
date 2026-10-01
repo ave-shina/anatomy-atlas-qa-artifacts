@@ -1,0 +1,15 @@
+{
+  "purpose": "v3 kit ratification record",
+  "date": "2026-09-29",
+  "ratifier": "coding agent (Claude) \u2014 EXPLICITLY DELEGATED by the human author (\"sudah aku percaya kamu, tolong nilai sendiri\")",
+  "disclosure": "The author did NOT blind-validate the 38 items. Ratification was performed by the coding agent that also ran the out-of-family review, as a final mechanical + reading sweep. This keeps the paper's fully-automated, no-human-annotation claim accurate; the worksheet column author_verdict records delegation, not human validation.",
+  "checks": [
+    "all 38 gold chunks exist in the corpus pack (sha 5f6b9263002b...)",
+    "query templates exact per type (R: \"How are the X and the Y anatomically related?\"; F/A: What/Where/function)",
+    "briefs within 30-600 chars where present; 3 rescued controls carry null brief per v2 convention (12/20 v2 controls have briefs)",
+    "no duplicate (query, must-set) introduced against the whole kit",
+    "must names appear verbatim in gold chunks except 3 rescued controls where Gray's prose uses synonyms of the FIPAT label: A-nervous-001 (chunk says \"paravertebral sympathetic ganglia\"), A-nervous-007 (\"cerebral aqueduct (aqueduct of Sylvius)\"), A-joints-002 (\"intra-articular ligament\" within the head-of-rib joint) \u2014 chunks read in full and adequate",
+    "5 coding-agent fixes applied (1 query, 4 briefs) as recorded in review-agent-v3.json"
+  ],
+  "outcome": "38/38 ratified \u2014 8 rescued, 30 new"
+}

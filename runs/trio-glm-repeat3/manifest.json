@@ -1,0 +1,27 @@
+{
+  "runId": "trio-glm-repeat3",
+  "date": "2026-09-20T14:01:58.898Z",
+  "gitSha": "3f6f5c1c1948eca278fa1ba5c2de3441fe9db2dc",
+  "conditions": [
+    "B3"
+  ],
+  "docId": "medrag-anatomy_gray",
+  "chatModel": "z-ai/glm-5.3-flash",
+  "embedModel": "baai/bge-m3",
+  "pineconeIndex": "anatomy-atlas",
+  "topK": 6,
+  "repeat": 3,
+  "limit": 0,
+  "perType": 0,
+  "types": [],
+  "dataset": {
+    "path": "research/benchmark/review/repeat3-subset.ndjson",
+    "sha256": "a995d10dab78db95f5ca945109ef47301d0496bb7fa60f288918c0e4be3e796b",
+    "items": 100
+  },
+  "meshKeys": {
+    "path": "research/benchmark/mesh-keys.json",
+    "sha256": "cb9db5ecf4b984d5224f9e4f115ebe58292ccf078c71431c52b1920444f3ec7c",
+    "keys": 1794
+  }
+}

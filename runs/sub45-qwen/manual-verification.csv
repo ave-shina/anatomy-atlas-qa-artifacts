@@ -1,0 +1,10 @@
+item_id,type,system,citation_validity_judge,faithfulness_judge,citation_validity_human,faithfulness_human,notes
+F-regions-001,F,regions,1,5,,,
+F-regions-006,,,,,,,
+F-regions-011,F,regions,1,5,,,
+R-cardiovascular-001,R,cardiovascular,1,5,,,
+R-cardiovascular-004,R,cardiovascular,1,5,,,
+R-muscular-002,R,muscular,1,5,,,
+A-regions-001,A,regions,0,1,,,
+A-regions-006,,,,,,,
+A-regions-011,,,,,,,

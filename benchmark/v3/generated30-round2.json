@@ -1,0 +1,256 @@
+{
+  "purpose": "v3 gold refresh — round-2 deficit fill after the out-of-family review rejected 8 items (ADVISORY PROPOSAL, same disclosure as generated30.json)",
+  "date": "2026-09-29T11:46:02.553Z",
+  "model": "z-ai/glm-5.3",
+  "temperature": 0,
+  "disclosure": "glm-5.3 is in-family with review-trio member glm-5.3-flash. Generated items are proposals; verdict of record is the author's.",
+  "deficits_input": {
+    "A|nervous": 1,
+    "F|regions": 2,
+    "F|skeletal": 1,
+    "R|cardiovascular": 1,
+    "R|visceral": 1,
+    "A|regions": 1,
+    "R|muscular": 1
+  },
+  "summary": {
+    "generated": 8,
+    "slots_still_short": []
+  },
+  "results": [
+    {
+      "slot_item_id": "R2-200",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:1402",
+      "structures_offered": [
+        "sciaticnerve"
+      ],
+      "status": "generated",
+      "query": "What is the Sciatic nerve?",
+      "must": [
+        "sciaticnerve"
+      ],
+      "brief": "The Sciatic nerve is the nerve associated with the posterior compartment of the thigh.",
+      "rationale": "Passage explicitly states compartment association of sciatic nerve, supporting a plain factual definition item.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-201",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:1991",
+      "structures_offered": [
+        "cubitalfossa"
+      ],
+      "status": "generated",
+      "query": "Where is the Cubital fossa located?",
+      "must": [
+        "cubitalfossa"
+      ],
+      "brief": "The cubital fossa is the region on the anterior aspect of the arm where the brachial artery can be auscultated with a stethoscope, over which the clinician listens for the pulse.",
+      "rationale": "Passage describes the cubital fossa as the site where the brachial artery is auscultated during blood pressure measurement.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-202",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:2676",
+      "structures_offered": [
+        "intertragicincisure",
+        "antihelix"
+      ],
+      "status": "generated",
+      "query": "What is the Intertragic incisure?",
+      "must": [
+        "intertragicincisure"
+      ],
+      "brief": "The intertragic incisure is the depression between the tragus and the antitragus of the auricle.",
+      "rationale": "Passage explicitly defines the intertragic incisure as the depression between tragus and antitragus.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-203",
+      "type": "F",
+      "system": "skeletal",
+      "chunk_id": "medrag-anatomy_gray:878",
+      "structures_offered": [
+        "iliacfossa"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-204",
+      "type": "F",
+      "system": "skeletal",
+      "chunk_id": "medrag-anatomy_gray:2024",
+      "structures_offered": [
+        "infraspinousfossa",
+        "humerus"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-205",
+      "type": "F",
+      "system": "skeletal",
+      "chunk_id": "medrag-anatomy_gray:849",
+      "structures_offered": [
+        "anteriorsuperioriliacspine",
+        "pubictubercle"
+      ],
+      "status": "failed",
+      "why": "F/A needs exactly 1 valid must key",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-206",
+      "type": "F",
+      "system": "skeletal",
+      "chunk_id": "medrag-anatomy_gray:1986",
+      "structures_offered": [
+        "firstrib"
+      ],
+      "status": "generated",
+      "query": "Where is the First rib located?",
+      "must": [
+        "firstrib"
+      ],
+      "brief": "The subclavian vein passes superior to the first rib as it courses toward the thoracic inlet, so the first rib lies inferior to that vein.",
+      "rationale": "Passage states the vein passes superior to the first rib, giving a definitive positional relation.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-207",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:469",
+      "structures_offered": [
+        "leftbrachiocephalicvein",
+        "thoracicaorta"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-208",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1104",
+      "structures_offered": [
+        "inferiorglutealartery",
+        "internaliliacartery"
+      ],
+      "status": "generated",
+      "query": "How are the Inferior gluteal artery and the Internal iliac artery anatomically related?",
+      "must": [
+        "inferiorglutealartery",
+        "internaliliacartery"
+      ],
+      "brief": "The Inferior gluteal artery is a large terminal branch of the anterior trunk of the internal iliac artery.",
+      "rationale": "Passage explicitly states branching relationship between the two arteries.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-209",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:1213",
+      "structures_offered": [
+        "prostate",
+        "urethra"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-210",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:1211",
+      "structures_offered": [
+        "prostate",
+        "urethra"
+      ],
+      "status": "generated",
+      "query": "How are the Prostate and the Urethra anatomically related?",
+      "must": [
+        "prostate",
+        "urethra"
+      ],
+      "brief": "When the Prostate is markedly enlarged it becomes impossible to pass a urethral catheter, indicating that an enlarged Prostate obstructs the Urethra and blocks catheter passage through it.",
+      "rationale": "Passage states enlarged prostate obstructs urethral catheter passage, an explicit anatomical relationship.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-211",
+      "type": "A",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:256",
+      "structures_offered": [
+        "lumbarregion"
+      ],
+      "status": "generated",
+      "query": "What is the Lumbar region?",
+      "must": [
+        "lumbarregion"
+      ],
+      "brief": "The lumbar region is an ideal site to access the subarachnoid space for procedures such as lumbar puncture, because the spinal cord terminates around the LI–LII disc level in the adult, leaving a large CSF-filled space containing only lumbar and sacral nerve roots.",
+      "rationale": "Passage directly explains the lumbar region's clinical significance as a subarachnoid access site.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-212",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1980",
+      "structures_offered": [
+        "serratusanteriormuscle",
+        "teresminormuscle"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-213",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:2617",
+      "structures_offered": [
+        "genioglossusmuscle",
+        "hyoglossusmuscle"
+      ],
+      "status": "generated",
+      "query": "How are the Hyoglossus muscle and the Genioglossus muscle anatomically related?",
+      "must": [
+        "hyoglossusmuscle",
+        "genioglossusmuscle"
+      ],
+      "brief": "The dorsal lingual vein follows the lingual artery between the hyoglossus and genioglossus muscles, indicating the two muscles lie adjacent to one another with the lingual artery and dorsal lingual vein passing between them.",
+      "rationale": "Passage states an anatomical relationship: lingual artery and dorsal lingual vein course between the two muscles.",
+      "parse_ok": true,
+      "round": 2
+    }
+  ]
+}

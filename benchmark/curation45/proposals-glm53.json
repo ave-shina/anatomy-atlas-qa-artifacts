@@ -1,0 +1,1793 @@
+{
+  "purpose": "curated45 — GLM-5.3 proposal pass (ADVISORY; human validates blind)",
+  "date": "2026-09-26T08:19:24.412Z",
+  "model": "z-ai/glm-5.3",
+  "temperature": 0,
+  "disclosure": "glm-5.3 is in-family with review-trio member glm-5.3-flash. Proposals are advisory; the human author's blind validation is the verdict of record.",
+  "candidates_sha_note": "input: candidates.json (see its own provenance block)",
+  "summary": {
+    "items": 45,
+    "parse_failures": 0,
+    "old_top_adequacy": {
+      "inadequate": 44,
+      "partial": 1
+    },
+    "total_picks": 24,
+    "none_adequate": 32
+  },
+  "results": [
+    {
+      "item_id": "A-regions-032",
+      "query": "What is the Tragus?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2273",
+        "medrag-anatomy_gray:2676",
+        "medrag-anatomy_gray:2807"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunk describes the auricle generally but never mentions or defines the tragus specifically.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate defines the tragus; the needed passage listing auricle elevations (helix, antihelix, tragus) is absent from retrieved set.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1551,
+        "completion_tokens": 454,
+        "total_tokens": 2005,
+        "cost": 0.004169,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004169,
+          "upstream_inference_prompt_cost": 0.0021714,
+          "upstream_inference_completions_cost": 0.0019976
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 356,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "A-skeletal-001",
+      "query": "What is the Patella?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1381",
+        "medrag-anatomy_gray:1537",
+        "medrag-anatomy_gray:1418"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Describes patellar ligament attachments, not what the patella itself is.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate defines the patella (largest sesamoid bone, anterior knee); all are passing mentions or figure dumps.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1507,
+        "completion_tokens": 98,
+        "total_tokens": 1605,
+        "cost": 0.002541,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.002541,
+          "upstream_inference_prompt_cost": 0.0021098,
+          "upstream_inference_completions_cost": 0.0004312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-cardiovascular-004",
+      "query": "What is the Supreme intercostal artery?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:481",
+        "medrag-anatomy_gray:335",
+        "medrag-anatomy_gray:2462"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunks describe internal thoracic and posterior intercostal arteries, not the supreme intercostal artery itself.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2462",
+          "reason": "Describes costocervical trunk origin and branches; supreme intercostal artery is its terminal branch, though text appears truncated before naming it."
+        }
+      ],
+      "none_adequate": true,
+      "note": "No candidate explicitly defines the supreme intercostal artery; C4 is nearest but may be truncated before naming it.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1397,
+        "completion_tokens": 346,
+        "total_tokens": 1743,
+        "cost": 0.0034782,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0034782,
+          "upstream_inference_prompt_cost": 0.0019558,
+          "upstream_inference_completions_cost": 0.0015224
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 188,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-cardiovascular-008",
+      "query": "What is the function of the Common iliac artery?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1558",
+        "medrag-anatomy_gray:835",
+        "medrag-anatomy_gray:1098"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Figure-caption label dump; only lists common iliac artery name, no function information.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate describes the common iliac artery's function; C1 only notes internal iliac origin from it.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1482,
+        "completion_tokens": 126,
+        "total_tokens": 1608,
+        "cost": 0.00223482,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00223482,
+          "upstream_inference_prompt_cost": 0.00176358,
+          "upstream_inference_completions_cost": 0.00047124
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 29,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-cardiovascular-012",
+      "query": "What is the Superior vena cava?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:545",
+        "medrag-anatomy_gray:437",
+        "medrag-anatomy_gray:494"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Clinical access technique passage; does not define or describe the superior vena cava itself.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:437",
+          "reason": "Describes SVC location in mediastinum, tributaries (azygos), and radiological relations — definitional content."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:430",
+          "reason": "Details SVC pericardial course and entry into right atrium with surface landmarks."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:435",
+          "reason": "Explains SVC formation from brachiocephalic veins with location and tributaries."
+        }
+      ],
+      "none_adequate": false,
+      "note": "",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1520,
+        "completion_tokens": 197,
+        "total_tokens": 1717,
+        "cost": 0.0029948,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0029948,
+          "upstream_inference_prompt_cost": 0.002128,
+          "upstream_inference_completions_cost": 0.0008668
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-cardiovascular-015",
+      "query": "What is the function of the Left testicular artery?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:810"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top chunk present; flagged weak; no candidate contains left testicular artery function.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate mentions the testicular artery; C2 lists visceral branches but truncates before testicular arteries.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1373,
+        "completion_tokens": 97,
+        "total_tokens": 1470,
+        "cost": 0.00144521,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00144521,
+          "upstream_inference_prompt_cost": 0.00105721,
+          "upstream_inference_completions_cost": 0.000388
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-fasciae-004",
+      "query": "What is the Palmar aponeurosis?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1909",
+        "medrag-anatomy_gray:1880",
+        "medrag-anatomy_gray:1957"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No candidate defines or describes the palmar aponeurosis; C1 only mentions structures deep to it.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "C1 contains incidental mention only; the true defining passage (from palmaris longus expansion) is absent from retrieved candidates.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1474,
+        "completion_tokens": 181,
+        "total_tokens": 1655,
+        "cost": 0.00271408,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00271408,
+          "upstream_inference_prompt_cost": 0.00191768,
+          "upstream_inference_completions_cost": 0.0007964
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 82,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-joints-009",
+      "query": "Where is the Transverse humeral ligament located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1935",
+        "medrag-anatomy_gray:1945",
+        "medrag-anatomy_gray:1720"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No candidate states the transverse humeral ligament's location; C1 names other glenohumeral ligaments and coracohumeral ligament only.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Transverse humeral ligament (bridging intertubercular sulcus) is not described in any retrieved chunk; texts may be truncated before mention.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1501,
+        "completion_tokens": 223,
+        "total_tokens": 1724,
+        "cost": 0.0030826,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0030826,
+          "upstream_inference_prompt_cost": 0.0021014,
+          "upstream_inference_completions_cost": 0.0009812
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 107,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-joints-016",
+      "query": "What is the function of the Transverse acetabular ligament?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1557",
+        "medrag-anatomy_gray:1307",
+        "medrag-anatomy_gray:1308"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Figure-caption label dump; only names the transverse acetabular ligament, gives no function.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate describes its function (bridging acetabular notch, completing acetabular rim). All are passing mentions or caption dumps.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1634,
+        "completion_tokens": 157,
+        "total_tokens": 1791,
+        "cost": 0.0029784,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0029784,
+          "upstream_inference_prompt_cost": 0.0022876,
+          "upstream_inference_completions_cost": 0.0006908
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 53,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-lymphoid-011",
+      "query": "What is the function of the Spleen?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:707",
+        "medrag-anatomy_gray:828",
+        "medrag-anatomy_gray:905"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Describes peritoneum, hilum, and arterial supply, not spleen function.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:905",
+          "reason": "States spleen is reticuloendothelial organ involved in hematopoiesis and immunological surveillance, directly answering function."
+        }
+      ],
+      "none_adequate": false,
+      "note": "",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1515,
+        "completion_tokens": 109,
+        "total_tokens": 1624,
+        "cost": 0.00160255,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00160255,
+          "upstream_inference_prompt_cost": 0.00116655,
+          "upstream_inference_completions_cost": 0.000436
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-muscular-006",
+      "query": "What is the function of the Tibialis posterior muscle?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1432",
+        "medrag-anatomy_gray:1445",
+        "medrag-anatomy_gray:1512"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top-8 chunk present; flagged gold chunks lack explicit tibialis posterior function.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1446",
+          "reason": "Describes tibialis posterior origin and course; likely continues into its actions, closest to a dedicated passage."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1456",
+          "reason": "Explicitly states tibialis posterior helps support the arches of the foot as part of a stirrup."
+        }
+      ],
+      "none_adequate": false,
+      "note": "No candidate fully states plantarflexion/inversion; C4 and C6 together give partial function info.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1422,
+        "completion_tokens": 271,
+        "total_tokens": 1693,
+        "cost": 0.0015905280000000003,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0015905280000000003,
+          "upstream_inference_prompt_cost": 0.0009726480000000001,
+          "upstream_inference_completions_cost": 0.0006178800000000001
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 91,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-muscular-009",
+      "query": "What is the Splenius capitis muscle?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2729"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Old gold chunk not in top-8; no passage currently supports the answer.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:176",
+          "reason": "Defines splenius capitis: broad muscle attaching to occipital bone and mastoid process, part of spinotransversales."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:177",
+          "reason": "Gives actions: bilaterally extends neck, unilaterally rotates head to same side."
+        }
+      ],
+      "none_adequate": false,
+      "note": "",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1401,
+        "completion_tokens": 145,
+        "total_tokens": 1546,
+        "cost": 0.00165877,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00165877,
+          "upstream_inference_prompt_cost": 0.00107877,
+          "upstream_inference_completions_cost": 0.00058
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-muscular-013",
+      "query": "What is the Superior gemellus muscle?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1089"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Old gold chunk not in top-8; no passage defines superior gemellus.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1342",
+          "reason": "Contains superior gemellus attachments, insertion, and innervation; best available descriptive passage."
+        }
+      ],
+      "none_adequate": false,
+      "note": "C1 describes superior gemellus relations but lacks full origin detail; partial but best candidate.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1404,
+        "completion_tokens": 124,
+        "total_tokens": 1528,
+        "cost": 0.00109975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00109975,
+          "upstream_inference_prompt_cost": 0.00078975,
+          "upstream_inference_completions_cost": 0.00031
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-muscular-016",
+      "query": "Where is the Superior rectus muscle located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2234",
+        "medrag-anatomy_gray:2237",
+        "medrag-anatomy_gray:2254"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Discusses innervation and testing, not location of superior rectus.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2233",
+          "reason": "States superior rectus origin from common tendinous ring above optic canal and course forward in orbit to eyeball."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2232",
+          "reason": "Describes four rectus muscles occupying superior position passing from posterior origins to anterior eyeball."
+        }
+      ],
+      "none_adequate": false,
+      "note": "",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1511,
+        "completion_tokens": 160,
+        "total_tokens": 1671,
+        "cost": 0.0013983240000000003,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013983240000000003,
+          "upstream_inference_prompt_cost": 0.001033524,
+          "upstream_inference_completions_cost": 0.00036480000000000003
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-nervous-001",
+      "query": "What is the Genital branch of genitofemoral nerve?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:816"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Old gold chunk not in top-8; no passage currently selected contains the information.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:794",
+          "reason": "Directly describes genital branch: course through inguinal canal, cremaster innervation, cutaneous termination in men and women."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1321",
+          "reason": "Describes genitofemoral nerve origin/course and genital branch innervating anterior perineum; useful supplementary context."
+        }
+      ],
+      "none_adequate": false,
+      "note": "",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1453,
+        "completion_tokens": 171,
+        "total_tokens": 1624,
+        "cost": 0.0027866,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0027866,
+          "upstream_inference_prompt_cost": 0.0020342,
+          "upstream_inference_completions_cost": 0.0007524
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-nervous-005",
+      "query": "Where is the Flocculus located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2966"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunk describes cerebellum generally; flocculus location is not mentioned at all.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate contains flocculus location information; a different chunk describing cerebellar flocculus is needed.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1511,
+        "completion_tokens": 109,
+        "total_tokens": 1620,
+        "cost": 0.0012820440000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012820440000000002,
+          "upstream_inference_prompt_cost": 0.001033524,
+          "upstream_inference_completions_cost": 0.00024852
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 15,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-nervous-019",
+      "query": "What is the Inferior subscapular nerve?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1947",
+        "medrag-anatomy_gray:1779",
+        "medrag-anatomy_gray:1949"
+      ],
+      "old_top_adequacy": "partial",
+      "old_top_reason": "C1/1779 gives origin from posterior cord and course, but truncates before specifying inferior subscapular nerve's targets or roots.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1779",
+          "reason": "States inferior subscapular nerve originates from posterior cord and passes directly into posterior axillary wall muscles—closest to a definition."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1750",
+          "reason": "Identifies inferior subscapular nerve as a brachial plexus branch innervating subscapularis, adding target-muscle information."
+        }
+      ],
+      "none_adequate": false,
+      "note": "No candidate fully defines the nerve (roots C5–C6, teres major supply); C1 plus C2 together cover origin and innervation.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1461,
+        "completion_tokens": 550,
+        "total_tokens": 2011,
+        "cost": 0.0012145888,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012145888,
+          "upstream_inference_prompt_cost": 0.0005563488,
+          "upstream_inference_completions_cost": 0.00065824
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 325,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-regions-008",
+      "query": "What is the function of the Temporal region?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2148",
+        "medrag-anatomy_gray:2197",
+        "medrag-anatomy_gray:2807"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top chunk present; flagged golds lack functional description of the temporal region.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Candidates describe temporalis muscle, fossa boundaries, or neurovasculature; none state the temporal region's function.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1430,
+        "completion_tokens": 127,
+        "total_tokens": 1557,
+        "cost": 0.0011947200000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011947200000000002,
+          "upstream_inference_prompt_cost": 0.0009051600000000001,
+          "upstream_inference_completions_cost": 0.00028956000000000007
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 37,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-regions-011",
+      "query": "What is the Carotid triangle?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2727",
+        "medrag-anatomy_gray:2417",
+        "medrag-anatomy_gray:2407"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Figure-caption dump; lists labels without defining the carotid triangle or its boundaries.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "C1 only mentions it as an anterior triangle subdivision; no candidate states its boundaries or contents definition.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1571,
+        "completion_tokens": 181,
+        "total_tokens": 1752,
+        "cost": 0.0014142840000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014142840000000002,
+          "upstream_inference_prompt_cost": 0.0010016040000000001,
+          "upstream_inference_completions_cost": 0.00041268000000000007
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 98,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-regions-015",
+      "query": "Where is the Deltopectoral triangle located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1700"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top chunk text available; none of the candidates describe the deltopectoral triangle's location.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate mentions the deltopectoral triangle; all discuss other triangles or unrelated deltoid content.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1431,
+        "completion_tokens": 91,
+        "total_tokens": 1522,
+        "cost": 0.0024038,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0024038,
+          "upstream_inference_prompt_cost": 0.0020034,
+          "upstream_inference_completions_cost": 0.0004004
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-regions-019",
+      "query": "Where is the Heel region located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1473"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Gold chunk not in top-8; no passage defining the heel region's location.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1474",
+          "reason": "Describes the heel's weight-bearing region on the posterior/inferior calcaneus, the closest locating information available."
+        }
+      ],
+      "none_adequate": false,
+      "note": "C1 only partially locates the heel (via calcaneus); no chunk explicitly defines the heel region among lower limb regions.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1520,
+        "completion_tokens": 268,
+        "total_tokens": 1788,
+        "cost": 0.00316128,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00316128,
+          "upstream_inference_prompt_cost": 0.00198208,
+          "upstream_inference_completions_cost": 0.0011792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 133,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-regions-022",
+      "query": "Where is the Palm located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1909",
+        "medrag-anatomy_gray:1904",
+        "medrag-anatomy_gray:1925"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Describes palmar digital nerves, not the location of the palm itself.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate defines or locates the palm; C6 defines the hand but never mentions the palm.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1513,
+        "completion_tokens": 154,
+        "total_tokens": 1667,
+        "cost": 0.0015628522,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0015628522,
+          "upstream_inference_prompt_cost": 0.0011840738,
+          "upstream_inference_completions_cost": 0.0003787784
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 61,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-skeletal-001",
+      "query": "What is the function of the Scaphoid bone?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2006"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Gold chunk not in top-8; no passage states scaphoid's function.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1869",
+          "reason": "States scaphoid's functional role: its proximal surface articulates with radius to form the wrist joint, and its tubercle forms the carpal arch's lateral base."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1867",
+          "reason": "Describes scaphoid as boat-shaped carpal bone in proximal row; gives position/context but only weak functional information."
+        }
+      ],
+      "none_adequate": false,
+      "note": "No chunk gives explicit 'function' discussion; C2 is closest with articulation/arch roles.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1470,
+        "completion_tokens": 238,
+        "total_tokens": 1708,
+        "cost": 0.0031052,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0031052,
+          "upstream_inference_prompt_cost": 0.002058,
+          "upstream_inference_completions_cost": 0.0010472
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 35,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-skeletal-012",
+      "query": "What is the function of the Scapula?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1726",
+        "medrag-anatomy_gray:169",
+        "medrag-anatomy_gray:1727"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Old gold chunks describe levator scapulae and muscle attachments, not the scapula's function.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1702",
+          "reason": "States scapula (with clavicle) forms the pectoral girdle attaching the upper limb to the trunk—closest functional statement."
+        }
+      ],
+      "none_adequate": false,
+      "note": "No candidate explicitly describes scapula function; C5 gives only its girdle role, so answer remains partial.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1448,
+        "completion_tokens": 231,
+        "total_tokens": 1679,
+        "cost": 0.0014441520000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014441520000000002,
+          "upstream_inference_prompt_cost": 0.0009174720000000001,
+          "upstream_inference_completions_cost": 0.0005266800000000001
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 72,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-skeletal-016",
+      "query": "Where is the Fibula located?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1498",
+        "medrag-anatomy_gray:1450",
+        "medrag-anatomy_gray:1455"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top chunk existed; flagged gold chunks were weak and lacked location information.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1372",
+          "reason": "States fibula is the lateral bone of the leg, non-weight-bearing, ends as lateral malleolus at ankle."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1277",
+          "reason": "Describes fibula as laterally positioned in leg, forming lateral part of ankle joint."
+        }
+      ],
+      "none_adequate": false,
+      "note": "",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1439,
+        "completion_tokens": 141,
+        "total_tokens": 1580,
+        "cost": 0.0012327960000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012327960000000002,
+          "upstream_inference_prompt_cost": 0.0009113160000000001,
+          "upstream_inference_completions_cost": 0.0003214800000000001
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-skeletal-019",
+      "query": "What is the Medial cuneiform bone?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1478"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunk describes cuboid and lateral cuneiform; medial cuneiform not described at all.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate contains information about the medial cuneiform bone; relevant passage likely elsewhere in tarsal-bones section.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1495,
+        "completion_tokens": 119,
+        "total_tokens": 1614,
+        "cost": 0.0026166,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0026166,
+          "upstream_inference_prompt_cost": 0.002093,
+          "upstream_inference_completions_cost": 0.0005236
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 19,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-visceral-001",
+      "query": "What is the Submandibular duct?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2628",
+        "medrag-anatomy_gray:2627",
+        "medrag-anatomy_gray:2860"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunk is about sublingual gland drainage; submandibular duct only mentioned incidentally.",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2626",
+          "reason": "Describes submandibular gland and its hook-shaped parts, context for the duct's course and relations."
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2627",
+          "reason": "Gives submandibular duct relations: lingual nerve loops under it, sublingual gland lies lateral to it."
+        }
+      ],
+      "none_adequate": false,
+      "note": "No candidate fully defines the duct's origin/opening; C1 likely continues into duct description on same page.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1555,
+        "completion_tokens": 249,
+        "total_tokens": 1804,
+        "cost": 0.0010364681,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010364681,
+          "upstream_inference_prompt_cost": 0.0006202895,
+          "upstream_inference_completions_cost": 0.0004161786
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 61,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-visceral-005",
+      "query": "What is the function of the Kidney?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:807",
+        "medrag-anatomy_gray:767",
+        "medrag-anatomy_gray:765"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunks describe kidney surface anatomy and hilum, not function.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate defines kidney function; dialysis chunks only imply it indirectly.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1371,
+        "completion_tokens": 131,
+        "total_tokens": 1502,
+        "cost": 0.0012364440000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012364440000000002,
+          "upstream_inference_prompt_cost": 0.0009377640000000001,
+          "upstream_inference_completions_cost": 0.00029868000000000006
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 58,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "F-visceral-008",
+      "query": "What is the Free taenia?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:688"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Only incidental mention of free taeniae as appendix landmark; no definition or description of the structure itself.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate defines the free taenia (taeniae coli of the large intestine); a chunk describing the colon's taeniae is needed.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1442,
+        "completion_tokens": 148,
+        "total_tokens": 1590,
+        "cost": 0.00267,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00267,
+          "upstream_inference_prompt_cost": 0.0020188,
+          "upstream_inference_completions_cost": 0.0006512
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 41,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-003",
+      "query": "How are the Anterior cerebral artery and the Cavernous sinus anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2696"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No candidate describes any anatomical relation between the anterior cerebral artery and the cavernous sinus.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "C5 covers ACA course and C1/C2 cover cavernous sinus contents, but none links the two structures.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1375,
+        "completion_tokens": 135,
+        "total_tokens": 1510,
+        "cost": 0.00159875,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00159875,
+          "upstream_inference_prompt_cost": 0.00105875,
+          "upstream_inference_completions_cost": 0.00054
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 36,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-008",
+      "query": "How are the Azygos vein and the Left gastric artery anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:758",
+        "medrag-anatomy_gray:453",
+        "medrag-anatomy_gray:757"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top chunk text; flagged golds lack any actual relation between azygos vein and left gastric artery.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate contains both structures' anatomical relation; azygos chunks omit left gastric artery entirely.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1457,
+        "completion_tokens": 136,
+        "total_tokens": 1593,
+        "cost": 0.0012337080000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012337080000000002,
+          "upstream_inference_prompt_cost": 0.0009236280000000001,
+          "upstream_inference_completions_cost": 0.00031008000000000007
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 40,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-012",
+      "query": "How are the Azygos vein and the Superior mesenteric artery anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:777"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Gold chunk not in top-8; no candidate describes any anatomical relation between azygos vein and superior mesenteric artery.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Candidates cover azygos system and SMA separately; none states a relation between the two structures.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1438,
+        "completion_tokens": 118,
+        "total_tokens": 1556,
+        "cost": 0.001179672,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001179672,
+          "upstream_inference_prompt_cost": 0.0009106320000000002,
+          "upstream_inference_completions_cost": 0.00026904000000000007
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 16,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-018",
+      "query": "How are the Azygos vein and the Marginal artery anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:830"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Figure-caption dump; mentions marginal artery only, no azygos vein or any relation between them.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Azygos vein and marginal artery are unrelated structures; no candidate describes any anatomical relation between them.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1541,
+        "completion_tokens": 125,
+        "total_tokens": 1666,
+        "cost": 0.0013390440000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013390440000000002,
+          "upstream_inference_prompt_cost": 0.001054044,
+          "upstream_inference_completions_cost": 0.00028500000000000004
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 33,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-023",
+      "query": "How are the Brachiocephalic trunk and the Thyrocervical trunk anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2434"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No candidate states the anatomical relation between brachiocephalic trunk and thyrocervical trunk together.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "C2 covers brachiocephalic trunk; C4/C6 cover thyrocervical trunk from subclavian; no chunk links both structures.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1435,
+        "completion_tokens": 172,
+        "total_tokens": 1607,
+        "cost": 0.0013737000000000003,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013737000000000003,
+          "upstream_inference_prompt_cost": 0.0009815400000000001,
+          "upstream_inference_completions_cost": 0.00039216000000000007
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 72,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-026",
+      "query": "How are the Anterior circumflex humeral artery and the Axillary vein anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1945"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunk not retrieved; no candidate describes an anatomical relation between the anterior circumflex humeral artery and axillary vein.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Candidates mention each structure separately but none states any direct anatomical relation between them.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1442,
+        "completion_tokens": 111,
+        "total_tokens": 1553,
+        "cost": 0.00236128,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00236128,
+          "upstream_inference_prompt_cost": 0.00187288,
+          "upstream_inference_completions_cost": 0.0004884
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 20,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-033",
+      "query": "How are the Superior thyroid vein and the Thyrocervical trunk anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2537"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No chunk describes any anatomical relation between superior thyroid vein and thyrocervical trunk.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Candidates mention each structure separately; none states a relationship between them.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1408,
+        "completion_tokens": 111,
+        "total_tokens": 1519,
+        "cost": 0.00172172,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00172172,
+          "upstream_inference_prompt_cost": 0.00137984,
+          "upstream_inference_completions_cost": 0.00034188
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 22,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-cardiovascular-043",
+      "query": "How are the Middle meningeal artery and the Superior petrosal sinus anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2295"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No top chunk; no candidate describes any anatomical relation between the two structures.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "C1 covers only the sinus; C2-C4 cover only the artery. No chunk states their relationship.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1478,
+        "completion_tokens": 133,
+        "total_tokens": 1611,
+        "cost": 0.001241232,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001241232,
+          "upstream_inference_prompt_cost": 0.0009379920000000001,
+          "upstream_inference_completions_cost": 0.00030324000000000003
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 39,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-joints-001",
+      "query": "How are the Pubic symphysis and the Sacrotuberous ligament anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:995",
+        "medrag-anatomy_gray:1171",
+        "medrag-anatomy_gray:1169"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Describes pubic symphysis in pelvic outlet but never mentions sacrotuberous ligament; relation not stated.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate contains both structures with an explicit anatomical relation; C1 and C8 cover them separately.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1610,
+        "completion_tokens": 145,
+        "total_tokens": 1755,
+        "cost": 0.0014318400000000002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014318400000000002,
+          "upstream_inference_prompt_cost": 0.00110124,
+          "upstream_inference_completions_cost": 0.00033060000000000007
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 48,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-muscular-001",
+      "query": "How are the Adductor brevis and the Vastus lateralis muscle anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1572",
+        "medrag-anatomy_gray:1571"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No chunk text provided; no candidate establishes any anatomical relation between adductor brevis and vastus lateralis.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Muscles lie in different compartments; no retrieved passage describes their anatomical relationship. A relation may not exist in the source.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1479,
+        "completion_tokens": 133,
+        "total_tokens": 1612,
+        "cost": 0.00250988,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00250988,
+          "upstream_inference_prompt_cost": 0.00192468,
+          "upstream_inference_completions_cost": 0.0005852
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 35,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-muscular-003",
+      "query": "How are the Extensor hallucis longus and the Flexor digitorum brevis anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1521"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Chunk not in top-8; flagged weak, likely only lists both muscle names without relating them.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate contains both muscles or describes any anatomical relationship between them; C2 and C4 cover each muscle separately.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1484,
+        "completion_tokens": 240,
+        "total_tokens": 1724,
+        "cost": 0.00298768,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 128,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00298768,
+          "upstream_inference_prompt_cost": 0.00193168,
+          "upstream_inference_completions_cost": 0.001056
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 138,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-muscular-009",
+      "query": "How are the Extensor indicis and the Supraspinatus muscle anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2034"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No chunk describes any anatomical relation between extensor indicis and supraspinatus; they are unrelated muscles.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Query presumes a relation that does not exist anatomically; no candidate contains both structures' relation.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1430,
+        "completion_tokens": 115,
+        "total_tokens": 1545,
+        "cost": 0.000679668,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000679668,
+          "upstream_inference_prompt_cost": 0.000542542,
+          "upstream_inference_completions_cost": 0.000137126
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 13,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-muscular-012",
+      "query": "How are the Calcaneal tendon and the Extensor hallucis longus anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1582"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No chunk retrieved; flagged weak. No candidate describes an anatomical relation between the two structures.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "C1 covers only EHL course; no candidate relates it to the calcaneal tendon. Query likely unanswerable from this corpus set.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1426,
+        "completion_tokens": 135,
+        "total_tokens": 1561,
+        "cost": 0.0025904,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0025904,
+          "upstream_inference_prompt_cost": 0.0019964,
+          "upstream_inference_completions_cost": 0.000594
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 29,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-muscular-014",
+      "query": "How are the Adductor brevis and the Vastus intermedius muscle anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:1571"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Gold chunk not in top-8; no candidate describes any anatomical relation between adductor brevis and vastus intermedius.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "Candidates cover each muscle separately; no passage states their spatial or compartmental relationship.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1429,
+        "completion_tokens": 120,
+        "total_tokens": 1549,
+        "cost": 0.00158033,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00158033,
+          "upstream_inference_prompt_cost": 0.00110033,
+          "upstream_inference_completions_cost": 0.00048
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 20,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-nervous-009",
+      "query": "How are the Lacrimal gland and the Medulla oblongata anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:2149"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "No chunk describes any anatomical relation between lacrimal gland and medulla oblongata.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate connects the two structures; lacrimal innervation chunks trace to pterygopalatine ganglion, not medulla.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1471,
+        "completion_tokens": 156,
+        "total_tokens": 1627,
+        "cost": 0.0027458,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0027458,
+          "upstream_inference_prompt_cost": 0.0020594,
+          "upstream_inference_completions_cost": 0.0006864
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 52,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "item_id": "R-visceral-007",
+      "query": "How are the Accessory pancreatic duct and the Gallbladder anatomically related?",
+      "old_gold_chunk_ids": [
+        "medrag-anatomy_gray:680"
+      ],
+      "old_top_adequacy": "inadequate",
+      "old_top_reason": "Mentions gallbladder neck as duodenal landmark; no accessory pancreatic duct or relation between the two structures.",
+      "picks": [],
+      "none_adequate": true,
+      "note": "No candidate describes any direct anatomical relation between accessory pancreatic duct and gallbladder; they are separate systems.",
+      "parse_ok": true,
+      "usage": {
+        "prompt_tokens": 1538,
+        "completion_tokens": 162,
+        "total_tokens": 1700,
+        "cost": 0.0011213,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011213,
+          "upstream_inference_prompt_cost": 0.0008459,
+          "upstream_inference_completions_cost": 0.0002754
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 79,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

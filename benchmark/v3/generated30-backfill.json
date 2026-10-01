@@ -1,0 +1,322 @@
+{
+  "purpose": "v3 gold refresh — backfill rounds over remaining shortlist options (ADVISORY PROPOSAL, same disclosure as generated30.json)",
+  "date": "2026-09-29T11:35:23.182Z",
+  "model": "z-ai/glm-5.3",
+  "temperature": 0,
+  "rounds_run": 3,
+  "summary": {
+    "generated_this_file": 12,
+    "slot_fill": {
+      "A|joints": "1/1",
+      "A|nervous": "3/3",
+      "A|regions": "1/1",
+      "F|cardiovascular": "2/2",
+      "F|joints": "1/1",
+      "F|regions": "3/3",
+      "F|skeletal": "1/1",
+      "F|visceral": "2/2",
+      "R|cardiovascular": "8/8",
+      "R|joints": "1/1",
+      "R|muscular": "5/5",
+      "R|nervous": "1/1",
+      "R|visceral": "1/1"
+    }
+  },
+  "results": [
+    {
+      "slot_item_id": "B-100",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:1954",
+      "structures_offered": [
+        "superficialbranchofradialnerve",
+        "ulnarnerve",
+        "radialnerve"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-101",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:3001",
+      "structures_offered": [
+        "thirdventricle",
+        "fornix"
+      ],
+      "status": "generated",
+      "query": "What is the Fornix?",
+      "must": [
+        "fornix"
+      ],
+      "brief": "The fornix is a pathway whose postcommissural axons terminate primarily in the medial mammillary nucleus; it originates from the subiculum of the hippocampal complex and plays a key role in memory.",
+      "rationale": "Passage defines the fornix's origin, termination, and memory function, supporting a factual control item.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-102",
+      "type": "A",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:145",
+      "structures_offered": [
+        "glutealregion"
+      ],
+      "status": "generated",
+      "query": "What is the Gluteal region?",
+      "must": [
+        "glutealregion"
+      ],
+      "brief": "The gluteal region is part of the lower limb into which the cutaneous distribution of the posterior rami of spinal nerves extends.",
+      "rationale": "Passage directly describes cutaneous distribution of posterior rami extending into the gluteal region of the lower limb.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-103",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:610",
+      "structures_offered": [
+        "sigmoidcolon",
+        "descendingcolon"
+      ],
+      "status": "failed",
+      "why": "F/A needs exactly 1 valid must key",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-104",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:680",
+      "structures_offered": [
+        "pancreaticduct"
+      ],
+      "status": "generated",
+      "query": "What is the function of the Pancreatic duct?",
+      "must": [
+        "pancreaticduct"
+      ],
+      "brief": "The pancreatic duct opens at the major duodenal papilla, sharing a common entrance with the bile duct, and thereby delivers pancreatic secretions into the descending duodenum.",
+      "rationale": "Passage states the papilla is the common entrance for the bile and pancreatic ducts, supporting a function question.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-105",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:619",
+      "structures_offered": [
+        "suprarenalgland"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-106",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:433",
+      "structures_offered": [
+        "thyroidgland"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-107",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1737",
+      "structures_offered": [
+        "posteriorcircumflexhumeralartery",
+        "subscapularartery",
+        "axillaryartery"
+      ],
+      "status": "generated",
+      "query": "How are the Posterior circumflex humeral artery and the Axillary artery anatomically related?",
+      "must": [
+        "posteriorcircumflexhumeralartery",
+        "axillaryartery"
+      ],
+      "brief": "The Posterior circumflex humeral artery originates from the third part of the axillary artery in the axilla. It then leaves the axilla with the axillary nerve through the quadrangular space to supply muscles and the glenohumeral joint.",
+      "rationale": "Passage explicitly states a branching relationship: the artery arises from the third part of the axillary artery.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-108",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1797",
+      "structures_offered": [
+        "brachialartery",
+        "axillaryartery"
+      ],
+      "status": "generated",
+      "query": "How are the Brachial artery and the Axillary artery anatomically related?",
+      "must": [
+        "brachialartery",
+        "axillaryartery"
+      ],
+      "brief": "The brachial artery begins as a continuation of the axillary artery at the lower border of the teres major muscle.",
+      "rationale": "Passage explicitly states branching/continuation relationship between the two arteries.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-109",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:532",
+      "structures_offered": [
+        "leftcoronaryartery",
+        "anteriorinterventricularartery",
+        "rightatrium"
+      ],
+      "status": "generated",
+      "query": "How are the Left coronary artery and the Anterior interventricular artery anatomically related?",
+      "must": [
+        "leftcoronaryartery",
+        "anteriorinterventricularartery"
+      ],
+      "brief": "The anterior interventricular artery is one of the primary branches of the left coronary artery; clinically it is termed the left anterior descending artery (LAD).",
+      "rationale": "Passage explicitly states branching relationship between the two arteries.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-110",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:987",
+      "structures_offered": [
+        "lumbararteries",
+        "inferiormesentericartery"
+      ],
+      "status": "generated",
+      "query": "How are the Lumbar arteries and the Inferior mesenteric artery anatomically related?",
+      "must": [
+        "lumbararteries",
+        "inferiormesentericartery"
+      ],
+      "brief": "The lumbar arteries and the inferior mesenteric artery are branches of the abdominal aorta. Both typically arise between an endovascular graft and the aneurysm wall, and blood normally flows from the abdominal aorta into both vessels.",
+      "rationale": "Passage states both vessels branch from the abdominal aorta and can feed the aneurysm between graft and wall.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-111",
+      "type": "R",
+      "system": "joints",
+      "chunk_id": "medrag-anatomy_gray:1368",
+      "structures_offered": [
+        "anteriorcruciateligament",
+        "posteriorcruciateligament",
+        "medialmeniscus"
+      ],
+      "status": "generated",
+      "query": "How are the Anterior cruciate ligament and the Medial meniscus anatomically related?",
+      "must": [
+        "anteriorcruciateligament",
+        "medialmeniscus"
+      ],
+      "brief": "On the anterior intercondylar area of the tibia, the facet for the anterior end (horn) of the medial meniscus lies immediately anterior to the facet for attachment of the anterior cruciate ligament.",
+      "rationale": "Passage states adjacency of attachment facets for both structures on the intercondylar region.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-112",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1505",
+      "structures_offered": [
+        "extensordigitorumbrevis",
+        "extensorhallucisbrevis",
+        "extensordigitorumlongus",
+        "extensordigitorum"
+      ],
+      "status": "generated",
+      "query": "How are the Extensor digitorum brevis and the Extensor digitorum longus anatomically related?",
+      "must": [
+        "extensordigitorumbrevis",
+        "extensorhallucisbrevis"
+      ],
+      "brief": "The extensor digitorum brevis passes deep to the tendons of the extensor digitorum longus, and its three tendons join the lateral sides of the long extensor tendons to extend the middle three toes.",
+      "rationale": "Passage states course and tendon junction between the two muscles.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-113",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:764",
+      "structures_offered": [
+        "transversusabdominismuscle",
+        "psoasmajor",
+        "diaphragm"
+      ],
+      "status": "generated",
+      "query": "How are the Psoas major and the Diaphragm anatomically related?",
+      "must": [
+        "psoasmajor",
+        "diaphragm"
+      ],
+      "brief": "Posterior to the kidneys, the diaphragm lies superiorly, and the psoas major lies inferior to it, moving in a medial to lateral direction.",
+      "rationale": "Passage states diaphragm is superior and psoas major inferior to it posterior to kidneys.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "B-114",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1350",
+      "structures_offered": [
+        "quadratusfemorismuscle",
+        "obturatorinternus"
+      ],
+      "status": "generated",
+      "query": "How are the Quadratus femoris muscle and the Obturator internus anatomically related?",
+      "must": [
+        "quadratusfemorismuscle",
+        "obturatorinternus"
+      ],
+      "brief": "The sciatic nerve descends in the gluteal region crossing the posterior surfaces of first the obturator internus and associated gemellus muscles and then the quadratus femoris muscle, indicating the quadratus femoris lies inferior/posterior in the nerve's course.",
+      "rationale": "Passage states the sciatic nerve crosses both muscle surfaces sequentially, establishing their anatomical relationship.",
+      "parse_ok": true,
+      "round": 1
+    },
+    {
+      "slot_item_id": "F-visceral-gen31",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:701",
+      "structures_offered": [
+        "stomach"
+      ],
+      "status": "generated",
+      "query": "Where is the Stomach located?",
+      "must": [
+        "stomach"
+      ],
+      "brief": "The stomach lies anterior to the pancreas, which is mostly located posterior to it in the posterior abdominal wall.",
+      "rationale": "Passage locates stomach as anterior to the pancreas.",
+      "parse_ok": true,
+      "round": "wide-scan-retry"
+    }
+  ],
+  "note_relaxed_retry": "F-visceral-gen31 from a widened prose-ranked scan after the strict shortlist ran dry; same model and disclosure"
+}

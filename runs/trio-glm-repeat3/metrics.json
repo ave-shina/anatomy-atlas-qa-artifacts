@@ -1,0 +1,32 @@
+{
+  "runId": "trio-glm-repeat3",
+  "items": 100,
+  "conditions": [
+    "B3"
+  ],
+  "perCondition": {
+    "B3": {
+      "generations": 300,
+      "ok": 297,
+      "failed": 3,
+      "chip_precision": 0.22945250120250113,
+      "chip_precision_optional": 0.49503908128908136,
+      "chip_recall": 0.9833333333333333,
+      "chip_f1": 0.33937175787175783,
+      "chip_f1_optional": 0.5801778215191525,
+      "hallucinated_total": 0,
+      "non_renderable_total": 232,
+      "wrong_link_total": 814,
+      "extra_optional_total": 445,
+      "missed_link_total": 5,
+      "clarification_runs": 16,
+      "mean_duration_ms": 28208.51
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0.42999999999999994,
+    "recall_at_6": 0.52,
+    "recall_at_10": 0.52,
+    "mrr": 0.35083333333333333
+  }
+}

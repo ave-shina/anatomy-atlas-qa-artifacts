@@ -1,0 +1,29 @@
+{
+  "runId": "sub45-qwen",
+  "date": "2026-09-16T08:47:14.352Z",
+  "gitSha": "f28ce474a2b93360419816c85c4962c6cbfb8855",
+  "conditions": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "docId": "medrag-anatomy_gray",
+  "chatModel": "qwen/qwen-2.5-72b-instruct",
+  "embedModel": "baai/bge-m3",
+  "pineconeIndex": "anatomy-atlas",
+  "topK": 6,
+  "repeat": 1,
+  "limit": 0,
+  "perType": 15,
+  "types": [],
+  "dataset": {
+    "path": "research/benchmark/anatomy3d-qb.candidates.ndjson",
+    "sha256": "71c31ab2eaa996c2115158bb8eb0917d033976e69ec586a4b8091c588f71b23c",
+    "items": 330
+  },
+  "meshKeys": {
+    "path": "research/benchmark/mesh-keys.json",
+    "sha256": "cb9db5ecf4b984d5224f9e4f115ebe58292ccf078c71431c52b1920444f3ec7c",
+    "keys": 1794
+  }
+}

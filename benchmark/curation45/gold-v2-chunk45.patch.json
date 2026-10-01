@@ -1,0 +1,591 @@
+{
+  "purpose": "curated45 gold v2 PATCH — FINAL. Applied to anatomy3d-qb.v1.ndjson gold_chunk_ids only.",
+  "date": "2026-09-26",
+  "provenance": "flags from consensus review v1.1; candidates = top-8 text-embedding-3-small retrieval; proposals = z-ai/glm-5.3 (temp 0, advisory, in-family disclosure); pre-screen = coding agent harness glm-5.3-flash (advisory, in-family); decisions agent-filled + author bulk-approved; 5 conflicts ruled by author after reading chunk texts (author_override column).",
+  "scope": "gold_chunk_ids only — queries, gold structures, briefs, expects_clarification untouched",
+  "stats": {
+    "items": 45,
+    "changed": 42,
+    "decisions": {
+      "none": 30,
+      "chunk": 12,
+      "keep_current": 3
+    }
+  },
+  "items": [
+    {
+      "item_id": "A-regions-032",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2273",
+        "medrag-anatomy_gray:2676",
+        "medrag-anatomy_gray:2807"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate defines the tragus; the needed passage listing auricle elevations (helix, antihelix, tragus) is absent from retrieved set.",
+      "author_override": null
+    },
+    {
+      "item_id": "A-skeletal-001",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1381",
+        "medrag-anatomy_gray:1537",
+        "medrag-anatomy_gray:1418"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1537"
+      ],
+      "flag": "author_ruling",
+      "rationale": "No candidate defines the patella (largest sesamoid bone, anterior knee); all are passing mentions or figure dumps.",
+      "author_override": "2026-09-26: none -> chunk:medrag-anatomy_gray:1537 (author ruling after reading chunk texts)"
+    },
+    {
+      "item_id": "F-cardiovascular-004",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:481",
+        "medrag-anatomy_gray:335",
+        "medrag-anatomy_gray:2462"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "pick_is_old_chunk+glm_contradiction+author_ruling",
+      "rationale": "GLM re-endorsed old gold id medrag-anatomy_gray:2462: Describes costocervical trunk origin and branches; supreme intercostal artery is its terminal branch, though text appears truncated before naming it.",
+      "author_override": "2026-09-26: keep_current -> none (author ruling after reading chunk texts)"
+    },
+    {
+      "item_id": "F-cardiovascular-008",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1558",
+        "medrag-anatomy_gray:835",
+        "medrag-anatomy_gray:1098"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate describes the common iliac artery's function; C1 only notes internal iliac origin from it.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-cardiovascular-012",
+      "decision": "keep_current",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:545",
+        "medrag-anatomy_gray:437",
+        "medrag-anatomy_gray:494"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:545",
+        "medrag-anatomy_gray:437",
+        "medrag-anatomy_gray:494"
+      ],
+      "flag": "pick_is_old_chunk",
+      "rationale": "GLM re-endorsed old gold id medrag-anatomy_gray:437: Describes SVC location in mediastinum, tributaries (azygos), and radiological relations — definitional content.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-cardiovascular-015",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:810"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate mentions the testicular artery; C2 lists visceral branches but truncates before testicular arteries.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-fasciae-004",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1909",
+        "medrag-anatomy_gray:1880",
+        "medrag-anatomy_gray:1957"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1880"
+      ],
+      "flag": "author_ruling",
+      "rationale": "C1 contains incidental mention only; the true defining passage (from palmaris longus expansion) is absent from retrieved candidates.",
+      "author_override": "2026-09-26: none -> chunk:medrag-anatomy_gray:1880 (author ruling after reading chunk texts)"
+    },
+    {
+      "item_id": "F-joints-009",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1935",
+        "medrag-anatomy_gray:1945",
+        "medrag-anatomy_gray:1720"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "Transverse humeral ligament (bridging intertubercular sulcus) is not described in any retrieved chunk; texts may be truncated before mention.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-joints-016",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1557",
+        "medrag-anatomy_gray:1307",
+        "medrag-anatomy_gray:1308"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate describes its function (bridging acetabular notch, completing acetabular rim). All are passing mentions or caption dumps.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-lymphoid-011",
+      "decision": "keep_current",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:707",
+        "medrag-anatomy_gray:828",
+        "medrag-anatomy_gray:905"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:707",
+        "medrag-anatomy_gray:828",
+        "medrag-anatomy_gray:905"
+      ],
+      "flag": "pick_is_old_chunk",
+      "rationale": "GLM re-endorsed old gold id medrag-anatomy_gray:905: States spleen is reticuloendothelial organ involved in hematopoiesis and immunological surveillance, directly answering function.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-muscular-006",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1432",
+        "medrag-anatomy_gray:1445",
+        "medrag-anatomy_gray:1512"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1446"
+      ],
+      "flag": "",
+      "rationale": "Describes tibialis posterior origin and course; likely continues into its actions, closest to a dedicated passage.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-muscular-009",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2729"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:176"
+      ],
+      "flag": "",
+      "rationale": "Defines splenius capitis: broad muscle attaching to occipital bone and mastoid process, part of spinotransversales.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-muscular-013",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1089"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1342"
+      ],
+      "flag": "",
+      "rationale": "Contains superior gemellus attachments, insertion, and innervation; best available descriptive passage.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-muscular-016",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2234",
+        "medrag-anatomy_gray:2237",
+        "medrag-anatomy_gray:2254"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:2233"
+      ],
+      "flag": "",
+      "rationale": "States superior rectus origin from common tendinous ring above optic canal and course forward in orbit to eyeball.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-nervous-001",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:816"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:794"
+      ],
+      "flag": "",
+      "rationale": "Directly describes genital branch: course through inguinal canal, cremaster innervation, cutaneous termination in men and women.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-nervous-005",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2966"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate contains flocculus location information; a different chunk describing cerebellar flocculus is needed.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-nervous-019",
+      "decision": "keep_current",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1947",
+        "medrag-anatomy_gray:1779",
+        "medrag-anatomy_gray:1949"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1947",
+        "medrag-anatomy_gray:1779",
+        "medrag-anatomy_gray:1949"
+      ],
+      "flag": "pick_is_old_chunk",
+      "rationale": "GLM re-endorsed old gold id medrag-anatomy_gray:1779: States inferior subscapular nerve originates from posterior cord and passes directly into posterior axillary wall muscles—closest to a definition.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-regions-008",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2148",
+        "medrag-anatomy_gray:2197",
+        "medrag-anatomy_gray:2807"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "Candidates describe temporalis muscle, fossa boundaries, or neurovasculature; none state the temporal region's function.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-regions-011",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2727",
+        "medrag-anatomy_gray:2417",
+        "medrag-anatomy_gray:2407"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:2417"
+      ],
+      "flag": "author_ruling",
+      "rationale": "C1 only mentions it as an anterior triangle subdivision; no candidate states its boundaries or contents definition.",
+      "author_override": "2026-09-26: none -> chunk:medrag-anatomy_gray:2417 (author ruling after reading chunk texts)"
+    },
+    {
+      "item_id": "F-regions-015",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1700"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "No candidate mentions the deltopectoral triangle; all discuss other triangles or unrelated deltoid content.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-regions-019",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1473"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1474"
+      ],
+      "flag": "",
+      "rationale": "Describes the heel's weight-bearing region on the posterior/inferior calcaneus, the closest locating information available.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-regions-022",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1909",
+        "medrag-anatomy_gray:1904",
+        "medrag-anatomy_gray:1925"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate defines or locates the palm; C6 defines the hand but never mentions the palm.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-skeletal-001",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2006"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1869"
+      ],
+      "flag": "",
+      "rationale": "States scaphoid's functional role: its proximal surface articulates with radius to form the wrist joint, and its tubercle forms the carpal arch's lateral base.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-skeletal-012",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1726",
+        "medrag-anatomy_gray:169",
+        "medrag-anatomy_gray:1727"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1702"
+      ],
+      "flag": "",
+      "rationale": "States scapula (with clavicle) forms the pectoral girdle attaching the upper limb to the trunk—closest functional statement.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-skeletal-016",
+      "decision": "chunk",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1498",
+        "medrag-anatomy_gray:1450",
+        "medrag-anatomy_gray:1455"
+      ],
+      "v2_gold_chunk_ids": [
+        "medrag-anatomy_gray:1372"
+      ],
+      "flag": "",
+      "rationale": "States fibula is the lateral bone of the leg, non-weight-bearing, ends as lateral malleolus at ankle.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-skeletal-019",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1478"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate contains information about the medial cuneiform bone; relevant passage likely elsewhere in tarsal-bones section.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-visceral-001",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2628",
+        "medrag-anatomy_gray:2627",
+        "medrag-anatomy_gray:2860"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "author_ruling",
+      "rationale": "Describes submandibular gland and its hook-shaped parts, context for the duct's course and relations.",
+      "author_override": "2026-09-26: chunk:medrag-anatomy_gray:2626 -> none (author ruling after reading chunk texts)"
+    },
+    {
+      "item_id": "F-visceral-005",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:807",
+        "medrag-anatomy_gray:767",
+        "medrag-anatomy_gray:765"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate defines kidney function; dialysis chunks only imply it indirectly.",
+      "author_override": null
+    },
+    {
+      "item_id": "F-visceral-008",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:688"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate defines the free taenia (taeniae coli of the large intestine); a chunk describing the colon's taeniae is needed.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-003",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2696"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "C5 covers ACA course and C1/C2 cover cavernous sinus contents, but none links the two structures.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-008",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:758",
+        "medrag-anatomy_gray:453",
+        "medrag-anatomy_gray:757"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "No candidate contains both structures' anatomical relation; azygos chunks omit left gastric artery entirely.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-012",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:777"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Candidates cover azygos system and SMA separately; none states a relation between the two structures.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-018",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:830"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Azygos vein and marginal artery are unrelated structures; no candidate describes any anatomical relation between them.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-023",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2434"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "C2 covers brachiocephalic trunk; C4/C6 cover thyrocervical trunk from subclavian; no chunk links both structures.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-026",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1945"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Candidates mention each structure separately but none states any direct anatomical relation between them.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-033",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2537"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Candidates mention each structure separately; none states a relationship between them.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-cardiovascular-043",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2295"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "C1 covers only the sinus; C2-C4 cover only the artery. No chunk states their relationship.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-joints-001",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:995",
+        "medrag-anatomy_gray:1171",
+        "medrag-anatomy_gray:1169"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "No candidate contains both structures with an explicit anatomical relation; C1 and C8 cover them separately.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-muscular-001",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1572",
+        "medrag-anatomy_gray:1571"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Muscles lie in different compartments; no retrieved passage describes their anatomical relationship. A relation may not exist in the source.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-muscular-003",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1521"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "No candidate contains both muscles or describes any anatomical relationship between them; C2 and C4 cover each muscle separately.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-muscular-009",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2034"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Query presumes a relation that does not exist anatomically; no candidate contains both structures' relation.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-muscular-012",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1582"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "C1 covers only EHL course; no candidate relates it to the calcaneal tendon. Query likely unanswerable from this corpus set.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-muscular-014",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:1571"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "Candidates cover each muscle separately; no passage states their spatial or compartmental relationship.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-nervous-009",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:2149"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "",
+      "rationale": "No candidate connects the two structures; lacrimal innervation chunks trace to pterygopalatine ganglion, not medulla.",
+      "author_override": null
+    },
+    {
+      "item_id": "R-visceral-007",
+      "decision": "none",
+      "v1_gold_chunk_ids": [
+        "medrag-anatomy_gray:680"
+      ],
+      "v2_gold_chunk_ids": [],
+      "flag": "consider_item_flawed",
+      "rationale": "No candidate describes any direct anatomical relation between accessory pancreatic duct and gallbladder; they are separate systems.",
+      "author_override": null
+    }
+  ]
+}

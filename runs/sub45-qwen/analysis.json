@@ -1,0 +1,282 @@
+{
+  "runId": "sub45-qwen",
+  "gitSha": "f28ce474a2b93360419816c85c4962c6cbfb8855",
+  "date": "2026-09-16T08:47:14.352Z",
+  "chatModel": "qwen/qwen-2.5-72b-instruct",
+  "embedModel": "baai/bge-m3",
+  "bootstrapResamples": 10000,
+  "conditions": {
+    "B1": {
+      "n": 45,
+      "n_chip_scored": 30,
+      "clarification": {
+        "n": 15,
+        "expected_rate": 1,
+        "issued_rate": 0,
+        "correct_rate": 0,
+        "candidate_hit_rate": 0
+      },
+      "chip_precision": 0,
+      "chip_precision_optional": 0.8666666666666667,
+      "chip_recall": 0,
+      "chip_f1": 0,
+      "chip_f1_optional": 0,
+      "ci95_f1": {
+        "lo": 0,
+        "hi": 0
+      },
+      "ci95_f1_optional": {
+        "lo": 0,
+        "hi": 0
+      },
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 0,
+      "byType": {
+        "F": {
+          "n": 15,
+          "chip_f1": 0,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "R": {
+          "n": 15,
+          "chip_f1": 0,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        }
+      },
+      "bySystem": {
+        "regions": {
+          "n": 16,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "cardiovascular": {
+          "n": 7,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "nervous": {
+          "n": 1,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "visceral": {
+          "n": 1,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "skeletal": {
+          "n": 2,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "muscular": {
+          "n": 3,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        }
+      }
+    },
+    "B2": {
+      "n": 45,
+      "n_chip_scored": 30,
+      "clarification": {
+        "n": 15,
+        "expected_rate": 1,
+        "issued_rate": 0,
+        "correct_rate": 0,
+        "candidate_hit_rate": 0
+      },
+      "chip_precision": 0.03333333333333333,
+      "chip_precision_optional": 0.9444444444444444,
+      "chip_recall": 0.03333333333333333,
+      "chip_f1": 0.03333333333333333,
+      "chip_f1_optional": 0.03333333333333333,
+      "ci95_f1": {
+        "lo": 0,
+        "hi": 0.1
+      },
+      "ci95_f1_optional": {
+        "lo": 0,
+        "hi": 0.1
+      },
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 4,
+      "byType": {
+        "F": {
+          "n": 15,
+          "chip_f1": 0.06666666666666667,
+          "chip_f1_optional": 0.06666666666666667,
+          "chip_recall": 0.06666666666666667
+        },
+        "R": {
+          "n": 15,
+          "chip_f1": 0,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        }
+      },
+      "bySystem": {
+        "regions": {
+          "n": 16,
+          "chip_f1_optional": 0.0625,
+          "chip_recall": 0.0625
+        },
+        "cardiovascular": {
+          "n": 7,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "nervous": {
+          "n": 1,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "visceral": {
+          "n": 1,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "skeletal": {
+          "n": 2,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "muscular": {
+          "n": 3,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        }
+      }
+    },
+    "B3": {
+      "n": 45,
+      "n_chip_scored": 30,
+      "clarification": {
+        "n": 15,
+        "expected_rate": 1,
+        "issued_rate": 0.13333333333333333,
+        "correct_rate": 0.13333333333333333,
+        "candidate_hit_rate": 0
+      },
+      "chip_precision": 0.44989417989417985,
+      "chip_precision_optional": 0.6460449735449737,
+      "chip_recall": 0.95,
+      "chip_f1": 0.5643345543345545,
+      "chip_f1_optional": 0.7413172448466567,
+      "ci95_f1": {
+        "lo": 0.467942612942613,
+        "hi": 0.6630647130647132
+      },
+      "ci95_f1_optional": {
+        "lo": 0.6504474610356963,
+        "hi": 0.8230999066293186
+      },
+      "hallucinated_total": 0,
+      "non_renderable_total": 6,
+      "wrong_link_total": 49,
+      "byType": {
+        "F": {
+          "n": 15,
+          "chip_f1": 0.5293040293040294,
+          "chip_f1_optional": 0.7642002442002442,
+          "chip_recall": 1
+        },
+        "R": {
+          "n": 15,
+          "chip_f1": 0.5993650793650793,
+          "chip_f1_optional": 0.7184342454930692,
+          "chip_recall": 0.9
+        }
+      },
+      "bySystem": {
+        "regions": {
+          "n": 16,
+          "chip_f1_optional": 0.7532024348200819,
+          "chip_recall": 1
+        },
+        "cardiovascular": {
+          "n": 7,
+          "chip_f1_optional": 0.8173731030873889,
+          "chip_recall": 1
+        },
+        "nervous": {
+          "n": 1,
+          "chip_f1_optional": 0.6666666666666666,
+          "chip_recall": 1
+        },
+        "visceral": {
+          "n": 1,
+          "chip_f1_optional": 0,
+          "chip_recall": 0
+        },
+        "skeletal": {
+          "n": 2,
+          "chip_f1_optional": 0.9,
+          "chip_recall": 1
+        },
+        "muscular": {
+          "n": 3,
+          "chip_f1_optional": 0.6666666666666666,
+          "chip_recall": 0.8333333333333334
+        }
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "a": "B1",
+      "b": "B2",
+      "mean_diff_f1": -0.03333333333333333,
+      "wilcoxon_f1": {
+        "n": 1,
+        "wPlus": 0,
+        "p": 1
+      },
+      "mcnemar_linked": {
+        "b": 0,
+        "c": 1,
+        "both": 0,
+        "neither": 29,
+        "p": 1
+      }
+    },
+    {
+      "a": "B1",
+      "b": "B3",
+      "mean_diff_f1": -0.5643345543345545,
+      "wilcoxon_f1": {
+        "n": 29,
+        "wPlus": 0,
+        "p": 0.000002705475463438134
+      },
+      "mcnemar_linked": {
+        "b": 0,
+        "c": 29,
+        "both": 0,
+        "neither": 1,
+        "p": 3.725290298461911e-9
+      }
+    },
+    {
+      "a": "B2",
+      "b": "B3",
+      "mean_diff_f1": -0.5310012210012212,
+      "wilcoxon_f1": {
+        "n": 28,
+        "wPlus": 0,
+        "p": 0.000004007457304000539
+      },
+      "mcnemar_linked": {
+        "b": 0,
+        "c": 28,
+        "both": 1,
+        "neither": 1,
+        "p": 7.450580596923836e-9
+      }
+    }
+  ]
+}

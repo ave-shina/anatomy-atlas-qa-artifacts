@@ -1,0 +1,502 @@
+{
+"F-regions-001": [
+1,
+0,
+1
+],
+"F-regions-004": [
+1,
+1,
+1
+],
+"F-regions-008": [
+1,
+1,
+1
+],
+"F-regions-011": [
+1,
+1,
+1
+],
+"F-regions-015": [
+1,
+1,
+1
+],
+"F-regions-019": [
+1,
+1,
+1
+],
+"F-regions-022": [
+1,
+1,
+1
+],
+"F-fasciae-004": [
+1,
+0,
+1
+],
+"F-fasciae-007": [
+1,
+0,
+1
+],
+"F-muscular-002": [
+1,
+0,
+1
+],
+"F-muscular-006": [
+1,
+1,
+1
+],
+"F-muscular-009": [
+1,
+0,
+1
+],
+"F-muscular-013": [
+1,
+1,
+1
+],
+"F-muscular-016": [
+1,
+1,
+1
+],
+"F-muscular-020": [
+1,
+1,
+1
+],
+"F-joints-002": [
+1,
+1,
+1
+],
+"F-joints-005": [
+1,
+1,
+1
+],
+"F-joints-009": [
+1,
+0,
+1
+],
+"F-joints-012": [
+1,
+1,
+1
+],
+"F-joints-016": [
+1,
+1,
+1
+],
+"F-joints-020": [
+1,
+1,
+1
+],
+"F-skeletal-001": [
+1,
+0,
+1
+],
+"F-skeletal-005": [
+1,
+1,
+1
+],
+"F-skeletal-008": [
+1,
+1,
+1
+],
+"F-skeletal-012": [
+1,
+1,
+1
+],
+"F-skeletal-016": [
+1,
+1,
+1
+],
+"F-skeletal-019": [
+1,
+1,
+1
+],
+"F-cardiovascular-001": [
+1,
+0,
+1
+],
+"F-cardiovascular-004": [
+1,
+0,
+1
+],
+"F-cardiovascular-008": [
+1,
+0,
+1
+],
+"F-cardiovascular-012": [
+1,
+1,
+1
+],
+"F-cardiovascular-015": [
+1,
+1,
+1
+],
+"F-cardiovascular-019": [
+1,
+1,
+1
+],
+"F-cardiovascular-022": [
+1,
+1,
+1
+],
+"F-lymphoid-004": [
+1,
+0,
+1
+],
+"F-lymphoid-008": [
+1,
+0,
+1
+],
+"F-lymphoid-011": [
+1,
+0,
+1
+],
+"F-lymphoid-015": [
+1,
+1,
+1
+],
+"F-nervous-001": [
+1,
+1,
+1
+],
+"F-nervous-005": [
+1,
+1,
+1
+],
+"F-nervous-009": [
+1,
+1,
+1
+],
+"F-nervous-012": [
+1,
+1,
+1
+],
+"F-nervous-016": [
+1,
+1,
+1
+],
+"F-nervous-019": [
+1,
+1,
+1
+],
+"F-visceral-001": [
+1,
+1,
+1
+],
+"F-visceral-005": [
+1,
+1,
+1
+],
+"F-visceral-008": [
+1,
+1,
+1
+],
+"F-visceral-012": [
+1,
+1,
+1
+],
+"F-visceral-015": [
+1,
+1,
+1
+],
+"F-visceral-019": [
+1,
+0,
+1
+],
+"R-cardiovascular-001": [
+1,
+1,
+1
+],
+"R-cardiovascular-003": [
+1,
+1,
+0
+],
+"R-muscular-001": [
+1,
+1,
+1
+],
+"R-muscular-003": [
+1,
+1,
+0
+],
+"R-cardiovascular-008": [
+1,
+1,
+0
+],
+"R-cardiovascular-011": [
+1,
+1,
+1
+],
+"R-cardiovascular-012": [
+1,
+1,
+0
+],
+"R-joints-001": [
+1,
+1,
+1
+],
+"R-cardiovascular-018": [
+1,
+0,
+0
+],
+"R-cardiovascular-021": [
+1,
+1,
+1
+],
+"R-cardiovascular-023": [
+1,
+1,
+1
+],
+"R-cardiovascular-026": [
+1,
+1,
+1
+],
+"R-nervous-007": [
+1,
+1,
+1
+],
+"R-visceral-003": [
+1,
+1,
+0
+],
+"R-nervous-009": [
+1,
+1,
+0
+],
+"R-nervous-011": [
+1,
+1,
+1
+],
+"R-muscular-009": [
+1,
+1,
+0
+],
+"R-visceral-004": [
+1,
+1,
+1
+],
+"R-cardiovascular-033": [
+1,
+1,
+0
+],
+"R-muscular-012": [
+1,
+1,
+0
+],
+"R-cardiovascular-036": [
+1,
+1,
+1
+],
+"R-visceral-007": [
+1,
+1,
+1
+],
+"R-muscular-014": [
+1,
+1,
+1
+],
+"R-cardiovascular-043": [
+1,
+0,
+1
+],
+"R-nervous-018": [
+1,
+1,
+1
+],
+"A-muscular-001": [
+1,
+0,
+1
+],
+"A-nervous-001": [
+1,
+1,
+0
+],
+"A-nervous-003": [
+1,
+1,
+0
+],
+"A-muscular-002": [
+1,
+0,
+1
+],
+"A-regions-031": [
+1,
+1,
+1
+],
+"A-muscular-003": [
+1,
+0,
+1
+],
+"A-joints-001": [
+1,
+1,
+1
+],
+"A-joints-002": [
+1,
+1,
+0
+],
+"A-regions-032": [
+1,
+0,
+1
+],
+"A-skeletal-001": [
+1,
+1,
+1
+],
+"A-regions-001": [
+0,
+1,
+0
+],
+"A-regions-003": [
+0,
+1,
+0
+],
+"A-regions-005": [
+0,
+1,
+0
+],
+"A-regions-007": [
+1,
+1,
+0
+],
+"A-regions-009": [
+1,
+1,
+0
+],
+"A-regions-011": [
+0,
+1,
+0
+],
+"A-regions-013": [
+0,
+1,
+0
+],
+"A-regions-015": [
+1,
+1,
+0
+],
+"A-regions-017": [
+1,
+1,
+1
+],
+"A-regions-019": [
+1,
+1,
+1
+],
+"A-regions-021": [
+1,
+1,
+1
+],
+"A-regions-023": [
+1,
+1,
+1
+],
+"A-regions-025": [
+1,
+1,
+1
+],
+"A-regions-027": [
+1,
+1,
+1
+],
+"A-regions-029": [
+1,
+1,
+1
+]
+}

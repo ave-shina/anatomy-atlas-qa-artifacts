@@ -1,0 +1,272 @@
+{
+  "purpose": "v3 gold refresh — round-2 deficit fill after the out-of-family review rejected 8 items (ADVISORY PROPOSAL, same disclosure as generated30.json)",
+  "date": "2026-09-29T11:48:50.073Z",
+  "model": "z-ai/glm-5.3",
+  "temperature": 0,
+  "disclosure": "glm-5.3 is in-family with review-trio member glm-5.3-flash. Generated items are proposals; verdict of record is the author's.",
+  "deficits_input": {
+    "A|nervous": 1,
+    "F|regions": 3,
+    "F|skeletal": 1,
+    "R|cardiovascular": 1,
+    "R|visceral": 2,
+    "A|regions": 1,
+    "R|muscular": 1
+  },
+  "summary": {
+    "generated": 10,
+    "slots_still_short": []
+  },
+  "results": [
+    {
+      "slot_item_id": "R2-300",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:2017",
+      "structures_offered": [
+        "radialnerve"
+      ],
+      "status": "generated",
+      "query": "What is the Radial nerve?",
+      "must": [
+        "radialnerve"
+      ],
+      "brief": "The radial nerve has a superficial branch whose distal branches can be palpated as \"cords\" passing over the tendon of extensor pollicis longus in the anatomical snuffbox; these branches supply only a small area of skin.",
+      "rationale": "Passage describes palpable distal branches of the radial nerve's superficial branch and their cutaneous supply.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-301",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:2013",
+      "structures_offered": [
+        "cubitalfossa"
+      ],
+      "status": "generated",
+      "query": "Where is the Cubital fossa located?",
+      "must": [
+        "cubitalfossa"
+      ],
+      "brief": "The cubital fossa is an ideal site for venous access, typically used for obtaining blood for laboratory testing; the antecubital vein there is usually the preferred site for straightforward blood tests.",
+      "rationale": "Passage describes cubital fossa as a typical venous access site, supporting a location/function question.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-302",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:1276",
+      "structures_offered": [
+        "glutealregion"
+      ],
+      "status": "generated",
+      "query": "What is the Gluteal region?",
+      "must": [
+        "glutealregion"
+      ],
+      "brief": "The gluteal region is a region whose bones, together with those of the thigh, are the pelvic bone and the femur, which meet at the hip joint.",
+      "rationale": "Passage identifies the bones of the gluteal region, supporting a factual definition item.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-303",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:305",
+      "structures_offered": [
+        "pectoralregion",
+        "oralregion"
+      ],
+      "status": "generated",
+      "query": "What is the Pectoral region?",
+      "must": [
+        "pectoralregion"
+      ],
+      "brief": "The pectoral region is the region external to the anterior thoracic wall that helps anchor the upper limb to the trunk. It consists of a superficial compartment containing skin, superficial fascia, and breasts, and a deep compartment containing muscles and associated structures.",
+      "rationale": "Passage directly defines the pectoral region's location, function, and composition.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-304",
+      "type": "F",
+      "system": "skeletal",
+      "chunk_id": "medrag-anatomy_gray:2825",
+      "structures_offered": [
+        "malleus",
+        "stapes"
+      ],
+      "status": "generated",
+      "query": "What is the Malleus?",
+      "must": [
+        "malleus"
+      ],
+      "brief": "The malleus is one of the middle ear bones, visualized along with the incus and stapes by CT and MRI; its handle is visible near the center of the tympanic membrane on otoscopic examination.",
+      "rationale": "Passage describes the malleus as a middle ear ossicle visible via otoscopy and imaging.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-305",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:2654",
+      "structures_offered": [
+        "posteriorsuperioralveolarartery",
+        "infraorbitalartery",
+        "maxillaryartery"
+      ],
+      "status": "generated",
+      "query": "How are the Posterior superior alveolar artery and the Maxillary artery anatomically related?",
+      "must": [
+        "posteriorsuperioralveolarartery",
+        "maxillaryartery"
+      ],
+      "brief": "The posterior superior alveolar artery originates from the maxillary artery just after the maxillary artery enters the pterygopalatine fossa, then leaves the fossa through the pterygomaxillary fissure.",
+      "rationale": "Passage explicitly states the branching origin of the posterior superior alveolar artery from the maxillary artery.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-306",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:1176",
+      "structures_offered": [
+        "ejaculatoryduct",
+        "prostate",
+        "urethra",
+        "testis"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-307",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:1053",
+      "structures_offered": [
+        "prostate",
+        "urethra"
+      ],
+      "status": "generated",
+      "query": "How are the Urethra and the Prostate anatomically related?",
+      "must": [
+        "urethra",
+        "prostate"
+      ],
+      "brief": "In men, the urethra begins at the base of the bladder and passes inferiorly through the prostate.",
+      "rationale": "Passage explicitly states the urethra passes through the prostate, a direct anatomical relationship.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-308",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:451",
+      "structures_offered": [
+        "leftmainbronchus",
+        "pleura"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-309",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:2852",
+      "structures_offered": [
+        "parotidgland",
+        "thyroidgland"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-310",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:804",
+      "structures_offered": [
+        "descendingcolon",
+        "sigmoidcolon"
+      ],
+      "status": "generated",
+      "query": "How are the Descending colon and the Sigmoid colon anatomically related?",
+      "must": [
+        "descendingcolon",
+        "sigmoidcolon"
+      ],
+      "brief": "The end of the descending colon is continuous with the sigmoid colon, both located in the left lower quadrant of the abdomen.",
+      "rationale": "Passage places both in left lower quadrant, indicating continuity of distal colon.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-311",
+      "type": "A",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:87",
+      "structures_offered": [
+        "sacralregion"
+      ],
+      "status": "generated",
+      "query": "What is the Sacral region?",
+      "must": [
+        "sacralregion"
+      ],
+      "brief": "The Sacral region is the part of the CNS from which preganglionic parasympathetic fibers arise; these fibers form the pelvic splanchnic nerves, originating from the anterior rami of S2 to S4.",
+      "rationale": "Passage describes parasympathetic preganglionic fibers arising from S2–S4 in the sacral region.",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-312",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1756",
+      "structures_offered": [
+        "coracobrachialismuscle",
+        "brachialismuscle"
+      ],
+      "status": "failed",
+      "why": "rejected: inadequate",
+      "parse_ok": true,
+      "round": 2
+    },
+    {
+      "slot_item_id": "R2-313",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1913",
+      "structures_offered": [
+        "serratusanteriormuscle",
+        "latissimusdorsimuscle",
+        "teresmajormuscle"
+      ],
+      "status": "generated",
+      "query": "How are the Teres major muscle and the Latissimus dorsi muscle anatomically related?",
+      "must": [
+        "teresmajormuscle",
+        "latissimusdorsimuscle"
+      ],
+      "brief": "The margins of the teres major muscle laterally and the latissimus dorsi muscle medially are both overlain by the posterior axillary skin fold, which forms the inferior margin of the posterior axillary wall.",
+      "rationale": "Passage states both muscles' margins underlie the posterior axillary skin fold, giving a shared anatomical relationship.",
+      "parse_ok": true,
+      "round": 2
+    }
+  ]
+}

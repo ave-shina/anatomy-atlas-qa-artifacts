@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://anatomy-atlas-qa/research/benchmark/anatomy3d-qb.schema.json",
+  "title": "Anatomy3D-QB item",
+  "description": "One benchmark item for answer-to-3D-object grounding over the interactive anatomy atlas. English-only. Types: F factual, R relational, A ambiguous.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "system",
+    "query",
+    "gold_structures_must",
+    "gold_structures_optional",
+    "gold_chunk_ids",
+    "expects_clarification",
+    "status",
+    "needs_curation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[FRA]-[a-z]+-[0-9]{3}$",
+      "description": "Type-system-sequence, e.g. F-cardiovascular-001."
+    },
+    "type": {
+      "enum": ["F", "R", "A"],
+      "description": "F factual (single structure), R relational (>=2 structures), A ambiguous (vague reference / clarification path)."
+    },
+    "system": {
+      "enum": [
+        "regions",
+        "fasciae",
+        "muscular",
+        "joints",
+        "skeletal",
+        "cardiovascular",
+        "lymphoid",
+        "nervous",
+        "visceral"
+      ],
+      "description": "Anatomical system (lib/layers.ts)."
+    },
+    "query": {
+      "type": "string",
+      "minLength": 3,
+      "description": "English question put to the RAG pipeline."
+    },
+    "history": {
+      "type": "array",
+      "description": "Prior turns for multi-turn items (type A); absent for single-turn items.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "text"],
+        "properties": {
+          "role": { "enum": ["user", "assistant"] },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "gold_structures_must": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Keys (anatomy.json canonical, mesh-available) that must appear as chips. Subset of research/benchmark/mesh-keys.json."
+    },
+    "gold_structures_optional": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Keys allowed but not scored for recall (no mesh, or legitimate extras)."
+    },
+    "gold_chunk_ids": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9_-]+:[0-9]+$" },
+      "description": "Relevant corpus chunk ids for recall@k, e.g. medrag-anatomy_gray:123."
+    },
+    "gold_answer_brief": {
+      "type": ["string", "null"],
+      "description": "Short reference answer; null when it needs human authoring."
+    },
+    "expects_clarification": {
+      "type": "boolean",
+      "description": "True when a correct system should ask a clarifying question instead of answering+grounding directly (valid ambiguity)."
+    },
+    "rationale": {
+      "type": "string",
+      "description": "Why the item exists / what it tests."
+    },
+    "status": {
+      "enum": ["draft", "ai_reviewed", "human_verified", "rejected"],
+      "description": "ai_reviewed = machine-generated, checked by an AI-assisted review (not human); human_verified = curated by human annotators; draft = unreviewed; rejected."
+    },
+    "needs_curation": {
+      "type": "boolean",
+      "description": "True until a human has verified query, gold and non-leakage."
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

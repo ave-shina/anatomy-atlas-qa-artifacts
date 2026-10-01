@@ -1,0 +1,32 @@
+{
+  "runId": "l6-naturalA",
+  "items": 50,
+  "conditions": [
+    "B3"
+  ],
+  "perCondition": {
+    "B3": {
+      "generations": 50,
+      "ok": 50,
+      "failed": 0,
+      "chip_precision": 0.26835714285714285,
+      "chip_precision_optional": 0.36659523809523803,
+      "chip_recall": 0.96,
+      "chip_f1": 0.3007777777777778,
+      "chip_f1_optional": 0.36789898989898995,
+      "hallucinated_total": 0,
+      "non_renderable_total": 47,
+      "wrong_link_total": 140,
+      "extra_optional_total": 17,
+      "missed_link_total": 2,
+      "clarification_runs": 12,
+      "mean_duration_ms": 5064.64
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0.8666666666666667,
+    "recall_at_6": 0.8866666666666667,
+    "recall_at_10": 0.8866666666666667,
+    "mrr": 0.14733333333333332
+  }
+}

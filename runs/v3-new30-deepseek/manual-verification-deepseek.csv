@@ -1,0 +1,7 @@
+item_id,type,system,citation_validity_judge,faithfulness_judge,citation_validity_human,faithfulness_human,notes
+A-joints-004,A,joints,0.8333333333333334,1,,,
+F-regions-023,F,regions,1,5,,,
+R-muscular-019,R,muscular,1,4,,,
+R-cardiovascular-048,R,cardiovascular,1,5,,,
+R-muscular-021,R,muscular,1,5,,,
+R-cardiovascular-051,R,cardiovascular,1,5,,,

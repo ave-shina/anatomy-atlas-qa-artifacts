@@ -1,0 +1,32 @@
+{
+  "runId": "v3-citenothing-retest-glm",
+  "items": 18,
+  "conditions": [
+    "B3"
+  ],
+  "perCondition": {
+    "B3": {
+      "generations": 18,
+      "ok": 18,
+      "failed": 0,
+      "chip_precision": 0.2471580888247555,
+      "chip_precision_optional": 0.3724025974025974,
+      "chip_recall": 1,
+      "chip_f1": 0.3514189514189514,
+      "chip_f1_optional": 0.48585303585303585,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 65,
+      "extra_optional_total": 15,
+      "missed_link_total": 0,
+      "clarification_runs": 0,
+      "mean_duration_ms": 16322.333333333334
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0,
+    "recall_at_6": 0,
+    "recall_at_10": 0,
+    "mrr": 0
+  }
+}

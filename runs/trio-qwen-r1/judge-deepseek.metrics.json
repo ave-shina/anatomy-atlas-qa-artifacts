@@ -1,0 +1,11 @@
+{
+  "runId": "trio-qwen-r1",
+  "condition": "B3",
+  "judgeModel": "deepseek/deepseek-v4.1-flash",
+  "judged": 306,
+  "failed": 0,
+  "skipped": 24,
+  "citation_validity_mean": 0.8833333333333335,
+  "faithfulness_mean": 3.9248366013071894,
+  "note": "LLM judge; run the manual-verification.csv audit (>=20%) before reporting."
+}

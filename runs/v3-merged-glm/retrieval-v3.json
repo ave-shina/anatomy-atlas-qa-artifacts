@@ -1,0 +1,82 @@
+{
+  "runId": "v3-merged-glm",
+  "note": "Retrieval over the v3 kit: raw-question retrieval (baai/bge-m3, Pinecone anatomy-atlas, top-6), recall@k = |gold \u2229 top-k| / |gold|, MRR = 1/min gold rank. 262 stored records verbatim, 8 rescued re-scored against the new gold chunk from the stored retrieved list, 30 new items from the v3-new30 runs. Denominator = the 300 retrieval-eligible items.",
+  "overall": {
+    "n": 300,
+    "recall_at_3": 0.3233333333333333,
+    "recall_at_6": 0.43666666666666665,
+    "recall_at_10": 0.43666666666666665,
+    "mrr": 0.4236111111111111
+  },
+  "eligible": 300,
+  "byType": {
+    "A": {
+      "n": 20,
+      "recall_at_3": 0.36666666666666664,
+      "recall_at_6": 0.55,
+      "recall_at_10": 0.55,
+      "mrr": 0.48083333333333333
+    },
+    "F": {
+      "n": 180,
+      "recall_at_3": 0.32129629629629625,
+      "recall_at_6": 0.4351851851851852,
+      "recall_at_10": 0.4351851851851852,
+      "mrr": 0.4608333333333334
+    },
+    "R": {
+      "n": 100,
+      "recall_at_3": 0.3183333333333333,
+      "recall_at_6": 0.41666666666666663,
+      "recall_at_10": 0.41666666666666663,
+      "mrr": 0.3451666666666667
+    }
+  },
+  "bySystem": {
+    "cardiovascular": {
+      "n": 65,
+      "recall_at_3": 0.2948717948717949,
+      "recall_at_6": 0.41794871794871796
+    },
+    "fasciae": {
+      "n": 9,
+      "recall_at_3": 0.3888888888888889,
+      "recall_at_6": 0.48148148148148145
+    },
+    "joints": {
+      "n": 28,
+      "recall_at_3": 0.5119047619047619,
+      "recall_at_6": 0.619047619047619
+    },
+    "lymphoid": {
+      "n": 17,
+      "recall_at_3": 0.0784313725490196,
+      "recall_at_6": 0.14705882352941177
+    },
+    "muscular": {
+      "n": 44,
+      "recall_at_3": 0.2689393939393939,
+      "recall_at_6": 0.36742424242424243
+    },
+    "nervous": {
+      "n": 47,
+      "recall_at_3": 0.3546099290780142,
+      "recall_at_6": 0.5212765957446809
+    },
+    "regions": {
+      "n": 26,
+      "recall_at_3": 0.30128205128205127,
+      "recall_at_6": 0.4487179487179487
+    },
+    "skeletal": {
+      "n": 31,
+      "recall_at_3": 0.23118279569892472,
+      "recall_at_6": 0.31720430107526876
+    },
+    "visceral": {
+      "n": 33,
+      "recall_at_3": 0.45959595959595956,
+      "recall_at_6": 0.5303030303030303
+    }
+  }
+}

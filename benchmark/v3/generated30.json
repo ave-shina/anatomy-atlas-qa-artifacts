@@ -1,0 +1,498 @@
+{
+  "purpose": "v3 gold refresh — GLM-5.3 chunk-first item generation (ADVISORY PROPOSAL; reviewed out-of-family by the coding agent, validated blind by the human author)",
+  "date": "2026-09-29T11:34:07.549Z",
+  "model": "z-ai/glm-5.3",
+  "temperature": 0,
+  "disclosure": "glm-5.3 is in-family with review-trio member glm-5.3-flash. Generated items are proposals; verdict of record is the author's.",
+  "shortlist_note": "input: shortlist30.json (deterministic local scoring)",
+  "summary": {
+    "assignments": 30,
+    "generated": 18,
+    "failed": 12
+  },
+  "results": [
+    {
+      "slot_item_id": "A-joints-gen1",
+      "type": "A",
+      "system": "joints",
+      "chunk_id": "medrag-anatomy_gray:1872",
+      "structures_offered": [
+        "ulnarcollateralligament",
+        "dorsalradiocarpalligament"
+      ],
+      "status": "generated",
+      "query": "What is the Dorsal radiocarpal ligament?",
+      "must": [
+        "dorsalradiocarpalligament"
+      ],
+      "brief": "The Dorsal radiocarpal ligament is one of the ligaments reinforcing the capsule of the wrist joint.",
+      "rationale": "Passage states dorsal radiocarpal ligament reinforces the wrist joint capsule.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "A-nervous-gen2",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:50",
+      "structures_offered": [
+        "retina"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "A-nervous-gen3",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:2865",
+      "structures_offered": [
+        "precentralgyrus"
+      ],
+      "status": "generated",
+      "query": "What is the Precentral gyrus?",
+      "must": [
+        "precentralgyrus"
+      ],
+      "brief": "The precentral gyrus is the gyrus on which the left motor strip of the brain sits; this motor strip contains the motor cortex representing the whole of the right side of the body.",
+      "rationale": "Passage directly describes the precentral gyrus as the site of the motor cortex.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "A-nervous-gen4",
+      "type": "A",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:78",
+      "structures_offered": [
+        "sympathetictrunk"
+      ],
+      "status": "generated",
+      "query": "What is the Sympathetic trunk?",
+      "must": [
+        "sympathetictrunk"
+      ],
+      "brief": "The sympathetic trunk is a structure that sacral nerves do not enter; unlike T1-L2 visceral motor fibers, sacral nerves lack postganglionic fibers traveling to the periphery on spinal nerves.",
+      "rationale": "Passage states an anatomical relationship: sacral nerves do not enter the sympathetic trunk.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "A-regions-gen5",
+      "type": "A",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:2841",
+      "structures_offered": [
+        "submentaltriangle"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-cardiovascular-gen6",
+      "type": "F",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:56",
+      "structures_offered": [
+        "leftcommoncarotidartery"
+      ],
+      "status": "generated",
+      "query": "What is the Left common carotid artery?",
+      "must": [
+        "leftcommoncarotidartery"
+      ],
+      "brief": "The left common carotid artery is a large elastic artery. Like other large elastic arteries, it contains substantial amounts of elastic fibers in the tunica media, allowing expansion and recoil during the cardiac cycle to maintain constant blood flow during diastole.",
+      "rationale": "Passage explicitly classifies the left common carotid artery as a large elastic artery with described structural features.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-cardiovascular-gen7",
+      "type": "F",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1783",
+      "structures_offered": [
+        "rightsubclavianvein"
+      ],
+      "status": "generated",
+      "query": "Where is the Right subclavian vein located?",
+      "must": [
+        "rightsubclavianvein"
+      ],
+      "brief": "The Right subclavian vein is in the neck, where it joins the right internal jugular vein; the subclavian trunk usually enters the venous system at this junction.",
+      "rationale": "Passage states the subclavian trunk joins the venous system at the junction of the right subclavian and internal jugular veins in the neck.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-joints-gen8",
+      "type": "F",
+      "system": "joints",
+      "chunk_id": "medrag-anatomy_gray:1434",
+      "structures_offered": [
+        "posteriortalofibularligament"
+      ],
+      "status": "generated",
+      "query": "What is the function of the Posterior talofibular ligament?",
+      "must": [
+        "posteriortalofibularligament"
+      ],
+      "brief": "The posterior talofibular ligament attaches at the malleolar fossa on the lateral malleolus, posteroinferior to the facet articulating with the talus, and is a ligament associated with the ankle joint.",
+      "rationale": "Passage states its attachment site and its association with the ankle joint.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-regions-gen10",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:1727",
+      "structures_offered": [
+        "scapularregion"
+      ],
+      "status": "generated",
+      "query": "What is the Scapular region?",
+      "must": [
+        "scapularregion"
+      ],
+      "brief": "The posterior scapular region occupies the posterior aspect of the scapula, deep to the trapezius and deltoid muscles. It contains four muscles passing between the scapula and proximal humerus—supraspinatus, infraspinatus, teres minor, and teres major—plus part of the long head of triceps brachii.",
+      "rationale": "Passage directly defines the posterior scapular region's location and contents.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-regions-gen11",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:1710",
+      "structures_offered": [
+        "deltoidregion"
+      ],
+      "status": "generated",
+      "query": "Where is the Deltoid region located?",
+      "must": [
+        "deltoidregion"
+      ],
+      "brief": "The deltoid region is the region into which the axillary nerve and posterior circumflex humeral artery pass from the axilla, traveling immediately posterior to the surgical neck of the humerus.",
+      "rationale": "Passage describes the deltoid region's location relative to the axilla and neurovascular passage into it.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-regions-gen9",
+      "type": "F",
+      "system": "regions",
+      "chunk_id": "medrag-anatomy_gray:1287",
+      "structures_offered": [
+        "glutealfold"
+      ],
+      "status": "generated",
+      "query": "What is the Gluteal fold?",
+      "must": [
+        "glutealfold"
+      ],
+      "brief": "The skin over the gluteal fold is a reasonably autonomous region for testing sensation, corresponding to the S3 dermatome.",
+      "rationale": "Passage explicitly maps the gluteal fold skin to the S3 dermatome as an autonomous sensory test region.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-skeletal-gen12",
+      "type": "F",
+      "system": "skeletal",
+      "chunk_id": "medrag-anatomy_gray:2034",
+      "structures_offered": [
+        "supraspinousfossa"
+      ],
+      "status": "generated",
+      "query": "What is the Supraspinous fossa?",
+      "must": [
+        "supraspinousfossa"
+      ],
+      "brief": "The Supraspinous fossa is a scapular depression that houses the supraspinatus muscle; loss of muscle bulk in this fossa indicates damage to the supraspinatus, causing failure to initiate shoulder abduction.",
+      "rationale": "Passage links supraspinous fossa to supraspinatus muscle bulk loss and function, supporting a factual item.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-visceral-gen13",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:886",
+      "structures_offered": [
+        "urethra",
+        "sigmoidcolon"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "F-visceral-gen14",
+      "type": "F",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:277",
+      "structures_offered": [
+        "prostate"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen15",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1246",
+      "structures_offered": [
+        "leftrenalvein",
+        "externaliliacvein",
+        "femoralvein",
+        "lefttesticularvein"
+      ],
+      "status": "generated",
+      "query": "How are the Left testicular vein and the Left renal vein anatomically related?",
+      "must": [
+        "lefttesticularvein",
+        "leftrenalvein"
+      ],
+      "brief": "The left testicular vein originates from the left renal vein; a venogram performed with a catheter positioned in the left renal vein demonstrates the origin of the left testicular vein.",
+      "rationale": "Passage explicitly states the left testicular vein's origin is demonstrated from the left renal vein.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen16",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1668",
+      "structures_offered": [
+        "poplitealvein",
+        "femoralvein",
+        "deepfemoralvein"
+      ],
+      "status": "generated",
+      "query": "How are the Femoral vein and the Popliteal vein anatomically related?",
+      "must": [
+        "femoralvein",
+        "poplitealvein"
+      ],
+      "brief": "The femoral vein and the popliteal vein are contiguous segments of the deep venous system of the lower limb: the femoral vein continues distally as the popliteal vein, which in turn drains into the tibial veins.",
+      "rationale": "Passage describes them as continuous segments of the deep venous tree scanned in sequence.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen17",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:2019",
+      "structures_offered": [
+        "radialartery",
+        "brachialartery",
+        "axillaryartery"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen18",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:556",
+      "structures_offered": [
+        "leftcoronaryartery",
+        "leftventricle"
+      ],
+      "status": "generated",
+      "query": "How are the Left coronary artery and the Left ventricle anatomically related?",
+      "must": [
+        "leftcoronaryartery",
+        "leftventricle"
+      ],
+      "brief": "The left coronary artery supplies the left ventricle; blockage of the left coronary artery impaired left ventricular function, causing reduced contractile force, low ejection pressure, and heart failure.",
+      "rationale": "Passage links left coronary artery blockage to left ventricular failure, an explicit supply/functional relationship.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen19",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:404",
+      "structures_offered": [
+        "rightatrium",
+        "leftventricle"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen20",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1659",
+      "structures_offered": [
+        "poplitealvein",
+        "femoralvein"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen21",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:1672",
+      "structures_offered": [
+        "poplitealartery",
+        "poplitealvein"
+      ],
+      "status": "generated",
+      "query": "How are the Popliteal artery and the Popliteal vein anatomically related?",
+      "must": [
+        "poplitealartery",
+        "poplitealvein"
+      ],
+      "brief": "The popliteal artery and the popliteal vein both lie within the popliteal fossa as components of a single neurovascular bundle, along with the sciatic nerve and its two divisions.",
+      "rationale": "Passage states both vessels share the neurovascular bundle in the popliteal fossa.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-cardiovascular-gen22",
+      "type": "R",
+      "system": "cardiovascular",
+      "chunk_id": "medrag-anatomy_gray:929",
+      "structures_offered": [
+        "externaliliacvein",
+        "internaliliacartery",
+        "externaliliacartery",
+        "internaliliacvein"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-joints-gen23",
+      "type": "R",
+      "system": "joints",
+      "chunk_id": "medrag-anatomy_gray:1594",
+      "structures_offered": [
+        "medialmeniscus",
+        "anteriorcruciateligament"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-muscular-gen24",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1663",
+      "structures_offered": [
+        "adductorlongus",
+        "psoasmajor"
+      ],
+      "status": "generated",
+      "query": "How are the Psoas major and the Adductor longus anatomically related?",
+      "must": [
+        "psoasmajor",
+        "adductorlongus"
+      ],
+      "brief": "Both act on the hip joint: the Psoas major inserts onto the lesser trochanter and externally rotates and flexes the hip, while the Adductor longus is part of the adductor group whose spasm exacerbates external rotation of the femur.",
+      "rationale": "Passage describes both muscles' actions on the hip, supporting a functional anatomical relationship.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-muscular-gen25",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:2032",
+      "structures_offered": [
+        "coracobrachialismuscle",
+        "brachialismuscle"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-muscular-gen26",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:918",
+      "structures_offered": [
+        "inguinalligament",
+        "diaphragm"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-muscular-gen27",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1927",
+      "structures_offered": [
+        "extensorpollicislongus",
+        "flexorcarpiradialis",
+        "abductorpollicislongus"
+      ],
+      "status": "generated",
+      "query": "How are the Extensor pollicis longus and the Abductor pollicis longus anatomically related?",
+      "must": [
+        "extensorpollicislongus",
+        "abductorpollicislongus"
+      ],
+      "brief": "At the wrist, the radial artery crosses the lateral side of the wrist between the tendon of the extensor pollicis longus muscle and the tendons of the extensor pollicis brevis and abductor pollicis longus muscles (the anatomical snuffbox).",
+      "rationale": "Passage states the radial artery passes between these two tendons, an explicit anatomical relationship.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-muscular-gen28",
+      "type": "R",
+      "system": "muscular",
+      "chunk_id": "medrag-anatomy_gray:1555",
+      "structures_offered": [
+        "obturatorexternus",
+        "obturatorinternus"
+      ],
+      "status": "failed",
+      "why": "generator rejected: inadequate",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-nervous-gen29",
+      "type": "R",
+      "system": "nervous",
+      "chunk_id": "medrag-anatomy_gray:2876",
+      "structures_offered": [
+        "opticchiasm",
+        "retina"
+      ],
+      "status": "generated",
+      "query": "How are the Optic chiasm and the Retina anatomically related?",
+      "must": [
+        "opticchiasm",
+        "retina"
+      ],
+      "brief": "Fibers carrying visual information from the medial aspects of the retina cross the midline through the optic chiasm to the opposite side.",
+      "rationale": "Passage states decussating retinal fibers pass through the optic chiasm, a direct anatomical relationship.",
+      "parse_ok": true
+    },
+    {
+      "slot_item_id": "R-visceral-gen30",
+      "type": "R",
+      "system": "visceral",
+      "chunk_id": "medrag-anatomy_gray:983",
+      "structures_offered": [
+        "descendingcolon",
+        "sigmoidcolon"
+      ],
+      "status": "generated",
+      "query": "How are the Sigmoid colon and the Descending colon anatomically related?",
+      "must": [
+        "sigmoidcolon",
+        "descendingcolon"
+      ],
+      "brief": "The sigmoid colon was resected, and the descending colon was passed through the anterior abdominal wall to form a colostomy; the descending colon is continuous with the sigmoid colon proximally.",
+      "rationale": "Passage describes surgical continuity: descending colon brought to abdominal wall after sigmoid resection.",
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+ "runId": "v3-merged-glm",
+ "chatModel": null,
+ "embedModel": null,
+ "note": "v3 merge \u2014 perCondition latencies recomputed over the merged records (stored ft-era + fresh v3-new30); all other runtime fields intentionally omitted \u2014 frozen ft metrics.json untouched.",
+ "perCondition": {
+  "B1": {
+   "mean_duration_ms": 7655.851515151515,
+   "n": 330
+  },
+  "B2": {
+   "mean_duration_ms": 15270.481818181817,
+   "n": 330
+  },
+  "B3": {
+   "mean_duration_ms": 16501.918181818182,
+   "n": 330
+  }
+ }
+}

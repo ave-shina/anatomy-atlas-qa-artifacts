@@ -1,0 +1,20 @@
+{
+ "runId": "v3-merged-deepseek",
+ "chatModel": null,
+ "embedModel": null,
+ "note": "v3 merge \u2014 perCondition latencies recomputed over the merged records (stored ft-era + fresh v3-new30); all other runtime fields intentionally omitted \u2014 frozen ft metrics.json untouched.",
+ "perCondition": {
+  "B1": {
+   "mean_duration_ms": 5977.7,
+   "n": 330
+  },
+  "B2": {
+   "mean_duration_ms": 10708.336363636363,
+   "n": 330
+  },
+  "B3": {
+   "mean_duration_ms": 12134.860606060605,
+   "n": 330
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "anatomy-atlas-qa-artifacts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Benchmark, harness and run artifacts for 'Grounded Answer-to-3D-Object Linking for Retrieval-Augmented Anatomy Question Answering'",
+  "scripts": {
+    "benchmark:generate": "node scripts/generate-benchmark.mjs",
+    "benchmark:enrich": "node scripts/enrich-benchmark.mjs",
+    "benchmark:run": "tsx scripts/run-benchmark.mts",
+    "benchmark:analyze": "tsx scripts/analyze-run.mts",
+    "benchmark:judge": "tsx scripts/judge-run.mts",
+    "benchmark:ablation": "tsx scripts/ablation-retrieval.mts",
+    "benchmark:lexical": "tsx scripts/lexical-baseline.mts",
+    "benchmark:review-packet": "node scripts/review-packet.mjs",
+    "pack:import": "tsx scripts/import-pack.mts"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.5.13",
+    "@pinecone-database/pinecone": "^9.0.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5",
+    "@gltf-transform/extensions": "^4.5",
+    "@gltf-transform/functions": "^4.5.0",
+    "draco3dgltf": "^1.5.7",
+    "hyparquet": "^1.30.1",
+    "meshoptimizer": "^1.2.0",
+    "three": "^0.185.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5"
+  }
+}

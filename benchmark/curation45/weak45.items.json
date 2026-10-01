@@ -1,0 +1,736 @@
+[
+  {
+    "id": "A-regions-032",
+    "type": "A",
+    "system": "regions",
+    "query": "What is the Tragus?",
+    "gold_structures_must": [
+      "tragus"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2273",
+      "medrag-anatomy_gray:2676",
+      "medrag-anatomy_gray:2807"
+    ],
+    "gold_answer_brief": "The external ear consists of two parts.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The external ear consists of two parts. The part projecting from the side of the head is the auricle (pinna) and the canal leading inward is the external acoustic meatus. The auricle is on the side of the head and assists in capturing sound. It consists of cartilage covered with skin and arranged in a pattern of various elevations and depressions (Fig. 8.114). The large outside rim of the auricle "
+  },
+  {
+    "id": "A-skeletal-001",
+    "type": "A",
+    "system": "skeletal",
+    "query": "What is the Patella?",
+    "gold_structures_must": [
+      "patella"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1381",
+      "medrag-anatomy_gray:1537",
+      "medrag-anatomy_gray:1418"
+    ],
+    "gold_answer_brief": "The patellar ligament is functionally the continuation of the quadriceps femoris tendon below the patella and is attached above to the apex and margins of the patella and below to the tibial tuberosity (Fig.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The patellar ligament is functionally the continuation of the quadriceps femoris tendon below the patella and is attached above to the apex and margins of the patella and below to the tibial tuberosity (Fig. 6.59). The more superficial fibers of the quadriceps femoris tendon and the patellar ligament are continuous over the anterior surface of the patella, and lateral and medial fibers are continu"
+  },
+  {
+    "id": "F-cardiovascular-004",
+    "type": "F",
+    "system": "cardiovascular",
+    "query": "What is the Supreme intercostal artery?",
+    "gold_structures_must": [
+      "supremeintercostalartery"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:481",
+      "medrag-anatomy_gray:335",
+      "medrag-anatomy_gray:2462"
+    ],
+    "gold_answer_brief": "Supreme intercostal artery is a type of subdivision of costocervical artery.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fig. 3.27 Intercostal muscles. Fig. 3.28 A. Subcostal muscles. B. Transversus thoracis muscles. Fig. 3.29 Arteries of the thoracic wall. Superior epigastric arteryInternal thoracic arteryAortaAnterior perforatingbranchesAnterior intercostal arteryCollateral branch of posteriorintercostal arterySupreme intercostal arteryPosterior intercostal arteryMusculophrenic arterySubclavian arteryCostocervical"
+  },
+  {
+    "id": "F-cardiovascular-008",
+    "type": "F",
+    "system": "cardiovascular",
+    "query": "What is the function of the Common iliac artery?",
+    "gold_structures_must": [
+      "commoniliacartery"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1558",
+      "medrag-anatomy_gray:835",
+      "medrag-anatomy_gray:1098"
+    ],
+    "gold_answer_brief": "Common iliac artery is a type of systemic artery. It is a part of systemic arterial tree. It consists of external iliac artery.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fig. 6.34 Blood supply of the hip joint. Internal iliac arteryCommon iliac arteryExternal iliac arteryLateral circumflex femoral artery1st perforating arteryDeep artery of thighMedial circumflex femoral arteryFemoral arteryObturator arteryInferior gluteal arterySuperior gluteal artery Fig. 6.35 Gateways to the lower limb."
+  },
+  {
+    "id": "F-cardiovascular-012",
+    "type": "F",
+    "system": "cardiovascular",
+    "query": "What is the Superior vena cava?",
+    "gold_structures_must": [
+      "superiorvenacava"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:545",
+      "medrag-anatomy_gray:437",
+      "medrag-anatomy_gray:494"
+    ],
+    "gold_answer_brief": "Superior vena cava is a type of trunk of systemic vein. It is a part of superior systemic venous tree.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "In the clinic Using the superior vena cava to access the inferior vena cava Because the superior and inferior venae cavae are oriented along the same vertical axis, a guidewire, catheter, or line can be passed from the superior vena cava through the right atrium and into the inferior vena cava. This is a common route of access for such procedures as: transjugular liver biopsy, transjugular intrahe"
+  },
+  {
+    "id": "F-cardiovascular-015",
+    "type": "F",
+    "system": "cardiovascular",
+    "query": "What is the function of the Left testicular artery?",
+    "gold_structures_must": [
+      "lefttesticularartery"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:810"
+    ],
+    "gold_answer_brief": "Left testicular artery is a type of testicular artery. It is a part of systemic arterial tree.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "RectumPeritoneumPelvic inletBladderUterusShadow of ureterShadow of internal iliac vessels Fig. 4.12 Structures passing between the abdomen and thigh. Fig. 4.13 A series (A to H) showing the development of the gut and mesenteries. Fig. 4.14 Innervation of the anterior abdominal wall. Fig. 4.15 Inguinal region. A. Development. B. In men. C. In women. Inferior vena cavaRight testicular arteryLeft tes"
+  },
+  {
+    "id": "F-fasciae-004",
+    "type": "F",
+    "system": "fasciae",
+    "query": "What is the Palmar aponeurosis?",
+    "gold_structures_must": [
+      "palmaraponeurosis"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1909",
+      "medrag-anatomy_gray:1880",
+      "medrag-anatomy_gray:1957"
+    ],
+    "gold_answer_brief": "The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits. They innervate skin on the palmar surfaces of the lateral three and one-half digits and cutaneous regions over the dorsal aspects of the distal phalanges (nail beds) of the same digits. In addition to skin, the digital nerves supply the lateral two lumbrical muscles. Superf"
+  },
+  {
+    "id": "F-joints-009",
+    "type": "F",
+    "system": "joints",
+    "query": "Where is the Transverse humeral ligament located?",
+    "gold_structures_must": [
+      "transversehumeralligament"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1935",
+      "medrag-anatomy_gray:1945",
+      "medrag-anatomy_gray:1720"
+    ],
+    "gold_answer_brief": "7.23 Sternoclavicular joint.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Fig. 7.23 Sternoclavicular joint. A. Bones and ligaments. B. Volume-rendered reconstruction using multidetector computed tomography. CostoclavicularligamentInterclavicularligamentClavicular notchAnteriorsternoclavicularligamentManubrium ofsternumSternal angleArticular disc(capsule and ligamentsremoved anteriorlyto expose joint)Attachment sitefor rib IIFirst costalcartilageRib IVertebral body of TI"
+  },
+  {
+    "id": "F-joints-016",
+    "type": "F",
+    "system": "joints",
+    "query": "What is the function of the Transverse acetabular ligament?",
+    "gold_structures_must": [
+      "transverseacetabularligament"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1557",
+      "medrag-anatomy_gray:1307",
+      "medrag-anatomy_gray:1308"
+    ],
+    "gold_answer_brief": "Transverse acetabular ligament.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fig. 6.31 Hip joint. A. Transverse acetabular ligament. B. Ligament of the head of the femur. The head of the femur has been laterally rotated out of the acetabulum to show the ligament. ABAcetabular labrum Lunate surfaceTransverseacetabular ligamentAcetabularforamenObturator foramenAcetabular fossaArtery of ligament of headSynovial sleeve around ligamentLigament of head of femurIschial tuberosity"
+  },
+  {
+    "id": "F-lymphoid-011",
+    "type": "F",
+    "system": "lymphoid",
+    "query": "What is the function of the Spleen?",
+    "gold_structures_must": [
+      "spleen"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:707",
+      "medrag-anatomy_gray:828",
+      "medrag-anatomy_gray:905"
+    ],
+    "gold_answer_brief": "Spleen is a type of corticomedullary organ.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Both these ligaments are parts of the greater omentum. The spleen is surrounded by visceral peritoneum except in the area of the hilum on the medial surface of the spleen (Fig. 4.114). The splenic hilum is the entry point for the splenic vessels, and occasionally the tail of the pancreas reaches this area. The arterial supply to the spleen (Fig. 4.115) is the splenic artery from the celiac trunk. "
+  },
+  {
+    "id": "F-muscular-006",
+    "type": "F",
+    "system": "muscular",
+    "query": "What is the function of the Tibialis posterior muscle?",
+    "gold_structures_must": [
+      "tibialisposteriormuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1432",
+      "medrag-anatomy_gray:1445",
+      "medrag-anatomy_gray:1512"
+    ],
+    "gold_answer_brief": "The groove is for the tendon of the tibialis posterior muscle.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The posterior surface of the box-like distal end of the tibia is marked by a vertical groove, which continues inferiorly and medially onto the posterior surface of the medial malleolus. The groove is for the tendon of the tibialis posterior muscle. The lateral surface of the distal end of the tibia is occupied by a deep triangular notch (the fibular notch), to which the distal head of the fibula i"
+  },
+  {
+    "id": "F-muscular-009",
+    "type": "F",
+    "system": "muscular",
+    "query": "What is the Splenius capitis muscle?",
+    "gold_structures_must": [
+      "spleniuscapitismuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2729"
+    ],
+    "gold_answer_brief": "BLeft lobe of thyroid glandParathyroid gland Fig.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "BLeft lobe of thyroid glandParathyroid gland Fig. 8.181 Surgical view of left lobe of enlarged thyroid (goiter) retracted to show close association with recurrent laryngeal nerve. Left lobe of thyroid glandLeft recurrent laryngeal nerve Fig. 8.182 Ectopic parathyroid adenoma in superior mediastinum. Noncontrast hybrid single photon emission computed tomography/computed tomography (SPECT/CT). A. Tr"
+  },
+  {
+    "id": "F-muscular-013",
+    "type": "F",
+    "system": "muscular",
+    "query": "What is the Superior gemellus muscle?",
+    "gold_structures_must": [
+      "superiorgemellusmuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1089"
+    ],
+    "gold_answer_brief": "Both superior and inferior gluteal nerves are accompanied by corresponding arteries.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The inferior gluteal nerve, formed by branches from the dorsal divisions of L5 to S2, leaves the pelvic cavity through the greater sciatic foramen inferior to the piriformis muscle and supplies the gluteus maximus, the largest muscle in the gluteal region. Both superior and inferior gluteal nerves are accompanied by corresponding arteries. The nerve to the obturator internus and the associated sup"
+  },
+  {
+    "id": "F-muscular-016",
+    "type": "F",
+    "system": "muscular",
+    "query": "Where is the Superior rectus muscle located?",
+    "gold_structures_must": [
+      "superiorrectusmuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2234",
+      "medrag-anatomy_gray:2237",
+      "medrag-anatomy_gray:2254"
+    ],
+    "gold_answer_brief": "The superior branch of the oculomotor nerve [III] innervates the superior rectus, and the inferior branch of the oculomotor nerve [III] innervates the inferior rectus.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The superior branch of the oculomotor nerve [III] innervates the superior rectus, and the inferior branch of the oculomotor nerve [III] innervates the inferior rectus. To isolate the function of and to test the superior and inferior rectus muscles, a patient is asked to track a physician’s finger laterally and then either upward or downward (Fig. 8.97B). The first movement brings the axis of the e"
+  },
+  {
+    "id": "F-nervous-001",
+    "type": "F",
+    "system": "nervous",
+    "query": "What is the Genital branch of genitofemoral nerve?",
+    "gold_structures_must": [
+      "genitalbranchofgenitofemoralnerve"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:816"
+    ],
+    "gold_answer_brief": "Inguinal ligamentFemoral artery and veinInternal oblique muscleAponeurosis of internal oblique Spermatic cordConjoint tendonAnterior superior iliac spine Fig.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Inguinal ligamentFemoral artery and veinInternal oblique muscleAponeurosis of internal oblique Spermatic cordConjoint tendonAnterior superior iliac spine Fig. 4.46 Transversus abdominis muscle and the inguinal canal. Fig. 4.47 A. Spermatic cord (men). B. Round ligament of uterus (women). Internal spermatic fasciaParietal layer of the tunica vaginalisAVisceral layer of the tunica vaginalisCavity of"
+  },
+  {
+    "id": "F-nervous-005",
+    "type": "F",
+    "system": "nervous",
+    "query": "Where is the Flocculus located?",
+    "gold_structures_must": [
+      "flocculus"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2966"
+    ],
+    "gold_answer_brief": "Within the posterior cranial fossa, the cerebellum is covered by the tentorium cerebelli of the dura mater (eFig.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Within the posterior cranial fossa, the cerebellum is covered by the tentorium cerebelli of the dura mater (eFig. 9.17) and connects to the posterior surface of the brainstem via the superior, middle, and inferior cerebellar peduncles (eFig. 9.62). Anteriorly, the cerebellum forms the roof of the fourth ventricle (eFig. 9.14). On its surface, the cerebellum has several convoluted folds, or folia, "
+  },
+  {
+    "id": "F-nervous-019",
+    "type": "F",
+    "system": "nervous",
+    "query": "What is the Inferior subscapular nerve?",
+    "gold_structures_must": [
+      "inferiorsubscapularnerve"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1947",
+      "medrag-anatomy_gray:1779",
+      "medrag-anatomy_gray:1949"
+    ],
+    "gold_answer_brief": "Terminal nervesCordsDivisionsTrunksRoots (anterior rami)C5C6C7C8T1SuperiorMiddleInferiorLateralPosteriorPosteriorPosteriorPosteriorMedialAnteriorAnteriorAnterior ALateral pectoral nerveMedial pectoral nerveMedial cutaneous nerve of armMedial cutaneous nerve of forearmMusculocutaneousMedianRadialUlnarAxillaryLong tho…",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Terminal nervesCordsDivisionsTrunksRoots (anterior rami)C5C6C7C8T1SuperiorMiddleInferiorLateralPosteriorPosteriorPosteriorPosteriorMedialAnteriorAnteriorAnterior ALateral pectoral nerveMedial pectoral nerveMedial cutaneous nerve of armMedial cutaneous nerve of forearmMusculocutaneousMedianRadialUlnarAxillaryLong thoracicnerveSuprascapular nerveDorsal scapular nerveContribution to phrenic nerveNerv"
+  },
+  {
+    "id": "F-regions-008",
+    "type": "F",
+    "system": "regions",
+    "query": "What is the function of the Temporal region?",
+    "gold_structures_must": [
+      "temporalregion"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2148",
+      "medrag-anatomy_gray:2197",
+      "medrag-anatomy_gray:2807"
+    ],
+    "gold_answer_brief": "The mandibular nerve [V3] also receives sensory branches from the skin of the lower face, cheek, lower lip, anterior part of the external ear, part of the external acoustic meatus and the temporal region, the anterior two-thirds of the tongue, the teeth of the lower jaw, the mastoid air cells, the mucous membranes o…",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The mandibular nerve [V3] also receives sensory branches from the skin of the lower face, cheek, lower lip, anterior part of the external ear, part of the external acoustic meatus and the temporal region, the anterior two-thirds of the tongue, the teeth of the lower jaw, the mastoid air cells, the mucous membranes of the cheek, the mandible, and dura in the middle cranial fossa. The abducent nerve"
+  },
+  {
+    "id": "F-regions-011",
+    "type": "F",
+    "system": "regions",
+    "query": "What is the Carotid triangle?",
+    "gold_structures_must": [
+      "carotidtriangle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2727",
+      "medrag-anatomy_gray:2417",
+      "medrag-anatomy_gray:2407"
+    ],
+    "gold_answer_brief": "8.170 Carotid triangle.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fig. 8.170 Carotid triangle. SternocleidomastoidmuscleCarotid triangleSuperior belly ofomohyoid muscleCommon carotid arteryPosterior belly of digastric muscleInternal carotid arteryExternal carotid artery Fig. 8.171 Carotid system. Fig. 8.172 Glossopharyngeal nerve [IX] in the anterior triangle of the neck. Fig. 8.173 Vagus nerve [X] in the anterior triangle of the neck. Fig. 8.174 Accessory nerve"
+  },
+  {
+    "id": "F-regions-015",
+    "type": "F",
+    "system": "regions",
+    "query": "Where is the Deltopectoral triangle located?",
+    "gold_structures_must": [
+      "deltopectoraltriangle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1700"
+    ],
+    "gold_answer_brief": "The cephalic and basilic veins originate from the dorsal venous network on the back of the hand.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The cephalic and basilic veins originate from the dorsal venous network on the back of the hand. The cephalic vein originates over the anatomical snuffbox at the base of the thumb, passes laterally around the distal forearm to reach the anterolateral surface of the limb, and then continues proximally. It crosses the elbow, then passes up the arm into a triangular depression—the clavipectoral trian"
+  },
+  {
+    "id": "F-regions-019",
+    "type": "F",
+    "system": "regions",
+    "query": "Where is the Heel region located?",
+    "gold_structures_must": [
+      "heelregion"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1473"
+    ],
+    "gold_answer_brief": "The inferior surface of the body of the talus has a large oval concave facet (the posterior calcaneal articular facet) for articulation with the calcaneus.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The inferior surface of the body of the talus has a large oval concave facet (the posterior calcaneal articular facet) for articulation with the calcaneus. The posterior aspect of the body of the talus consists of a backward and medially facing projection (the posterior process). The posterior process is marked on its surface by a lateral tubercle and a medial tubercle, which bracket between them "
+  },
+  {
+    "id": "F-regions-022",
+    "type": "F",
+    "system": "regions",
+    "query": "Where is the Palm located?",
+    "gold_structures_must": [
+      "palm"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1909",
+      "medrag-anatomy_gray:1904",
+      "medrag-anatomy_gray:1925"
+    ],
+    "gold_answer_brief": "The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits. They innervate skin on the palmar surfaces of the lateral three and one-half digits and cutaneous regions over the dorsal aspects of the distal phalanges (nail beds) of the same digits. In addition to skin, the digital nerves supply the lateral two lumbrical muscles. Superf"
+  },
+  {
+    "id": "F-skeletal-001",
+    "type": "F",
+    "system": "skeletal",
+    "query": "What is the function of the Scaphoid bone?",
+    "gold_structures_must": [
+      "scaphoidbone"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2006"
+    ],
+    "gold_answer_brief": "In the clinic Transection of the radial or ulnar artery Adult patients may transect the radial or ulnar artery because these vessels are relatively subcutaneous.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "In the clinic Transection of the radial or ulnar artery Adult patients may transect the radial or ulnar artery because these vessels are relatively subcutaneous. A typical method of injury is when the hand is forced through a plate glass window. Fortunately, the dual supply to the hand usually enables the surgeon to tie off either the ulnar or the radial artery, without significant consequence. In"
+  },
+  {
+    "id": "F-skeletal-012",
+    "type": "F",
+    "system": "skeletal",
+    "query": "What is the function of the Scapula?",
+    "gold_structures_must": [
+      "scapula"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1726",
+      "medrag-anatomy_gray:169",
+      "medrag-anatomy_gray:1727"
+    ],
+    "gold_answer_brief": "Scapula is a type of flat bone.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The levator scapulae muscle is innervated by the dorsal scapular nerve and directly from C3 and C4 spinal nerves. The levator scapulae elevates the scapula. The rhomboid minor and major muscles attach medially to the vertebral column and descend laterally to attach to the medial border of the scapula inferior to the levator scapulae muscle (Fig. 7.36). The rhomboid minor originates from the lower "
+  },
+  {
+    "id": "F-skeletal-016",
+    "type": "F",
+    "system": "skeletal",
+    "query": "Where is the Fibula located?",
+    "gold_structures_must": [
+      "fibula"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1498",
+      "medrag-anatomy_gray:1450",
+      "medrag-anatomy_gray:1455"
+    ],
+    "gold_answer_brief": "Fibula is a type of long bone.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fibular (peroneal) retinacula bind the tendons of the fibularis longus and fibularis brevis muscles to the lateral side of the foot (Fig. 6.112): A superior fibular retinaculum extends between the lateral malleolus and the calcaneus. An inferior fibular retinaculum attaches to the lateral surface of the calcaneus around the fibular trochlea and blends above with the fibers of the inferior extensor"
+  },
+  {
+    "id": "F-skeletal-019",
+    "type": "F",
+    "system": "skeletal",
+    "query": "What is the Medial cuneiform bone?",
+    "gold_structures_must": [
+      "medialcuneiformbone"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1478"
+    ],
+    "gold_answer_brief": "Medial cuneiform bone is a type of cuneiform bone.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "From lateral to medial, the distal group of tarsal bones consists of (Fig. 6.96): The cuboid (Greek for “cube”), which articulates posteriorly with the calcaneus, medially with the lateral cuneiform, and anteriorly with the bases of the lateral two metatarsals—the tendon of the fibularis longus muscle lies in a prominent groove on the anterior plantar surface, which passes obliquely forward across"
+  },
+  {
+    "id": "F-visceral-001",
+    "type": "F",
+    "system": "visceral",
+    "query": "What is the Submandibular duct?",
+    "gold_structures_must": [
+      "submandibularduct"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2628",
+      "medrag-anatomy_gray:2627",
+      "medrag-anatomy_gray:2860"
+    ],
+    "gold_answer_brief": "Occasionally, the more anterior part of the gland is drained by a duct (major sublingual duct) that opens together with the submandibular duct on the sublingual caruncle.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The sublingual gland drains into the oral cavity via numerous small ducts (minor sublingual ducts), which open onto the crest of the sublingual fold. Occasionally, the more anterior part of the gland is drained by a duct (major sublingual duct) that opens together with the submandibular duct on the sublingual caruncle. Vessels that supply the parotid gland originate from the external carotid arter"
+  },
+  {
+    "id": "F-visceral-005",
+    "type": "F",
+    "system": "visceral",
+    "query": "What is the function of the Kidney?",
+    "gold_structures_must": [
+      "kidney"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:807",
+      "medrag-anatomy_gray:767",
+      "medrag-anatomy_gray:765"
+    ],
+    "gold_answer_brief": "Kidney is a type of corticomedullary organ.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The kidneys project onto the back on either side of the midline and are related to the lower ribs (Fig. 4.183): The left kidney is a little higher than the right and reaches as high as rib XI. The superior pole of the right kidney reaches only as high as rib XII. The lower poles of the kidneys occur around the level of the disc between the LIII and LIV vertebrae. The hila of the kidneys and the be"
+  },
+  {
+    "id": "F-visceral-008",
+    "type": "F",
+    "system": "visceral",
+    "query": "What is the Free taenia?",
+    "gold_structures_must": [
+      "freetaenia"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:688"
+    ],
+    "gold_answer_brief": "Its point of attachment to the cecum is consistent with the highly visible free taeniae leading directly to the base of the appendix, but the location o",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The appendix is a narrow, hollow, blind-ended tube connected to the cecum. It has large aggregations of lymphoid tissue in its walls and is suspended from the terminal ileum by the mesoappendix (Fig. 4.83), which contains the appendicular vessels. Its point of attachment to the cecum is consistent with the highly visible free taeniae leading directly to the base of the appendix, but the location o"
+  },
+  {
+    "id": "R-cardiovascular-003",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Anterior cerebral artery and the Cavernous sinus anatomically related?",
+    "gold_structures_must": [
+      "anteriorcerebralartery",
+      "cavernoussinus"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2696"
+    ],
+    "gold_answer_brief": "Neurovascular bundleV1V2Connected togetheras a structural unitSkinAponeurosisPeriosteum1234BoneOutertableInnertableDiploëAnterior cerebral arteryInternal carotidarteryDiploic veinSuperior sagittal sinusCavernous sinusOptic tractsDuraPeriostial layerMeningeal layerArachnoidSubarachnoid spacePiaEmissary vein: can spre…",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Neurovascular bundleV1V2Connected togetheras a structural unitSkinAponeurosisPeriosteum1234BoneOutertableInnertableDiploëAnterior cerebral arteryInternal carotidarteryDiploic veinSuperior sagittal sinusCavernous sinusOptic tractsDuraPeriostial layerMeningeal layerArachnoidSubarachnoid spacePiaEmissary vein: can spread infection fromthe scalp into the cranial cavityConnective tissue:contains majorn"
+  },
+  {
+    "id": "R-cardiovascular-008",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Azygos vein and the Left gastric artery anatomically related?",
+    "gold_structures_must": [
+      "azygosvein",
+      "leftgastricartery"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:758",
+      "medrag-anatomy_gray:453",
+      "medrag-anatomy_gray:757"
+    ],
+    "gold_answer_brief": "Passing through the esophageal hiatus with the esophagus are the anterior and posterior vagal trunks, the esophageal branches of the left gastric artery and vein, and a few lymphatic vessels.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Passing through the esophageal hiatus with the esophagus are the anterior and posterior vagal trunks, the esophageal branches of the left gastric artery and vein, and a few lymphatic vessels. The third large opening in the diaphragm is the caval opening, through which the inferior vena cava passes from the abdominal cavity to the thoracic cavity (Fig. 4.143) at approximately vertebra TVIII in the "
+  },
+  {
+    "id": "R-cardiovascular-012",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Azygos vein and the Superior mesenteric artery anatomically related?",
+    "gold_structures_must": [
+      "azygosvein",
+      "superiormesentericartery"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:777"
+    ],
+    "gold_answer_brief": "On its right side are the cisterna chyli, thoracic duct, azygos vein, right crus of the diaphragm, and the inferior vena cava.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Anterior to the abdominal aorta, as it descends, are the pancreas and splenic vein, the left renal vein, and the inferior part of the duodenum. Several left lumbar veins cross it posteriorly as they pass to the inferior vena cava. On its right side are the cisterna chyli, thoracic duct, azygos vein, right crus of the diaphragm, and the inferior vena cava. On its left side is the left crus of the d"
+  },
+  {
+    "id": "R-cardiovascular-018",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Azygos vein and the Marginal artery anatomically related?",
+    "gold_structures_must": [
+      "azygosvein",
+      "marginalartery"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:830"
+    ],
+    "gold_answer_brief": "4.129 Arterial supply to the abdominal parts of the gastrointestinal system and to the spleen.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Fig. 4.129 Arterial supply to the abdominal parts of the gastrointestinal system and to the spleen. Fig. 4.130 Enlarged marginal artery connecting the superior and inferior mesenteric arteries. Digital subtraction angiogram. Fig. 4.131 Portal vein. Fig. 4.132 Venous drainage of the abdominal portion of the gastrointestinal tract. Fig. 4.133 Portosystemic anastomoses. LiverSpleenSplenic veinSuperio"
+  },
+  {
+    "id": "R-cardiovascular-023",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Brachiocephalic trunk and the Thyrocervical trunk anatomically related?",
+    "gold_structures_must": [
+      "brachiocephalictrunk",
+      "thyrocervicaltrunk"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2434"
+    ],
+    "gold_answer_brief": "The inferior thyroid artery is a branch of the thyrocervical trunk, which arises from the first part of the subclavian artery (Figs.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The posterior glandular branch passes to the posterior side of the gland and may anastomose with the inferior thyroid artery (Fig. 8.180). Inferior thyroid artery. The inferior thyroid artery is a branch of the thyrocervical trunk, which arises from the first part of the subclavian artery (Figs. 8.179 and 8.180). It ascends along the medial edge of the anterior scalene muscle, passes posteriorly t"
+  },
+  {
+    "id": "R-cardiovascular-026",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Anterior circumflex humeral artery and the Axillary vein anatomically related?",
+    "gold_structures_must": [
+      "anteriorcircumflexhumeralartery",
+      "axillaryvein"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1945"
+    ],
+    "gold_answer_brief": "7.49 Contents of the axilla: the axillary artery.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Fig. 7.48 Contents of the axilla: muscles. Long head of biceps brachiiShort head of biceps brachiiTendon of biceps brachiiCoracobrachialisBicipital aponeurosisTransverse humeral ligament Fig. 7.49 Contents of the axilla: the axillary artery. Lower border of teres majorPectoralis minorLateral margin of rib ISubclaviusSubclavian artery1st part2nd part3rd partBrachial arteryAxillary artery Fig. 7.50 "
+  },
+  {
+    "id": "R-cardiovascular-033",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Superior thyroid vein and the Thyrocervical trunk anatomically related?",
+    "gold_structures_must": [
+      "superiorthyroidvein",
+      "thyrocervicaltrunk"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2537"
+    ],
+    "gold_answer_brief": "8.226): The superior laryngeal artery originates near the upper margin of the thyroid cartilage from the superior thyroid branch of the external carotid artery, and accompanies the internal branch of the superior laryngeal nerve through the thyrohyoid membrane to reach the larynx.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The major blood supply to the larynx is by the superior and inferior laryngeal arteries (Fig. 8.226): The superior laryngeal artery originates near the upper margin of the thyroid cartilage from the superior thyroid branch of the external carotid artery, and accompanies the internal branch of the superior laryngeal nerve through the thyrohyoid membrane to reach the larynx. The inferior laryngeal a"
+  },
+  {
+    "id": "R-cardiovascular-043",
+    "type": "R",
+    "system": "cardiovascular",
+    "query": "How are the Middle meningeal artery and the Superior petrosal sinus anatomically related?",
+    "gold_structures_must": [
+      "middlemeningealartery",
+      "superiorpetrosalsinus"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2295"
+    ],
+    "gold_answer_brief": "Numerous arteries supply the structures in the middle ear: the two largest branches are the tympanic branch of the maxillary artery and the mastoid branch of the occipital or posterior auricular arteries; smaller branches come from the middle meningeal artery, t",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Contraction of the stapedius muscle, usually in response to loud noises, pulls the stapes posteriorly and prevents excessive oscillation. Numerous arteries supply the structures in the middle ear: the two largest branches are the tympanic branch of the maxillary artery and the mastoid branch of the occipital or posterior auricular arteries; smaller branches come from the middle meningeal artery, t"
+  },
+  {
+    "id": "R-joints-001",
+    "type": "R",
+    "system": "joints",
+    "query": "How are the Pubic symphysis and the Sacrotuberous ligament anatomically related?",
+    "gold_structures_must": [
+      "pubicsymphysis",
+      "sacrotuberousligament"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:995",
+      "medrag-anatomy_gray:1171",
+      "medrag-anatomy_gray:1169"
+    ],
+    "gold_answer_brief": "It is limited anteriorly in the midline by the pubic symphysis.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The diamond-shaped pelvic outlet is formed by both bone and ligaments (Fig. 5.6). It is limited anteriorly in the midline by the pubic symphysis. On each side, the inferior margin of the pelvic bone projects posteriorly and laterally from the pubic symphysis to end in a prominent tuberosity, the ischial tuberosity. Together, these elements construct the pubic arch, which forms the margin of the an"
+  },
+  {
+    "id": "R-muscular-001",
+    "type": "R",
+    "system": "muscular",
+    "query": "How are the Adductor brevis and the Vastus lateralis muscle anatomically related?",
+    "gold_structures_must": [
+      "adductorbrevis",
+      "vastuslateralismuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1572",
+      "medrag-anatomy_gray:1571"
+    ],
+    "gold_answer_brief": "6.67 Obturator artery.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fig. 6.67 Obturator artery. Ligament ofhead offemurObturatorarteryAnterior branchAcetabular branchPosterior branchObturatorexternus muscleArtery of ligament of head of femur Fig. 6.68 Femoral nerve. Nerve to pectineusAnterior branchNerves to iliacusNerve to sartoriusRectus femoris muscleVastus lateralis muscleVastus medialis muscleSaphenous nerveSaphenous nervePes anserinusSartorius muscleGracilis"
+  },
+  {
+    "id": "R-muscular-003",
+    "type": "R",
+    "system": "muscular",
+    "query": "How are the Extensor hallucis longus and the Flexor digitorum brevis anatomically related?",
+    "gold_structures_must": [
+      "extensorhallucislongus",
+      "flexordigitorumbrevis"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1521"
+    ],
+    "gold_answer_brief": "Near the base of metatarsal I, the medial plantar artery gives rise to a superficial branch, which divides into three vessels that pass superficial to the flexor digitorum brevis muscle to join the plantar metatarsal arteries from the deep plantar arch.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Near the base of metatarsal I, the medial plantar artery gives rise to a superficial branch, which divides into three vessels that pass superficial to the flexor digitorum brevis muscle to join the plantar metatarsal arteries from the deep plantar arch. The dorsalis pedis artery is the continuation of the anterior tibial artery and begins as the anterior tibial artery crosses the ankle joint (Fig."
+  },
+  {
+    "id": "R-muscular-009",
+    "type": "R",
+    "system": "muscular",
+    "query": "How are the Extensor indicis and the Supraspinatus muscle anatomically related?",
+    "gold_structures_must": [
+      "extensorindicis",
+      "supraspinatusmuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2034"
+    ],
+    "gold_answer_brief": "Extension of the index, middle, ring, and little fingers is performed by the extensor digitorum muscle.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Extension of the index, middle, ring, and little fingers is performed by the extensor digitorum muscle. Placing the fist in a palm-down position on the table and pressing the middle phalanges onto the table effectively immobilizes the action of the extensor digitorum. The freshman was therefore unable to elevate his middle finger (which was sticking out). It is important to remember that if this s"
+  },
+  {
+    "id": "R-muscular-012",
+    "type": "R",
+    "system": "muscular",
+    "query": "How are the Calcaneal tendon and the Extensor hallucis longus anatomically related?",
+    "gold_structures_must": [
+      "calcanealtendon",
+      "extensorhallucislongus"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1582"
+    ],
+    "gold_answer_brief": "6.93 Muscles of the anterior compartment of leg.",
+    "non_unanimous": true,
+    "old_top_chunk_text": "Fig. 6.93 Muscles of the anterior compartment of leg. Anterior surfaceof fibulaExtensordigitorumlongusOrigin of extensordigitorum longusLateral surfaceof fibulaExtensor hallucis longusOrigin of extensorhallucis longusFibularistertiusAttachment to inferior surface of medial cuneiform and metatarsal ISubcutaneoussurface of tibiaTibialisanteriorOrigin of tibialisanterior Fig. 6.94 Anterior tibial art"
+  },
+  {
+    "id": "R-muscular-014",
+    "type": "R",
+    "system": "muscular",
+    "query": "How are the Adductor brevis and the Vastus intermedius muscle anatomically related?",
+    "gold_structures_must": [
+      "adductorbrevis",
+      "vastusintermediusmuscle"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:1571"
+    ],
+    "gold_answer_brief": "6.66 Deep artery of thigh.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "Fig. 6.66 Deep artery of thigh. A. Anterior view. B. Posterior view. BSuperior gluteal arteryLateral femoral circumflex arteryCruciate anastomosesMedial circumflex femoral arteryFirst perforating arterySecond perforating arteryThird perforating arteryTerminal end of deepartery of thighPopliteal arteryAdductor magnus muscleAdductor hiatusInferior gluteal arteryPiriformis muscleAPsoas and iliacus mu"
+  },
+  {
+    "id": "R-nervous-009",
+    "type": "R",
+    "system": "nervous",
+    "query": "How are the Lacrimal gland and the Medulla oblongata anatomically related?",
+    "gold_structures_must": [
+      "lacrimalgland",
+      "medullaoblongata"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:2149"
+    ],
+    "gold_answer_brief": "The GVE fibers are part of the parasympathetic part of the autonomic division of the PNS and stimulate secretomotor activity in the lacrimal gland, submandi",
+    "non_unanimous": true,
+    "old_top_chunk_text": "The facial nerve [VII] carries GSA, SA, GVE, and BE fibers: The GSA fibers provide sensory input from part of the external acoustic meatus and deeper parts of the auricle. The SA fibers are for taste from the anterior two-thirds of the tongue. The GVE fibers are part of the parasympathetic part of the autonomic division of the PNS and stimulate secretomotor activity in the lacrimal gland, submandi"
+  },
+  {
+    "id": "R-visceral-007",
+    "type": "R",
+    "system": "visceral",
+    "query": "How are the Accessory pancreatic duct and the Gallbladder anatomically related?",
+    "gold_structures_must": [
+      "accessorypancreaticduct",
+      "gallbladder"
+    ],
+    "gold_chunk_ids": [
+      "medrag-anatomy_gray:680"
+    ],
+    "gold_answer_brief": "The descending part (second part) of the duodenum is just to the right of midline and extends from the neck of the gallbladder to the lower border of vertebra LIII.",
+    "non_unanimous": false,
+    "old_top_chunk_text": "The descending part (second part) of the duodenum is just to the right of midline and extends from the neck of the gallbladder to the lower border of vertebra LIII. Its anterior surface is crossed by the transverse colon, posterior to it is the right kidney, and medial to it is the head of the pancreas. This part of the duodenum contains the major duodenal papilla, which is the common entrance for"
+  }
+]

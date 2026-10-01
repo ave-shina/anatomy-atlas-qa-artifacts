@@ -1,0 +1,1282 @@
+{
+  "purpose": "v3 gold refresh \u2014 chunk-first shortlist for the 30 replacement slots (deterministic local scoring, no API)",
+  "date": "2026-09-29",
+  "excluded": {
+    "v2_must_structures": 324,
+    "v2_gold_chunks": 462,
+    "old38_structures": 49
+  },
+  "slots": {
+    "A|joints": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1872",
+          "structures": [
+            "ulnarcollateralligament",
+            "dorsalradiocarpalligament"
+          ],
+          "prose": 3.8,
+          "text": "Because the radial styloid process extends further distally than does the ulnar styloid process, the hand can be adducted to a greater degree than it can be abducted. The capsule of the wrist joint is reinforced by palmar radiocarpal, palmar ulnocarpal, and dorsal radiocarpal ligaments. In addition, radial and ulnar collateral ligaments of the wrist joint span the distance between the styloid processes of the radius and ulna and the adjacent carpal bones. These ligaments reinforce the medial and lateral sides of the wrist joint and support them during flexion and extension. The synovial joints between the carpal bones share a common articular cavity. The joint capsule of the joints is reinforced by numerous ligaments. Although movement at the carpal joints (intercarpal joints) is limited, the joints do contribute to the positioning of the hand in abduction, adduction, flexion, and, particularly, extension.",
+          "page": null,
+          "primary": "ulnarcollateralligament",
+          "name_corpus_freq": 1
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1434",
+          "structures": [
+            "posteriortalofibularligament"
+          ],
+          "prose": 3.61,
+          "text": "The posterior surface is marked by a vertical crest (medial crest), which divides the posterior surface into two parts each attached to a different deep flexor muscle. The distal end of the fibula expands to form the spade-shaped lateral malleolus (Fig. 6.85). The medial surface of the lateral malleolus bears a facet for articulation with the lateral surface of the talus, thereby forming the lateral part of the ankle joint. Just superior to this articular facet is a triangular area, which fits into the fibular notch on the distal end of the tibia. Here the tibia and fibula are joined together by the distal end of the interosseous membrane. Posteroinferior to the facet for articulation with the talus is a pit or fossa (the malleolar fossa) for the attachment of the posterior talofibular ligament associated with the ankle joint. The posterior surface of the lateral malleolus is marked by a shallow groove for the tendons of the fibularis longus and fibularis brevis muscles.",
+          "page": null,
+          "primary": "posteriortalofibularligament",
+          "name_corpus_freq": 4
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:996",
+          "structures": [
+            "sacrospinousligament"
+          ],
+          "prose": 3.59,
+          "text": "The pelvic floor, which separates the pelvic cavity from the perineum, is formed by muscles and fascia (Fig. 5.7). Two levator ani muscles attach peripherally to the pelvic walls and join each other at the midline by a connective tissue raphe. Together they are the largest components of the bowlor funnel-shaped structure known as the pelvic diaphragm, which is completed posteriorly by the coccygeus muscles. These latter muscles overlie the sacrospinous ligaments and pass between the margins of the sacrum and the coccyx and a prominent spine on the pelvic bone, the ischial spine. The pelvic diaphragm forms most of the pelvic floor and in its anterior regions contains a U-shaped defect, which is associated with elements of the urogenital system. The anal canal passes from the pelvis to the perineum through a posterior circular orifice in the pelvic diaphragm. The pelvic floor is supported anteriorly by: the perineal membrane, and muscles in the deep perineal pouch.",
+          "page": null,
+          "primary": "sacrospinousligament",
+          "name_corpus_freq": 26
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1978",
+          "structures": [
+            "acromioclavicularligament"
+          ],
+          "prose": 3.56,
+          "text": "In the clinic The two main disorders of the rotator cuff are impingement and tendinopathy. The muscle most commonly involved is supraspinatus as it passes beneath the acromion and the acromioclavicular ligament. This space, beneath which the supraspinatus tendon passes, is of fixed dimensions. Swelling of the supraspinatus muscle, excessive fluid within the subacromial/subdeltoid bursa, or subacromial bony spurs may produce significant impingement when the arm is abducted. The blood supply to the supraspinatus tendon is relatively poor. Repeated trauma, in certain circumstances, makes the tendon susceptible to degenerative change, which may result in calcium deposition, producing extreme pain. The calcium deposits can be extracted through a needle under image guidance and often have the consistency of toothpaste.",
+          "page": null,
+          "primary": "acromioclavicularligament",
+          "name_corpus_freq": 2
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:198",
+          "structures": [
+            "interspinousligaments"
+          ],
+          "prose": 3.5,
+          "text": "Between the walls of the vertebral canal and the dural sac is an extradural space containing a vertebral plexus of veins embedded in fatty connective tissue. The vertebral spinous processes can be palpated through the skin in the midline in thoracic and lumbar regions of the back. Between the skin and spinous processes is a layer of superficial fascia. In lumbar regions, the adjacent spinous processes and the associated laminae on either side of the midline do not overlap, resulting in gaps between adjacent vertebral arches. When carrying out a lumbar puncture (spinal tap), the needle passes between adjacent vertebral spinous processes, through the supraspinous and interspinous ligaments, and enters the extradural space. The needle continues through the dura and arachnoid mater and enters the subarachnoid space, which contains CSF. Each spinal nerve is connected to the spinal cord by posterior and anterior roots (Fig. 2.61):",
+          "page": null,
+          "primary": "interspinousligaments",
+          "name_corpus_freq": 7
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1011",
+          "structures": [
+            "obturatormembrane"
+          ],
+          "prose": 3.45,
+          "text": "The pelvic bone below this line represents the lateral wall of the true pelvis, which contains the pelvic cavity. The linea terminalis is the lower two-thirds of this line and contributes to the margin of the pelvic inlet. The lateral surface of the pelvic bone has a large articular socket, the acetabulum, which, together with the head of the femur, forms the hip joint (Fig. 5.19B). Inferior to the acetabulum is the large obturator foramen, most of which is closed by a flat connective tissue membrane, the obturator membrane. A small obturator canal remains open superiorly between the membrane and adjacent bone, providing a route of communication between the lower limb and the pelvic cavity. The posterior margin of the bone is marked by two notches separated by the ischial spine: the greater sciatic notch, and the lesser sciatic notch. The posterior margin terminates inferiorly as the large ischial tuberosity.",
+          "page": null,
+          "primary": "obturatormembrane",
+          "name_corpus_freq": 10
+        }
+      ]
+    },
+    "A|nervous": {
+      "need": 3,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:50",
+          "structures": [
+            "retina"
+          ],
+          "prose": 4.48,
+          "text": "Deep fascia usually consists of dense, organized connective tissue. The outer layer of deep fascia is attached to the deep surface of the superficial fascia and forms a thin fibrous covering over most of the deeper region of the body. Inward extensions of this fascial layer form intermuscular septa that compartmentalize groups of muscles with similar functions and innervations. Other extensions surround individual muscles and groups of vessels and nerves, forming an investing fascia. Near some joints the deep fascia thickens, forming retinacula. These fascial retinacula hold tendons in place and prevent them from bowing during movements at the joints. Finally, there is a layer of deep fascia separating the membrane lining the abdominal cavity (the parietal peritoneum) from the fascia covering the deep surface of the muscles of the abdominal wall (the transversalis fascia). This layer is referred to as extraperitoneal fascia. A similar layer of fascia in the thorax is termed the",
+          "page": null,
+          "primary": "retina",
+          "name_corpus_freq": 80
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2865",
+          "structures": [
+            "precentralgyrus"
+          ],
+          "prose": 4.46,
+          "text": "Eighty-five percent of all strokes result from cerebral infarction, of which most are due to embolization. A duplex Doppler scan of the carotid vessels was performed. The majority of emboli originate from plaques that develop at and around the carotid bifurcation. Emboli consist of platelet aggregates, cholesterol, and atheromatous debris. Emboli may also arise from the heart secondary to cardiac tumors or myocardial infarction. The lesion in the brain was on the left side. The motor cortex for the whole of the right side of the body is represented in the left motor strip of the brain, which sits on the precentral gyrus. The duplex Doppler ultrasound scan demonstrated a significant narrowing (stenosis) of the left internal carotid artery with evidence of plaque formation and abnormal flow in this region. The narrowing was approximately 90%. Treatment required an operation.",
+          "page": null,
+          "primary": "precentralgyrus",
+          "name_corpus_freq": 1
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:78",
+          "structures": [
+            "sympathetictrunk"
+          ],
+          "prose": 4.42,
+          "text": "The parasympathetic system is more restricted to innervation of the viscera only. Spinal sympathetic and spinal parasympathetic neurons share certain developmental and phenotypic features that are different from those of cranial parasympathetic neurons. Based on this, some researchers have suggested reclassifying all spinal visceral motor neurons as sympathetic (Espinosa-Medina I et al. Science 2016;354:893-897). Others are against reclassification, arguing that the results only indicate that the neurons are spinal in origin (Neuhuber W et al. Anat Rec 2017;300:1369-1370). In addition, sacral nerves do not enter the sympathetic trunk, nor do they have postganglionic fibers that travel to the periphery on spinal nerves, as do T1-L2 visceral motor fibers. We have chosen to retain the classification of S2,3,4 visceral motor neurons as parasympathetic. \u201cParasympathetic\u201d simply means on either side of the \u201csympathetic,\u201d which correctly describes their anatomy.",
+          "page": null,
+          "primary": "sympathetictrunk",
+          "name_corpus_freq": 58
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1954",
+          "structures": [
+            "superficialbranchofradialnerve",
+            "ulnarnerve",
+            "radialnerve"
+          ],
+          "prose": 4.03,
+          "text": "Fig. 7.77 Cubital fossa. A. Margins. B. Contents. C. Position of the radial nerve. D. Superficial structures. Ulnar nerveRadial arteryUlnar arteryPronator teres (humeral head)Pronator teres(ulnar head)Median nerveMedian cubitalveinUlnar nerveMedian nerveBasilic veinBasilic veinMedial cutaneousnerve of forearmLateral cutaneousnerve of forearmForearm extensorsLine betweenlateral and medialepicondylesForearm flexorsBrachioradialisBrachialisRadial nerveRadial nerveCephalic veinMusculocutaneous nerveBrachioradialis(pulled back )Deep branchof radial nerveSupinatorSuperficial branch of radial nerveTendon (biceps brachii)Biceps brachiiRadial arteryUlnar arteryTriceps brachiiABCDPronator teres Artery(brachial)Nerve(median)BicipitalaponeurosisMedial intermuscularseptumCubital fossaMedialepicondyleLateralepicondyleTendon (biceps)Artery (brachial)Nerve (median)Ulnar nerveRadial nerve Fig. 7.78 Digital subtraction angiograms of forearm demonstrating a surgically created radiocephalic fistula.",
+          "page": null,
+          "primary": "superficialbranchofradialnerve",
+          "name_corpus_freq": 1
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:3001",
+          "structures": [
+            "thirdventricle",
+            "fornix"
+          ],
+          "prose": 3.93,
+          "text": "The mammillary region or mammillary body is the final group of nuclei in the medial zone. Four nuclei comprise this region: medial, intermediate, lateral mammillary, and posterior hypothalamic. The best defined is the medial mammillary nucleus, as it is the primary site for the termination of axons from the postcommissural fornix. This pathway originates from the subiculum of the hippocampal complex and plays a key role in memory. The medial mammillary nuclei also connects to structures of the limbic system. The periventricular zone resides medial to the medial zone and adjacent to the ependymal cells of the third ventricle. Neurons from this zone predominantly synthesize releasing hormones. Axons from these neuronal cells project through the tuberoinfundibular tract to the hypophysial portal system to influence release of hormones from the anterior pituitary.",
+          "page": null,
+          "primary": "thirdventricle",
+          "name_corpus_freq": 6
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2161",
+          "structures": [
+            "lacrimalsac"
+          ],
+          "prose": 3.83,
+          "text": "Two muscles are associated with the orbital group\u2014the orbicularis oculi and the corrugator supercilii. The orbicularis oculi is a large muscle that completely surrounds each orbital orifice and extends into each eyelid (Fig. 8.57). It closes the eyelids. It has two major parts: The outer orbital part is a broad ring that encircles the orbital orifice and extends outward beyond the orbital rim. The inner palpebral part is in the eyelids and consists of muscle fibers originating in the medial corner of the eye that arch across each lid to attach laterally. The orbital and palpebral parts have specific roles to play during eyelid closure. The palpebral part closes the eye gently, whereas the orbital part closes the eye more forcefully and produces some wrinkling on the forehead. An additional small lacrimal part of the orbicularis oculi muscle is deep, medial in position, and attaches to bone posterior to the lacrimal sac of the lacrimal apparatus in the orbit.",
+          "page": null,
+          "primary": "lacrimalsac",
+          "name_corpus_freq": 15
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2263",
+          "structures": [
+            "vitreousbody",
+            "iris",
+            "cornea",
+            "lens",
+            "sclera",
+            "retina"
+          ],
+          "prose": 3.67,
+          "text": "The posterior four-fifths of the eyeball, from the lens to the retina, is occupied by the postremal (vitreous) chamber (Fig. 8.108). This segment is filled with a transparent, gelatinous substance\u2014the vitreous body (vitreous humor). This substance, unlike aqueous humor, cannot be replaced. Walls of the eyeball Surrounding the internal components of the eyeball are the walls of the eyeball. They consist of three layers: an outer fibrous layer, a middle vascular layer, and an inner retinal layer (Fig. 8.108). The outer fibrous layer consists of the sclera posteriorly and the cornea anteriorly. The middle vascular layer consists of the choroid posteriorly and is continuous with the ciliary body and iris anteriorly. The inner layer consists of the optic part of the retina posteriorly and the nonvisual retina that covers the internal surface of the ciliary body and iris anteriorly. The arterial supply to the eyeball is from several sources:",
+          "page": null,
+          "primary": "vitreousbody",
+          "name_corpus_freq": 1
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2555",
+          "structures": [
+            "opticchiasm"
+          ],
+          "prose": 3.62,
+          "text": "The superolateral surface (roof) is related above to the orbit. The anterolateral surface is related below to the roots of the upper molar and premolar teeth and in front to the face. The posterior wall is related behind to the infratemporal fossa. The maxillary sinuses are innervated by infra-orbital and alveolar branches of the maxillary nerve [V2], and receive their blood through branches from the infra-orbital and superior alveolar branches of the maxillary arteries. The sphenoidal sinuses, one on either side within the body of the sphenoid, open into the roof of the nasal cavity via apertures on the posterior wall of the spheno-ethmoidal recess (Fig. 8.235C,D). The apertures are high on the anterior walls of the sphenoid sinuses. The sphenoidal sinuses are related: above to the cranial cavity, particularly to the pituitary gland and to the optic chiasm, laterally, to the cranial cavity, particularly to the cavernous sinuses, and below and in front, to the nasal cavities.",
+          "page": null,
+          "primary": "opticchiasm",
+          "name_corpus_freq": 8
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1253",
+          "structures": [
+            "sciaticnerve"
+          ],
+          "prose": 3.56,
+          "text": "A young man developed pain in his right gluteal region, in the posterior aspect of the thigh and around the posterior and lateral aspects of the leg. On further questioning, he reported that the pain also radiated over the lateral part of the foot, particularly around the lateral malleolus. The areas of pain correspond to dermatomes L4 to S3 nerves. Over the following weeks, the patient began to develop muscular weakness, predominantly footdrop. These findings are consistent with loss of the motor function and sensory change in the common fibular nerve, which is a branch of the sciatic nerve in the lower limb. A computed tomography (CT) scan of the abdomen and pelvis revealed a mass in the posterior aspect of the right side of the pelvis. The mass was anterior to the piriformis muscle and adjacent to the rectum.",
+          "page": null,
+          "primary": "sciaticnerve",
+          "name_corpus_freq": 62
+        }
+      ]
+    },
+    "A|regions": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2841",
+          "structures": [
+            "submentaltriangle"
+          ],
+          "prose": 3.66,
+          "text": "The lymphatic drainage of the neck is somewhat complex, clinically. A relatively simple \u201clevel\u201d system of nodal enlargement has been designed that is extremely helpful in evaluating lymph node spread of primary head and neck tumors. Once the number of levels of nodes are determined, and the size of the lymph nodes, the best mode of treatment can be instituted. This may include surgery, radiotherapy, and chemotherapy. The lymph node level also enables a prognosis to be made. The levels are as follows (Fig. 8.199): Level I\u2014from the midline of the submental triangle up to the level of the submandibular gland. Level II\u2014from the skull base to the level of the hyoid bone anteriorly from the posterior border of the sternocleidomastoid muscle. Level III\u2014the inferior aspect of the hyoid bone to the bottom cricoid arch and anterior to the posterior border of the sternocleidomastoid up to the midline.",
+          "page": null,
+          "primary": "submentaltriangle",
+          "name_corpus_freq": 3
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1727",
+          "structures": [
+            "scapularregion"
+          ],
+          "prose": 3.6,
+          "text": "The rhomboid muscles are innervated by the dorsal scapular nerve, which is a branch of the brachial plexus. The rhomboid minor and major retract and elevate the scapula. The posterior scapular region occupies the posterior aspect of the scapula and is located deep to the trapezius and deltoid muscles (Fig. 7.37 and Table 7.2). It contains four muscles, which pass between the scapula and proximal end of the humerus: the supraspinatus, infraspinatus, teres minor, and teres major muscles. The posterior scapular region also contains part of one additional muscle, the long head of the triceps brachii, which passes between the scapula and the proximal end of the forearm. This muscle, along with other muscles of the region and the humerus, participates in forming a number of spaces through which nerves and vessels enter and leave the region. The supraspinatus, infraspinatus, and teres minor muscles are components of the rotator cuff, which stabilizes the glenohumeral joint.",
+          "page": null,
+          "primary": "scapularregion",
+          "name_corpus_freq": 28
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1710",
+          "structures": [
+            "deltoidregion"
+          ],
+          "prose": 3.53,
+          "text": "In approximately the same position, but on the medial surface of the bone, there is a thin vertical roughening for attachment of the coracobrachialis muscle. One of the most important features of the proximal end of the humerus is the surgical neck (Fig. 7.22). This region is oriented in the horizontal plane between the expanded proximal part of the humerus (head, anatomical neck, and tubercles) and the narrower shaft. The axillary nerve and the posterior circumflex humeral artery, which pass into the deltoid region from the axilla, do so immediately posterior to the surgical neck. Because the surgical neck is weaker than more proximal regions of the bone, it is one of the sites where the humerus commonly fractures. The associated nerve (axillary) and artery (posterior circumflex humeral) can be damaged by fractures in this region. The three joints in the shoulder complex are the sternoclavicular, acromioclavicular, and glenohumeral joints.",
+          "page": null,
+          "primary": "deltoidregion",
+          "name_corpus_freq": 3
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:145",
+          "structures": [
+            "glutealregion"
+          ],
+          "prose": 3.48,
+          "text": "The superior and inferior margins are formed by notches in adjacent pedicles. The posterior margin is formed by the articular processes of the vertebral arches and the associated joint. The anterior border is formed by the intervertebral disc between the vertebral bodies of the adjacent vertebrae. Any pathology that occludes or reduces the size of an intervertebral foramen, such as bone loss, herniation of the intervertebral disc, or dislocation of the zygapophysial joint (the joint between the articular processes), can affect the function of the associated spinal nerve. Innervation of the back Posterior branches of spinal nerves innervate the intrinsic muscles of the back and adjacent skin. The cutaneous distribution of these posterior rami extends into the gluteal region of the lower limb and the posterior aspect of the head. Parts of dermatomes innervated by the posterior rami of spinal nerves are shown in Fig. 2.13.",
+          "page": null,
+          "primary": "glutealregion",
+          "name_corpus_freq": 78
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:294",
+          "structures": [
+            "pectoralregion",
+            "oralregion"
+          ],
+          "prose": 3.18,
+          "text": "Proximal parts of the brachial plexus also pass between the neck and upper limb by passing through the axillary inlet. The diaphragm separates the thorax from the abdomen. Structures that pass between the thorax and abdomen either penetrate the diaphragm or pass posteriorly to it (Fig. 3.8): The inferior vena cava pierces the central tendon of the diaphragm to enter the right side of the mediastinum near vertebral level TVIII. The esophagus penetrates the muscular part of the diaphragm to leave the mediastinum and enter the abdomen just to the left of the midline at vertebral level TX. The aorta passes posteriorly to the diaphragm at the midline at vertebral level TXII. Numerous other structures that pass between the thorax and abdomen pass through or posterior to the diaphragm. The breasts, consisting of mammary glands, superficial fascia, and overlying skin, are in the pectoral region on each side of the anterior thoracic wall (Fig. 3.9).",
+          "page": null,
+          "primary": "pectoralregion",
+          "name_corpus_freq": 9
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1680",
+          "structures": [
+            "cubitalfossa"
+          ],
+          "prose": 3.04,
+          "text": "The shoulder is the area of upper limb attachment to the trunk (Fig. 7.1B). The arm is the part of the upper limb between the shoulder and the elbow joint; the forearm is between the elbow joint and the wrist joint; and the hand is distal to the wrist joint. The axilla, cubital fossa, and carpal tunnel are significant areas of transition between the different parts of the limb (Fig. 7.2). Important structures pass through, or are related to, each of these areas. The axilla is an irregularly shaped pyramidal area formed by muscles and bones of the shoulder and the lateral surface of the thoracic wall. The apex or inlet opens directly into the lower portion of the neck. The skin of the armpit forms the floor. All major structures that pass between the neck and arm pass through the axilla.",
+          "page": null,
+          "primary": "cubitalfossa",
+          "name_corpus_freq": 36
+        }
+      ]
+    },
+    "F|cardiovascular": {
+      "need": 2,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:56",
+          "structures": [
+            "leftcommoncarotidartery"
+          ],
+          "prose": 3.9,
+          "text": "Arteries are usually further subdivided into three classes, according to the variable amounts of smooth muscle and elastic fibers contributing to the thickness of the tunica media, the overall size of the vessel, and its function. Large elastic arteries contain substantial amounts of elastic fibers in the tunica media, allowing expansion and recoil during the normal cardiac cycle. This helps maintain a constant flow of blood during diastole. Examples of large elastic arteries are the aorta, the brachiocephalic trunk, the left common carotid artery, the left subclavian artery, and the pulmonary trunk. Medium muscular arteries are composed of a tunica media that contains mostly smooth muscle fibers. This characteristic allows these vessels to regulate their diameter and control the flow of blood to different parts of the body. Examples of medium muscular arteries are most of the named arteries, including the femoral, axillary, and radial arteries.",
+          "page": null,
+          "primary": "leftcommoncarotidartery",
+          "name_corpus_freq": 11
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1783",
+          "structures": [
+            "rightsubclavianvein"
+          ],
+          "prose": 3.84,
+          "text": "Subscapular (posterior) nodes on the posterior axillary wall in association with the subscapular vessels drain the posterior axillary wall and receive lymphatics from the back, the shoulder, and the neck. Central nodes are embedded in axillary fat and receive tributaries from humeral, subscapular, and pectoral groups of nodes. Apical nodes are the most superior group of nodes in the axilla and drain all other groups of nodes in the region. In addition, they receive lymphatic vessels that accompany the cephalic vein as well as vessels that drain the superior region of the mammary gland. Efferent vessels from the apical group converge to form the subclavian trunk, which usually joins the venous system at the junction between the right subclavian vein and the right internal jugular vein in the neck. On the left, the subclavian trunk usually joins the thoracic duct in the base of the neck. Axillary process of the mammary gland",
+          "page": null,
+          "primary": "rightsubclavianvein",
+          "name_corpus_freq": 6
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:684",
+          "structures": [
+            "ileocolicartery"
+          ],
+          "prose": 3.78,
+          "text": "The ileum opens into the large intestine, where the cecum and ascending colon join together. Two flaps projecting into the lumen of the large intestine (the ileocecal fold) surround the opening (Fig. 4.70). The flaps of the ileocecal fold come together at their end, forming ridges. Musculature from the ileum continues into each flap, forming a sphincter. Possible functions of the ileocecal fold include preventing reflux from the cecum to the ileum, and regulating the passage of contents from the ileum to the cecum. The arterial supply to the ileum (Fig. 4.71) includes: ileal arteries from the superior mesenteric artery, and an ileal branch from the ileocolic artery (from the superior mesenteric artery). The large intestine extends from the distal end of the ileum to the anus, a distance of approximately 1.5 m in adults. It absorbs fluids and salts from the gut contents, thus forming feces, and consists of the cecum, appendix, colon, rectum, and anal canal (Figs. 4.79 and 4.80).",
+          "page": null,
+          "primary": "ileocolicartery",
+          "name_corpus_freq": 4
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2871",
+          "structures": [
+            "posteriorcommunicatingartery"
+          ],
+          "prose": 3.75,
+          "text": "The lesion was caused by an aneurysm. One of the commonest causes of a third nerve palsy is pressure on the nerve from a posterior communicating artery aneurysm, which lies parallel to the nerve on the anterior aspect of the brainstem. As the aneurysm abuts the outside of the oculomotor nerve [III], it involves the parasympathetic fibers, which lead to a predominance of the loss of pupillary function over general function. The aneurysm was imaged with an angiogram. The patient initially underwent CT and MRI scanning. Currently, the definitive test for assessment of aneurysms arising from the circle of Willis and its branches is a digital subtraction angiogram. The angiogram demonstrated the posterior communicating artery aneurysm. The patient underwent surgery and made an excellent recovery.",
+          "page": null,
+          "primary": "posteriorcommunicatingartery",
+          "name_corpus_freq": 5
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:588",
+          "structures": [
+            "rightcommoncarotidartery"
+          ],
+          "prose": 3.73,
+          "text": "How was it placed? The ultrasound shows an axial image across the root of the neck on the right demonstrating the right common carotid artery and the right internal jugular vein. The internal jugular vein is the larger of the two structures and generally demonstrates normal respiratory variation, compressibility, and a size dependence upon the patient\u2019s position (when the patient is placed in the head-down position, the vein fills and makes puncture easy). The risks of the procedure As with all procedures and operations there is always a small risk of complication. These risks are always balanced against the potential benefits of the procedure. Placing the needle into the internal jugular vein can be performed under ultrasound guidance, which reduces the risk of puncturing the common carotid artery. Furthermore, by puncturing under direct vision it is less likely that the operator will hit the lung apex and pierce the superior pleural fascia, which may produce a pneumothorax.",
+          "page": null,
+          "primary": "rightcommoncarotidartery",
+          "name_corpus_freq": 7
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:557",
+          "structures": [
+            "leftcoronaryartery",
+            "anteriorinterventricularartery"
+          ],
+          "prose": 3.55,
+          "text": "This man had a blocked left coronary artery, as shown in Fig. 3.114B. It is important to know which coronary artery is blocked. The left coronary artery supplies the majority of the left side of the heart. The left main stem vessel is approximately 2 cm long and divides into the circumflex artery, which lies between the atrium and the ventricle in the coronary sulcus, and the anterior interventricular artery, which is often referred to as the left anterior descending artery (LAD). When the right coronary artery is involved with arterial disease and occludes, associated disorders of cardiac rhythm often result because the sinu-atrial and the atrioventricular nodes derive their blood supplies predominantly from the right coronary artery. When this patient sought medical care, his myocardial function was assessed using ECG, echocardiography, and angiography. During a patient\u2019s initial examination, the physician will usually assess myocardial function.",
+          "page": null,
+          "primary": "leftcoronaryartery",
+          "name_corpus_freq": 15
+        }
+      ]
+    },
+    "F|joints": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1872",
+          "structures": [
+            "dorsalradiocarpalligament",
+            "ulnarcollateralligament"
+          ],
+          "prose": 3.8,
+          "text": "Because the radial styloid process extends further distally than does the ulnar styloid process, the hand can be adducted to a greater degree than it can be abducted. The capsule of the wrist joint is reinforced by palmar radiocarpal, palmar ulnocarpal, and dorsal radiocarpal ligaments. In addition, radial and ulnar collateral ligaments of the wrist joint span the distance between the styloid processes of the radius and ulna and the adjacent carpal bones. These ligaments reinforce the medial and lateral sides of the wrist joint and support them during flexion and extension. The synovial joints between the carpal bones share a common articular cavity. The joint capsule of the joints is reinforced by numerous ligaments. Although movement at the carpal joints (intercarpal joints) is limited, the joints do contribute to the positioning of the hand in abduction, adduction, flexion, and, particularly, extension.",
+          "page": null,
+          "primary": "dorsalradiocarpalligament",
+          "name_corpus_freq": 1
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1434",
+          "structures": [
+            "posteriortalofibularligament"
+          ],
+          "prose": 3.61,
+          "text": "The posterior surface is marked by a vertical crest (medial crest), which divides the posterior surface into two parts each attached to a different deep flexor muscle. The distal end of the fibula expands to form the spade-shaped lateral malleolus (Fig. 6.85). The medial surface of the lateral malleolus bears a facet for articulation with the lateral surface of the talus, thereby forming the lateral part of the ankle joint. Just superior to this articular facet is a triangular area, which fits into the fibular notch on the distal end of the tibia. Here the tibia and fibula are joined together by the distal end of the interosseous membrane. Posteroinferior to the facet for articulation with the talus is a pit or fossa (the malleolar fossa) for the attachment of the posterior talofibular ligament associated with the ankle joint. The posterior surface of the lateral malleolus is marked by a shallow groove for the tendons of the fibularis longus and fibularis brevis muscles.",
+          "page": null,
+          "primary": "posteriortalofibularligament",
+          "name_corpus_freq": 4
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:996",
+          "structures": [
+            "sacrospinousligament"
+          ],
+          "prose": 3.59,
+          "text": "The pelvic floor, which separates the pelvic cavity from the perineum, is formed by muscles and fascia (Fig. 5.7). Two levator ani muscles attach peripherally to the pelvic walls and join each other at the midline by a connective tissue raphe. Together they are the largest components of the bowlor funnel-shaped structure known as the pelvic diaphragm, which is completed posteriorly by the coccygeus muscles. These latter muscles overlie the sacrospinous ligaments and pass between the margins of the sacrum and the coccyx and a prominent spine on the pelvic bone, the ischial spine. The pelvic diaphragm forms most of the pelvic floor and in its anterior regions contains a U-shaped defect, which is associated with elements of the urogenital system. The anal canal passes from the pelvis to the perineum through a posterior circular orifice in the pelvic diaphragm. The pelvic floor is supported anteriorly by: the perineal membrane, and muscles in the deep perineal pouch.",
+          "page": null,
+          "primary": "sacrospinousligament",
+          "name_corpus_freq": 26
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1978",
+          "structures": [
+            "acromioclavicularligament"
+          ],
+          "prose": 3.56,
+          "text": "In the clinic The two main disorders of the rotator cuff are impingement and tendinopathy. The muscle most commonly involved is supraspinatus as it passes beneath the acromion and the acromioclavicular ligament. This space, beneath which the supraspinatus tendon passes, is of fixed dimensions. Swelling of the supraspinatus muscle, excessive fluid within the subacromial/subdeltoid bursa, or subacromial bony spurs may produce significant impingement when the arm is abducted. The blood supply to the supraspinatus tendon is relatively poor. Repeated trauma, in certain circumstances, makes the tendon susceptible to degenerative change, which may result in calcium deposition, producing extreme pain. The calcium deposits can be extracted through a needle under image guidance and often have the consistency of toothpaste.",
+          "page": null,
+          "primary": "acromioclavicularligament",
+          "name_corpus_freq": 2
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:198",
+          "structures": [
+            "interspinousligaments"
+          ],
+          "prose": 3.5,
+          "text": "Between the walls of the vertebral canal and the dural sac is an extradural space containing a vertebral plexus of veins embedded in fatty connective tissue. The vertebral spinous processes can be palpated through the skin in the midline in thoracic and lumbar regions of the back. Between the skin and spinous processes is a layer of superficial fascia. In lumbar regions, the adjacent spinous processes and the associated laminae on either side of the midline do not overlap, resulting in gaps between adjacent vertebral arches. When carrying out a lumbar puncture (spinal tap), the needle passes between adjacent vertebral spinous processes, through the supraspinous and interspinous ligaments, and enters the extradural space. The needle continues through the dura and arachnoid mater and enters the subarachnoid space, which contains CSF. Each spinal nerve is connected to the spinal cord by posterior and anterior roots (Fig. 2.61):",
+          "page": null,
+          "primary": "interspinousligaments",
+          "name_corpus_freq": 7
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1011",
+          "structures": [
+            "obturatormembrane"
+          ],
+          "prose": 3.45,
+          "text": "The pelvic bone below this line represents the lateral wall of the true pelvis, which contains the pelvic cavity. The linea terminalis is the lower two-thirds of this line and contributes to the margin of the pelvic inlet. The lateral surface of the pelvic bone has a large articular socket, the acetabulum, which, together with the head of the femur, forms the hip joint (Fig. 5.19B). Inferior to the acetabulum is the large obturator foramen, most of which is closed by a flat connective tissue membrane, the obturator membrane. A small obturator canal remains open superiorly between the membrane and adjacent bone, providing a route of communication between the lower limb and the pelvic cavity. The posterior margin of the bone is marked by two notches separated by the ischial spine: the greater sciatic notch, and the lesser sciatic notch. The posterior margin terminates inferiorly as the large ischial tuberosity.",
+          "page": null,
+          "primary": "obturatormembrane",
+          "name_corpus_freq": 10
+        }
+      ]
+    },
+    "F|regions": {
+      "need": 3,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1287",
+          "structures": [
+            "glutealfold"
+          ],
+          "prose": 3.92,
+          "text": "Dermatomes in the lower limb are shown in Fig. 6.16. Regions that can be tested for sensation and are reasonably autonomous (have minimal overlap) are: over the inguinal ligament\u2014L1, lateral side of the thigh\u2014L2, lower medial side of the thigh\u2014L3, medial side of the great toe (digit I)\u2014L4, medial side of digit II\u2014L5, little toe (digit V)\u2014S1, back of the thigh\u2014S2, and skin over the gluteal fold\u2014S3. The dermatomes of S4 and S5 are tested in the perineum. Selected joint movements are used to test myotomes (Fig. 6.17). For example: Flexion of the hip is controlled primarily by L1 and L2. Extension of the knee is controlled mainly by L3 and L4. Knee flexion is controlled mainly by L5 to S2. Plantarflexion of the foot is controlled predominantly by S1 and S2. Adduction of the digits is controlled by S2 and S3. In an unconscious patient, both somatic sensory and somatic motor functions of spinal cord levels can be tested using tendon reflexes:",
+          "page": null,
+          "primary": "glutealfold",
+          "name_corpus_freq": 9
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2841",
+          "structures": [
+            "submentaltriangle"
+          ],
+          "prose": 3.66,
+          "text": "The lymphatic drainage of the neck is somewhat complex, clinically. A relatively simple \u201clevel\u201d system of nodal enlargement has been designed that is extremely helpful in evaluating lymph node spread of primary head and neck tumors. Once the number of levels of nodes are determined, and the size of the lymph nodes, the best mode of treatment can be instituted. This may include surgery, radiotherapy, and chemotherapy. The lymph node level also enables a prognosis to be made. The levels are as follows (Fig. 8.199): Level I\u2014from the midline of the submental triangle up to the level of the submandibular gland. Level II\u2014from the skull base to the level of the hyoid bone anteriorly from the posterior border of the sternocleidomastoid muscle. Level III\u2014the inferior aspect of the hyoid bone to the bottom cricoid arch and anterior to the posterior border of the sternocleidomastoid up to the midline.",
+          "page": null,
+          "primary": "submentaltriangle",
+          "name_corpus_freq": 3
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1727",
+          "structures": [
+            "scapularregion"
+          ],
+          "prose": 3.6,
+          "text": "The rhomboid muscles are innervated by the dorsal scapular nerve, which is a branch of the brachial plexus. The rhomboid minor and major retract and elevate the scapula. The posterior scapular region occupies the posterior aspect of the scapula and is located deep to the trapezius and deltoid muscles (Fig. 7.37 and Table 7.2). It contains four muscles, which pass between the scapula and proximal end of the humerus: the supraspinatus, infraspinatus, teres minor, and teres major muscles. The posterior scapular region also contains part of one additional muscle, the long head of the triceps brachii, which passes between the scapula and the proximal end of the forearm. This muscle, along with other muscles of the region and the humerus, participates in forming a number of spaces through which nerves and vessels enter and leave the region. The supraspinatus, infraspinatus, and teres minor muscles are components of the rotator cuff, which stabilizes the glenohumeral joint.",
+          "page": null,
+          "primary": "scapularregion",
+          "name_corpus_freq": 28
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1710",
+          "structures": [
+            "deltoidregion"
+          ],
+          "prose": 3.53,
+          "text": "In approximately the same position, but on the medial surface of the bone, there is a thin vertical roughening for attachment of the coracobrachialis muscle. One of the most important features of the proximal end of the humerus is the surgical neck (Fig. 7.22). This region is oriented in the horizontal plane between the expanded proximal part of the humerus (head, anatomical neck, and tubercles) and the narrower shaft. The axillary nerve and the posterior circumflex humeral artery, which pass into the deltoid region from the axilla, do so immediately posterior to the surgical neck. Because the surgical neck is weaker than more proximal regions of the bone, it is one of the sites where the humerus commonly fractures. The associated nerve (axillary) and artery (posterior circumflex humeral) can be damaged by fractures in this region. The three joints in the shoulder complex are the sternoclavicular, acromioclavicular, and glenohumeral joints.",
+          "page": null,
+          "primary": "deltoidregion",
+          "name_corpus_freq": 3
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:145",
+          "structures": [
+            "glutealregion"
+          ],
+          "prose": 3.48,
+          "text": "The superior and inferior margins are formed by notches in adjacent pedicles. The posterior margin is formed by the articular processes of the vertebral arches and the associated joint. The anterior border is formed by the intervertebral disc between the vertebral bodies of the adjacent vertebrae. Any pathology that occludes or reduces the size of an intervertebral foramen, such as bone loss, herniation of the intervertebral disc, or dislocation of the zygapophysial joint (the joint between the articular processes), can affect the function of the associated spinal nerve. Innervation of the back Posterior branches of spinal nerves innervate the intrinsic muscles of the back and adjacent skin. The cutaneous distribution of these posterior rami extends into the gluteal region of the lower limb and the posterior aspect of the head. Parts of dermatomes innervated by the posterior rami of spinal nerves are shown in Fig. 2.13.",
+          "page": null,
+          "primary": "glutealregion",
+          "name_corpus_freq": 78
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1680",
+          "structures": [
+            "cubitalfossa"
+          ],
+          "prose": 3.04,
+          "text": "The shoulder is the area of upper limb attachment to the trunk (Fig. 7.1B). The arm is the part of the upper limb between the shoulder and the elbow joint; the forearm is between the elbow joint and the wrist joint; and the hand is distal to the wrist joint. The axilla, cubital fossa, and carpal tunnel are significant areas of transition between the different parts of the limb (Fig. 7.2). Important structures pass through, or are related to, each of these areas. The axilla is an irregularly shaped pyramidal area formed by muscles and bones of the shoulder and the lateral surface of the thoracic wall. The apex or inlet opens directly into the lower portion of the neck. The skin of the armpit forms the floor. All major structures that pass between the neck and arm pass through the axilla.",
+          "page": null,
+          "primary": "cubitalfossa",
+          "name_corpus_freq": 36
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2162",
+          "structures": [
+            "eyebrow"
+          ],
+          "prose": 2.82,
+          "text": "An additional small lacrimal part of the orbicularis oculi muscle is deep, medial in position, and attaches to bone posterior to the lacrimal sac of the lacrimal apparatus in the orbit. The second muscle in the orbital group is the much smaller corrugator supercilii (Fig. 8.57), which is deep to the eyebrows and the orbicularis oculi muscle and is active when frowning. It arises from the medial end of the superciliary arch, passing upward and laterally to insert into the skin of the medial half of the eyebrow. It draws the eyebrows toward the midline, causing vertical wrinkles above the nose. Three muscles are associated with the nasal group\u2014the nasalis, the procerus, and the depressor septi nasi (Fig. 8.58). The largest and best developed of the muscles of the nasal group is the nasalis, which is active when the nares are flared (Fig. 8.58). It consists of a transverse part (the compressor naris) and an alar part (the dilator naris):",
+          "page": null,
+          "primary": "eyebrow",
+          "name_corpus_freq": 6
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:62",
+          "structures": [
+            "oralregion"
+          ],
+          "prose": 2.58,
+          "text": "A number of regions in the body are associated with clusters or a particular abundance of lymph nodes (Fig. 1.29). Not surprisingly, nodes in many of these regions drain the body\u2019s surface, the digestive system, or the respiratory system. All three of these areas are high-risk sites for the entry of foreign pathogens. Lymph nodes are abundant and accessible to palpation in the axilla, the groin and femoral region, and the neck. Deep sites that are not palpable include those associated with the trachea and bronchi in the thorax, and with the aorta and its branches in the abdomen. All lymphatic vessels coalesce to form larger trunks or ducts, which drain into the venous system at sites in the neck where the internal jugular veins join the subclavian veins to form the brachiocephalic veins (Fig. 1.30):",
+          "page": null,
+          "primary": "oralregion",
+          "name_corpus_freq": 13
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:626",
+          "structures": [
+            "epigastricregion"
+          ],
+          "prose": 2.51,
+          "text": "The inferior horizontal plane (the intertubercular plane) connects the tubercles of the iliac crests, which are palpable structures 5 cm posterior to the anterior superior iliac spines, and passes through the upper part of the body of vertebra LV. The vertical planes pass from the midpoint of the clavicles inferiorly to a point midway between the anterior superior iliac spine and pubic symphysis. These four planes establish the topographical divisions in the nine-region organization. The following designations are used for each region: superiorly the right hypochondrium, the epigastric region, and the left hypochondrium; inferiorly the right groin (inguinal region), pubic region, and left groin (inguinal region); and in the middle the right flank (lateral region), the umbilical region, and the left flank (lateral region) (Fig. 4.23).",
+          "page": null,
+          "primary": "epigastricregion",
+          "name_corpus_freq": 3
+        }
+      ]
+    },
+    "F|skeletal": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2034",
+          "structures": [
+            "supraspinousfossa"
+          ],
+          "prose": 4.05,
+          "text": "Extension of the index, middle, ring, and little fingers is performed by the extensor digitorum muscle. Placing the fist in a palm-down position on the table and pressing the middle phalanges onto the table effectively immobilizes the action of the extensor digitorum. The freshman was therefore unable to elevate his middle finger (which was sticking out). It is important to remember that if this same procedure is carried out leaving the index or little finger free to move, they do. This is because these two digits are extended not only by the extensor digitorum muscle but also by the extensor indicis muscle (index finger) and extensor digiti minimi muscle (little finger). A 70-year-old woman came to an orthopedic surgeon with right shoulder pain and failure to initiate abduction of the shoulder. Further examination revealed loss of muscle bulk in the supraspinous fossa. The supraspinatus muscle was damaged.",
+          "page": null,
+          "primary": "supraspinousfossa",
+          "name_corpus_freq": 4
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1368",
+          "structures": [
+            "intercondylararea",
+            "anteriorintercondylararea",
+            "posteriorintercondylararea"
+          ],
+          "prose": 3.9,
+          "text": "The intercondylar region bears six distinct facets for the attachment of menisci and cruciate ligaments. The anterior intercondylar area widens anteriorly and bears three facets: The most anterior facet is for attachment of the anterior end (horn) of the medial meniscus. Immediately posterior to the most anterior facet is a facet for the attachment of the anterior cruciate ligament. A small facet for the attachment of the anterior end (horn) of the lateral meniscus is just lateral to the site of attachment of the anterior cruciate ligament. The posterior intercondylar area also bears three attachment facets: The most anterior is for attachment of the posterior horn of the lateral meniscus. Posteromedial to the most anterior facet is the site of attachment for the posterior horn of the medial meniscus. Behind the site of attachment for the posterior horn of the medial meniscus is a large facet for the attachment of the posterior cruciate ligament.",
+          "page": null,
+          "primary": "intercondylararea",
+          "name_corpus_freq": 4
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:117",
+          "structures": [
+            "acetabulum"
+          ],
+          "prose": 3.87,
+          "text": "Large joints are commonly affected, including the hip, knee, and shoulder. However, with ongoing developments in joint replacement materials and surgical techniques, even small joints of the fingers can be replaced. Typically, both sides of the joint are replaced; in the hip joint the acetabulum will be reamed, and a plastic or metal cup will be introduced. The femoral component will be fitted precisely to the femur and cemented in place (Fig. 1.25). Most patients derive significant benefit from joint replacement and continue to lead an active life afterward. In a minority of patients who have been fitted with a metal acetabular cup and metal femoral component, an aseptic lymphocyte-dominated vasculitis-associated lesion (ALVAL) may develop, possibly caused by a hypersensitivity response to the release of metal ions in adjacent tissues. These patients often have chronic pain and might need additional surgery to replace these joint replacements with safer models. In the clinic",
+          "page": null,
+          "primary": "acetabulum",
+          "name_corpus_freq": 27
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1473",
+          "structures": [
+            "medialtubercle",
+            "lateraltubercle",
+            "posteriorcalcanealarticularfacet"
+          ],
+          "prose": 3.85,
+          "text": "The inferior surface of the body of the talus has a large oval concave facet (the posterior calcaneal articular facet) for articulation with the calcaneus. The posterior aspect of the body of the talus consists of a backward and medially facing projection (the posterior process). The posterior process is marked on its surface by a lateral tubercle and a medial tubercle, which bracket between them the groove for the tendon of the flexor hallucis longus as it passes from the leg into the foot. The calcaneus sits under and supports the talus. It is an elongate, irregular, box-shaped bone with its long axis generally oriented along the midline of the foot, but deviating lateral to the midline anteriorly (Fig. 6.98). The calcaneus projects behind the ankle joint to form the skeletal framework of the heel. The posterior surface of this heel region is circular and divided into upper, middle, and lower parts. The calcaneal tendon (Achilles tendon) attaches to the middle part:",
+          "page": null,
+          "primary": "medialtubercle",
+          "name_corpus_freq": 4
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2052",
+          "structures": [
+            "malleus",
+            "stapes"
+          ],
+          "prose": 3.85,
+          "text": "Most of the fontanelles close during the first year of life. Full ossification of the thin connective tissue ligaments separating the bones at the suture lines begins in the late twenties, and is normally completed in the fifth decade of life. There are only three pairs of synovial joints on each side in the head. The largest are the temporomandibular joints between the lower jaw (mandible) and the temporal bone. The other two synovial joints are between the three tiny bones in the middle ear, the malleus, incus, and stapes. The seven cervical vertebrae form the bony framework of the neck. Cervical vertebrae (Fig. 8.8A) are characterized by: small bodies, bifid spinous processes, and transverse processes that contain a foramen (foramen transversarium). Together the foramina transversaria form a longitudinal passage on each side of the cervical vertebral column for blood vessels (vertebral artery and veins) passing between the base of the neck and the cranial cavity.",
+          "page": null,
+          "primary": "malleus",
+          "name_corpus_freq": 19
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:471",
+          "structures": [
+            "sternalend"
+          ],
+          "prose": 3.83,
+          "text": "The left margin of the heart descends laterally from the second intercostal space to the apex located near the midclavicular line in the fifth intercostal space. The lower margin of the heart extends from the sternal end of the right sixth costal cartilage to the apex in the fifth intercostal space near the midclavicular line. Where to listen for heart sounds To listen for valve sounds, position the stethoscope downstream from the flow of blood through the valves (Fig. 3.110). The tricuspid valve is heard just to the left of the lower part of the sternum near the fifth intercostal space. The mitral valve is heard over the apex of the heart in the left fifth intercostal space at the midclavicular line. The pulmonary valve is heard over the medial end of the left second intercostal space. The aortic valve is heard over the medial end of the right second intercostal space. Visualizing the pleural cavities and lungs, pleural recesses, and lung lobes and fissures",
+          "page": null,
+          "primary": "sternalend",
+          "name_corpus_freq": 4
+        }
+      ]
+    },
+    "F|visceral": {
+      "need": 2,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:886",
+          "structures": [
+            "urethra",
+            "sigmoidcolon"
+          ],
+          "prose": 4.72,
+          "text": "Because of the anatomical position of the sigmoid colon there are a number of complications that may occur. The diverticula can perforate to form an abscess in the pelvis. The inflammation may produce an inflammatory mass, obstructing the left ureter. Inflammation may also spread to the bladder, producing a fistula between the sigmoid colon and the bladder. In these circumstances patients may develop a urinary tract infection and rarely have fecal material and gas passing per urethra. The diagnosis is based upon clinical examination and often CT scanning. In the first instance, patients will be treated with antibiotic therapy; however, a surgical resection may be necessary if symptoms persist. In the clinic It is occasionally necessary to surgically externalize bowel to the anterior abdominal wall. Externalization of bowel plays an important role in patient management. These extraanatomical bypass procedures use our anatomical knowledge and in many instances are life saving.",
+          "page": null,
+          "primary": "urethra",
+          "name_corpus_freq": 78
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:277",
+          "structures": [
+            "prostate"
+          ],
+          "prose": 3.74,
+          "text": "An X-ray was obtained of the pelvis. The X-ray appeared on first inspection unremarkable. However, the patient underwent further investigation, including CT and MRI, which demonstrated a large destructive lesion involving the whole of the left sacrum extending into the anterior sacral foramina at the S1, S2, and S3 levels. Interestingly, plain radiographs of the sacrum may often appear normal on first inspection, and further imaging should always be sought in patients with a suspected sacral abnormality. The lesion was expansile and lytic. Most bony metastases are typically nonexpansile. They may well erode the bone, producing lytic type of lesions, or may become very sclerotic (prostate metastases and breast metastases). From time to time we see a mixed pattern of lytic and sclerotic.",
+          "page": null,
+          "primary": "prostate",
+          "name_corpus_freq": 41
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:610",
+          "structures": [
+            "sigmoidcolon",
+            "descendingcolon"
+          ],
+          "prose": 3.6,
+          "text": "Development of the hindgut The distal one-third of the transverse colon, descending colon, sigmoid colon, and superior part of the rectum develop from the hindgut. Proximal parts of the hindgut swing to the left and become the descending colon and sigmoid colon. The descending colon and its dorsal mesentery fuse to the body wall, while the sigmoid colon remains intraperitoneal. The sigmoid colon passes through the pelvic inlet and is continuous with the rectum at the level of vertebra SIII. Skin and muscles of the anterior The anterior rami of thoracic spinal nerves T7 to T12 follow the inferior slope of the lateral parts of the ribs and cross the costal margin to enter the abdominal wall (Fig. 4.14). Intercostal nerves T7 to T11 supply skin and muscle of the abdominal wall, as does the subcostal nerve T12. In addition, T5 and T6 supply upper parts of the external oblique muscle of the abdominal wall; T6 also supplies cutaneous innervation to skin over the xiphoid.",
+          "page": null,
+          "primary": "sigmoidcolon",
+          "name_corpus_freq": 30
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:680",
+          "structures": [
+            "pancreaticduct"
+          ],
+          "prose": 3.6,
+          "text": "The descending part (second part) of the duodenum is just to the right of midline and extends from the neck of the gallbladder to the lower border of vertebra LIII. Its anterior surface is crossed by the transverse colon, posterior to it is the right kidney, and medial to it is the head of the pancreas. This part of the duodenum contains the major duodenal papilla, which is the common entrance for the bile and pancreatic ducts, and the minor duodenal papilla, which is the entrance for the accessory pancreatic duct. The junction of the foregut and the midgut occurs just below the major duodenal papilla. The inferior part (third part) of the duodenum is the longest section, crossing the inferior vena cava, the aorta, and the vertebral column (Figs. 4.65B and 4.66). It is crossed anteriorly by the superior mesenteric artery and vein.",
+          "page": null,
+          "primary": "pancreaticduct",
+          "name_corpus_freq": 9
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:619",
+          "structures": [
+            "suprarenalgland"
+          ],
+          "prose": 3.59,
+          "text": "Venous shunts from left to right All blood returning to the heart from regions of the body other than the lungs flows into the right atrium of the heart. The inferior vena cava is the major systemic vein in the abdomen and drains this region together with the pelvis, perineum, and both lower limbs (Fig. 4.18). The inferior vena cava lies to the right of the vertebral column and penetrates the central tendon of the diaphragm at approximately vertebral level TVIII. A number of large vessels cross the midline to deliver blood from the left side of the body to the inferior vena cava. One of the most significant is the left renal vein, which drains the kidney, suprarenal gland, and gonad on the same side. Another is the left common iliac vein, which crosses the midline at approximately vertebral level LV to join with its partner on the right to form the inferior vena cava. These veins drain the lower limbs, the pelvis, the perineum, and parts of the abdominal wall.",
+          "page": null,
+          "primary": "suprarenalgland",
+          "name_corpus_freq": 21
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:433",
+          "structures": [
+            "thyroidgland"
+          ],
+          "prose": 3.44,
+          "text": "The thymus is the most anterior component of the superior mediastinum, lying immediately posterior to the manubrium of the sternum. It is an asymmetrical, bilobed structure (see Fig. 3.58). The upper extent of the thymus can reach into the neck as high as the thyroid gland; a lower portion typically extends into the anterior mediastinum over the pericardial sac. Involved in the early development of the immune system, the thymus is a large structure in the child, begins to atrophy after puberty, and shows considerable size variation in the adult. In the elderly adult, it is barely identifiable as an organ, consisting mostly of fatty tissue that is sometimes arranged as two lobulated fatty structures. Arteries to the thymus consist of small branches originating from the internal thoracic arteries. Venous drainage is usually into the left brachiocephalic vein and possibly into the internal thoracic veins.",
+          "page": null,
+          "primary": "thyroidgland",
+          "name_corpus_freq": 45
+        }
+      ]
+    },
+    "R|cardiovascular": {
+      "need": 8,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1246",
+          "structures": [
+            "leftrenalvein",
+            "externaliliacvein",
+            "femoralvein",
+            "lefttesticularvein"
+          ],
+          "prose": 4.69,
+          "text": "The family physician recommended surgical treatment, with a recommendation for surgery through an inguinal incision. A simple surgical technique divides the skin around the inguinal ligament. The aponeurosis of the external oblique muscle is divided in the anterior abdominal wall to display the spermatic cord. Careful inspection of the spermatic cord reveals the veins, which are surgically ligated. Another option is to embolize the varicocele. In this technique, a small catheter is placed via the right femoral vein. The catheter is advanced along the external iliac vein and the common iliac vein and into the inferior vena cava. The catheter is then positioned in the left renal vein, and a venogram is performed to demonstrate the origin of the left testicular vein. The catheter is advanced down the left testicular vein into the veins of the inguinal canal and the pampiniform plexus. Metal coils to occlude the vessels are injected, and the catheter is withdrawn.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1668",
+          "structures": [
+            "poplitealvein",
+            "femoralvein",
+            "deepfemoralvein"
+          ],
+          "prose": 4.66,
+          "text": "The family physician ordered a duplex ultrasound scan of the left leg venous system. Ultrasound scanning of the vascular tree can demonstrate flow and occlusion of arteries and veins. The probe was placed over the left femoral vein and no flow was demonstrated. Furthermore, the vein could not be compressed, and no alteration of flow with breathing could be demonstrated. Some flow was demonstrated in the deep femoral vein and in the great saphenous vein. No flow was demonstrated throughout the length of the left femoral vein, the popliteal vein, and the tibial veins. The technician scanned the opposite side, where excellent flow was demonstrated within the right femoral venous system. In addition, when the calf was gently massaged an augmentation to the flow was noted. It was possible to demonstrate alteration of flow with respiratory excursion and venous compression was satisfactory. A diagnosis of extensive left-sided deep vein thrombosis was made.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2019",
+          "structures": [
+            "radialartery",
+            "brachialartery",
+            "axillaryartery"
+          ],
+          "prose": 4.41,
+          "text": "Many important structures that supply the upper limb pass over rib I. It is important to test the nerves that supply the arm and hand, although this is extremely difficult to do in an unconscious patient. However, some muscle reflexes can be determined using a tendon hammer. Also, it may be possible to test for pain reflexes in patients with altered consciousness levels. Palpation of the axillary artery, brachial artery, radial artery, and ulnar artery pulses is necessary because a fracture of the first rib can sever and denude the subclavian artery, which passes over it. A chest drain was immediately inserted because the lung had collapsed. The fractured first rib had damaged the visceral and parietal pleurae, allowing air from a torn lung to escape into the pleural cavity. The lung collapsed, and the pleural cavity filled with air, which impaired lung function. A tube was inserted between the ribs, and the air was sucked out to re-inflate the lung.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:556",
+          "structures": [
+            "leftcoronaryartery",
+            "leftventricle"
+          ],
+          "prose": 4.33,
+          "text": "The patient was breathless because his left ventricular function was poor. When the left ventricle fails, it produces two effects. First, the contractile force is reduced. This reduces the pressure of the ejected blood and lowers the blood pressure. The left atrium has to work harder to fill the failing left ventricle. This extra work increases left atrial pressure, which is reflected in an increased pressure in the pulmonary veins, and this subsequently creates a higher pulmonary venular pressure. This rise in pressure will cause fluid to leak from the capillaries into the pulmonary interstitium and then into the alveoli. Such fluid is called pulmonary edema and it markedly restricts gas exchange. This results in shortness of breath. This man had a blocked left coronary artery, as shown in Fig. 3.114B. It is important to know which coronary artery is blocked.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:404",
+          "structures": [
+            "rightatrium",
+            "leftventricle"
+          ],
+          "prose": 4.21,
+          "text": "The anterior half is continuous with the left auricle. It contains musculi pectinati and derives from the embryonic primitive atrium. Unlike the crista terminalis in the right atrium, no distinct structure separates the two components of the left atrium. The interatrial septum is part of the anterior wall of the left atrium. The thin area or depression in the septum is the valve of the foramen ovale and is opposite the floor of the fossa ovalis in the right atrium. During development, the valve of the foramen ovale prevents blood from passing from the left atrium to the right atrium. This valve may not be completely fused in some adults, leaving a \u201cprobe patent\u201d passage between the right atrium and the left atrium. The left ventricle lies anterior to the left atrium. It contributes to the anterior, diaphragmatic, and left pulmonary surfaces of the heart, and forms the apex.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1659",
+          "structures": [
+            "poplitealvein",
+            "femoralvein"
+          ],
+          "prose": 4.21,
+          "text": "Surgery was planned. A small transverse incision was made below the level of the inguinal ligament where the great saphenous vein passes through the saphenous ring in the deep fascia. This can be easily palpated as a small circular defect in the fascia. The saphenofemoral junction was identified and the great saphenous vein was ligated, at its anastomosis with the femoral vein. The great saphenous vein was stripped using special surgical techniques and removed. The patient was placed prone for the second part of the operation. A small incision was made transversely at the level of the skin crease in the popliteal fossa. However, the surgeon had difficulty identifying the junction between the small saphenous vein and the popliteal vein. After considerable time the surgeon located what he thought was the small saphenous vein and the structure was ligated and the wound closed.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1672",
+          "structures": [
+            "poplitealartery",
+            "poplitealvein"
+          ],
+          "prose": 4.19,
+          "text": "The patient underwent an operative repair. The tendon healed well, though the patient has not gone back to playing squash. A 67-year-old man was noted to have a mass at the back of his knee. The mass measured approximately 4 cm in transverse diameter. The patient was otherwise fit and well and had no other history of note. The mass was arising from one of the structures in the popliteal fossa. Within the popliteal fossa there is a neurovascular bundle that contains the sciatic nerve (and its two divisions), the popliteal artery and the popliteal vein. There are also numerous small bursae associated with the posterior aspect of the knee joint and the muscles and tendons in this region. It is possible that this mass is arising from the posterior structures of the knee joint, which include synovial outpouchings, the menisci, and the muscles and tendons of this region.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:929",
+          "structures": [
+            "externaliliacvein",
+            "internaliliacartery",
+            "externaliliacartery",
+            "internaliliacvein"
+          ],
+          "prose": 4.14,
+          "text": "An ideal place to situate the transplant kidney is in the left or the right iliac fossa (Fig. 4.161). A curvilinear incision is made paralleling the iliac crest and pubic symphysis. The external oblique muscle, internal oblique muscle, transversus abdominis muscle, and transversalis fascia are divided. The surgeon identifies the parietal peritoneum but does not enter the peritoneal cavity. The parietal peritoneum is medially retracted to reveal the external iliac artery, external iliac vein, and bladder. In some instances the internal iliac artery of the recipient is mobilized and anastomosed directly as an end-to-end procedure onto the renal artery of the donor kidney. Similarly the internal iliac vein is anastomosed to the donor vein. In the presence of a small aortic cuff of tissue the donor artery is anastomosed to the recipient external iliac artery and similarly for the venous anastomosis. The ureter is easily tunneled obliquely through the bladder wall with a straightforward",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1927",
+          "structures": [
+            "radialartery",
+            "brachialartery"
+          ],
+          "prose": 4.1,
+          "text": "Brachial pulse in the cubital fossa: brachial artery medial to the tendon of the biceps brachii muscle. This is the position where a stethoscope is placed to hear the pulse of the vessel when taking a blood pressure reading. Radial pulse in the distal forearm: radial artery immediately lateral to the tendon of the flexor carpi radialis muscle. This is the most common site for \u201ctaking a pulse.\u201d Ulnar pulse in the distal forearm: ulnar artery immediately under the lateral margin of the flexor carpi ulnaris tendon and proximal to the pisiform. Radial pulse in the anatomical snuffbox: radial artery as it crosses the lateral side of the wrist between the tendon of the extensor pollicis longus muscle and the tendons of the extensor pollicis brevis and abductor pollicis longus muscles. Fig. 7.1 Upper limb. A. Anterior view of the upper limb. B. Superior view of the shoulder.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1737",
+          "structures": [
+            "posteriorcircumflexhumeralartery",
+            "subscapularartery",
+            "axillaryartery"
+          ],
+          "prose": 4.03,
+          "text": "The posterior circumflex humeral artery originates from the third part of the axillary artery in the axilla (Figs. 7.38 and 7.39). The posterior circumflex humeral artery and axillary nerve leave the axilla through the quadrangular space in the posterior wall and enter the posterior scapular region. The vessel supplies the related muscles and the glenohumeral joint. The circumflex scapular artery is a branch of the subscapular artery that also originates from the third part of the axillary artery in the axilla (Figs. 7.38 and 7.39). The circumflex scapular artery leaves the axilla through the triangular space and enters the posterior scapular region, passes through the origin of the teres minor muscle, and forms anastomotic connections with other arteries in the region. Veins in the posterior scapular region generally follow the arteries and connect with vessels in the neck, back, arm, and axilla.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1797",
+          "structures": [
+            "brachialartery",
+            "axillaryartery"
+          ],
+          "prose": 4.01,
+          "text": "The long head originates from the infraglenoid tubercle of the scapula. The medial head originates from the extensive area on the posterior surface of the shaft of the humerus inferior to the radial groove. The lateral head originates from a linear roughening superior to the radial groove of the humerus. The three heads converge to form a large tendon, which inserts on the superior surface of the olecranon of the ulna. The triceps brachii muscle extends the forearm at the elbow joint. Innervation of the triceps brachii is by branches of the radial nerve. A tap on the tendon of the triceps brachii tests predominantly spinal cord segment C7. The major artery of the arm, the brachial artery, is found in the anterior compartment (Fig. 7.66A). Beginning as a continuation of the axillary artery at the lower border of the teres major muscle, it terminates just distal to the elbow joint where it divides into the radial and ulnar arteries.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:532",
+          "structures": [
+            "leftcoronaryartery",
+            "anteriorinterventricularartery",
+            "rightatrium"
+          ],
+          "prose": 3.91,
+          "text": "Valve disease in the right side of the heart (affecting the tricuspid or pulmonary valve) is most likely caused by infection. Intravenous drug use, alcoholism, indwelling catheters, and extensive burns predispose to infection of the valves, particularly the tricuspid valve. The resulting valve dysfunction produces abnormal pressure changes in the right atrium and right ventricle, and these can induce cardiac failure. In the clinic In practice, physicians use alternative names for the coronary vessels. The short left coronary artery is referred to as the left main stem vessel. One of its primary branches, the anterior interventricular artery, is termed the left anterior descending artery (LAD). Similarly, the terminal branch of the right coronary artery, the posterior interventricular artery, is termed the posterior descending artery (PDA). In the clinic",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:987",
+          "structures": [
+            "lumbararteries",
+            "inferiormesentericartery"
+          ],
+          "prose": 3.87,
+          "text": "Occasionally the relined aneurysm may continue to enlarge after the endovascular graft has been placed and a cause needs to be identified. A Doppler ultrasound investigation of the abdomen and a CT scan revealed there was flow between the endovascular lining and the wall of the aneurysm. The likely sources for this bleeding were assessed. The graft usually begins below the level of the renal arteries and divides into two limbs that end in the common iliac arteries. The aneurysm may continue to be fed from any vessels between the graft and the aneurysm wall. These vessels can include the lumbar arteries and the inferior mesenteric artery. Interestingly, blood usually flows from the abdominal aorta into the inferior mesenteric artery and the lumbar arteries; however, with the changes in flow dynamics with the graft in place, blood may flow in the opposite direction through these branches, thereby leading to enlargement of the aneurysm.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1104",
+          "structures": [
+            "internaliliacartery",
+            "inferiorglutealartery"
+          ],
+          "prose": 3.83,
+          "text": "The internal pudendal artery courses inferiorly from its origin in the anterior trunk and leaves the pelvic cavity through the greater sciatic foramen inferior to the piriformis muscle. In association with the pudendal nerve on its medial side, the vessel passes laterally to the ischial spine and then through the lesser sciatic foramen to enter the perineum. The internal pudendal artery is the main artery of the perineum. Among the structures it supplies are the erectile tissues of the clitoris and the penis. The inferior gluteal artery is a large terminal branch of the anterior trunk of the internal iliac artery. It passes between the anterior rami S1 and S2 or S2 and S3 of the sacral plexus and leaves the pelvic cavity through the greater sciatic foramen inferior to the piriformis muscle. It enters and contributes to the blood supply of the gluteal region and anastomoses with a network of vessels around the hip joint.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2654",
+          "structures": [
+            "maxillaryartery",
+            "infraorbitalartery",
+            "posteriorsuperioralveolarartery",
+            "axillaryartery"
+          ],
+          "prose": 3.83,
+          "text": "All upper teeth are supplied by anterior and posterior superior alveolar arteries. The posterior superior alveolar artery originates from the maxillary artery just after the maxillary artery enters the pterygopalatine fossa and it leaves the fossa through the pterygomaxillary fissure. It descends on the posterolateral surface of the maxilla, branches, and enters small canals in the bone to supply the molar and premolar teeth. The anterior superior alveolar artery originates from the infra-orbital artery, which arises from the maxillary artery in the pterygopalatine fossa. The infra-orbital artery leaves the pterygopalatine fossa through the inferior orbital fissure and enters the inferior orbital groove and canal in the floor of the orbit. The anterior superior alveolar artery originates from the infra-orbital artery in the infra-orbital canal. It passes through bone and branches to supply the incisor and canine teeth.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2239",
+          "structures": [
+            "internalcarotidartery",
+            "ophthalmicartery"
+          ],
+          "prose": 3.82,
+          "text": "Six of the seven extrinsic muscles of the orbit are directly involved in movements of the eyeball. For each of the rectus muscles, the medial, lateral, inferior, and superior, and the superior and inferior obliques, a specific action or group of actions can be described (Table 8.8). However, these muscles do not act in isolation. They work as teams of muscles in the coordinated movement of the eyeball to position the pupil as needed. For example, although the lateral rectus is the muscle primarily responsible for moving the eyeball laterally, it is assisted in this action by the superior and inferior oblique muscles. The arterial supply to the structures in the orbit, including the eyeball, is by the ophthalmic artery (Fig. 8.99). This vessel is a branch of the internal carotid artery, given off immediately after the internal carotid artery leaves the cavernous sinus. The ophthalmic artery passes into the orbit through the optic canal with the optic nerve.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:536",
+          "structures": [
+            "rightatrium",
+            "leftventricle"
+          ],
+          "prose": 3.75,
+          "text": "A defect in the interatrial septum allows blood to pass from one side of the heart to the other from the chamber with the higher pressure to the chamber with the lower pressure; this is clinically referred to as a shunt. An atrial septal defect (ASD) allows oxygenated blood to flow from the left atrium (higher pressure) across the ASD into the right atrium (lower pressure), resulting in a left to right shunt and volume overload in the right-sided circulation. Many patients with ASD are asymptomatic, but in some cases the ASD may cause symptoms and needs to be closed surgically or by endovascular devices. Occasionally, increased blood flow into the right atrium over many years leads to right atrial and right ventricular hypertrophy and enlargement of the pulmonary trunk, resulting in pulmonary arterial hypertension. In such cases, the patients can present with shortness of breath, increasing tiredness, palpitations, fainting episodes and heart failure. In ASD, the left ventricle is not",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1736",
+          "structures": [
+            "posteriorcircumflexhumeralartery",
+            "suprascapularartery",
+            "axillaryartery"
+          ],
+          "prose": 3.73,
+          "text": "The suprascapular artery originates in the base of the neck as a branch of the thyrocervical trunk, which, in turn, is a major branch of the subclavian artery (Figs. 7.38 and 7.39). The vessel may also originate directly from the third part of the subclavian artery. The suprascapular artery normally enters the posterior scapular region superior to the suprascapular foramen, whereas the nerve passes through the foramen. In the posterior scapular region, the vessel runs with the suprascapular nerve. In addition to supplying the supraspinatus and infraspinatus muscles, the suprascapular artery contributes branches to numerous structures along its course. The posterior circumflex humeral artery originates from the third part of the axillary artery in the axilla (Figs. 7.38 and 7.39).",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:584",
+          "structures": [
+            "thoracicaorta",
+            "inferiorthyroidartery"
+          ],
+          "prose": 3.66,
+          "text": "Complex surgery is planned. The length of the esophagus is approximately 22 cm. Tumor spread can occur through the submucosal route and also through locoregional lymph nodes. The lymph nodes drain along the arterial supply to the esophagus, which is predominantly supplied by the inferior thyroid artery, esophageal branches from the thoracic aorta, and branches from the left gastric artery. The transthoracic esophagectomy procedure involves placing the patient supine. A laparotomy is performed to assess for any evidence of disease in the abdominal cavity. The stomach is mobilized, with preservation of the right gastric and right gastro-omental arteries. The short gastric vessels and left gastric vessels are divided, and a pyloromyotomy is also performed.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2003",
+          "structures": [
+            "brachialartery",
+            "radialartery"
+          ],
+          "prose": 3.65,
+          "text": "In the clinic Construction of a dialysis fistula Many patients throughout the world require renal dialysis for kidney failure. The patient\u2019s blood is filtered and cleaned by the dialysis machine. Blood therefore has to be taken from patients into the filtering device and then returned to them. This process of dialysis occurs over many hours and requires considerable flow rates of 250\u2013500 mL per minute. To enable such large volumes of blood to be removed from and returned to the body, the blood is taken from vessels that have a high flow. As no veins in the peripheral limbs have such high flow, a surgical procedure is necessary to create such a system. In most patients, the radial artery is anastomosed (joined) to the cephalic vein (Fig. 7.78) at the wrist, or the brachial artery is anastomosed to the cephalic vein at the elbow. Some surgeons place an arterial graft between these vessels.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1914",
+          "structures": [
+            "brachialartery",
+            "axillaryartery"
+          ],
+          "prose": 3.63,
+          "text": "Major vessels, nerves, and lymphatics travel between the upper limb and the trunk by passing through the axilla. The axillary artery, axillary vein, and components of the brachial plexus pass through the axilla and into the arm by traveling lateral to the dome of skin that forms the floor. This neurovascular bundle can be palpated by placing a hand into this dome of skin and pressing laterally against the humerus. The cephalic vein travels in superficial fascia in the cleft between the deltoid muscle and the pectoralis major muscle and penetrates deep fascia in the clavipectoral triangle to join with the axillary vein. Locating the brachial artery in the arm The brachial artery is on the medial side of the arm in the cleft between the biceps brachii and triceps brachii muscles (Fig. 7.119). The median nerve courses with the brachial artery, whereas the ulnar nerve deviates posteriorly from the vessel in distal regions. The triceps brachii tendon and position of the radial nerve",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:395",
+          "structures": [
+            "coronarysinus",
+            "rightatrium"
+          ],
+          "prose": 3.6,
+          "text": "An additional structure in the right atrium is the opening of the coronary sinus, which receives blood from most of the cardiac veins and opens medially to the opening of the inferior vena cava. Associated with these openings are small folds of tissue derived from the valve of the embryonic sinus venosus (the valve of the coronary sinus and the valve of inferior vena cava, respectively). During development, the valve of the inferior vena cava helps direct incoming oxygenated blood through the foramen ovale and into the left atrium. Separating the right atrium from the left atrium is the interatrial septum, which faces forward and to the right because the left atrium lies posteriorly and to the left of the right atrium. A depression is clearly visible in the septum just above the orifice of the inferior vena cava. This is the fossa ovalis (oval fossa), with its prominent margin, the limbus fossa ovalis (border of the oval fossa).",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2290",
+          "structures": [
+            "ascendingpharyngealartery",
+            "maxillaryartery",
+            "axillaryartery"
+          ],
+          "prose": 3.6,
+          "text": "The arterial supply to the pharyngotympanic tube is from several sources. Branches arise from the ascending pharyngeal artery (a branch of the external carotid artery) and from two branches of the maxillary artery (the middle meningeal artery and the artery of the pterygoid canal). Venous drainage of the pharyngotympanic tube is to the pterygoid plexus of veins in the infratemporal fossa. Innervation of the mucous membrane lining the pharyngotympanic tube is primarily from the tympanic plexus because it is continuous with the mucous membrane lining the tympanic cavity, the internal surface of the tympanic membrane, and the mastoid antrum and mastoid cells. This plexus receives its major contribution from the tympanic nerve, a branch of the glossopharyngeal nerve [IX]. The bones of the middle ear consist of the malleus, incus, and stapes. They form an osseous chain across the middle ear from the tympanic membrane to the oval window of the internal ear (Fig. 8.123).",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:619",
+          "structures": [
+            "leftrenalvein",
+            "rightatrium"
+          ],
+          "prose": 3.59,
+          "text": "Venous shunts from left to right All blood returning to the heart from regions of the body other than the lungs flows into the right atrium of the heart. The inferior vena cava is the major systemic vein in the abdomen and drains this region together with the pelvis, perineum, and both lower limbs (Fig. 4.18). The inferior vena cava lies to the right of the vertebral column and penetrates the central tendon of the diaphragm at approximately vertebral level TVIII. A number of large vessels cross the midline to deliver blood from the left side of the body to the inferior vena cava. One of the most significant is the left renal vein, which drains the kidney, suprarenal gland, and gonad on the same side. Another is the left common iliac vein, which crosses the midline at approximately vertebral level LV to join with its partner on the right to form the inferior vena cava. These veins drain the lower limbs, the pelvis, the perineum, and parts of the abdominal wall.",
+          "page": null
+        }
+      ]
+    },
+    "R|joints": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1594",
+          "structures": [
+            "medialmeniscus",
+            "anteriorcruciateligament"
+          ],
+          "prose": 3.91,
+          "text": "Fig. 6.140 A. Knee joint showing an intact anterior cruciate ligament. T2-weighted magnetic resonance image in the sagittal plane. B. Knee joint showing a torn anterior cruciate ligament. T2-weighted magnetic resonance image in the sagittal plane. C. Knee joint showing a torn medial meniscus (the broken off portion of the posterior horn has moved into the anterior aspect of the joint giving the impression of a \u2018double meniscus\u2019 in this location). Proton density-weighted magnetic resonance image in the sagittal plane. AFemurPatellaAnterior cruciate ligamentTibiaBFemurTorn anteriorcruciate ligamentTibiaAnterior cruciateligament fragmentPatellaCMedial femoral condyleTorn posterior \u201chorn\u201dof medial meniscusTibiaAnterior \u201chorn\u201d of medial meniscusDisplaced fragment of posterior hornof medial meniscus",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1368",
+          "structures": [
+            "anteriorcruciateligament",
+            "posteriorcruciateligament",
+            "medialmeniscus"
+          ],
+          "prose": 3.9,
+          "text": "The intercondylar region bears six distinct facets for the attachment of menisci and cruciate ligaments. The anterior intercondylar area widens anteriorly and bears three facets: The most anterior facet is for attachment of the anterior end (horn) of the medial meniscus. Immediately posterior to the most anterior facet is a facet for the attachment of the anterior cruciate ligament. A small facet for the attachment of the anterior end (horn) of the lateral meniscus is just lateral to the site of attachment of the anterior cruciate ligament. The posterior intercondylar area also bears three attachment facets: The most anterior is for attachment of the posterior horn of the lateral meniscus. Posteromedial to the most anterior facet is the site of attachment for the posterior horn of the medial meniscus. Behind the site of attachment for the posterior horn of the medial meniscus is a large facet for the attachment of the posterior cruciate ligament.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1872",
+          "structures": [
+            "ulnarcollateralligament",
+            "dorsalradiocarpalligament"
+          ],
+          "prose": 3.8,
+          "text": "Because the radial styloid process extends further distally than does the ulnar styloid process, the hand can be adducted to a greater degree than it can be abducted. The capsule of the wrist joint is reinforced by palmar radiocarpal, palmar ulnocarpal, and dorsal radiocarpal ligaments. In addition, radial and ulnar collateral ligaments of the wrist joint span the distance between the styloid processes of the radius and ulna and the adjacent carpal bones. These ligaments reinforce the medial and lateral sides of the wrist joint and support them during flexion and extension. The synovial joints between the carpal bones share a common articular cavity. The joint capsule of the joints is reinforced by numerous ligaments. Although movement at the carpal joints (intercarpal joints) is limited, the joints do contribute to the positioning of the hand in abduction, adduction, flexion, and, particularly, extension.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1653",
+          "structures": [
+            "medialmeniscus",
+            "anteriorcruciateligament"
+          ],
+          "prose": 3.7,
+          "text": "The patient had a surgical reconstruction of the anterior cruciate ligament. It is difficult to find a man-made substance that can act in the same way as the anterior cruciate ligament and demonstrate the same physical properties. Surgeons have devised ingenious ways of reconstructing the anterior cruciate ligament. Two of the commonest methods use the patellar ligament (tendon) and hamstrings to reconstruct the ligament. The patient had further surgical procedures. The tibial collateral ligament was explored and resutured. Using arthroscopic techniques, the tear in the medial meniscus was d\u00e9brided to prevent further complications. A 45-year-old man with diabetes mellitus visited his nurse because he had an ulcer on his foot that was not healing despite daily dressings.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1652",
+          "structures": [
+            "medialmeniscus",
+            "anteriorcruciateligament"
+          ],
+          "prose": 3.64,
+          "text": "A series of structures within the knee joint were damaged sequentially. As the knee went into external rotation and valgus, the anterior cruciate ligament became taut, acting as a fulcrum. The tibial collateral ligament was stressed and the lateral compartment of the knee compressed. As the force increased, the tibial collateral ligament was torn (Fig. 6.139A,B), as was the medial meniscus (Fig. 6.140C). Finally, the anterior cruciate ligament, which was taut, gave way (Fig. 6.140A,B). The joint became swollen some hours afterward. Disruption of the anterior cruciate ligament characteristically produces marked joint swelling. The ligament is extrasynovial and intracapsular and has a rich blood supply. As the ligament was torn it ruptured into the joint. Blood from the tear irritates the synovial membrane and also enters the joint. These factors produce gradual swelling of the joint over the ensuing hours with significant fluid accumulation in the joint cavity.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1975",
+          "structures": [
+            "glenoidlabrum",
+            "trapezoidligament"
+          ],
+          "prose": 3.58,
+          "text": "A minor injury tends to tear the fibrous joint capsule and ligaments of the acromioclavicular joint, resulting in acromioclavicular separation on a plain radiograph. More severe trauma will disrupt the conoid and trapezoid ligaments of the coracoclavicular ligament, which results in elevation and upward subluxation of the clavicle. The typical injury at the medial end of the clavicle is an anterior or posterior dislocation of the sternoclavicular joint. Importantly, a posterior dislocation of the clavicle may impinge on the great vessels in the root of the neck and compress or disrupt them. In the clinic Dislocations of the glenohumeral joint The glenohumeral joint is extremely mobile, providing a wide range of movement at the expense of stability. The relatively small bony glenoid cavity, supplemented by the less robust fibrocartilaginous glenoid labrum and the ligamentous support, make it susceptible to dislocation.",
+          "page": null
+        }
+      ]
+    },
+    "R|muscular": {
+      "need": 5,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1663",
+          "structures": [
+            "adductorlongus",
+            "psoasmajor"
+          ],
+          "prose": 4.41,
+          "text": "The plain radiograph of the pelvis demonstrated a displaced fracture through the right neck of the femur. The apparent shortening and external rotation of the leg on clinical examination were accounted for by spasm of the muscles connecting the pelvis to the trochanters and proximal femur. Of the muscles that surround the hip joint the largest group is the adductor group (adductor longus, brevis, and magnus) and the psoas major. The psoas major inserts onto the lesser trochanter and its action is to externally rotate and flex the hip. The fulcrum of action of the psoas major is the femoral head in the acetabulum. However, when the femoral neck is detached its overriding action pulls the femur proximally and into external rotation. The external rotation is exacerbated by the spasm in the adductor muscles. Extensive medical testing was necessary before surgery. It is important to remember that elderly patients may have a number of coexisting diseases.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2032",
+          "structures": [
+            "coracobrachialismuscle",
+            "brachialismuscle"
+          ],
+          "prose": 4.23,
+          "text": "The nerve conduction studies indicated that the compression site was at the elbow joint. The clinical findings are not consistent with carpal tunnel syndrome. The clinician should have been alerted to this problem given that the patient experienced numbness over the thenar eminence of the hand. This clue indicates an understanding of the anatomy. Compression of the nerve within the carpal tunnel does not produce this numbness, because the small cutaneous branch that supplies this region is proximal to the flexor retinaculum. The nerve compromise was caused by the ligament of Struthers, which is an embryological remnant of the coracobrachialis muscle. It is an extremely rare finding. Occasionally it may ossify and cross the nerve, artery, and vein to produce compression in arm extension. Although this is very rare and unusual, it illustrates the complex course of the median nerve.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:918",
+          "structures": [
+            "inguinalligament",
+            "diaphragm"
+          ],
+          "prose": 4.2,
+          "text": "Any overweight patient undergoing surgery faces significant risk and increased morbidity, with mortality rates from 1% to 5%. In the clinic At first glance, it is difficult to appreciate why the psoas muscle sheath is of greater importance than any other muscle sheath. The psoas muscle and its sheath arise not only from the lumbar vertebrae but also from the intervertebral discs between each vertebra. This disc origin is of critical importance. In certain types of infection, the intervertebral disc is preferentially affected (e.g., tuberculosis and salmonella discitis). As the infection of the disc develops, the infection spreads anteriorly and anterolaterally. In the anterolateral position, the infection passes into the psoas muscle sheath, and spreads within the muscle and sheath, and may appear below the inguinal ligament as a mass. In the clinic To understand why a hernia occurs through the diaphragm, it is necessary to consider the embryology of the diaphragm.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1927",
+          "structures": [
+            "extensorpollicislongus",
+            "flexorcarpiradialis",
+            "abductorpollicislongus"
+          ],
+          "prose": 4.1,
+          "text": "Brachial pulse in the cubital fossa: brachial artery medial to the tendon of the biceps brachii muscle. This is the position where a stethoscope is placed to hear the pulse of the vessel when taking a blood pressure reading. Radial pulse in the distal forearm: radial artery immediately lateral to the tendon of the flexor carpi radialis muscle. This is the most common site for \u201ctaking a pulse.\u201d Ulnar pulse in the distal forearm: ulnar artery immediately under the lateral margin of the flexor carpi ulnaris tendon and proximal to the pisiform. Radial pulse in the anatomical snuffbox: radial artery as it crosses the lateral side of the wrist between the tendon of the extensor pollicis longus muscle and the tendons of the extensor pollicis brevis and abductor pollicis longus muscles. Fig. 7.1 Upper limb. A. Anterior view of the upper limb. B. Superior view of the shoulder.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2034",
+          "structures": [
+            "extensordigitiminimi",
+            "extensordigitorum"
+          ],
+          "prose": 4.05,
+          "text": "Extension of the index, middle, ring, and little fingers is performed by the extensor digitorum muscle. Placing the fist in a palm-down position on the table and pressing the middle phalanges onto the table effectively immobilizes the action of the extensor digitorum. The freshman was therefore unable to elevate his middle finger (which was sticking out). It is important to remember that if this same procedure is carried out leaving the index or little finger free to move, they do. This is because these two digits are extended not only by the extensor digitorum muscle but also by the extensor indicis muscle (index finger) and extensor digiti minimi muscle (little finger). A 70-year-old woman came to an orthopedic surgeon with right shoulder pain and failure to initiate abduction of the shoulder. Further examination revealed loss of muscle bulk in the supraspinous fossa. The supraspinatus muscle was damaged.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1555",
+          "structures": [
+            "obturatorexternus",
+            "obturatorinternus"
+          ],
+          "prose": 4.03,
+          "text": "Fig. 6.26 Proximal end of the femur (right). A. Anterior view. B. Medial view. C. Posterior view. D. Lateral view. ABTrochanteric fossaHeadNeckNeckAttachment site for piriformis muscleGreater trochanterAttachment site for gluteus minimusShaftLesser trochanterIntertrochanteric lineTubercleGreater trochanterPiriformisFoveaObturator internusTrochanteric fossaEnd of intertrochanteric linePectineal line (spiral line)Lesser trochanterOval depression forobturator externusAttachment ofgluteus mediusQuadrate tubercleGreater trochanterFoveaNeckQuadrate tubercleLesser trochanterPectineal line (spiral line)Medial margin of linea asperaLinea asperaLateral margin of linea asperaGluteal tuberosityAttachment site for gluteus mediusIntertrochanteric crestGluteus minimusGluteus mediusLesser trochanterCD Fig. 6.27 Shaft of the femur. On the right is a posterior view of proximal shaft of right femur.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1505",
+          "structures": [
+            "extensordigitorumbrevis",
+            "extensorhallucisbrevis",
+            "extensordigitorumlongus",
+            "extensordigitorum"
+          ],
+          "prose": 3.91,
+          "text": "On the dorsal aspect The extensor digitorum brevis is attached to a roughened area on the superolateral surface of the calcaneus lateral to the tarsal sinus (Fig. 6.118 and Table 6.10). The flat muscle belly passes anteromedially over the foot, deep to the tendons of the extensor digitorum longus, and forms three tendons, which enter digits II, III, and IV. The tendons join the lateral sides of the tendons of the extensor digitorum longus. The extensor digitorum brevis extends the middle three toes through attachments to the long extensor tendons and extensor hoods. It is innervated by the deep fibular nerve. The extensor hallucis brevis originates in conjunction with the extensor digitorum brevis. Its tendon attaches to the base of the proximal phalanx of the great toes. The muscle extends the metatarsophalangeal joint of the great toe and is innervated by the deep fibular nerve. In the sole",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:764",
+          "structures": [
+            "transversusabdominismuscle",
+            "psoasmajor",
+            "diaphragm"
+          ],
+          "prose": 3.88,
+          "text": "The rest of the superior pole is covered by the intraperitoneal stomach and spleen. Moving inferiorly, the retroperitoneal pancreas covers the middle part of the kidney. On its lateral side, the lower half of the kidney is covered by the left colic flexure and the beginning of the descending colon, and, on its medial side, by the parts of the intraperitoneal jejunum. Posteriorly, the right and left kidneys are related to similar structures (Fig. 4.151). Superiorly is the diaphragm and inferior to this, moving in a medial to lateral direction, are the psoas major, quadratus lumborum, and transversus abdominis muscles. The superior pole of the right kidney is anterior to rib XII, while the same region of the left kidney is anterior to ribs XI and XII. The pleural sacs and specifically the costodiaphragmatic recesses therefore extend posterior to the kidneys. Also passing posterior to the kidneys are the subcostal vessels and nerves and the iliohypogastric and ilio-inguinal nerves.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1350",
+          "structures": [
+            "quadratusfemorismuscle",
+            "obturatorinternus"
+          ],
+          "prose": 3.87,
+          "text": "The superior gluteal nerve supplies branches to the gluteus minimus and medius muscles and terminates by innervating the tensor fasciae latae muscle. The sciatic nerve enters the gluteal region through the greater sciatic foramen inferior to the piriformis muscle (Fig. 6.48). It descends in the plane between the superficial and deep group of gluteal region muscles, crossing the posterior surfaces of first the obturator internus and associated gemellus muscles and then the quadratus femoris muscle. It lies just deep to the gluteus maximus at the midpoint between the ischial tuberosity and the greater trochanter. At the lower margin of the quadratus femoris muscle, the sciatic nerve enters the posterior thigh. The sciatic nerve is the largest nerve in the body and innervates all muscles in the posterior compartment of the thigh that flex the knee and all muscles that work the ankle and foot. It also innervates a large area of skin in the lower limb. Nerve to quadratus femoris",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1980",
+          "structures": [
+            "teresminormuscle",
+            "serratusanteriormuscle"
+          ],
+          "prose": 3.81,
+          "text": "In the clinic Hypertrophy of the quadrangular space muscles or fibrosis of the muscle edges may impinge on the axillary nerve. Uncommonly, this produces weakness of the deltoid muscle. Typically it produces atrophy of the teres minor muscle, which may affect the control that the rotator cuff muscles exert on shoulder movement. In the clinic \u201dWinging\u201d of the scapula Because the long thoracic nerve passes down the lateral thoracic wall on the external surface of the serratus anterior muscle, just deep to skin and subcutaneous fascia, it is vulnerable to damage. Loss of function of this muscle causes the medial border, and particularly the inferior angle, of the scapula to elevate away from the thoracic wall, resulting in characteristic \u201cwinging\u201d of the scapula, on pushing forward with the arm. Furthermore, normal elevation at the arm is no longer possible. In the clinic Imaging the blood supply to the upper limb",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2617",
+          "structures": [
+            "hyoglossusmuscle",
+            "genioglossusmuscle"
+          ],
+          "prose": 3.8,
+          "text": "The tongue is drained by dorsal lingual and deep lingual veins (Fig. 8.260). The deep lingual veins are visible through the mucosa on the undersurface of the tongue. Although they accompany the lingual arteries in anterior parts of the tongue, they become separated from the arteries posteriorly by the hyoglossus muscles. On each side, the deep lingual vein travels with the hypoglossal nerve [XII] on the external surface of the hyoglossus muscle and passes out of the floor of the oral cavity through the aperture (oropharyngeal triangle) formed by the margins of the mylohyoid, superior constrictor, and middle constrictor muscles. It joins the internal jugular vein in the neck. The dorsal lingual vein follows the lingual artery between the hyoglossus and genioglossus muscles and, like the deep lingual vein, drains into the internal jugular vein in the neck. Innervation of the tongue is complex and involves a number of nerves (Figs. 8.260 and 8.261).",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1756",
+          "structures": [
+            "coracobrachialismuscle",
+            "brachialismuscle"
+          ],
+          "prose": 3.75,
+          "text": "The long and short heads of the muscle join in distal regions of the arm and primarily insert as a single tendon into the radial tuberosity in the forearm. The biceps brachii muscle is primarily a powerful flexor of the forearm at the elbow joint and a powerful supinator in the forearm. Because both heads originate from the scapula, the muscle also acts as an accessory flexor of the arm at the glenohumeral joint. In addition, the long head prevents superior movement of the humerus on the glenoid cavity. The biceps brachii muscle is innervated by the musculocutaneous nerve. The coracobrachialis muscle, together with the short head of the biceps brachii muscle, originates from the apex of the coracoid process (Fig. 7.48). It passes vertically through the axilla to insert on a small linear roughening on the medial aspect of the humerus, approximately midshaft. The coracobrachialis muscle flexes the arm at the glenohumeral joint.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1913",
+          "structures": [
+            "latissimusdorsimuscle",
+            "teresmajormuscle",
+            "serratusanteriormuscle"
+          ],
+          "prose": 3.74,
+          "text": "The inferior margin of the anterior axillary wall is the anterior axillary skin fold, which overlies the lower margin of the pectoralis major muscle. The inferior margin of the posterior axillary wall is the posterior axillary skin fold, which overlies the margins of the teres major muscle laterally and latissimus dorsi muscle medially. The medial wall of the axilla is the upper part of the serratus anterior muscle overlying the thoracic wall. The long thoracic nerve passes vertically out of the axilla and down the lateral surface of the serratus anterior muscle in a position just anterior to the posterior axillary skin fold. The lateral boundary of the axilla is the humerus. The floor of the axilla is the dome of skin between the posterior and anterior axillary skin folds. Major vessels, nerves, and lymphatics travel between the upper limb and the trunk by passing through the axilla.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2746",
+          "structures": [
+            "levatorlabiisuperioris",
+            "nasalismuscle",
+            "depressorseptinasi"
+          ],
+          "prose": 3.69,
+          "text": "BCOpening ofpharyngotympanic tubeNasopharynxSoft palateInferior conchaMiddle conchaSuperior conchaOpening of posterior ethmoidalcells into lateral wall of superior meatusOpening of sphenoidal sinusinto spheno-ethmoidal recessOpening of middle ethmoidalcells onto ethmoidal bullaSemilunar hiatusOpening of maxillary sinus infloor of semilunar hiatus Opening of nasolacrimal ductInfundibulum opening of frontonasalduct that drains the frontal sinusand anterior ethmoidal cells Fig. 8.240 Nares. A. Inferior view. B. Associated muscles. NaresAMajor alar cartilageMinor alar cartilagesInferior nasal spine of maxillaConnective tissueSeptal cartilageBOrbitAttachment to frontalprocess of maxillaNasalis muscleAttachment to maxillaDepressor septi nasiNarisLevator labii superioris alaeque nasi Fig. 8.241 Choanae (posterior view). A. Overview. B. Magnified view.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:310",
+          "structures": [
+            "subclaviusmuscle",
+            "pectoralisminormuscle"
+          ],
+          "prose": 3.64,
+          "text": "Muscles of the pectoral region Each pectoral region contains the pectoralis major, pectoralis minor, and subclavius muscles (Fig. 3.17 and Table 3.1). All originate from the anterior thoracic wall and insert into bones of the upper limb. The pectoralis major muscle is the largest and most superficial of the pectoral region muscles. It directly underlies the breast and is separated from it by deep fascia and the loose connective tissue of the retromammary space. The pectoralis major has a broad origin that includes the anterior surfaces of the medial half of the clavicle, the sternum, and related costal cartilages. The muscle fibers converge to form a flat tendon, which inserts into the lateral lip of the intertubercular sulcus of the humerus. The pectoralis major adducts, flexes, and medially rotates the arm. The subclavius and pectoralis minor muscles underlie the pectoralis major:",
+          "page": null
+        }
+      ]
+    },
+    "R|nervous": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2876",
+          "structures": [
+            "opticchiasm",
+            "retina"
+          ],
+          "prose": 4.71,
+          "text": "The visual pathways have now determined the site of the lesion. Visual information from the temporal fields is projected onto the medial aspect of the retina bilaterally. The visual information from the medial aspects of the retina is carried in fibers that cross the midline through the optic chiasm to the opposite side. The lesion is in the area of the optic chiasm. Any disruption of the optic chiasm produces the field defect of bitemporal hemianopia. Tumors of the optic chiasm are unusual, though gliomas do occur. More frequently, compression of the optic chiasm by tumors in the vicinity is the usual cause for bitemporal hemianopia. A pituitary tumor was diagnosed. The optic chiasm is anterior and extremely close to the pituitary gland. Given that the patient is producing excessive amounts of prolactin (a pituitary tumor) and there is loss of the function of the chiasm, the most likely clinical explanation is an exophytic pituitary tumor compressing the optic chiasm.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2013",
+          "structures": [
+            "ulnarnerve",
+            "retina"
+          ],
+          "prose": 4.31,
+          "text": "In the clinic In many patients, venous access is necessary for obtaining blood for laboratory testing and administering fluid and intravenous drugs. The ideal sites for venous access are typically in the cubital fossa and in the cephalic vein adjacent to the anatomical snuffbox. The veins are simply distended by use of a tourniquet. A tourniquet should be applied enough to allow the veins to become prominent. For straightforward blood tests the antecubital vein is usually the preferred site, and although it may not always be visible, it is easily palpated. The cephalic vein is generally the preferred site for a short-term intravenous cannula. In the clinic The ulnar nerve is most commonly injured at two sites: the elbow and the wrist. At the elbow, the nerve lies posterior to the medial epicondyle. At the wrist, the ulnar nerve passes superficial to the flexor retinaculum and lies lateral to the pisiform bone.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1954",
+          "structures": [
+            "ulnarnerve",
+            "superficialbranchofradialnerve",
+            "radialnerve"
+          ],
+          "prose": 4.03,
+          "text": "Fig. 7.77 Cubital fossa. A. Margins. B. Contents. C. Position of the radial nerve. D. Superficial structures. Ulnar nerveRadial arteryUlnar arteryPronator teres (humeral head)Pronator teres(ulnar head)Median nerveMedian cubitalveinUlnar nerveMedian nerveBasilic veinBasilic veinMedial cutaneousnerve of forearmLateral cutaneousnerve of forearmForearm extensorsLine betweenlateral and medialepicondylesForearm flexorsBrachioradialisBrachialisRadial nerveRadial nerveCephalic veinMusculocutaneous nerveBrachioradialis(pulled back )Deep branchof radial nerveSupinatorSuperficial branch of radial nerveTendon (biceps brachii)Biceps brachiiRadial arteryUlnar arteryTriceps brachiiABCDPronator teres Artery(brachial)Nerve(median)BicipitalaponeurosisMedial intermuscularseptumCubital fossaMedialepicondyleLateralepicondyleTendon (biceps)Artery (brachial)Nerve (median)Ulnar nerveRadial nerve Fig. 7.78 Digital subtraction angiograms of forearm demonstrating a surgically created radiocephalic fistula.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:3001",
+          "structures": [
+            "fornix",
+            "thirdventricle"
+          ],
+          "prose": 3.93,
+          "text": "The mammillary region or mammillary body is the final group of nuclei in the medial zone. Four nuclei comprise this region: medial, intermediate, lateral mammillary, and posterior hypothalamic. The best defined is the medial mammillary nucleus, as it is the primary site for the termination of axons from the postcommissural fornix. This pathway originates from the subiculum of the hippocampal complex and plays a key role in memory. The medial mammillary nuclei also connects to structures of the limbic system. The periventricular zone resides medial to the medial zone and adjacent to the ependymal cells of the third ventricle. Neurons from this zone predominantly synthesize releasing hormones. Axons from these neuronal cells project through the tuberoinfundibular tract to the hypophysial portal system to influence release of hormones from the anterior pituitary.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2818",
+          "structures": [
+            "lens",
+            "retina",
+            "cornea"
+          ],
+          "prose": 3.9,
+          "text": "Using an endoscope the apex of the thoracic cavity can be viewed from inside and the cervicothoracic ganglion readily identified. Obliterative techniques include thermocoagulation and surgical excision. After the ganglion has been destroyed, the endoscope is removed, the lung is reinflated, and the small hole is sutured. In the clinic Examination of the eye Examination of the eye includes assessment of the visual capabilities, the extrinsic musculature and its function, and disease processes that may affect the eye in isolation or as part of the systemic process. Examination of the eye includes tests for visual acuity, astigmatism, visual fields, and color interpretation (to exclude color blindness) in a variety of circumstances. The physician also assesses the retina, the optic nerve and its coverings, the lens, and the cornea. The extrinsic muscles are supplied by the abducent nerve [VI], the trochlear nerve [IV], and the oculomotor nerve [III].",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:2822",
+          "structures": [
+            "lens",
+            "retina"
+          ],
+          "prose": 3.9,
+          "text": "In the clinic With increasing age and in certain disease states the lens of the eye becomes opaque. Increasing opacity results in increasing visual impairment. A common operation is excision of the cloudy lens and replacement with a new man-made lens. In the clinic Direct visualization of the postremal (vitreous) chamber of the eye is possible in most clinical settings. It is achieved using an ophthalmoscope, which is a small battery-operated light with a tiny lens that allows direct visualization of the postremal (vitreous) chamber and the posterior wall of the eye through the pupil and the lens. It is sometimes necessary to place a drug directly onto the eye to dilate the pupil for better visualization. The optic nerve, observed as the optic disc, is easily seen. The typical four branches of the central retinal artery and the fovea are also seen.",
+          "page": null
+        }
+      ]
+    },
+    "R|visceral": {
+      "need": 1,
+      "options": [
+        {
+          "chunk_id": "medrag-anatomy_gray:886",
+          "structures": [
+            "urethra",
+            "sigmoidcolon"
+          ],
+          "prose": 4.72,
+          "text": "Because of the anatomical position of the sigmoid colon there are a number of complications that may occur. The diverticula can perforate to form an abscess in the pelvis. The inflammation may produce an inflammatory mass, obstructing the left ureter. Inflammation may also spread to the bladder, producing a fistula between the sigmoid colon and the bladder. In these circumstances patients may develop a urinary tract infection and rarely have fecal material and gas passing per urethra. The diagnosis is based upon clinical examination and often CT scanning. In the first instance, patients will be treated with antibiotic therapy; however, a surgical resection may be necessary if symptoms persist. In the clinic It is occasionally necessary to surgically externalize bowel to the anterior abdominal wall. Externalization of bowel plays an important role in patient management. These extraanatomical bypass procedures use our anatomical knowledge and in many instances are life saving.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:983",
+          "structures": [
+            "descendingcolon",
+            "sigmoidcolon"
+          ],
+          "prose": 4.29,
+          "text": "The patient underwent an urgent operation. As the surgeons entered into the abdominal cavity through a midline incision, the tissues in the left iliac fossa were significantly inflamed. The surgeon used his hand to mobilize the sigmoid colon and entered a cavity from which there was a \u201cwhoosh\u201d of pus as indicated on the CT scan. The pus was washed out and drained. The sigmoid colon was remarkably thickened and inflamed and stuck to the dome of the bladder. Careful finger dissection revealed a small perforation in the dome of the bladder, allowing the passage of fecal material and gas into the bladder and producing the patient\u2019s symptoms of pneumaturia and fecaluria. The sigmoid colon was resected. The rectal stump was oversewn and the descending colon was passed through the anterior abdominal wall to form a colostomy. The bladder was catheterized and the small hole in the dome of the bladder was oversewn.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1213",
+          "structures": [
+            "urethra",
+            "prostate"
+          ],
+          "prose": 4.21,
+          "text": "Treatment for early-stage tumors includes local resection with preservation of the bladder. Diffuse tumors may be treated with local chemotherapy; more extensive tumors may require radical surgical removal of the bladder (cystectomy) and, in men, the prostate (prostatectomy). Bladder reconstruction (formation of so-called neobladder) is performed in patients after cystectomy using part of a bowel, most commonly the ileum. In the clinic The relatively short length of the urethra in women makes them more susceptible than men to bladder infection. The primary symptom of urinary tract infection in women is usually inflammation of the bladder (cystitis). The infection can be controlled in most instances by oral antibiotics and resolves without complication. In children under 1 year of age, infection from the bladder may spread via the ureters to the kidneys, where it can produce renal damage and ultimately lead to renal failure. Early diagnosis and treatment are necessary.",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1211",
+          "structures": [
+            "urethra",
+            "prostate"
+          ],
+          "prose": 4.19,
+          "text": "If the stones are too big, it may be necessary to make a suprapubic incision and enter the bladder retroperitoneally to remove them. In the clinic In certain instances it is necessary to catheterize the bladder through the anterior abdominal wall. For example, when the prostate is markedly enlarged and it is impossible to pass a urethral catheter, a suprapubic catheter may be placed. The bladder is a retroperitoneal structure and when full lies adjacent to the anterior abdominal wall. Ultrasound visualization of the bladder may be useful in assessing the size of this structure and, importantly, differentiating this structure from other potential abdominal masses. The procedure of suprapubic catheterization is straightforward and involves the passage of a small catheter on a needle in the midline approximately 2 cm above the pubic symphysis. The catheter passes easily into the bladder without compromise of other structures and permits free drainage. In the clinic",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1176",
+          "structures": [
+            "urethra",
+            "testis",
+            "ejaculatoryduct",
+            "prostate"
+          ],
+          "prose": 4.08,
+          "text": "Prostatic utricleExternal urethralsphincter (skeletal muscle)COpenings ofejaculatory ductsOpenings ofducts of glandularelements of prostateProstateInternal urethral sphincter(smooth muscle)Urethral crestSeminal colliculusGlandular elementsof prostateFibromuscularstroma(smooth muscle andfibrous connective tissue)Deep perineal pouchPerineal membraneProstatic sinuses Fig. 5.46 Ultrasound demonstrating the bladder. A. Full bladder. B. Postmicturition bladder. Fig. 5.47 Reproductive system in men. A. Overview. B. Testis and surrounding structures. External iliac arteryUreterProstateInferiorepigastricarteryAmpulla of ductusdeferensDeep inguinalringSuperficial inguinal ringInguinal canalSpermatic cordTestisTail of epididymisHead of epididymisBody of epididymisTunica vaginalisMusculofascial pouchDuctus deferensDuctus deferensBulbo-urethral gland in deep perineal pouchSeminal vesicleEjaculatory ductsScrotumA",
+          "page": null
+        },
+        {
+          "chunk_id": "medrag-anatomy_gray:1053",
+          "structures": [
+            "urethra",
+            "prostate"
+          ],
+          "prose": 4.04,
+          "text": "The urethral opening is anterior to the vaginal opening in the vestibule. The inferior aspect of the urethra is bound to the anterior surface of the vagina. Two small para- urethral mucous glands (Skene\u2019s glands) are associated with the lower end of the urethra. Each drains via a duct that opens onto the lateral margin of the external urethral orifice. In men, the urethra is long, about 20 cm, and bends twice along its course (Fig. 5.45B). Beginning at the base of the bladder and passing inferiorly through the prostate, it passes through the deep perineal pouch and perineal membrane and immediately enters the root of the penis. As the urethra exits the deep perineal pouch, it bends forward to course anteriorly in the root of the penis. When the penis is flaccid, the urethra makes another bend, this time inferiorly, when passing from the root to the body of the penis. During erection, the bend between the root and body of the penis disappears.",
+          "page": null
+        }
+      ]
+    }
+  }
+}

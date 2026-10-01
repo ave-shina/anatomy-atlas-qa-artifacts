@@ -1,0 +1,19 @@
+{
+  "purpose": "gold v3 PATCH — vocabulary migration only. Removes the single lost gold structure key from A-nervous-003 after the new mesh set (GLB + anatomy.json, 2026-09-27) dropped it. Applied POST-HOC at scoring time; the run dataset (anatomy3d-qb.candidates.ndjson, sha256 f3af56d9…) is never modified.",
+  "date": "2026-09-27",
+  "provenance": "Key sulcusintermprimjensen was present in the old vocabulary (2,888 keys / 1,794 meshes) and absent from the new one (2,358 keys, all mesh-backed, 1:1 with the GLB). Old vs new key sets verified subset-consistent (0 renames, 0 additions) via research/benchmark/provenance/mesh-keys@2026-09-16.json vs research/benchmark/mesh-keys.json. No human judgement involved — purely a mesh-availability migration.",
+  "scope": "gold_structures_must of the listed items only — queries, gold_chunk_ids, gold_structures_optional, briefs, expects_clarification untouched. After the patch the item has an empty must set and is therefore excluded from must-based scoring (chip metrics and gold-chunk retrieval), exactly like the other gold-less items.",
+  "stats": {
+    "items": 1,
+    "changed": 1,
+    "keys_removed": 1
+  },
+  "items": [
+    {
+      "item_id": "A-nervous-003",
+      "v2_gold_structures_must": ["sulcusintermprimjensen"],
+      "v3_gold_structures_must": [],
+      "reason": "Mesh for the sulcus interm prim-Jensen is not present in the new anatomy.glb; the key no longer exists in the vocabulary, so no chip could ever satisfy or refute it."
+    }
+  ]
+}

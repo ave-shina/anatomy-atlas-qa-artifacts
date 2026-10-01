@@ -1,0 +1,11 @@
+{
+  "runId": "v3-new30-glm",
+  "condition": "B3",
+  "judgeModel": "z-ai/glm-5.3-flash",
+  "judged": 29,
+  "failed": 0,
+  "skipped": 1,
+  "citation_validity_mean": 0.9683908045977011,
+  "faithfulness_mean": 4.482758620689655,
+  "note": "LLM judge; run the manual-verification.csv audit (>=20%) before reporting."
+}

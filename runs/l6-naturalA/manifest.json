@@ -1,0 +1,29 @@
+{
+  "runId": "l6-naturalA",
+  "date": "2026-09-16T17:25:29.923Z",
+  "gitSha": "e16324459f8dc4b7a0cc4f68f2fd993f7710ae46",
+  "conditions": [
+    "B3"
+  ],
+  "docId": "medrag-anatomy_gray",
+  "chatModel": "openai/gpt-4o-mini",
+  "embedModel": "baai/bge-m3",
+  "pineconeIndex": "anatomy-atlas",
+  "topK": 6,
+  "repeat": 1,
+  "limit": 0,
+  "perType": 0,
+  "types": [
+    "A"
+  ],
+  "dataset": {
+    "path": "research/benchmark/anatomy3d-qb.candidates.ndjson",
+    "sha256": "0a16cc59153aac2bccacbe0314ef167ca5d94265ab689545334f130bfbace528",
+    "items": 330
+  },
+  "meshKeys": {
+    "path": "research/benchmark/mesh-keys.json",
+    "sha256": "cb9db5ecf4b984d5224f9e4f115ebe58292ccf078c71431c52b1920444f3ec7c",
+    "keys": 1794
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "purpose": "v3 gold refresh \u2014 coding-agent out-of-family review of the 30 generated items (ADVISORY; fixes applied verbatim below; author ratification is the verdict of record)",
+  "date": "2026-09-29",
+  "agent": "coding agent (Claude) \u2014 out-of-family with generator glm-5.3 and review-trio member glm-5.3-flash",
+  "method": "every item read against its full chunk text; adequacy rubric inherited from curated45; query-template compliance, brief faithfulness, and query/must consistency checked",
+  "summary": {
+    "accept": 18,
+    "reject": 8,
+    "fix": 4,
+    "round2": {
+      "accept": 5,
+      "reject": 2,
+      "fix": 1
+    },
+    "total": {
+      "accept": 23,
+      "reject": 10,
+      "fix": 5
+    },
+    "round3": {
+      "used": 2,
+      "reject": 2,
+      "superseded": 6
+    }
+  },
+  "verdicts": {
+    "A-joints-gen1": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: capsule reinforced by palmar/ulnocarpal/dorsal radiocarpal ligaments \u2014 brief faithful."
+    },
+    "A-nervous-gen3": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk states motor cortex for right body on left motor strip sitting on precentral gyrus \u2014 brief faithful."
+    },
+    "A-nervous-gen4": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk is a classification-controversy passage; sympathetic trunk appears only in a side clause. Not definitional."
+    },
+    "F-cardiovascular-gen6": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk lists left common carotid among large elastic arteries with the cited properties."
+    },
+    "F-cardiovascular-gen7": {
+      "verdict": "fix",
+      "fix": {
+        "brief": "The right subclavian vein lies in the neck, where it joins the right internal jugular vein; the subclavian lymphatic trunk usually enters the venous system at that junction."
+      },
+      "note": "Chunk-faithful, but brief must mark subclavian trunk as lymphatic to avoid venous-anatomy confusion."
+    },
+    "F-joints-gen8": {
+      "verdict": "fix",
+      "fix": {
+        "query": "Where is the Posterior talofibular ligament located?",
+        "brief": "It attaches in the malleolar fossa on the lateral malleolus, posteroinferior to the facet that articulates with the talus."
+      },
+      "note": "Chunk supports attachment/location only, not function \u2014 query template corrected to location."
+    },
+    "F-regions-gen9": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk is a dermatome list (skin over gluteal fold = S3); no definition of the fold. Query unanswerable from chunk."
+    },
+    "F-regions-gen10": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk matches the brief almost verbatim (region deep to trapezius/deltoid; four muscles + triceps long head)."
+    },
+    "F-regions-gen11": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk is about the humeral surgical neck; deltoid region is only mentioned as destination of the axillary nerve. No location content."
+    },
+    "F-skeletal-gen12": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk text is about extensor digitorum/indicis finger extension; no supraspinous fossa content."
+    },
+    "R-cardiovascular-gen15": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: catheter in left renal vein, venogram demonstrates origin of left testicular vein \u2014 brief faithful."
+    },
+    "R-cardiovascular-gen16": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk is a DVT ultrasound case; claimed distal continuation and venous drainage direction are not in the chunk (and the drainage clause is reversed)."
+    },
+    "R-cardiovascular-gen18": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: blocked left coronary with left ventricular failure \u2014 supplies relation supported (clinical-frame chunk, disclosed)."
+    },
+    "R-cardiovascular-gen21": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk verbatim: popliteal fossa neurovascular bundle contains sciatic nerve (and divisions), popliteal artery and vein."
+    },
+    "R-muscular-gen24": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: psoas inserts on lesser trochanter, externally rotates and flexes hip; adductor spasm exacerbates \u2014 brief faithful."
+    },
+    "R-muscular-gen27": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: radial artery crosses between EPL and EPB/APL tendons (anatomical snuffbox) \u2014 brief faithful."
+    },
+    "R-nervous-gen29": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: medial-retina fibers cross midline through optic chiasm \u2014 brief faithful."
+    },
+    "R-visceral-gen30": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk is a surgical case (sigmoid resection, colostomy); anatomical continuity of descending/sigmoid colon is never stated."
+    },
+    "B-101": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: postcommissural fornix terminates in medial mammillary nucleus, originates from subiculum, memory role \u2014 brief faithful."
+    },
+    "B-102": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk states posterior rami cutaneous distribution extends into gluteal region; no definition of the region. Query unanswerable from chunk."
+    },
+    "B-104": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: major duodenal papilla common entrance of bile and pancreatic ducts in descending duodenum \u2014 brief faithful."
+    },
+    "B-107": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: PCHA originates from third part of axillary artery, leaves with axillary nerve via quadrangular space \u2014 brief faithful."
+    },
+    "B-108": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: brachial is the major artery of the arm continuing from axillary (teres major border) \u2014 brief faithful."
+    },
+    "B-109": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: anterior interventricular artery is a primary branch of the left coronary, termed LAD \u2014 brief faithful."
+    },
+    "B-110": {
+      "verdict": "fix",
+      "fix": {
+        "brief": "The lumbar arteries and the inferior mesenteric artery are both supplied from the abdominal aorta; blood normally flows from the aorta into both."
+      },
+      "note": "Branching relation is chunk-supported; the endovascular-graft clause is procedural and dropped from the reference answer."
+    },
+    "B-111": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: facet for anterior horn of medial meniscus lies immediately anterior to the ACL attachment facet \u2014 brief faithful."
+    },
+    "B-112": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk is a pulse-position list mentioning EPL/EPB/APL, not the queried muscles; query-vs-must mismatch (query names EDL, must listed EHB) and brief content is not in the chunk."
+    },
+    "B-113": {
+      "verdict": "fix",
+      "fix": {
+        "brief": "Posterior to the kidneys, the diaphragm lies superiorly, and inferior to it, from medial to lateral, are the psoas major, quadratus lumborum, and transversus abdominis muscles."
+      },
+      "note": "Chunk states the posterior kidney relations as a superior-to-inferior sequence; the original brief garbled it."
+    },
+    "B-114": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: sciatic nerve crosses posterior surfaces of obturator internus (+gemellus) then quadratus femoris \u2014 brief faithful."
+    },
+    "F-visceral-gen31": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk: pancreas lies mostly posterior to the stomach \u2014 location answer supported."
+    }
+  },
+  "round2_verdicts": {
+    "R2-200": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk states verbatim the sciatic nerve is the nerve of the posterior thigh compartment; thin but fully chunk-supported control item."
+    },
+    "R2-201": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk uses the cubital fossa only as an auscultation landmark; it never states where the fossa is, and the brief invents the anterior-aspect location."
+    },
+    "R2-202": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk defines the intertragic incisure verbatim (depression between tragus and antitragus). Chunk shared with rescued A-regions-032 (tragus) \u2014 precedent: 95 gold chunks are shared in v2, 2676 itself already serves two v2 items."
+    },
+    "R2-206": {
+      "verdict": "fix",
+      "fix": {
+        "brief": "As it courses toward the thoracic inlet, the subclavian vein passes anterior to the artery, superior to the first rib, and inferior to the clavicle."
+      },
+      "note": "Location-by-relation is chunk-supported; original brief added an inference not in the chunk, replaced with the verbatim course statement."
+    },
+    "R2-208": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk verbatim: inferior gluteal artery is a large terminal branch of the anterior trunk of the internal iliac artery."
+    },
+    "R2-210": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Clinical catheterization case; the prostate-urethra relation is implied by the failed catheter passage but never stated as anatomy \u2014 same bar that rejected the DVT and sigmoid-resection chunks."
+    },
+    "R2-211": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk near-verbatim (lumbar region ideal for subarachnoid access because the cord ends at the LI/LII disc); property-style control item, fully supported."
+    },
+    "R2-213": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "Chunk verbatim: dorsal lingual vein follows the lingual artery between the hyoglossus and genioglossus muscles \u2014 adjacency stated explicitly."
+    }
+  },
+  "round3_verdicts": {
+    "R2-300": {
+      "verdict": "superseded",
+      "fix": null,
+      "note": "Slot A|nervous already filled by R2-200 (round 2). Item itself chunk-faithful; not used."
+    },
+    "R2-301": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Chunk names the cubital fossa only as a venous-access site; the queried location is never stated (same defect as R2-201)."
+    },
+    "R2-302": {
+      "verdict": "superseded",
+      "fix": null,
+      "note": "F|regions already filled by R2-202 + R2-303; bones-of-the-region item not used."
+    },
+    "R2-303": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "USED \u2014 fills the F|regions deficit. Chunk defines the pectoral region near-verbatim (external to anterior thoracic wall, anchors upper limb, superficial + deep compartments)."
+    },
+    "R2-304": {
+      "verdict": "superseded",
+      "fix": null,
+      "note": "Slot F|skeletal already filled by R2-206. Item chunk-faithful; not used."
+    },
+    "R2-305": {
+      "verdict": "superseded",
+      "fix": null,
+      "note": "Slot R|cardiovascular already filled by R2-208. Item chunk-faithful; not used."
+    },
+    "R2-307": {
+      "verdict": "accept",
+      "fix": null,
+      "note": "USED \u2014 fills the R|visceral deficit. Chunk states the male urethra begins at the bladder base and passes inferiorly through the prostate \u2014 an explicit anatomical relation, unlike the rejected clinical-case chunks."
+    },
+    "R2-310": {
+      "verdict": "reject",
+      "fix": null,
+      "note": "Brief claims the descending colon is continuous with the sigmoid colon \u2014 not in the chunk (quadrant membership only). Same invented-continuity failure as the original R-visceral-gen30."
+    },
+    "R2-311": {
+      "verdict": "superseded",
+      "fix": null,
+      "note": "Slot A|regions already filled by R2-211. Item chunk-faithful; not used."
+    },
+    "R2-313": {
+      "verdict": "superseded",
+      "fix": null,
+      "note": "Slot R|muscular already filled by R2-213 (round 2). Item chunk-faithful; not used."
+    }
+  }
+}

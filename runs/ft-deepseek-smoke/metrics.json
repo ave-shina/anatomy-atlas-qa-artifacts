@@ -1,0 +1,68 @@
+{
+  "runId": "ft-deepseek-smoke",
+  "items": 12,
+  "conditions": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "perCondition": {
+    "B1": {
+      "generations": 12,
+      "ok": 12,
+      "failed": 0,
+      "chip_precision": 0,
+      "chip_precision_optional": 1,
+      "chip_recall": 0,
+      "chip_f1": 0,
+      "chip_f1_optional": 0,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 0,
+      "extra_optional_total": 0,
+      "missed_link_total": 12,
+      "clarification_runs": 0,
+      "mean_duration_ms": 6058.083333333333
+    },
+    "B2": {
+      "generations": 12,
+      "ok": 12,
+      "failed": 0,
+      "chip_precision": 0.1994047619047619,
+      "chip_precision_optional": 0.42010582010582015,
+      "chip_recall": 0.4166666666666667,
+      "chip_f1": 0.2486111111111111,
+      "chip_f1_optional": 0.3148148148148148,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 42,
+      "extra_optional_total": 20,
+      "missed_link_total": 7,
+      "clarification_runs": 0,
+      "mean_duration_ms": 6587.666666666667
+    },
+    "B3": {
+      "generations": 12,
+      "ok": 12,
+      "failed": 0,
+      "chip_precision": 0.22870370370370371,
+      "chip_precision_optional": 0.4759259259259259,
+      "chip_recall": 0.9166666666666666,
+      "chip_f1": 0.3183057683057683,
+      "chip_f1_optional": 0.5622507122507123,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 54,
+      "extra_optional_total": 24,
+      "missed_link_total": 1,
+      "clarification_runs": 0,
+      "mean_duration_ms": 6583.75
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0.3055555555555555,
+    "recall_at_6": 0.4166666666666667,
+    "recall_at_10": 0.4166666666666667,
+    "mrr": 0.4444444444444445
+  }
+}

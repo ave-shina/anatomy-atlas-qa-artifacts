@@ -1,0 +1,78 @@
+{
+  "runId": "l6-naturalA",
+  "gitSha": "e16324459f8dc4b7a0cc4f68f2fd993f7710ae46",
+  "date": "2026-09-16T17:25:29.923Z",
+  "chatModel": "openai/gpt-4o-mini",
+  "embedModel": "baai/bge-m3",
+  "bootstrapResamples": 3000,
+  "conditions": {
+    "B3": {
+      "n": 50,
+      "n_chip_scored": 20,
+      "clarification": {
+        "n": 50,
+        "expected_rate": 0.6,
+        "issued_rate": 0.24,
+        "correct_rate": 0.64,
+        "candidate_hit_rate": 0
+      },
+      "chip_precision": 0.5208928571428572,
+      "chip_precision_optional": 0.7664880952380952,
+      "chip_recall": 0.9,
+      "chip_f1": 0.6019444444444444,
+      "chip_f1_optional": 0.7697474747474747,
+      "ci95_f1": {
+        "lo": 0.45111111111111113,
+        "hi": 0.7541666666666667
+      },
+      "ci95_f1_optional": {
+        "lo": 0.6244949494949495,
+        "hi": 0.8977272727272727
+      },
+      "hallucinated_total": 0,
+      "non_renderable_total": 7,
+      "wrong_link_total": 13,
+      "byType": {
+        "A": {
+          "n": 20,
+          "chip_f1": 0.6019444444444444,
+          "chip_f1_optional": 0.7697474747474747,
+          "chip_recall": 0.9
+        }
+      },
+      "bySystem": {
+        "muscular": {
+          "n": 5,
+          "chip_f1_optional": 0.8323232323232324,
+          "chip_recall": 1
+        },
+        "visceral": {
+          "n": 2,
+          "chip_f1_optional": 0.8333333333333333,
+          "chip_recall": 1
+        },
+        "nervous": {
+          "n": 7,
+          "chip_f1_optional": 0.7000000000000001,
+          "chip_recall": 0.8571428571428571
+        },
+        "regions": {
+          "n": 2,
+          "chip_f1_optional": 1,
+          "chip_recall": 1
+        },
+        "joints": {
+          "n": 3,
+          "chip_f1_optional": 0.6666666666666666,
+          "chip_recall": 0.6666666666666666
+        },
+        "skeletal": {
+          "n": 1,
+          "chip_f1_optional": 0.6666666666666666,
+          "chip_recall": 1
+        }
+      }
+    }
+  },
+  "comparisons": []
+}

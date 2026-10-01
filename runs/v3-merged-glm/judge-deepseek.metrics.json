@@ -1,0 +1,11 @@
+{
+  "runId": "v3-merged-glm",
+  "condition": "B3",
+  "judgeModel": "deepseek/deepseek-v4.1-flash",
+  "judged": 319,
+  "failed": 0,
+  "skipped": 11,
+  "citation_validity_mean": 0.7905956112852665,
+  "faithfulness_mean": 3.852664576802508,
+  "note": "v3 kit merge \u2014 stored ft-era judge records for surviving items + fresh judge records for the 30 new items (means recomputed; judged/skipped recount from merged rows, mirroring judge-run.mts skip semantics)."
+}

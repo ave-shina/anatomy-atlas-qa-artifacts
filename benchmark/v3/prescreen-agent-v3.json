@@ -1,0 +1,320 @@
+{
+  "purpose": "v3 gold refresh \u2014 coding-agent pre-screen reading pass (ADVISORY; one of two advisory passes; human author validates blind and is the verdict of record)",
+  "date": "2026-09-29",
+  "agent": "coding agent (Claude), harness claude code \u2014 out-of-family with all three trio members",
+  "method": "read full text of every GLM pick (8 items) under the curated45 adequacy rubric; spot-checked 3 of 30 none_adequate verdicts by reading top-3 candidates",
+  "rubric_source": "../curation45/propose-glm.mjs SYSTEM prompt (same adequacy criteria)",
+  "results": [
+    {
+      "item_id": "A-joints-002",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:323",
+          "reason": "Describes the ligament attaching the crest to the disc and dividing the rib-head joint into two synovial compartments."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "A-joints-003",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "A-nervous-001",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:735",
+          "reason": "Defines paravertebral sympathetic ganglia with regional counts and rami connections."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "A-nervous-002",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "A-nervous-003",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "A-nervous-004",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "A-nervous-007",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2896",
+          "reason": "Defines cerebral aqueduct connecting third and fourth ventricles through the midbrain."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "A-regions-031",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "A-regions-032",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2676",
+          "reason": "Explicit definition \u2014 \"small eminence anteroinferior to the external acoustic meatus\" (absent from the truncated corpus, present now)."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "F-cardiovascular-004",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2462",
+          "reason": "Gives origin (costocervical trunk), course (anterior to rib I) and distribution \u2014 answers \"what is it\"."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "F-cardiovascular-008",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-cardiovascular-015",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-joints-009",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:1720",
+          "reason": "States ligament lies between greater and lesser tubercles of humerus, holding biceps long-head tendon in intertubercular sulcus \u2014 exactly the asked location."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "F-joints-016",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-nervous-005",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2966",
+          "reason": "Places flocculus in each cerebellar hemisphere within the flocculonodular lobe, bounded by the posterolateral fissure."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "F-regions-008",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-regions-015",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-regions-022",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "spot-checked by reading top-3 candidates"
+    },
+    {
+      "item_id": "F-skeletal-019",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-visceral-001",
+      "picks": [
+        {
+          "chunk_id": "medrag-anatomy_gray:2626",
+          "reason": "Duct emerges from medial side of gland deep part, passes forward, opens at sublingual caruncle \u2014 self-contained."
+        }
+      ],
+      "none_adequate": false,
+      "agrees_with_glm": true,
+      "note": "pick text read in full by the pre-screening agent"
+    },
+    {
+      "item_id": "F-visceral-005",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "F-visceral-008",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-003",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-008",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "spot-checked by reading top-3 candidates"
+    },
+    {
+      "item_id": "R-cardiovascular-012",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-018",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-023",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-026",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-033",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-cardiovascular-043",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-joints-001",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "spot-checked by reading top-3 candidates"
+    },
+    {
+      "item_id": "R-muscular-001",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-muscular-003",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-muscular-009",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-muscular-012",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-muscular-014",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-nervous-009",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    },
+    {
+      "item_id": "R-visceral-007",
+      "picks": [],
+      "none_adequate": true,
+      "agrees_with_glm": true,
+      "note": "accepted from GLM pass; chunk texts present in candidates38.json"
+    }
+  ],
+  "summary": {
+    "rescue": 8,
+    "replace": 30,
+    "agreement_with_glm": "30/30 verdicts"
+  }
+}

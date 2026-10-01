@@ -1,0 +1,6446 @@
+{
+  "summary": {
+    "index": "anatomy-atlas",
+    "boost": 0.5,
+    "topK": 20,
+    "items": 300,
+    "types": [
+      "F",
+      "R",
+      "A"
+    ],
+    "dataset": "anatomy3d-qb.v3.ndjson",
+    "rankings_changed": 253,
+    "dense": {
+      "recall_at_3": 0.34111111111111103,
+      "recall_at_6": 0.4522222222222223,
+      "recall_at_10": 0.5383333333333333,
+      "mrr": 0.4447236876613811,
+      "ndcg_at_10": 0.40312728766299866
+    },
+    "boosted": {
+      "recall_at_3": 0.5249999999999998,
+      "recall_at_6": 0.6061111111111109,
+      "recall_at_10": 0.6349999999999999,
+      "mrr": 0.6666917989417989,
+      "ndcg_at_10": 0.5876896218453201
+    },
+    "wilcoxon": {
+      "recall_at_6": {
+        "n": 86,
+        "p": 8.881784197001252e-16
+      },
+      "mrr": {
+        "n": 124,
+        "p": 0
+      },
+      "ndcg_at_10": {
+        "n": 178,
+        "p": 0
+      }
+    },
+    "note": "LLM/retrieval ablation: retrieval-only, no generation. Label as automated analysis."
+  },
+  "perItem": [
+    {
+      "id": "F-regions-001",
+      "type": "F",
+      "q_keys": [
+        "submandibulartriangle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-regions-002",
+      "type": "F",
+      "q_keys": [
+        "helix"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-regions-003",
+      "type": "F",
+      "q_keys": [
+        "inguinalregion"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-regions-004",
+      "type": "F",
+      "q_keys": [
+        "femoraltriangle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5833416105149332
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5833416105149332
+      }
+    },
+    {
+      "id": "F-regions-005",
+      "type": "F",
+      "q_keys": [
+        "poplitealfossa"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5726073975563163
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5726073975563163
+      }
+    },
+    {
+      "id": "F-regions-006",
+      "type": "F",
+      "q_keys": [
+        "philtrum"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.16716045496620227
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-regions-007",
+      "type": "F",
+      "q_keys": [
+        "musculartriangle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-regions-009",
+      "type": "F",
+      "q_keys": [
+        "cymbaconchae"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.07142857142857142,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-regions-010",
+      "type": "F",
+      "q_keys": [
+        "triangularfossa"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-regions-011",
+      "type": "F",
+      "q_keys": [
+        "carotidtriangle"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-regions-012",
+      "type": "F",
+      "q_keys": [
+        "infrascapularregion"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-regions-013",
+      "type": "F",
+      "q_keys": [
+        "nasalregion"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.18154179253735267
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-regions-014",
+      "type": "F",
+      "q_keys": [
+        "dorsumofhand"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-regions-016",
+      "type": "F",
+      "q_keys": [
+        "umbilicalregion"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05263157894736842,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      }
+    },
+    {
+      "id": "F-regions-017",
+      "type": "F",
+      "q_keys": [
+        "sole"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.41618115554873086
+      }
+    },
+    {
+      "id": "F-regions-018",
+      "type": "F",
+      "q_keys": [
+        "umbilicus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-regions-019",
+      "type": "F",
+      "q_keys": [
+        "heelregion"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-regions-020",
+      "type": "F",
+      "q_keys": [
+        "dorsumoffoot"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-regions-021",
+      "type": "F",
+      "q_keys": [
+        "antitragus"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8315546295836225
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-fasciae-001",
+      "type": "F",
+      "q_keys": [
+        "inferiorfibularretinaculum"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5912352048230277
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-fasciae-002",
+      "type": "F",
+      "q_keys": [
+        "fascialata"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-fasciae-003",
+      "type": "F",
+      "q_keys": [
+        "pectoralfascia"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6713860725233041
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8854598815714874
+      }
+    },
+    {
+      "id": "F-fasciae-004",
+      "type": "F",
+      "q_keys": [
+        "palmaraponeurosis"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-fasciae-005",
+      "type": "F",
+      "q_keys": [
+        "plantaraponeurosis"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6105456988825855
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-fasciae-006",
+      "type": "F",
+      "q_keys": [
+        "clavipectoralfascia"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-fasciae-007",
+      "type": "F",
+      "q_keys": [
+        "superiorfibularretinaculum"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.45749452618986164
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-fasciae-008",
+      "type": "F",
+      "q_keys": [
+        "superficialtransversemetatarsalligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-fasciae-009",
+      "type": "F",
+      "q_keys": [
+        "transversalisfascia"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-muscular-001",
+      "type": "F",
+      "q_keys": [
+        "pectineusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-muscular-002",
+      "type": "F",
+      "q_keys": [
+        "sternohyoidmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-muscular-003",
+      "type": "F",
+      "q_keys": [
+        "vastusmedialismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-muscular-004",
+      "type": "F",
+      "q_keys": [
+        "rectusfemorismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-muscular-005",
+      "type": "F",
+      "q_keys": [
+        "adductormagnus"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6049306994552042
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8179809735263114
+      }
+    },
+    {
+      "id": "F-muscular-006",
+      "type": "F",
+      "q_keys": [
+        "tibialisposteriormuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      }
+    },
+    {
+      "id": "F-muscular-007",
+      "type": "F",
+      "q_keys": [
+        "iliacusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-muscular-008",
+      "type": "F",
+      "q_keys": [
+        "piriformismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6105456988825855
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.7585866543655181
+      }
+    },
+    {
+      "id": "F-muscular-009",
+      "type": "F",
+      "q_keys": [
+        "spleniuscapitismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-muscular-010",
+      "type": "F",
+      "q_keys": [
+        "longheadofbicepsfemoris"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-muscular-011",
+      "type": "F",
+      "q_keys": [
+        "quadratusplantaemuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-muscular-012",
+      "type": "F",
+      "q_keys": [
+        "middlepharyngealconstrictor"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-muscular-013",
+      "type": "F",
+      "q_keys": [
+        "superiorgemellusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      }
+    },
+    {
+      "id": "F-muscular-014",
+      "type": "F",
+      "q_keys": [
+        "stylopharyngeusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8529278650606567
+      }
+    },
+    {
+      "id": "F-muscular-015",
+      "type": "F",
+      "q_keys": [
+        "plantarinterosseimuscles"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.3065735963827292
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-muscular-016",
+      "type": "F",
+      "q_keys": [
+        "superiorrectusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      }
+    },
+    {
+      "id": "F-muscular-017",
+      "type": "F",
+      "q_keys": [
+        "fibularisbrevismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-muscular-018",
+      "type": "F",
+      "q_keys": [
+        "gluteusmediusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.448643819352159
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-muscular-019",
+      "type": "F",
+      "q_keys": [
+        "longheadofbicepsbrachii"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.08333333333333333,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-muscular-020",
+      "type": "F",
+      "q_keys": [
+        "mylohyoidmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-muscular-021",
+      "type": "F",
+      "q_keys": [
+        "flexordigitorumbrevis"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.0625,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      }
+    },
+    {
+      "id": "F-muscular-022",
+      "type": "F",
+      "q_keys": [
+        "transversearytenoidmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-joints-001",
+      "type": "F",
+      "q_keys": [
+        "posteriortibiofibularligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-joints-002",
+      "type": "F",
+      "q_keys": [
+        "posteriorlongitudinalligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-joints-003",
+      "type": "F",
+      "q_keys": [
+        "pisometacarpalligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-joints-004",
+      "type": "F",
+      "q_keys": [
+        "superiorglenohumeralligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-005",
+      "type": "F",
+      "q_keys": [
+        "anteriorlongitudinalligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-joints-006",
+      "type": "F",
+      "q_keys": [
+        "calcaneonavicularligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8710785440003369
+      }
+    },
+    {
+      "id": "F-joints-007",
+      "type": "F",
+      "q_keys": [
+        "sacrotuberousligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      }
+    },
+    {
+      "id": "F-joints-008",
+      "type": "F",
+      "q_keys": [
+        "interosseousmembraneofleg"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-009",
+      "type": "F",
+      "q_keys": [
+        "transversehumeralligament"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-010",
+      "type": "F",
+      "q_keys": [
+        "obliquepoplitealligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.09090909090909091,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-joints-011",
+      "type": "F",
+      "q_keys": [
+        "ligamentofheadoffemur"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.3065735963827292
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-joints-012",
+      "type": "F",
+      "q_keys": [
+        "lateralmeniscus"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-joints-013",
+      "type": "F",
+      "q_keys": [
+        "iliolumbarligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-joints-014",
+      "type": "F",
+      "q_keys": [
+        "supraspinousligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6508205185601091
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-joints-015",
+      "type": "F",
+      "q_keys": [
+        "fibularcollateralligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-joints-017",
+      "type": "F",
+      "q_keys": [
+        "longplantarligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-joints-018",
+      "type": "F",
+      "q_keys": [
+        "posteriorsternoclavicularligament"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-019",
+      "type": "F",
+      "q_keys": [
+        "anteriorsacroiliacligament"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-020",
+      "type": "F",
+      "q_keys": [
+        "medianthyrohyoidligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.4415801103577823
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-021",
+      "type": "F",
+      "q_keys": [
+        "interclavicularligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8503449055347546
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-joints-022",
+      "type": "F",
+      "q_keys": [
+        "calcaneofibularligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8179809735263114
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-skeletal-001",
+      "type": "F",
+      "q_keys": [
+        "scaphoidbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.3333333333333333
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.3333333333333333
+      }
+    },
+    {
+      "id": "F-skeletal-002",
+      "type": "F",
+      "q_keys": [
+        "femur"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8710785440003369
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8710785440003369
+      }
+    },
+    {
+      "id": "F-skeletal-003",
+      "type": "F",
+      "q_keys": [
+        "thirdrib"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-skeletal-004",
+      "type": "F",
+      "q_keys": [
+        "medialmalleolus"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-skeletal-005",
+      "type": "F",
+      "q_keys": [
+        "vomer"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-skeletal-006",
+      "type": "F",
+      "q_keys": [
+        "sacrum"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.15642624200758548
+      }
+    },
+    {
+      "id": "F-skeletal-007",
+      "type": "F",
+      "q_keys": [
+        "manubriumofsternum"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-skeletal-008",
+      "type": "F",
+      "q_keys": [
+        "clavicle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      }
+    },
+    {
+      "id": "F-skeletal-009",
+      "type": "F",
+      "q_keys": [
+        "mandible"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-skeletal-010",
+      "type": "F",
+      "q_keys": [
+        "upperfirstpremolar"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-skeletal-011",
+      "type": "F",
+      "q_keys": [
+        "maxilla"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.20210734650054757
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.49418556194058083
+      }
+    },
+    {
+      "id": "F-skeletal-012",
+      "type": "F",
+      "q_keys": [
+        "scapula"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05555555555555555,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.08333333333333333,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-skeletal-013",
+      "type": "F",
+      "q_keys": [
+        "incus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.125,
+        "ndcg_at_10": 0.1480409554829326
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-skeletal-014",
+      "type": "F",
+      "q_keys": [
+        "nasalbone"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6508205185601091
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-skeletal-015",
+      "type": "F",
+      "q_keys": [
+        "ethmoidbone"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9134015924715543
+      }
+    },
+    {
+      "id": "F-skeletal-016",
+      "type": "F",
+      "q_keys": [
+        "fibula"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.1,
+        "ndcg_at_10": 0.2890648263178879
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.3333333333333333
+      }
+    },
+    {
+      "id": "F-skeletal-017",
+      "type": "F",
+      "q_keys": [
+        "sphenoidbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.15642624200758548
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.18154179253735267
+      }
+    },
+    {
+      "id": "F-skeletal-018",
+      "type": "F",
+      "q_keys": [
+        "zygomaticbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.14126697285982898
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.15642624200758548
+      }
+    },
+    {
+      "id": "F-skeletal-020",
+      "type": "F",
+      "q_keys": [
+        "triquetrumbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.08333333333333333,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-skeletal-021",
+      "type": "F",
+      "q_keys": [
+        "coccyx"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8854598815714874
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8854598815714874
+      }
+    },
+    {
+      "id": "F-skeletal-022",
+      "type": "F",
+      "q_keys": [
+        "talus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.34337431936037655
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.38268031849431083
+      }
+    },
+    {
+      "id": "F-cardiovascular-001",
+      "type": "F",
+      "q_keys": [
+        "costocervicaltrunk"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6713860725233041
+      }
+    },
+    {
+      "id": "F-cardiovascular-002",
+      "type": "F",
+      "q_keys": [
+        "iliolumbarartery"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-003",
+      "type": "F",
+      "q_keys": [
+        "plantarmetatarsalarteries"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6508205185601091
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-004",
+      "type": "F",
+      "q_keys": [
+        "supremeintercostalartery"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-005",
+      "type": "F",
+      "q_keys": [
+        "obturatorartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.35853358850813305
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.41618115554873086
+      }
+    },
+    {
+      "id": "F-cardiovascular-006",
+      "type": "F",
+      "q_keys": [
+        "posteriorinferiorcerebellarartery"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-cardiovascular-007",
+      "type": "F",
+      "q_keys": [
+        "fibularartery"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6713860725233041
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-cardiovascular-009",
+      "type": "F",
+      "q_keys": [
+        "rightcoronaryartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.36926780146674987
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.6039071644781281
+      }
+    },
+    {
+      "id": "F-cardiovascular-010",
+      "type": "F",
+      "q_keys": [
+        "lacrimalartery"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-011",
+      "type": "F",
+      "q_keys": [
+        "sigmoidsinus"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9469024295259745
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-012",
+      "type": "F",
+      "q_keys": [
+        "superiorvenacava"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6045093387918965
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6653497124326151
+      }
+    },
+    {
+      "id": "F-cardiovascular-013",
+      "type": "F",
+      "q_keys": [
+        "basilicvein"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.49818925746641285
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.49818925746641285
+      }
+    },
+    {
+      "id": "F-cardiovascular-014",
+      "type": "F",
+      "q_keys": [
+        "rightascendinglumbarvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.2640681225725909
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-cardiovascular-016",
+      "type": "F",
+      "q_keys": [
+        "leftsubclavianartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-cardiovascular-017",
+      "type": "F",
+      "q_keys": [
+        "angularartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.07142857142857142,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-cardiovascular-018",
+      "type": "F",
+      "q_keys": [
+        "aorticarch"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-019",
+      "type": "F",
+      "q_keys": [
+        "leftgastricartery"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4776237035032179
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-cardiovascular-020",
+      "type": "F",
+      "q_keys": [
+        "posteriorinterosseousartery"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-cardiovascular-021",
+      "type": "F",
+      "q_keys": [
+        "cavernoussinus"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5833416105149332
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5833416105149332
+      }
+    },
+    {
+      "id": "F-cardiovascular-022",
+      "type": "F",
+      "q_keys": [
+        "shortposteriorciliaryarteries"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-lymphoid-001",
+      "type": "F",
+      "q_keys": [
+        "jugulodigastricnode"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6105456988825855
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-lymphoid-002",
+      "type": "F",
+      "q_keys": [
+        "lateralaxillarynodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-003",
+      "type": "F",
+      "q_keys": [
+        "centralaxillarynodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-004",
+      "type": "F",
+      "q_keys": [
+        "brachiocephalicnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-lymphoid-005",
+      "type": "F",
+      "q_keys": [
+        "infraclavicularnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-006",
+      "type": "F",
+      "q_keys": [
+        "preaorticnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.14126697285982898
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.38364913903790027
+      }
+    },
+    {
+      "id": "F-lymphoid-007",
+      "type": "F",
+      "q_keys": [
+        "intercostalnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.07692307692307693,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-lymphoid-008",
+      "type": "F",
+      "q_keys": [
+        "parasternalnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.3171937659698004
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-lymphoid-009",
+      "type": "F",
+      "q_keys": [
+        "palatinetonsil"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.43734888382569426
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4632423659320675
+      }
+    },
+    {
+      "id": "F-lymphoid-010",
+      "type": "F",
+      "q_keys": [
+        "mandibularnode"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-011",
+      "type": "F",
+      "q_keys": [
+        "spleen"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6713860725233041
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8194270280062366
+      }
+    },
+    {
+      "id": "F-lymphoid-012",
+      "type": "F",
+      "q_keys": [
+        "retropharyngealnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-013",
+      "type": "F",
+      "q_keys": [
+        "submentalnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-014",
+      "type": "F",
+      "q_keys": [
+        "occipitalnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.23719771276929622
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-lymphoid-015",
+      "type": "F",
+      "q_keys": [
+        "mastoidnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-lymphoid-016",
+      "type": "F",
+      "q_keys": [
+        "submandibularnodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.07142857142857142,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      }
+    },
+    {
+      "id": "F-lymphoid-017",
+      "type": "F",
+      "q_keys": [
+        "apicalaxillarynodes"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-nervous-001",
+      "type": "F",
+      "q_keys": [
+        "genitalbranchofgenitofemoralnerve"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      }
+    },
+    {
+      "id": "F-nervous-002",
+      "type": "F",
+      "q_keys": [
+        "medialantebrachialcutaneousnerve"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-003",
+      "type": "F",
+      "q_keys": [
+        "intercostalnerves"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.41618115554873086
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.41618115554873086
+      }
+    },
+    {
+      "id": "F-nervous-004",
+      "type": "F",
+      "q_keys": [
+        "centralsulcus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.0625,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-005",
+      "type": "F",
+      "q_keys": [
+        "flocculus"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-006",
+      "type": "F",
+      "q_keys": [
+        "posteriorfemoralcutaneousnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.06666666666666667,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-nervous-007",
+      "type": "F",
+      "q_keys": [
+        "anteriorcorticospinaltract"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9060254355346823
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-008",
+      "type": "F",
+      "q_keys": [
+        "medialbrachialcutaneousnerve"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-009",
+      "type": "F",
+      "q_keys": [
+        "interpeduncularfossa"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-010",
+      "type": "F",
+      "q_keys": [
+        "nervetopiriformismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-nervous-011",
+      "type": "F",
+      "q_keys": [
+        "obturatornerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05263157894736842,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.1,
+        "ndcg_at_10": 0.13565197343244778
+      }
+    },
+    {
+      "id": "F-nervous-012",
+      "type": "F",
+      "q_keys": [
+        "cuneatefasciculus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.1,
+        "ndcg_at_10": 0.2890648263178879
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-nervous-013",
+      "type": "F",
+      "q_keys": [
+        "inferioralveolarnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.125,
+        "ndcg_at_10": 0.1480409554829326
+      }
+    },
+    {
+      "id": "F-nervous-014",
+      "type": "F",
+      "q_keys": [
+        "posteriorcommissure"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "F-nervous-015",
+      "type": "F",
+      "q_keys": [
+        "chordatympani"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.20210734650054757
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.20210734650054757
+      }
+    },
+    {
+      "id": "F-nervous-016",
+      "type": "F",
+      "q_keys": [
+        "musculocutaneousnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.4860089900278707
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.5051284895111403
+      }
+    },
+    {
+      "id": "F-nervous-017",
+      "type": "F",
+      "q_keys": [
+        "superiorglutealnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.43734888382569426
+      }
+    },
+    {
+      "id": "F-nervous-018",
+      "type": "F",
+      "q_keys": [
+        "choroidplexus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-nervous-019",
+      "type": "F",
+      "q_keys": [
+        "inferiorsubscapularnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4632423659320675
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-nervous-020",
+      "type": "F",
+      "q_keys": [
+        "lateralpectoralnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6978817289434457
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9469024295259745
+      }
+    },
+    {
+      "id": "F-nervous-021",
+      "type": "F",
+      "q_keys": [
+        "caudatenucleus"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "F-nervous-022",
+      "type": "F",
+      "q_keys": [
+        "lacrimalgland"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4632423659320675
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4632423659320675
+      }
+    },
+    {
+      "id": "F-visceral-001",
+      "type": "F",
+      "q_keys": [
+        "submandibularduct"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      }
+    },
+    {
+      "id": "F-visceral-002",
+      "type": "F",
+      "q_keys": [
+        "tongue"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.33775931993299535
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.33775931993299535
+      }
+    },
+    {
+      "id": "F-visceral-003",
+      "type": "F",
+      "q_keys": [
+        "inferiorparathyroidgland"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-visceral-004",
+      "type": "F",
+      "q_keys": [
+        "gallbladder"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9134015924715543
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9674679834891693
+      }
+    },
+    {
+      "id": "F-visceral-006",
+      "type": "F",
+      "q_keys": [
+        "adenohypophysis"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-visceral-007",
+      "type": "F",
+      "q_keys": [
+        "superiorparathyroidgland"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-visceral-009",
+      "type": "F",
+      "q_keys": [
+        "parotidduct"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8179809735263114
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9060254355346823
+      }
+    },
+    {
+      "id": "F-visceral-010",
+      "type": "F",
+      "q_keys": [
+        "duodenum"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.431733884398313
+      }
+    },
+    {
+      "id": "F-visceral-011",
+      "type": "F",
+      "q_keys": [
+        "middlelobeofrightlung"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.5,
+        "mrr": 0.125,
+        "ndcg_at_10": 0.19342640361727081
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "F-visceral-012",
+      "type": "F",
+      "q_keys": [
+        "epididymis"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6713860725233041
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "F-visceral-013",
+      "type": "F",
+      "q_keys": [
+        "laryngopharynx"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.09090909090909091,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.20210734650054757
+      }
+    },
+    {
+      "id": "F-visceral-014",
+      "type": "F",
+      "q_keys": [
+        "bileduct"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6105456988825855
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8385465274895063
+      }
+    },
+    {
+      "id": "F-visceral-015",
+      "type": "F",
+      "q_keys": [
+        "mesocolon"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9066276098484507
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9325210919548239
+      }
+    },
+    {
+      "id": "F-visceral-016",
+      "type": "F",
+      "q_keys": [
+        "greateromentum"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9217868789962071
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9325210919548239
+      }
+    },
+    {
+      "id": "F-visceral-017",
+      "type": "F",
+      "q_keys": [
+        "epiglottis"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.38364913903790027
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.4367467095119258
+      }
+    },
+    {
+      "id": "F-visceral-018",
+      "type": "F",
+      "q_keys": [
+        "urinarybladder"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-visceral-019",
+      "type": "F",
+      "q_keys": [
+        "ductusdeferens"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9674679834891693
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9674679834891693
+      }
+    },
+    {
+      "id": "F-visceral-020",
+      "type": "F",
+      "q_keys": [
+        "glanspenis"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8451850618939637
+      }
+    },
+    {
+      "id": "F-visceral-021",
+      "type": "F",
+      "q_keys": [
+        "superiorlobeofrightlung"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "F-visceral-022",
+      "type": "F",
+      "q_keys": [
+        "ascendingcolon"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      }
+    },
+    {
+      "id": "R-cardiovascular-001",
+      "type": "R",
+      "q_keys": [
+        "posteriorintercostalarteries",
+        "transversecervicalartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-002",
+      "type": "R",
+      "q_keys": [
+        "commoniliacvein",
+        "lumbarveins"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-regions-001",
+      "type": "R",
+      "q_keys": [
+        "femoraltriangle",
+        "poplitealfossa"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6105456988825855
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-nervous-001",
+      "type": "R",
+      "q_keys": [
+        "superiorcerebellarpeduncle",
+        "vestibularnuclei"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-004",
+      "type": "R",
+      "q_keys": [
+        "commoninterosseousartery",
+        "ulnarartery"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-visceral-001",
+      "type": "R",
+      "q_keys": [
+        "lesseromentum",
+        "trachea"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-skeletal-001",
+      "type": "R",
+      "q_keys": [
+        "radius",
+        "scapula"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-skeletal-002",
+      "type": "R",
+      "q_keys": [
+        "mandible",
+        "temporalbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.07142857142857142,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.14126697285982898
+      }
+    },
+    {
+      "id": "R-muscular-002",
+      "type": "R",
+      "q_keys": [
+        "commontendinousring",
+        "levatorpalpebraesuperioris"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-005",
+      "type": "R",
+      "q_keys": [
+        "shortposteriorciliaryarteries",
+        "supraorbitalartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.125,
+        "ndcg_at_10": 0.31546487678572877
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-006",
+      "type": "R",
+      "q_keys": [
+        "rightbrachiocephalicvein",
+        "rightpulmonaryartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-007",
+      "type": "R",
+      "q_keys": [
+        "rightcoronaryartery",
+        "rightventricle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8529278650606567
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-nervous-002",
+      "type": "R",
+      "q_keys": [
+        "interpeduncularfossa",
+        "midbrain"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-009",
+      "type": "R",
+      "q_keys": [
+        "cephalicvein",
+        "leftsubclavianvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.058823529411764705,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "R-cardiovascular-010",
+      "type": "R",
+      "q_keys": [
+        "femoralartery",
+        "internalpudendalartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-muscular-004",
+      "type": "R",
+      "q_keys": [
+        "sartoriusmuscle",
+        "semitendinosusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8179809735263114
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-011",
+      "type": "R",
+      "q_keys": [
+        "middlecolicvein",
+        "splenicvein"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-skeletal-003",
+      "type": "R",
+      "q_keys": [
+        "radius",
+        "trapeziumbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.5,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.18457569677956817
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-nervous-003",
+      "type": "R",
+      "q_keys": [
+        "pons",
+        "tympanicmembrane"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-nervous-004",
+      "type": "R",
+      "q_keys": [
+        "cochlearnerve",
+        "vestibule"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4632423659320675
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-regions-002",
+      "type": "R",
+      "q_keys": [
+        "poplitealfossa",
+        "sole"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.125,
+        "ndcg_at_10": 0.2893079283427616
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-cardiovascular-013",
+      "type": "R",
+      "q_keys": [
+        "azygosvein",
+        "pulmonarytrunk"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-014",
+      "type": "R",
+      "q_keys": [
+        "leftcolicartery",
+        "sigmoidarteries"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8175295903539445
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-015",
+      "type": "R",
+      "q_keys": [
+        "abdominalaorta",
+        "inferiorphrenicartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-016",
+      "type": "R",
+      "q_keys": [
+        "internalthoracicartery",
+        "subcostalartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-017",
+      "type": "R",
+      "q_keys": [
+        "abdominalaorta",
+        "sigmoidarteries"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-019",
+      "type": "R",
+      "q_keys": [
+        "ascendingaorta",
+        "leftsubclavianvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.5,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.20438239758848611
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-005",
+      "type": "R",
+      "q_keys": [
+        "coccygeusmuscle",
+        "inferiorgemellusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-020",
+      "type": "R",
+      "q_keys": [
+        "femoralartery",
+        "superiorglutealartery"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6713860725233041
+      }
+    },
+    {
+      "id": "R-cardiovascular-021",
+      "type": "R",
+      "q_keys": [
+        "greatsaphenousvein",
+        "plantararch"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-skeletal-004",
+      "type": "R",
+      "q_keys": [
+        "arytenoidcartilage",
+        "cricoidcartilage"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.5173087569496825
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6653497124326151
+      }
+    },
+    {
+      "id": "R-cardiovascular-022",
+      "type": "R",
+      "q_keys": [
+        "dorsalarteryofpenis",
+        "internalpudendalartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.21840743681816419
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-nervous-005",
+      "type": "R",
+      "q_keys": [
+        "deepfibularnerve",
+        "saphenousnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-nervous-006",
+      "type": "R",
+      "q_keys": [
+        "lacrimalgland",
+        "tentoriumcerebelli"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.0625,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-024",
+      "type": "R",
+      "q_keys": [
+        "axillaryvein",
+        "internaljugularvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.3235866969737877
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-cardiovascular-025",
+      "type": "R",
+      "q_keys": [
+        "hemiazygosvein",
+        "lumbarveins"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-skeletal-005",
+      "type": "R",
+      "q_keys": [
+        "majoralarcartilage",
+        "vomer"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-skeletal-006",
+      "type": "R",
+      "q_keys": [
+        "fifthmetatarsalbone",
+        "navicularbone"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-027",
+      "type": "R",
+      "q_keys": [
+        "facialartery",
+        "internaljugularvein"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.3065735963827292
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-nervous-007",
+      "type": "R",
+      "q_keys": [
+        "flocculus",
+        "tentoriumcerebelli"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-visceral-002",
+      "type": "R",
+      "q_keys": [
+        "kidney",
+        "liver"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      }
+    },
+    {
+      "id": "R-joints-002",
+      "type": "R",
+      "q_keys": [
+        "anteriortalofibularligament",
+        "deeptransversemetatarsalligament"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-006",
+      "type": "R",
+      "q_keys": [
+        "pectineusmuscle",
+        "rectusfemorismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.2640681225725909
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-visceral-003",
+      "type": "R",
+      "q_keys": [
+        "gallbladder",
+        "ureter"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-028",
+      "type": "R",
+      "q_keys": [
+        "azygosvein",
+        "rightsuperiorintercostalvein"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5391065605018962
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9060254355346823
+      }
+    },
+    {
+      "id": "R-cardiovascular-029",
+      "type": "R",
+      "q_keys": [
+        "middlemeningealartery",
+        "superiorophthalmicvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-nervous-008",
+      "type": "R",
+      "q_keys": [
+        "maxillarynerve",
+        "tentoriumcerebelli"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.20210734650054757
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "R-nervous-010",
+      "type": "R",
+      "q_keys": [
+        "axillarynerve",
+        "lingualnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-muscular-007",
+      "type": "R",
+      "q_keys": [
+        "extensorpollicisbrevis",
+        "supinator"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-cardiovascular-030",
+      "type": "R",
+      "q_keys": [
+        "cavernoussinus",
+        "internaljugularvein"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.618890676363047
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-nervous-011",
+      "type": "R",
+      "q_keys": [
+        "caudaequina",
+        "centralcanal"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-031",
+      "type": "R",
+      "q_keys": [
+        "plantarmetatarsalarteries",
+        "smallsaphenousvein"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-008",
+      "type": "R",
+      "q_keys": [
+        "piriformismuscle",
+        "semitendinosusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-032",
+      "type": "R",
+      "q_keys": [
+        "leftatrium",
+        "transversesinus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.3562071871080222
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-nervous-012",
+      "type": "R",
+      "q_keys": [
+        "fourthventricle",
+        "midbrain"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9197207891481876
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-nervous-013",
+      "type": "R",
+      "q_keys": [
+        "axillarynerve",
+        "mediannerve"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      }
+    },
+    {
+      "id": "R-nervous-014",
+      "type": "R",
+      "q_keys": [
+        "rednucleus",
+        "thalamus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-visceral-004",
+      "type": "R",
+      "q_keys": [
+        "liver",
+        "transversecolon"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4441228664487979
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-visceral-005",
+      "type": "R",
+      "q_keys": [
+        "bileduct",
+        "greateromentum"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-010",
+      "type": "R",
+      "q_keys": [
+        "inferiorrectusmuscle",
+        "medialrectusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-nervous-015",
+      "type": "R",
+      "q_keys": [
+        "femoralnerve",
+        "medialplantarnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.058823529411764705,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-011",
+      "type": "R",
+      "q_keys": [
+        "gluteusmaximusmuscle",
+        "tensorfasciaelatae"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.7737459235132744
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9060254355346823
+      }
+    },
+    {
+      "id": "R-visceral-006",
+      "type": "R",
+      "q_keys": [
+        "parotidduct",
+        "submandibularduct"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5714285040141098
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-skeletal-007",
+      "type": "R",
+      "q_keys": [
+        "calcaneus",
+        "medialmalleolus"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-013",
+      "type": "R",
+      "q_keys": [
+        "commontendinousring",
+        "lateralrectusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6508205185601091
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-cardiovascular-034",
+      "type": "R",
+      "q_keys": [
+        "cephalicvein",
+        "dorsalmetacarpalarteries"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-035",
+      "type": "R",
+      "q_keys": [
+        "externalcarotidartery",
+        "femoralartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-036",
+      "type": "R",
+      "q_keys": [
+        "rightascendinglumbarvein",
+        "superiorvenacava"
+      ],
+      "dense": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.3065735963827292
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-cardiovascular-037",
+      "type": "R",
+      "q_keys": [
+        "lefttesticularartery",
+        "righttesticularvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-038",
+      "type": "R",
+      "q_keys": [
+        "axillaryvein",
+        "externalcarotidartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-nervous-016",
+      "type": "R",
+      "q_keys": [
+        "commonfibularnerve",
+        "suralnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6719882468370725
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-039",
+      "type": "R",
+      "q_keys": [
+        "greatcardiacvein",
+        "rightpulmonaryartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-040",
+      "type": "R",
+      "q_keys": [
+        "ascendingaorta",
+        "cephalicvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.18154179253735267
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7039180890341347
+      }
+    },
+    {
+      "id": "R-cardiovascular-041",
+      "type": "R",
+      "q_keys": [
+        "internaljugularvein",
+        "superficialtemporalartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.3010299956639812
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-042",
+      "type": "R",
+      "q_keys": [
+        "circumflexscapularartery",
+        "rightsubclavianartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-skeletal-008",
+      "type": "R",
+      "q_keys": [
+        "clavicle",
+        "xiphoidprocess"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 1,
+        "ndcg_at_10": 0.46927872602275644
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-joints-003",
+      "type": "R",
+      "q_keys": [
+        "calcaneocuboidligament",
+        "plantarcalcaneonavicularligament"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9197207891481876
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-nervous-017",
+      "type": "R",
+      "q_keys": [
+        "longthoracicnerve",
+        "thoracodorsalnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.21840743681816419
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-visceral-008",
+      "type": "R",
+      "q_keys": [
+        "nasopharynx",
+        "softpalate"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      }
+    },
+    {
+      "id": "R-visceral-009",
+      "type": "R",
+      "q_keys": [
+        "epiglottis",
+        "oropharynx"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-nervous-018",
+      "type": "R",
+      "q_keys": [
+        "lateralpectoralnerve",
+        "longthoracicnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.49818925746641285
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "R-muscular-015",
+      "type": "R",
+      "q_keys": [
+        "lateralheadofgastrocnemius",
+        "medialheadofgastrocnemius"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.23719771276929622
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-muscular-016",
+      "type": "R",
+      "q_keys": [
+        "lateralheadoftricepsbrachii",
+        "longheadoftricepsbrachii"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.21840743681816419
+      },
+      "boosted": {
+        "recall_at_3": 0.5,
+        "recall_at_6": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 1,
+        "ndcg_at_10": 0.6131471927654584
+      }
+    },
+    {
+      "id": "R-muscular-017",
+      "type": "R",
+      "q_keys": [
+        "flexorpollicislongus",
+        "sternohyoidmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "A-muscular-001",
+      "type": "A",
+      "q_keys": [
+        "commontendinousring"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.4367467095119258
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "A-visceral-001",
+      "type": "A",
+      "q_keys": [
+        "pancreas"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9010126104210695
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9010126104210695
+      }
+    },
+    {
+      "id": "A-nervous-001",
+      "type": "A",
+      "q_keys": [
+        "gangliaofsympathetictrunk"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "A-muscular-002",
+      "type": "A",
+      "q_keys": [
+        "adductormagnus"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.6049306994552042
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.8179809735263114
+      }
+    },
+    {
+      "id": "A-visceral-002",
+      "type": "A",
+      "q_keys": [
+        "sublingualgland"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6787622294601761
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6787622294601761
+      }
+    },
+    {
+      "id": "A-nervous-005",
+      "type": "A",
+      "q_keys": [
+        "thalamus"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "A-muscular-003",
+      "type": "A",
+      "q_keys": [
+        "tensorfasciaelatae"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      }
+    },
+    {
+      "id": "A-nervous-006",
+      "type": "A",
+      "q_keys": [
+        "spinaldura"
+      ],
+      "dense": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 1,
+        "ndcg_at_10": 0.7653606369886217
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 0.9674679834891693
+      }
+    },
+    {
+      "id": "A-joints-001",
+      "type": "A",
+      "q_keys": [
+        "sacrotuberousligament"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.23463936301137822
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      }
+    },
+    {
+      "id": "A-nervous-007",
+      "type": "A",
+      "q_keys": [
+        "aqueductofmidbrain"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.3562071871080222
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.3562071871080222
+      }
+    },
+    {
+      "id": "A-joints-002",
+      "type": "A",
+      "q_keys": [
+        "intraarticularligamentofheadofrib"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "A-muscular-004",
+      "type": "A",
+      "q_keys": [
+        "lineaalba"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.14126697285982898
+      },
+      "boosted": {
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.5307212739772434
+      }
+    },
+    {
+      "id": "A-regions-032",
+      "type": "A",
+      "q_keys": [
+        "tragus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.38685280723454163
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "A-muscular-005",
+      "type": "A",
+      "q_keys": [
+        "temporalismuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.3333333333333333,
+        "recall_at_10": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.2960819109658652
+      },
+      "boosted": {
+        "recall_at_3": 0.3333333333333333,
+        "recall_at_6": 0.6666666666666666,
+        "recall_at_10": 0.6666666666666666,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.4632423659320675
+      }
+    },
+    {
+      "id": "A-skeletal-001",
+      "type": "A",
+      "q_keys": [
+        "patella"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      }
+    },
+    {
+      "id": "A-joints-004",
+      "type": "A",
+      "q_keys": [
+        "dorsalradiocarpalligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "A-nervous-008",
+      "type": "A",
+      "q_keys": [
+        "precentralgyrus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-cardiovascular-023",
+      "type": "F",
+      "q_keys": [
+        "leftcommoncarotidartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-cardiovascular-024",
+      "type": "F",
+      "q_keys": [
+        "rightsubclavianvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-joints-023",
+      "type": "F",
+      "q_keys": [
+        "posteriortalofibularligament"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.1,
+        "ndcg_at_10": 0.2890648263178879
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      }
+    },
+    {
+      "id": "F-regions-023",
+      "type": "F",
+      "q_keys": [
+        "scapularregion"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      }
+    },
+    {
+      "id": "R-cardiovascular-044",
+      "type": "R",
+      "q_keys": [
+        "lefttesticularvein",
+        "leftrenalvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.05,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-045",
+      "type": "R",
+      "q_keys": [
+        "leftcoronaryartery",
+        "leftventricle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-046",
+      "type": "R",
+      "q_keys": [
+        "poplitealartery",
+        "poplitealvein"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-muscular-018",
+      "type": "R",
+      "q_keys": [
+        "psoasmajor",
+        "adductorlongus"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-019",
+      "type": "R",
+      "q_keys": [
+        "extensorpollicislongus",
+        "abductorpollicislongus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-nervous-019",
+      "type": "R",
+      "q_keys": [
+        "opticchiasm",
+        "retina"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "A-nervous-009",
+      "type": "A",
+      "q_keys": [
+        "fornix"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      }
+    },
+    {
+      "id": "F-visceral-023",
+      "type": "F",
+      "q_keys": [
+        "pancreaticduct"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.125,
+        "ndcg_at_10": 0.31546487678572877
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      }
+    },
+    {
+      "id": "R-cardiovascular-047",
+      "type": "R",
+      "q_keys": [
+        "posteriorcircumflexhumeralartery",
+        "axillaryartery"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-cardiovascular-048",
+      "type": "R",
+      "q_keys": [
+        "brachialartery",
+        "axillaryartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-049",
+      "type": "R",
+      "q_keys": [
+        "leftcoronaryartery",
+        "anteriorinterventricularartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.07692307692307693,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      }
+    },
+    {
+      "id": "R-cardiovascular-050",
+      "type": "R",
+      "q_keys": [
+        "lumbararteries",
+        "inferiormesentericartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-joints-004",
+      "type": "R",
+      "q_keys": [
+        "anteriorcruciateligament",
+        "medialmeniscus"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 1,
+        "ndcg_at_10": 1
+      }
+    },
+    {
+      "id": "R-muscular-020",
+      "type": "R",
+      "q_keys": [
+        "psoasmajor",
+        "diaphragm"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-muscular-021",
+      "type": "R",
+      "q_keys": [
+        "quadratusfemorismuscle",
+        "obturatorinternus"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-visceral-024",
+      "type": "F",
+      "q_keys": [
+        "stomach"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.1111111111111111,
+        "ndcg_at_10": 0.3010299956639812
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.3562071871080222
+      }
+    },
+    {
+      "id": "A-nervous-010",
+      "type": "A",
+      "q_keys": [
+        "sciaticnerve"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-regions-024",
+      "type": "F",
+      "q_keys": [
+        "intertragicincisure"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "F-skeletal-023",
+      "type": "F",
+      "q_keys": [
+        "firstrib"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0,
+        "ndcg_at_10": 0
+      }
+    },
+    {
+      "id": "R-cardiovascular-051",
+      "type": "R",
+      "q_keys": [
+        "inferiorglutealartery",
+        "internaliliacartery"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.16666666666666666,
+        "ndcg_at_10": 0.3562071871080222
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.2,
+        "ndcg_at_10": 0.38685280723454163
+      }
+    },
+    {
+      "id": "A-regions-033",
+      "type": "A",
+      "q_keys": [
+        "lumbarregion"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 1,
+        "mrr": 0.14285714285714285,
+        "ndcg_at_10": 0.3333333333333333
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      }
+    },
+    {
+      "id": "R-muscular-022",
+      "type": "R",
+      "q_keys": [
+        "hyoglossusmuscle",
+        "genioglossusmuscle"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 0,
+        "recall_at_10": 0,
+        "mrr": 0.06666666666666667,
+        "ndcg_at_10": 0
+      },
+      "boosted": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      }
+    },
+    {
+      "id": "F-regions-025",
+      "type": "F",
+      "q_keys": [
+        "pectoralregion"
+      ],
+      "dense": {
+        "recall_at_3": 0,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.25,
+        "ndcg_at_10": 0.43067655807339306
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.3333333333333333,
+        "ndcg_at_10": 0.5
+      }
+    },
+    {
+      "id": "R-visceral-010",
+      "type": "R",
+      "q_keys": [
+        "urethra",
+        "prostate"
+      ],
+      "dense": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      },
+      "boosted": {
+        "recall_at_3": 1,
+        "recall_at_6": 1,
+        "recall_at_10": 1,
+        "mrr": 0.5,
+        "ndcg_at_10": 0.6309297535714575
+      }
+    }
+  ]
+}

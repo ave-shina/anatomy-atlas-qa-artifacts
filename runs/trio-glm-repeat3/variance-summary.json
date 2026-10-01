@@ -1,0 +1,34 @@
+{
+  "run": "trio-glm-repeat3",
+  "base": "trio-glm-r1",
+  "condition": "B3",
+  "n_items": 100,
+  "repeats": 3,
+  "per_repeat_agg": [
+    {
+      "n_ok": 100,
+      "f1_opt": 0.5948,
+      "f1_strict": 0.3419
+    },
+    {
+      "n_ok": 98,
+      "f1_opt": 0.5868,
+      "f1_strict": 0.336
+    },
+    {
+      "n_ok": 99,
+      "f1_opt": 0.5764,
+      "f1_strict": 0.3505
+    }
+  ],
+  "agg_spread_f1opt": 0.0184,
+  "per_item_mean_std": 0.0526,
+  "per_item_mean_range": 0.096,
+  "items_with_multiple_ok": 99,
+  "se_single_draw": 0.0186,
+  "base_same_ids": {
+    "n_ok": 100,
+    "f1_opt": 0.5729
+  },
+  "note": "Generation-stochasticity quantification for the repeat-1 limitation (docs/05 D5). se_single_draw = sampling SE of one draw's aggregate; agg_spread = observed spread across 3 independent aggregate draws."
+}

@@ -1,0 +1,37 @@
+{
+ "runId": "v3-merged-qwen",
+ "date": "2026-09-28T07:17:34.007Z",
+ "gitSha": "2f3ed258f454c8eb18ec2edd748099fa271416f0",
+ "conditions": [
+  "B1",
+  "B2",
+  "B3"
+ ],
+ "docId": "medrag-anatomy_gray",
+ "chatModel": "qwen/qwen3.8-flash",
+ "embedModel": "baai/bge-m3",
+ "pineconeIndex": "anatomy-atlas",
+ "topK": 6,
+ "repeat": 1,
+ "dataset": {
+  "path": "research/benchmark/anatomy3d-qb.v3.ndjson",
+  "sha256": "a8552b5cd54784434652f69e849b969ba1b717ef60d48b50e4f67e2e0473a186",
+  "items": 330
+ },
+ "meshKeys": {
+  "path": "research/benchmark/mesh-keys.json",
+  "sha256": "ba5b1a1a43b849a2605e54322330465b20c0e70684d49d5c219108e7a4edef8d",
+  "keys": 2358
+ },
+ "merge": {
+  "note": "v3 kit merge \u2014 stored ft-era records (292 kept verbatim, 8 rescued with retrieval re-scored against the new gold chunk from the stored retrieved list) + 30 fresh v3-new30 records; 30 replaced v2 items dropped. Chips re-extracted offline by rescore-chips-uncapped.mts (--gold-patch none: the patched item A-nervous-003 was replaced in kit v3).",
+  "retrieval_repairs": {
+   "method": "stored ft-era records whose retrieval block holds a Pinecone error receive the identical query's retrieved list + scores from ft-glm-r1 (same index, same embed model) and are re-scored by the run-benchmark retrievalMetrics formula",
+   "repaired_ids_per_tag": "recorded in merge stdout"
+  },
+  "sources": [
+   "ft-qwen-r1",
+   "v3-new30-qwen"
+  ]
+ }
+}

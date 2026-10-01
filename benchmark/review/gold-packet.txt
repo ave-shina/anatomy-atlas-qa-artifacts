@@ -1,0 +1,806 @@
+### [1] F-regions-001 (F/regions)
+QUERY: Where is the Submandibular triangle located?
+GOLD must=["submandibulartriangle"] optional=["carotidtriangle","cephalicvein","clavicle","hyoidbone","internaljugularvein","leftbrachiocephalicvein","leftcommoncarotidartery","leftsubclavianartery"]
+BRIEF: The submandibular triangle is outlined by the inferior border of the mandible superiorly and the anterior and posterior bellies of the digastric muscle inferiorly.
+CHUNK: The submandibular triangle is outlined by the inferior border of the mandible superiorly and the anterior and posterior bellies of the digastric muscle inferiorly. The submental triangle is outlined by the hyoid bone inferiorly, the anterior belly of the digastric muscle laterally, and the midline. The muscular triangle is outlined by the hyoid bone superiorly, the superior belly of the omohyoid m
+ANSWER(B3): The **submandibular triangle** is located in the neck and is outlined by: - The inferior border of the **mandible** superiorly - The anterior belly of the **digastric muscle** inferiorly - The posterior belly of the **digastric muscle** inferiorly [1]. This anatomical region is significant for various structures, including salivary glands and nerves.
+CHIPS(B3): ["submandibulartriangle","mandible"]
+
+### [2] F-regions-004 (F/regions)
+QUERY: What is the function of the Femoral triangle?
+GOLD must=["femoraltriangle"] optional=["adductorlongus","femoralartery","femoralnerve","femoralvein","inguinalligament","pectineusmuscle","pubicsymphysis","sartoriusmuscle"]
+BRIEF: From lateral to medial, major structures in the femoral triangle are the femoral nerve, the femoral artery, the femoral vein, and lymphatic vessels.
+CHUNK: From lateral to medial, major structures in the femoral triangle are the femoral nerve, the femoral artery, the femoral vein, and lymphatic vessels. The femoral artery can be palpated in the femoral triangle just inferior to the inguinal ligament and midway between the anterior superior iliac spine and the pubic symphysis.
+ANSWER(B3): The **femoral triangle** serves as an important anatomical region in the thigh that facilitates the passage of structures between the abdomen and the lower limb. Its primary functions include: - **Conduit for major vessels and nerves**: The femoral triangle contains the **femoral artery**, **femoral vein**, and **femoral nerve**, which are crucial for blood supply and innervation to the lower limb [1][2][4][6]. - **Transition area**: It acts as a transition zone where structures move from the abdominal cavity into the thigh, allowing for the organization and protection of these vital components [2]. Overall, the femoral triangle is essential for both vascular and neural communication between…
+CHIPS(B3): ["femoraltriangle","femoralartery","femoralvein","femoralnerve"]
+
+### [3] F-regions-008 (F/regions)
+QUERY: What is the function of the Temporal region?
+GOLD must=["temporalregion"] optional=["cavernoussinus","internalcarotidartery","lateralrectusmuscle","mandible","oralregion","parotidgland","pons","temporalbone"]
+BRIEF: The mandibular nerve [V3] also receives sensory branches from the skin of the lower face, cheek, lower lip, anterior part of the external ear, part of the external acoustic meatus and the temporal region, the anterior two-thirds of the tongue, the teeth of the lower jaw, the mastoid air cells, the mucous membranes o…
+CHUNK: The mandibular nerve [V3] also receives sensory branches from the skin of the lower face, cheek, lower lip, anterior part of the external ear, part of the external acoustic meatus and the temporal region, the anterior two-thirds of the tongue, the teeth of the lower jaw, the mastoid air cells, the mucous membranes of the cheek, the mandible, and dura in the middle cranial fossa. The abducent nerve
+ANSWER(B3): The CONTEXT does not provide specific information about the function of the **temporal region**. General note: The temporal region of the skull is primarily associated with the lateral aspects of the head and contains structures involved in hearing and balance, as well as muscles that facilitate jaw movement. If you have more specific aspects of the temporal region in mind, feel free to ask!
+CHIPS(B3): ["temporalregion"]
+
+### [4] F-regions-011 (F/regions)
+QUERY: What is the Carotid triangle?
+GOLD must=["carotidtriangle"] optional=["externalcarotidartery","hyoglossusmuscle","hyoidbone","internalcarotidartery","internaljugularvein","mandible","musculartriangle","occipitalartery"]
+BRIEF: 8.170 Carotid triangle.
+CHUNK: Fig. 8.170 Carotid triangle. SternocleidomastoidmuscleCarotid triangleSuperior belly ofomohyoid muscleCommon carotid arteryPosterior belly of digastric muscleInternal carotid arteryExternal carotid artery Fig. 8.171 Carotid system. Fig. 8.172 Glossopharyngeal nerve [IX] in the anterior triangle of the neck. Fig. 8.173 Vagus nerve [X] in the anterior triangle of the neck. Fig. 8.174 Accessory nerve
+ANSWER(B3): The **carotid triangle** is a specific area in the neck, defined as a subdivision of the anterior triangle. It is located near the superior edge of the **thyroid cartilage**, where each common carotid artery divides into its two terminal branches: the **external carotid artery** and the **internal carotid artery** [1]. The boundaries of the carotid triangle are formed by: - **Sternocleidomastoid muscle** (lateral border) - **Posterior belly of the digastric muscle** (superior border) - **Superior belly of the omohyoid muscle** (inferior border) [2]. This triangle is significant as it contains vital structures related to the carotid system, which supplies blood to the head and neck.
+CHIPS(B3): ["carotidtriangle","thyroidcartilage","externalcarotidartery","internalcarotidartery","sternocleidomastoidmuscle","omohyoidmuscle"]
+
+### [5] F-regions-015 (F/regions)
+QUERY: Where is the Deltopectoral triangle located?
+GOLD must=["deltopectoraltriangle"] optional=["basilicvein","cephalicvein","clavicle"]
+BRIEF: The cephalic and basilic veins originate from the dorsal venous network on the back of the hand.
+CHUNK: The cephalic and basilic veins originate from the dorsal venous network on the back of the hand. The cephalic vein originates over the anatomical snuffbox at the base of the thumb, passes laterally around the distal forearm to reach the anterolateral surface of the limb, and then continues proximally. It crosses the elbow, then passes up the arm into a triangular depression—the clavipectoral trian
+ANSWER(B3): I'm sorry, but the CONTEXT does not provide information about the location of the **Deltopectoral triangle**. General note: The Deltopectoral triangle is typically located in the upper anterior part of the thorax, bordered by the **deltoid muscle** laterally and the **pectoralis major muscle** medially, with the **clavicle** forming the base. If you have any other questions about anatomy, feel free to ask!
+CHIPS(B3): ["deltopectoraltriangle","clavicle"]
+
+### [6] F-regions-019 (F/regions)
+QUERY: Where is the Heel region located?
+GOLD must=["heelregion"] optional=["calcanealtendon","calcaneus","flexorhallucislongus","talus"]
+BRIEF: The inferior surface of the body of the talus has a large oval concave facet (the posterior calcaneal articular facet) for articulation with the calcaneus.
+CHUNK: The inferior surface of the body of the talus has a large oval concave facet (the posterior calcaneal articular facet) for articulation with the calcaneus. The posterior aspect of the body of the talus consists of a backward and medially facing projection (the posterior process). The posterior process is marked on its surface by a lateral tubercle and a medial tubercle, which bracket between them
+ANSWER(B3): The CONTEXT does not provide information about the location of the heel region. General note: The heel region is typically located at the posterior part of the foot, specifically the area around the calcaneus bone. If you have more specific questions about anatomy, feel free to ask!
+CHIPS(B3): ["heelregion","calcaneus"]
+
+### [7] F-regions-022 (F/regions)
+QUERY: Where is the Palm located?
+GOLD must=["palm"] optional=["basilicvein","cephalicvein","commonpalmardigitalarteries","deeppalmararch","dorsalmetacarpalarteries","extensorpollicislongus","palmaraponeurosis","palmarmetacarpalarteries"]
+BRIEF: The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits.
+CHUNK: The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits. They innervate skin on the palmar surfaces of the lateral three and one-half digits and cutaneous regions over the dorsal aspects of the distal phalanges (nail beds) of the same digits. In addition to skin, the digital nerves supply the lateral two lumbrical muscles. Superf
+ANSWER(B3): The **palm** is located on the anterior aspect of the hand, serving as the primary skeletal foundation composed of five metacarpals, one for each digit [2]. It is the area that extends from the wrist to the bases of the fingers. The palm contains various structures, including muscles, tendons, and blood vessels, which facilitate movement and function. If you have more specific questions about the anatomy of the palm or its components, feel free to ask!
+CHIPS(B3): ["palm"]
+
+### [8] F-fasciae-004 (F/fasciae)
+QUERY: What is the Palmar aponeurosis?
+GOLD must=["palmaraponeurosis"] optional=["brachialartery","extensorpollicislongus","flexorcarpiradialis","mediannerve","palm","pisohamateligament","pisometacarpalligament","radialartery"]
+BRIEF: The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits.
+CHUNK: The palmar digital nerves cross the palm deep to the palmar aponeurosis and the superficial palmar arch and enter the digits. They innervate skin on the palmar surfaces of the lateral three and one-half digits and cutaneous regions over the dorsal aspects of the distal phalanges (nail beds) of the same digits. In addition to skin, the digital nerves supply the lateral two lumbrical muscles. Superf
+ANSWER(B3): The **palmar aponeurosis** is a flat band of connective tissue located in the palm of the hand. It serves to support the structures of the palm and is positioned deep to the skin. Here are some key points about the palmar aponeurosis: - It is a thickening of deep fascia in the palm [3]. - The palmar aponeurosis interconnects with longitudinally arranged bundles that extend into the digits [2]. - It lies superficial to vessels, nerves, and long flexor tendons in the palm [2]. This structure plays an important role in providing stability and support to the hand during various movements.
+CHIPS(B3): ["palmaraponeurosis","palm"]
+
+### [9] F-fasciae-007 (F/fasciae)
+QUERY: What is the Superior fibular retinaculum?
+GOLD must=["superiorfibularretinaculum"] optional=["calcaneus","deeptransversemetatarsalligament","fibula","fibularisbrevismuscle","flexordigitorumlongus","inferiorfibularretinaculum","lateralmalleolus","plantaraponeurosis"]
+BRIEF: 6.112): A superior fibular retinaculum extends between the lateral malleolus and the calcaneus.
+CHUNK: Fibular (peroneal) retinacula bind the tendons of the fibularis longus and fibularis brevis muscles to the lateral side of the foot (Fig. 6.112): A superior fibular retinaculum extends between the lateral malleolus and the calcaneus. An inferior fibular retinaculum attaches to the lateral surface of the calcaneus around the fibular trochlea and blends above with the fibers of the inferior extensor
+ANSWER(B3): The **superior fibular retinaculum** is a thickening of deep fascia located in the distal leg, just superior to the ankle joint. It is attached to the anterior borders of the **fibula** and **tibia**. This structure plays a crucial role in binding the tendons of the fibularis longus and fibularis brevis muscles to the lateral side of the foot [1][4].
+CHIPS(B3): ["superiorfibularretinaculum","fibula","tibia"]
+
+### [10] F-muscular-002 (F/muscular)
+QUERY: Where is the Sternohyoid muscle located?
+GOLD must=["sternohyoidmuscle"] optional=["clavicle","flexorpollicislongus","hyoidbone","omohyoidmuscle","palm","rhomboidmajormuscle","scapula","sternothyroidmuscle"]
+BRIEF: Lateral to the sternohyoid muscle is the omohyoid muscle (Fig.
+CHUNK: The sternohyoid muscle is a long, thin muscle originating from the posterior aspect of the sternoclavicular joint and adjacent manubrium of the sternum (Fig. 8.168). It ascends to insert onto the body of the hyoid bone. It depresses the hyoid bone and is innervated by the anterior rami of C1 to C3 through the ansa cervicalis. Lateral to the sternohyoid muscle is the omohyoid muscle (Fig. 8.168). T
+ANSWER(B3): The **sternohyoid muscle** is located in the anterior neck region. It originates from the posterior aspect of the sternoclavicular joint and the adjacent manubrium of the sternum. The muscle ascends to insert onto the body of the **hyoid bone** [1]. It is part of the infrahyoid muscles, which are situated inferior to the hyoid bone, and it lies lateral to the **omohyoid muscle** [4]. The sternohyoid muscle functions to depress the hyoid bone and is innervated by the anterior rami of C1 to C3 through the ansa cervicalis [1].
+CHIPS(B3): ["sternohyoidmuscle","hyoidbone","omohyoidmuscle"]
+
+### [11] F-muscular-006 (F/muscular)
+QUERY: What is the function of the Tibialis posterior muscle?
+GOLD must=["tibialisposteriormuscle"] optional=["fibula","flexordigitorumlongus","flexorhallucislongus","medialmalleolus","medialplantarnerve","sole","tibia"]
+BRIEF: The groove is for the tendon of the tibialis posterior muscle.
+CHUNK: The posterior surface of the box-like distal end of the tibia is marked by a vertical groove, which continues inferiorly and medially onto the posterior surface of the medial malleolus. The groove is for the tendon of the tibialis posterior muscle. The lateral surface of the distal end of the tibia is occupied by a deep triangular notch (the fibular notch), to which the distal head of the fibula i
+ANSWER(B3): The **tibialis posterior muscle** primarily functions to: - **Plantarflex** the foot at the ankle joint. - **Invert** the foot. It originates from the interosseous membrane and the adjacent posterior surfaces of the **tibia** and **fibula** [4]. The tendon of the tibialis posterior also plays a role in supporting the medial arch of the foot as it wraps around the medial margin of the foot [3].
+CHIPS(B3): ["tibialisposteriormuscle","tibia","fibula"]
+
+### [12] F-muscular-009 (F/muscular)
+QUERY: What is the Splenius capitis muscle?
+GOLD must=["spleniuscapitismuscle"] optional=["clavicle","hyoidbone","levatorscapulae","omohyoidmuscle","scapula","sternocleidomastoidmuscle","thyroidgland"]
+BRIEF: BLeft lobe of thyroid glandParathyroid gland Fig.
+CHUNK: BLeft lobe of thyroid glandParathyroid gland Fig. 8.181 Surgical view of left lobe of enlarged thyroid (goiter) retracted to show close association with recurrent laryngeal nerve. Left lobe of thyroid glandLeft recurrent laryngeal nerve Fig. 8.182 Ectopic parathyroid adenoma in superior mediastinum. Noncontrast hybrid single photon emission computed tomography/computed tomography (SPECT/CT). A. Tr
+ANSWER(B3): The **splenius capitis muscle** is a broad muscle that is part of the spinotransversales muscles. It is attached to the **occipital bone** and the **mastoid process** of the **temporal bone** [1]. This muscle plays a role in the movement of the head and neck.
+CHIPS(B3): ["spleniuscapitismuscle","occipitalbone","mastoidprocess","temporalbone"]
+
+### [13] F-muscular-013 (F/muscular)
+QUERY: What is the Superior gemellus muscle?
+GOLD must=["superiorgemellusmuscle"] optional=["glutealregion","obturatorinternus","piriformismuscle","pudendalnerve"]
+BRIEF: Both superior and inferior gluteal nerves are accompanied by corresponding arteries.
+CHUNK: The inferior gluteal nerve, formed by branches from the dorsal divisions of L5 to S2, leaves the pelvic cavity through the greater sciatic foramen inferior to the piriformis muscle and supplies the gluteus maximus, the largest muscle in the gluteal region. Both superior and inferior gluteal nerves are accompanied by corresponding arteries. The nerve to the obturator internus and the associated sup
+ANSWER(B3): The **superior gemellus muscle** is a small muscle located in the gluteal region. It originates from the ischial spine and its fibers attach along the length of the tendon of the **obturator internus**. The apices of the superior and inferior gemellus muscles insert with the tendon of the **obturator internus** on the **greater trochanter** of the **femur** [1][2]. This muscle is part of a deep group of muscles in the gluteal region that primarily function as lateral rotators of the femur at the hip joint [5]. It is innervated by the nerve to the obturator internus [1].
+CHIPS(B3): ["superiorgemellusmuscle","glutealregion","ischialspine","obturatorinternus","greatertrochanter","femur"]
+
+### [14] F-muscular-016 (F/muscular)
+QUERY: Where is the Superior rectus muscle located?
+GOLD must=["superiorrectusmuscle"] optional=["commontendinousring","inferiorrectusmuscle","lateralrectusmuscle","ophthalmicnerve","superiorobliquemuscle"]
+BRIEF: The superior branch of the oculomotor nerve [III] innervates the superior rectus, and the inferior branch of the oculomotor nerve [III] innervates the inferior rectus.
+CHUNK: The superior branch of the oculomotor nerve [III] innervates the superior rectus, and the inferior branch of the oculomotor nerve [III] innervates the inferior rectus. To isolate the function of and to test the superior and inferior rectus muscles, a patient is asked to track a physician’s finger laterally and then either upward or downward (Fig. 8.97B). The first movement brings the axis of the e
+ANSWER(B3): The **superior rectus muscle** originates from the superior part of the [[obj:commontendinousring]] above the optic canal. It passes forward in the orbit to attach to the anterior half of the eyeball, and is directed laterally as it does so [1].
+CHIPS(B3): ["commontendinousring","superiorrectusmuscle"]
+
+### [15] F-muscular-020 (F/muscular)
+QUERY: What is the Mylohyoid muscle?
+GOLD must=["mylohyoidmuscle"] optional=["genioglossusmuscle","geniohyoidmuscle","hyoidbone","inferioralveolarnerve","mandible","softpalate","tongue"]
+BRIEF: The specific branch that innervates the mylohyoid muscles is the nerve to the mylohyoid from the inferior alveolar nerve.
+CHUNK: Like the muscles of mastication, the mylohyoid muscles are innervated by the mandibular nerve [V3]. The specific branch that innervates the mylohyoid muscles is the nerve to the mylohyoid from the inferior alveolar nerve. The geniohyoid muscles (Table 8.20) are paired cord-like muscles that run, one on either side of the midline, from the inferior mental spines on the posterior surface of the mand
+ANSWER(B3): The **mylohyoid muscle** is a paired muscle that forms the floor of the mouth. Here are some key facts about it: - **Origin**: It originates from the mylohyoid line on the medial surface of the body of the [[obj:mandible]] [2]. - **Insertion**: The muscle inserts into the [[obj:hyoidbone]] and blends with the mylohyoid muscle from the opposite side [2]. - **Function**: It supports and elevates the floor of the mouth [2]. - **Innervation**: The mylohyoid muscle is innervated by the nerve to the mylohyoid, which is a branch of the [[obj:inferioralveolarnerve]] [1]. This muscle plays a crucial role in various functions, including swallowing and speaking.
+CHIPS(B3): ["mandible","hyoidbone","inferioralveolarnerve","mylohyoidmuscle"]
+
+### [16] F-joints-002 (F/joints)
+QUERY: What is the Posterior longitudinal ligament?
+GOLD must=["posteriorlongitudinalligament"] optional=["anteriorlongitudinalligament","interspinousligaments","ligamentaflava","sacrum"]
+BRIEF: The posterior longitudinal ligament is on the posterior surfaces of the vertebral bodies and lines the anterior surface of the vertebral canal.
+CHUNK: The posterior longitudinal ligament is on the posterior surfaces of the vertebral bodies and lines the anterior surface of the vertebral canal. Like the anterior longitudinal ligament, it is attached along its length to the vertebral bodies and intervertebral discs. The upper part of the posterior longitudinal ligament that connects CII to the intracranial aspect of the base of the skull is termed
+ANSWER(B3): The **posterior longitudinal ligament** is a ligament located on the posterior surfaces of the vertebral bodies. It lines the anterior surface of the vertebral canal and is attached along its length to the vertebral bodies and intervertebral discs. The upper part of this ligament connects the second cervical vertebra (CII) to the intracranial aspect of the base of the skull [1].
+CHIPS(B3): ["posteriorlongitudinalligament"]
+
+### [17] F-joints-005 (F/joints)
+QUERY: What is the Anterior longitudinal ligament?
+GOLD must=["anteriorlongitudinalligament"] optional=["interspinousligaments","ligamentaflava","posteriorlongitudinalligament","sacrum","supraspinousligament"]
+BRIEF: The anterior longitudinal ligament is attached superiorly
+CHUNK: Joints between vertebrae are reinforced and supported by numerous ligaments, which pass between vertebral bodies and interconnect components of the vertebral arches. The anterior and posterior longitudinal ligaments are on the anterior and posterior surfaces of the vertebral bodies and extend along most of the vertebral column (Fig. 2.35). The anterior longitudinal ligament is attached superiorly
+ANSWER(B3): The **anterior longitudinal ligament** is a ligament that runs along the anterior surfaces of the vertebral bodies in the vertebral column. It is attached superiorly and extends along most of the length of the vertebral column, providing support and reinforcement to the joints between vertebrae [1].
+CHIPS(B3): ["anteriorlongitudinalligament"]
+
+### [18] F-joints-009 (F/joints)
+QUERY: Where is the Transverse humeral ligament located?
+GOLD must=["transversehumeralligament"] optional=["anteriorcircumflexhumeralartery","axillaryartery","axillaryvein","brachialartery","clavicle","coracoacromialligament","coracohumeralligament","glenoidlabrum"]
+BRIEF: 7.23 Sternoclavicular joint.
+CHUNK: Fig. 7.23 Sternoclavicular joint. A. Bones and ligaments. B. Volume-rendered reconstruction using multidetector computed tomography. CostoclavicularligamentInterclavicularligamentClavicular notchAnteriorsternoclavicularligamentManubrium ofsternumSternal angleArticular disc(capsule and ligamentsremoved anteriorlyto expose joint)Attachment sitefor rib IIFirst costalcartilageRib IVertebral body of TI
+ANSWER(B3): The CONTEXT does not provide specific information about the location of the **transverse humeral ligament**. General note: The transverse humeral ligament is typically found in the shoulder region, spanning between the greater and lesser tubercles of the humerus, and it helps to hold the tendon of the long head of the biceps brachii in place within the intertubercular sulcus. If you have more questions about anatomy, feel free to ask!
+CHIPS(B3): ["transversehumeralligament","humerus","intertubercularsulcus"]
+
+### [19] F-joints-012 (F/joints)
+QUERY: Where is the Lateral meniscus located?
+GOLD must=["lateralmeniscus"] optional=["anteriorcruciateligament","femur","medialmeniscus","patella","popliteusmuscle","posteriorcruciateligament","tibia"]
+BRIEF: There are two menisci, which are fibrocartilaginous C-shaped cartilages, in the knee joint, one medial (medial meniscus) and the other lateral (lateral meniscus) (Fig.
+CHUNK: There are two menisci, which are fibrocartilaginous C-shaped cartilages, in the knee joint, one medial (medial meniscus) and the other lateral (lateral meniscus) (Fig. 6.73). Both are attached at each end to facets in the intercondylar region of the tibial plateau. The medial meniscus is attached around its margin to the capsule of the joint and to the tibial collateral ligament, whereas the later
+ANSWER(B3): The **lateral meniscus** is located in the knee joint. It is one of two fibrocartilaginous C-shaped cartilages in the joint, the other being the medial meniscus. Both menisci are attached at each end to facets in the **intercondylar area** of the **tibial plateau** [1].
+CHIPS(B3): ["lateralmeniscus","medialmeniscus","intercondylararea","tibialplateau"]
+
+### [20] F-joints-016 (F/joints)
+QUERY: What is the function of the Transverse acetabular ligament?
+GOLD must=["transverseacetabularligament"] optional=["acetabularlabrum","femur","ischiofemoralligament","ligamentofheadoffemur","obturatorartery","obturatormembrane","pubofemoralligament"]
+BRIEF: Transverse acetabular ligament.
+CHUNK: Fig. 6.31 Hip joint. A. Transverse acetabular ligament. B. Ligament of the head of the femur. The head of the femur has been laterally rotated out of the acetabulum to show the ligament. ABAcetabular labrum Lunate surfaceTransverseacetabular ligamentAcetabularforamenObturator foramenAcetabular fossaArtery of ligament of headSynovial sleeve around ligamentLigament of head of femurIschial tuberosity
+ANSWER(B3): The CONTEXT does not provide specific information about the function of the **transverse acetabular ligament**. General note: The transverse acetabular ligament is known to provide stability to the hip joint by bridging the acetabular notch and contributing to the overall integrity of the acetabulum. It helps in maintaining the position of the femoral head within the acetabulum during movement.
+CHIPS(B3): ["transverseacetabularligament","acetabularnotch","acetabulum"]
+
+### [21] F-joints-020 (F/joints)
+QUERY: Where is the Median thyrohyoid ligament located?
+GOLD must=["medianthyrohyoidligament"] optional=["arytenoidcartilage","corniculatecartilage","cricoidcartilage","epiglottis","hyoidbone","lateralthyrohyoidligament","quadrangularmembrane","trachea"]
+BRIEF: Median thyrohyoid ligament is a type of thyrohyoid ligament.
+CHUNK: An aperture in the lateral part of the thyrohyoid membrane on each side is for the superior laryngeal artery, the internal branch of the superior laryngeal nerve, and lymphatics. The posterior borders of the thyrohyoid membrane are thickened to form the lateral thyrohyoid ligaments. The membrane is also thickened anteriorly in the midline to form the median thyrohyoid ligament. Occasionally, there
+ANSWER(B3): The **median thyrohyoid ligament** is located in the midline, thickening the anterior part of the thyrohyoid membrane. It connects the **thyroid cartilage** to the **hyoid bone** [5].
+CHIPS(B3): ["medianthyrohyoidligament","thyroidcartilage","hyoidbone"]
+
+### [22] F-skeletal-001 (F/skeletal)
+QUERY: What is the function of the Scaphoid bone?
+GOLD must=["scaphoidbone"] optional=["radialartery","sole","ulna","ulnarartery"]
+BRIEF: In the clinic Transection of the radial or ulnar artery Adult patients may transect the radial or ulnar artery because these vessels are relatively subcutaneous.
+CHUNK: In the clinic Transection of the radial or ulnar artery Adult patients may transect the radial or ulnar artery because these vessels are relatively subcutaneous. A typical method of injury is when the hand is forced through a plate glass window. Fortunately, the dual supply to the hand usually enables the surgeon to tie off either the ulnar or the radial artery, without significant consequence. In
+ANSWER(B3): The CONTEXT does not provide specific information about the function of the **scaphoid bone**. General note: The **scaphoid bone** is one of the carpal bones in the wrist and plays a crucial role in wrist movement and stability. It helps facilitate the articulation between the wrist and the forearm, allowing for a range of motions such as flexion, extension, and radial and ulnar deviation.
+CHIPS(B3): ["scaphoidbone"]
+
+### [23] F-skeletal-005 (F/skeletal)
+QUERY: What is the Vomer?
+GOLD must=["vomer"] optional=["frontalbone","lacrimalbone","majoralarcartilage","maxilla","nasalbone","occipitalbone","palatinebone","softpalate"]
+BRIEF: Vomer is a type of irregular bone. It is a part of viscerocranium.
+CHUNK: The middle part of the base of the skull is complex: Forming the anterior half are the vomer and sphenoid bones. Forming the posterior half are the occipital and paired temporal bones. Anteriorly, the small vomer is in the midline, resting on the sphenoid bone (Fig. 8.23). It contributes to the formation of the bony nasal septum separating the two choanae. Most of the anterior part of the middle p
+ANSWER(B3): The **vomer** is a small bone located in the midline of the skull. It forms the anterior half of the bony nasal septum, which separates the two choanae (the openings from the nasal cavity to the throat). The vomer rests on the **sphenoid bone**, contributing to the structure of the nasal cavity [1].
+CHIPS(B3): ["vomer","sphenoidbone"]
+
+### [24] F-skeletal-008 (F/skeletal)
+QUERY: What is the function of the Clavicle?
+GOLD must=["clavicle"] optional=["humerus","levatorscapulae","radius","scapula","teresminormuscle","ulna"]
+BRIEF: Clavicle is a type of long bone.
+CHUNK: The bones of the shoulder consist of the scapula, clavicle, and proximal end of the humerus (Fig. 7.7). The clavicle articulates medially with the manubrium of the sternum and laterally with the acromion of the scapula, which arches over the joint between the glenoid cavity of the scapula and the head of the humerus (the glenohumeral joint). The humerus is the bone of the arm (Fig. 7.7). The dista
+ANSWER(B3): The **clavicle** serves several important functions: - It provides the only bony connection between the upper limb and the trunk, acting as a strut that stabilizes the shoulder [3]. - It transmits forces from the upper limb to the trunk, which is crucial for movements involving the arm [3]. - The **sternoclavicular joint**, formed by the proximal end of the clavicle and the manubrium of the sternum, allows for a range of movements of the shoulder [4]. Overall, the **clavicle** plays a vital role in shoulder stability and mobility.
+CHIPS(B3): ["clavicle"]
+
+### [25] F-skeletal-012 (F/skeletal)
+QUERY: What is the function of the Scapula?
+GOLD must=["scapula"] optional=["dorsalscapularnerve","humerus","levatorscapulae","scapularregion","supraspinousligament","teresmajormuscle","teresminormuscle"]
+BRIEF: Scapula is a type of flat bone.
+CHUNK: The levator scapulae muscle is innervated by the dorsal scapular nerve and directly from C3 and C4 spinal nerves. The levator scapulae elevates the scapula. The rhomboid minor and major muscles attach medially to the vertebral column and descend laterally to attach to the medial border of the scapula inferior to the levator scapulae muscle (Fig. 7.36). The rhomboid minor originates from the lower
+ANSWER(B3): The **scapula** serves several important functions in the body: - It acts as a site for muscle attachment, providing a foundation for muscles that move the shoulder and arm, including the **levator scapulae**, **rhomboid minor**, and **rhomboid major** [4]. - The **scapula** plays a crucial role in the movement of the shoulder joint, allowing for a wide range of motion in the upper limb. - It articulates with the **humerus** at the glenoid cavity, facilitating the connection between the upper limb and the trunk [1]. Overall, the **scapula** is essential for shoulder mobility and stability.
+CHIPS(B3): ["scapula","levatorscapulae","humerus"]
+
+### [26] F-skeletal-016 (F/skeletal)
+QUERY: Where is the Fibula located?
+GOLD must=["fibula"] optional=["calcaneus","commonfibularnerve","fibularartery","fibularisbrevismuscle","flexorhallucislongus","inferiorfibularretinaculum","lateralmalleolus","posteriortibialartery"]
+BRIEF: Fibula is a type of long bone.
+CHUNK: Fibular (peroneal) retinacula bind the tendons of the fibularis longus and fibularis brevis muscles to the lateral side of the foot (Fig. 6.112): A superior fibular retinaculum extends between the lateral malleolus and the calcaneus. An inferior fibular retinaculum attaches to the lateral surface of the calcaneus around the fibular trochlea and blends above with the fibers of the inferior extensor
+ANSWER(B3): The **fibula** is located in the leg, which is the part of the lower limb between the knee joint and the ankle joint [4]. It runs parallel to the **tibia**, but it is not involved in weight-bearing, making it much narrower than the tibia [2]. Key points about the fibula's location: - It is situated laterally to the tibia. - The neck of the fibula separates the expanded head from the shaft [1]. - The distal end of the fibula articulates with the lateral surface of the distal end of the tibia at the **fibular notch** [5]. Overall, the fibula plays a supportive role in the leg's structure and is primarily surrounded by muscles.
+CHIPS(B3): ["fibula","tibia","fibularnotch"]
+
+### [27] F-skeletal-019 (F/skeletal)
+QUERY: What is the Medial cuneiform bone?
+GOLD must=["medialcuneiformbone"] optional=["calcaneus","fibula","fibularislongusmuscle","navicularbone"]
+BRIEF: Medial cuneiform bone is a type of cuneiform bone.
+CHUNK: From lateral to medial, the distal group of tarsal bones consists of (Fig. 6.96): The cuboid (Greek for “cube”), which articulates posteriorly with the calcaneus, medially with the lateral cuneiform, and anteriorly with the bases of the lateral two metatarsals—the tendon of the fibularis longus muscle lies in a prominent groove on the anterior plantar surface, which passes obliquely forward across
+ANSWER(B3): The **medial cuneiform bone** is one of the tarsal bones located in the foot. It is positioned medially among the group of cuneiform bones and articulates with the following structures: - **Navicular bone** - **First metatarsal bone** - **Intermediate cuneiform bone** - **Lateral cuneiform bone** This bone plays a crucial role in the structure and function of the foot, contributing to its stability and mobility. However, the CONTEXT does not provide specific details about its anatomy or function. General note: The medial cuneiform bone is important for weight-bearing and helps in the formation of the arch of the foot.
+CHIPS(B3): ["medialcuneiformbone","navicularbone","firstmetatarsalbone","intermediatecuneiformbone","lateralcuneiformbone"]
+
+### [28] F-cardiovascular-001 (F/cardiovascular)
+QUERY: Where is the Costocervical trunk located?
+GOLD must=["costocervicaltrunk"] optional=["anteriorspinalartery","deepcervicalartery","kidney","lens","occipitalartery","pleura","posteriorintercostalarteries","scapula"]
+BRIEF: Costocervical trunk is a type of trunk of branch of subclavian artery.
+CHUNK: The first and second posterior intercostal vessels are supplied from the costocervical trunk, which arises from the subclavian artery proximal to the coarctation, so do not enlarge and do not induce rib notching. A 62-year-old man was admitted to the emergency room with severe interscapular pain. His past medical history indicated that he was otherwise fit and well; however, it was noted he was 6’
+ANSWER(B3): The **costocervical trunk** is located as follows: - On the left side, it arises from the first part of the subclavian artery, just medial to the anterior scalene muscle. - On the right side, it arises from the second part of the subclavian artery. - It ascends and passes posteriorly over the dome of the **pleura**, continuing in a posterior direction behind the anterior scalene muscle. - Eventually, it divides into two branches [1].
+CHIPS(B3): ["costocervicaltrunk","pleura"]
+
+### [29] F-cardiovascular-004 (F/cardiovascular)
+QUERY: What is the Supreme intercostal artery?
+GOLD must=["supremeintercostalartery"] optional=["costocervicaltrunk","deepcervicalartery","diaphragm","intercostalnerves","internalthoracicartery","musculophrenicartery","occipitalartery","pleura"]
+BRIEF: Supreme intercostal artery is a type of subdivision of costocervical artery.
+CHUNK: Fig. 3.27 Intercostal muscles. Fig. 3.28 A. Subcostal muscles. B. Transversus thoracis muscles. Fig. 3.29 Arteries of the thoracic wall. Superior epigastric arteryInternal thoracic arteryAortaAnterior perforatingbranchesAnterior intercostal arteryCollateral branch of posteriorintercostal arterySupreme intercostal arteryPosterior intercostal arteryMusculophrenic arterySubclavian arteryCostocervical
+ANSWER(B3): The **supreme intercostal artery** is not specifically described in the provided context. However, it is generally known to be a branch of the **costocervical trunk**, which arises from the subclavian artery and supplies the first two intercostal spaces. General note: The supreme intercostal artery typically provides blood supply to the upper intercostal spaces, similar to the anterior intercostal arteries that arise from the internal thoracic artery. If you have more specific questions about intercostal arteries or related structures, feel free to ask!
+CHIPS(B3): ["supremeintercostalartery","costocervicaltrunk","internalthoracicartery"]
+
+### [30] F-cardiovascular-008 (F/cardiovascular)
+QUERY: What is the function of the Common iliac artery?
+GOLD must=["commoniliacartery"] optional=["abdominalaorta","externaliliacartery","femoralartery","glutealregion","iliolumbarartery","inferiorglutealartery","internaliliacartery","kidney"]
+BRIEF: Common iliac artery is a type of systemic artery. It is a part of systemic arterial tree. It consists of external iliac artery.
+CHUNK: Fig. 6.34 Blood supply of the hip joint. Internal iliac arteryCommon iliac arteryExternal iliac arteryLateral circumflex femoral artery1st perforating arteryDeep artery of thighMedial circumflex femoral arteryFemoral arteryObturator arteryInferior gluteal arterySuperior gluteal artery Fig. 6.35 Gateways to the lower limb.
+ANSWER(B3): The CONTEXT does not provide specific information about the function of the **common iliac artery**. General note: The common iliac artery primarily functions to supply blood to the pelvis and lower limbs. It bifurcates into the internal and external iliac arteries, which further supply various structures in these regions. If you have more specific questions about its branches or related structures, feel free to ask!
+CHIPS(B3): ["commoniliacartery"]
+
+### [31] F-cardiovascular-012 (F/cardiovascular)
+QUERY: What is the Superior vena cava?
+GOLD must=["superiorvenacava"] optional=["ascendingaorta","azygosvein","cephalicvein","internaljugularvein","leftbrachiocephalicvein","leftcommoncarotidartery","leftmainbronchus","leftpulmonaryartery"]
+BRIEF: Superior vena cava is a type of trunk of systemic vein. It is a part of superior systemic venous tree.
+CHUNK: In the clinic Using the superior vena cava to access the inferior vena cava Because the superior and inferior venae cavae are oriented along the same vertical axis, a guidewire, catheter, or line can be passed from the superior vena cava through the right atrium and into the inferior vena cava. This is a common route of access for such procedures as: transjugular liver biopsy, transjugular intrahe
+ANSWER(B3): The **superior vena cava** is a large vein that carries deoxygenated blood from the upper body to the heart. It enters the upper posterior portion of the **right atrium** and is responsible for draining blood from the head, neck, upper limbs, and part of the thorax. Key points about the superior vena cava include: - It is located within the pericardial sac, specifically in the middle mediastinum [2]. - The lower half of the superior vena cava is covered with serous pericardium, except for a small area on its posterior surface [4]. - It receives blood from the **azygos vein** just before entering the pericardial sac [2]. - The superior vena cava can be accessed for medical procedures, as it i…
+CHIPS(B3): ["superiorvenacava","rightatrium","azygosvein"]
+
+### [32] F-cardiovascular-015 (F/cardiovascular)
+QUERY: What is the function of the Left testicular artery?
+GOLD must=["lefttesticularartery"] optional=["ductusdeferens","epididymis","inguinalregion","leftrenalartery","leftrenalvein","lefttesticularvein","righttesticularartery","righttesticularvein"]
+BRIEF: Left testicular artery is a type of testicular artery. It is a part of systemic arterial tree.
+CHUNK: RectumPeritoneumPelvic inletBladderUterusShadow of ureterShadow of internal iliac vessels Fig. 4.12 Structures passing between the abdomen and thigh. Fig. 4.13 A series (A to H) showing the development of the gut and mesenteries. Fig. 4.14 Innervation of the anterior abdominal wall. Fig. 4.15 Inguinal region. A. Development. B. In men. C. In women. Inferior vena cavaRight testicular arteryLeft tes
+ANSWER(B3): I'm sorry, but the CONTEXT does not provide information about the function of the left testicular artery. General note: The left testicular artery typically supplies blood to the left testis, playing a crucial role in the reproductive system. If you have more questions about anatomy, feel free to ask!
+CHIPS(B3): ["lefttesticularartery","testis"]
+
+### [33] F-cardiovascular-019 (F/cardiovascular)
+QUERY: What is the Left gastric artery?
+GOLD must=["leftgastricartery"] optional=["abdominalaorta","bileduct","commonhepaticartery","duodenum","gallbladder","gastroduodenalartery","inferiorphrenicartery","jejunum"]
+BRIEF: Left gastric artery is a type of subdivision of celiac artery. It is a part of celiac artery.
+CHUNK: The arterial supply to the stomach (Fig. 4.63) includes: the left gastric artery from the celiac trunk, the right gastric artery, often from the hepatic artery proper, the right gastro-omental artery from the gastroduodenal artery, the left gastro-omental artery from the splenic artery, and the posterior gastric artery from the splenic artery (variant and not always present). The small intestine i
+ANSWER(B3): The **left gastric artery** is a small artery that arises from the celiac trunk, which is the anterior branch of the abdominal aorta. It supplies blood to the stomach and ascends toward the lesser curvature of the stomach [3][5]. Key points about the **left gastric artery** include: - It is the smallest branch of the celiac trunk [3]. - It runs along the lesser curvature of the stomach, providing essential blood supply [5]. - It may anastomose with other gastric arteries, contributing to the vascularization of the stomach [5]. Overall, the **left gastric artery** plays a crucial role in supplying blood to the stomach, particularly its upper part.
+CHIPS(B3): ["leftgastricartery","abdominalaorta","stomach"]
+
+### [34] F-cardiovascular-022 (F/cardiovascular)
+QUERY: What is the function of the Short posterior ciliary arteries?
+GOLD must=["shortposteriorciliaryarteries"] optional=["centralretinalartery","lacrimalartery","lacrimalgland","longposteriorciliaryarteries","ophthalmicartery","retina","sclera","supraorbitalartery"]
+BRIEF: The arterial supply to the eyeball is from several sources: The short posterior ciliary arteries are branches from the ophthalmic artery that pierce the sclera around the optic nerve and enter the choroid layer (Fig.
+CHUNK: The arterial supply to the eyeball is from several sources: The short posterior ciliary arteries are branches from the ophthalmic artery that pierce the sclera around the optic nerve and enter the choroid layer (Fig. 8.108). The long posterior ciliary arteries, usually two, enter the sclera on the medial and lateral sides of the optic nerve and proceed anteriorly in the choroid layer to anastomose
+ANSWER(B3): The **short posterior ciliary arteries** are branches from the **ophthalmic artery** that pierce the **sclera** around the optic nerve and enter the choroid layer. Their primary function is to supply blood to the choroid, which is essential for the health and function of the retina [2].
+CHIPS(B3): ["shortposteriorciliaryarteries","ophthalmicartery","sclera","retina"]
+
+### [35] F-lymphoid-004 (F/lymphoid)
+QUERY: What is the Brachiocephalic nodes?
+GOLD must=["brachiocephalicnodes"] optional=["cephalicvein","diaphragm","intercostalnerves","leftatrium","leftventricle","parasternalnodes","pleura","rightatrium"]
+BRIEF: Nodes associated with the diaphragm interconnect with parasternal, prevertebral, and juxta-esophageal nodes, brachiocephalic nodes (anterior to the brachiocephalic veins in the superior mediastinum), and lateral aortic/lumbar nodes (in the abdomen).
+CHUNK: Nodes associated with the diaphragm interconnect with parasternal, prevertebral, and juxta-esophageal nodes, brachiocephalic nodes (anterior to the brachiocephalic veins in the superior mediastinum), and lateral aortic/lumbar nodes (in the abdomen). Superficial regions of the thoracic wall drain mainly into axillary lymph nodes in the axilla or parasternal nodes. Innervation of the thoracic wall i
+ANSWER(B3): The **brachiocephalic nodes** are a group of lymph nodes located anterior to the brachiocephalic veins in the superior mediastinum. They are associated with the diaphragm and interconnect with various other lymph nodes, including parasternal, prevertebral, and juxta-esophageal nodes, as well as lateral aortic/lumbar nodes in the abdomen [1].
+CHIPS(B3): ["brachiocephalicnodes","diaphragm"]
+
+### [36] F-lymphoid-008 (F/lymphoid)
+QUERY: What is the function of the Parasternal nodes?
+GOLD must=["parasternalnodes"] optional=["apicalaxillarynodes","azygosvein","brachiocephalicnodes","centralaxillarynodes","cephalicvein","diaphragm","intercostalnerves","intercostalnodes"]
+BRIEF: Superficial regions of the thoracic wall drain mainly into axillary lymph nodes in the axilla or parasternal nodes.
+CHUNK: Nodes associated with the diaphragm interconnect with parasternal, prevertebral, and juxta-esophageal nodes, brachiocephalic nodes (anterior to the brachiocephalic veins in the superior mediastinum), and lateral aortic/lumbar nodes (in the abdomen). Superficial regions of the thoracic wall drain mainly into axillary lymph nodes in the axilla or parasternal nodes. Innervation of the thoracic wall i
+ANSWER(B3): The CONTEXT does not provide specific information about the function of the parasternal nodes. General note: Parasternal nodes are lymph nodes located near the sternum and are involved in the drainage of lymphatic fluid from the thoracic region, particularly from the breast and the anterior thoracic wall. They play a role in the immune response by filtering lymph and can be involved in the spread of cancer from the breast. If you have more questions about anatomy, feel free to ask!
+CHIPS(B3): ["parasternalnodes"]
+
+### [37] F-lymphoid-011 (F/lymphoid)
+QUERY: What is the function of the Spleen?
+GOLD must=["spleen"] optional=["abdominalaorta","bileduct","diaphragm","gallbladder","greateromentum","liver","pancreas","splenicartery"]
+BRIEF: Spleen is a type of corticomedullary organ.
+CHUNK: Both these ligaments are parts of the greater omentum. The spleen is surrounded by visceral peritoneum except in the area of the hilum on the medial surface of the spleen (Fig. 4.114). The splenic hilum is the entry point for the splenic vessels, and occasionally the tail of the pancreas reaches this area. The arterial supply to the spleen (Fig. 4.115) is the splenic artery from the celiac trunk.
+ANSWER(B3): The **spleen** is an organ of the reticuloendothelial system that plays a crucial role in: - **Hematopoiesis**: The production of blood cells. - **Immunological surveillance**: Monitoring and responding to pathogens in the blood. Additionally, the spleen is involved in clearing micro-organisms and can enlarge (a condition known as splenomegaly) when performing these functions or in response to diseases affecting the reticuloendothelial system, such as leukemia or lymphoma [1].
+CHIPS(B3): ["spleen"]
+
+### [38] F-lymphoid-015 (F/lymphoid)
+QUERY: What is the Mastoid nodes?
+GOLD must=["mastoidnodes"] optional=["externaljugularvein","mandibularnode","occipitalnodes","occipitalregion","parotidgland","sternocleidomastoidmuscle","submandibularnodes","submentalnodes"]
+BRIEF: The superficial cervical nodes are a collection of lymph nodes al
+CHUNK: Lymphatic flow from these superficial lymph nodes passes in several directions: Drainage from the occipital and mastoid nodes passes to the superficial cervical nodes along the external jugular vein. Drainage from the pre-auricular and parotid nodes, the submandibular nodes, and the submental nodes passes to the deep cervical nodes. The superficial cervical nodes are a collection of lymph nodes al
+ANSWER(B3): The term "mastoid nodes" does not appear in the provided context. However, I can provide some related information based on the context. The **mastoid process** is a prominent bony structure located on the lateral edge of the mastoid part of the temporal bone, serving as an attachment point for several muscles [1]. The deep cervical nodes, which include the jugulodigastric node, are part of the lymphatic system and are located along the internal jugular vein [2]. General note: Mastoid nodes likely refer to lymph nodes located near the mastoid process, but specific details about them are not included in the provided context. If you have further questions about anatomy or related structures, fe…
+CHIPS(B3): ["mastoidnodes","mastoidprocess","temporalbone","jugulodigastricnode","internaljugularvein"]
+
+### [39] F-nervous-001 (F/nervous)
+QUERY: What is the Genital branch of genitofemoral nerve?
+GOLD must=["genitalbranchofgenitofemoralnerve"] optional=["ductusdeferens","femoralartery","femoralnerve","genitofemoralnerve","inguinalligament","transversusabdominismuscle"]
+BRIEF: Inguinal ligamentFemoral artery and veinInternal oblique muscleAponeurosis of internal oblique Spermatic cordConjoint tendonAnterior superior iliac spine Fig.
+CHUNK: Inguinal ligamentFemoral artery and veinInternal oblique muscleAponeurosis of internal oblique Spermatic cordConjoint tendonAnterior superior iliac spine Fig. 4.46 Transversus abdominis muscle and the inguinal canal. Fig. 4.47 A. Spermatic cord (men). B. Round ligament of uterus (women). Internal spermatic fasciaParietal layer of the tunica vaginalisAVisceral layer of the tunica vaginalisCavity of
+ANSWER(B3): The **genital branch of the genitofemoral nerve** is a branch of the genitofemoral nerve that has specific functions and pathways: - It passes anteroinferiorly through the **psoas major** muscle on the posterior abdominal wall and descends on its anterior surface [2]. - This branch enters the inguinal canal through the deep inguinal ring and continues through the canal [3]. - In men, it innervates the **cremasteric muscle** and terminates on the skin in the upper anterior part of the **scrotum**. In women, it accompanies the round ligament of the uterus and terminates on the skin of the **mons pubis** and **labium majus** [3][4]. Overall, the genital branch plays a crucial role in providing …
+CHIPS(B3): ["genitofemoralnerve","psoasmajor","pubis"]
+
+### [40] F-nervous-005 (F/nervous)
+QUERY: Where is the Flocculus located?
+GOLD must=["flocculus"] optional=["fourthventricle","tentoriumcerebelli"]
+BRIEF: Within the posterior cranial fossa, the cerebellum is covered by the tentorium cerebelli of the dura mater (eFig.
+CHUNK: Within the posterior cranial fossa, the cerebellum is covered by the tentorium cerebelli of the dura mater (eFig. 9.17) and connects to the posterior surface of the brainstem via the superior, middle, and inferior cerebellar peduncles (eFig. 9.62). Anteriorly, the cerebellum forms the roof of the fourth ventricle (eFig. 9.14). On its surface, the cerebellum has several convoluted folds, or folia,
+ANSWER(B3): The CONTEXT does not provide information about the location of the **flocculus**. General note: The flocculus is part of the cerebellum and is involved in balance and coordination. It is located near the cerebellar hemispheres, specifically associated with the vestibular system. If you have more questions about anatomy, feel free to ask!
+CHIPS(B3): ["flocculus"]
+
+### [41] F-nervous-009 (F/nervous)
+QUERY: What is the Interpeduncular fossa?
+GOLD must=["interpeduncularfossa"] optional=["midbrain","pons"]
+BRIEF: Interpeduncular fossa is a type of subarachnoid incisure.
+CHUNK: Approximately 2 cm in length, the midbrain connects the forebrain to the pons caudally and the cerebellum posteriorly (eFig. 9.32A). Along the midline of the anterior surface there is a deep depression, the interpeduncular fossa, which has several perforations on its surface where small vessels perforate through the floor of the fossa. On either side of the interpeduncular fossa are the crus cereb
+ANSWER(B3): The **interpeduncular fossa** is a deep depression located along the midline of the anterior surface of the **midbrain**. It connects the forebrain to the **pons** and the cerebellum. The fossa is approximately 2 cm in length and features several perforations on its surface, allowing small vessels to pass through the floor of the fossa [2].
+CHIPS(B3): ["interpeduncularfossa","midbrain","pons"]
+
+### [42] F-nervous-012 (F/nervous)
+QUERY: Where is the Cuneate fasciculus located?
+GOLD must=["cuneatefasciculus"] optional=["gracilefasciculus","spinalganglion","thalamus"]
+BRIEF: Axons then enter the spinal cord through the posterior root to reach either the gracile fasciculus (gracile means “thin”), which carries information from the lower limb and trunk, or the cuneate fasciculus (cuneate means “wedge-shaped”), which carries information from t
+CHUNK: First-order neuronal cells bodies of the posterior column–medial lemniscal pathway are located in a spinal ganglion (eFig. 9.53). Axons then enter the spinal cord through the posterior root to reach either the gracile fasciculus (gracile means “thin”), which carries information from the lower limb and trunk, or the cuneate fasciculus (cuneate means “wedge-shaped”), which carries information from t
+ANSWER(B3): The **cuneate fasciculus** is located in the dorsal aspect of the medulla, laterally to the gracile nucleus and followed by the spinal trigeminal nucleus. It is part of the pathway where neuronal axons decussate as internal arcuate fibers to form the medial lemniscus near the midline of the medulla [1].
+CHIPS(B3): ["cuneatefasciculus"]
+
+### [43] F-nervous-016 (F/nervous)
+QUERY: Where is the Musculocutaneous nerve located?
+GOLD must=["musculocutaneousnerve"] optional=["axillaryartery","axillarynerve","brachialismuscle","coracobrachialismuscle","dorsalscapularnerve","flexordigitorumprofundus","humerus","inferiorsubscapularnerve"]
+BRIEF: The musculocutaneous nerve, the lateral root of the median nerve, the median nerve, the medial root of the median nerve, and the ulnar nerve form an M over the third part of the axillary artery (Fig.
+CHUNK: The musculocutaneous nerve, the lateral root of the median nerve, the median nerve, the medial root of the median nerve, and the ulnar nerve form an M over the third part of the axillary artery (Fig. 7.55). This feature, together with penetration of the coracobrachialis muscle by the musculocutaneous nerve, can be used to identify components of the brachial plexus in the axilla. Branches of the po
+ANSWER(B3): The **musculocutaneous nerve** is located in the arm, where it serves several important functions. Here are the key points regarding its location: - It is a large terminal branch of the lateral cord of the brachial plexus. - The nerve passes laterally to penetrate the **coracobrachialis muscle**. - It travels between the **biceps brachii** and **brachialis muscles** in the arm [1][3]. - The musculocutaneous nerve provides motor innervation to all muscles in the anterior compartment of the arm and sensory innervation to the skin on the lateral surface of the forearm [2][4]. This anatomical positioning allows it to effectively innervate the flexor muscles of the arm.
+CHIPS(B3): ["musculocutaneousnerve","coracobrachialismuscle"]
+
+### [44] F-nervous-019 (F/nervous)
+QUERY: What is the Inferior subscapular nerve?
+GOLD must=["inferiorsubscapularnerve"] optional=["axillaryartery","axillarynerve","dorsalscapularnerve","humerus","infraclavicularnodes","lateralpectoralnerve","latissimusdorsimuscle","longthoracicnerve"]
+BRIEF: Terminal nervesCordsDivisionsTrunksRoots (anterior rami)C5C6C7C8T1SuperiorMiddleInferiorLateralPosteriorPosteriorPosteriorPosteriorMedialAnteriorAnteriorAnterior ALateral pectoral nerveMedial pectoral nerveMedial cutaneous nerve of armMedial cutaneous nerve of forearmMusculocutaneousMedianRadialUlnarAxillaryLong tho…
+CHUNK: Terminal nervesCordsDivisionsTrunksRoots (anterior rami)C5C6C7C8T1SuperiorMiddleInferiorLateralPosteriorPosteriorPosteriorPosteriorMedialAnteriorAnteriorAnterior ALateral pectoral nerveMedial pectoral nerveMedial cutaneous nerve of armMedial cutaneous nerve of forearmMusculocutaneousMedianRadialUlnarAxillaryLong thoracicnerveSuprascapular nerveDorsal scapular nerveContribution to phrenic nerveNerv
+ANSWER(B3): The **inferior subscapular nerve** is one of the branches of the brachial plexus that innervates muscles associated with the posterior axillary wall. It originates from the posterior cord of the brachial plexus and passes directly into the muscles in this region [2]. This nerve primarily innervates the **subscapularis muscle** and the **teres major muscle**, contributing to the movement and stabilization of the shoulder joint [5].
+CHIPS(B3): ["inferiorsubscapularnerve","subscapularismuscle","teresmajormuscle"]
+
+### [45] F-visceral-001 (F/visceral)
+QUERY: What is the Submandibular duct?
+GOLD must=["submandibularduct"] optional=["externalcarotidartery","externaljugularvein","facialvein","lingualnerve","mandible","parotidduct","parotidgland","sublingualgland"]
+BRIEF: Occasionally, the more anterior part of the gland is drained by a duct (major sublingual duct) that opens together with the submandibular duct on the sublingual caruncle.
+CHUNK: The sublingual gland drains into the oral cavity via numerous small ducts (minor sublingual ducts), which open onto the crest of the sublingual fold. Occasionally, the more anterior part of the gland is drained by a duct (major sublingual duct) that opens together with the submandibular duct on the sublingual caruncle. Vessels that supply the parotid gland originate from the external carotid arter
+ANSWER(B3): The **submandibular duct** is a structure associated with the submandibular gland. It is responsible for draining saliva from the submandibular gland into the oral cavity. The duct opens together with the major sublingual duct at the sublingual caruncle, which is located in the floor of the mouth [1][2]. The submandibular duct loops under the **lingual nerve**, crossing from the lateral side to the medial side as it descends through the floor of the oral cavity [1].
+CHIPS(B3): ["submandibularduct","submandibulargland","lingualnerve"]
+
+### [46] F-visceral-005 (F/visceral)
+QUERY: What is the function of the Kidney?
+GOLD must=["kidney"] optional=["ilioinguinalnerve","spleen","suprarenalgland","transversalisfascia","ureter"]
+BRIEF: Kidney is a type of corticomedullary organ.
+CHUNK: The kidneys project onto the back on either side of the midline and are related to the lower ribs (Fig. 4.183): The left kidney is a little higher than the right and reaches as high as rib XI. The superior pole of the right kidney reaches only as high as rib XII. The lower poles of the kidneys occur around the level of the disc between the LIII and LIV vertebrae. The hila of the kidneys and the be
+ANSWER(B3): The CONTEXT does not provide specific information about the functions of the kidney. **General note:** The kidneys primarily function to filter blood, remove waste products, regulate electrolyte balance, control blood pressure, and maintain fluid balance in the body. They also produce hormones such as erythropoietin, which stimulates red blood cell production.
+CHIPS(B3): ["kidney"]
+
+### [47] F-visceral-008 (F/visceral)
+QUERY: What is the Free taenia?
+GOLD must=["freetaenia"] optional=["ascendingcolon"]
+BRIEF: Its point of attachment to the cecum is consistent with the highly visible free taeniae leading directly to the base of the appendix, but the location o
+CHUNK: The appendix is a narrow, hollow, blind-ended tube connected to the cecum. It has large aggregations of lymphoid tissue in its walls and is suspended from the terminal ileum by the mesoappendix (Fig. 4.83), which contains the appendicular vessels. Its point of attachment to the cecum is consistent with the highly visible free taeniae leading directly to the base of the appendix, but the location o
+ANSWER(B3): The **free taenia** refers to a specific anatomical feature associated with the appendix. It is a visible band of muscle that leads directly to the base of the appendix and is part of the large intestine's structure. The free taenia is connected to the cecum, which is the beginning of the large intestine [2]. In summary: - **Free taenia**: A band of muscle leading to the appendix. - **Location**: Connected to the cecum. If you have more questions about anatomy or want to explore specific structures, feel free to ask!
+CHIPS(B3): ["freetaenia"]
+
+### [48] F-visceral-012 (F/visceral)
+QUERY: Where is the Epididymis located?
+GOLD must=["epididymis"] optional=["ductusdeferens","ejaculatoryduct","externaliliacartery","externaliliacvein","inferiorepigastricartery","prostate","testis","ureter"]
+BRIEF: Epididymis is a type of duct.
+CHUNK: The epididymis courses along the posterolateral side of the testis (Fig. 5.47B). It has two distinct components: the efferent ductules, which form an enlarged coiled mass that sits on the posterior superior pole of the testis and forms the head of the epididymis; and the true epididymis, which is a single, long coiled duct into which the efferent ductules all drain, and which continues inferiorly
+ANSWER(B3): The **epididymis** is located along the posterolateral side of the **testis**. It consists of two distinct components: - The **head of the epididymis**, which is formed by the efferent ductules that create an enlarged coiled mass sitting on the posterior superior pole of the **testis**. - The **true epididymis**, which is a single, long coiled duct that drains all the efferent ductules and continues inferiorly [1].
+CHIPS(B3): ["epididymis","testis"]
+
+### [49] F-visceral-015 (F/visceral)
+QUERY: What is the function of the Mesocolon?
+GOLD must=["mesocolon"] optional=["ascendingcolon","commoniliacartery","descendingcolon","diaphragm","greateromentum","ileocolicartery","kidney","pancreas"]
+BRIEF: The transverse mesocolon is a fold of peritoneum that connects the transverse colon to the posterior abdominal wall (Fig.
+CHUNK: The transverse mesocolon is a fold of peritoneum that connects the transverse colon to the posterior abdominal wall (Fig. 4.61). Its two layers of peritoneum leave the posterior abdominal wall across the anterior surface of the head and body of the pancreas and pass outward to surround the transverse colon. Between its layers are the arteries, veins, nerves, and lymphatics related to the transvers
+ANSWER(B3): The mesocolon serves as a peritoneal fold that connects parts of the colon to the posterior abdominal wall. Its primary functions include: - **Support**: It provides structural support to the colon, helping to maintain its position within the abdominal cavity. - **Vascular and Nerve Supply**: Between its layers, the mesocolon contains arteries, veins, nerves, and lymphatics that supply the colon, facilitating blood flow and innervation [1][2]. There are different types of mesocolon, such as the transverse mesocolon and sigmoid mesocolon, each associated with specific sections of the colon.
+CHIPS(B3): ["mesocolon"]
+
+### [50] F-visceral-019 (F/visceral)
+QUERY: What is the function of the Ductus deferens?
+GOLD must=["ductusdeferens"] optional=["abdominalaorta","ejaculatoryduct","epididymis","externaliliacartery","externaliliacvein","femoralnerve","genitofemoralnerve","inferiorepigastricartery"]
+BRIEF: Between the ureter and ejaculatory duct, the ductus deferens expands to form the ampulla of the ductus deferens.
+CHUNK: Between the ureter and ejaculatory duct, the ductus deferens expands to form the ampulla of the ductus deferens. The ejaculatory duct penetrates through the prostate gland to connect with the prostatic urethra. Each seminal vesicle is an accessory gland of the male reproductive system that develops as a blind-ended tubular outgrowth from the ductus deferens (Fig. 5.47A). The tube is coiled with nu
+ANSWER(B3): The **ductus deferens** is a long muscular duct that serves the primary function of transporting spermatozoa from the tail of the **epididymis** in the scrotum to the **ejaculatory duct** in the pelvic cavity [1][3]. Key points about its function include: - It ascends in the scrotum as part of the spermatic cord. - It passes through the inguinal canal and the deep inguinal ring. - It expands to form the ampulla of the ductus deferens before connecting to the ejaculatory duct [2]. Overall, the ductus deferens plays a crucial role in the male reproductive system by facilitating the movement of sperm during ejaculation.
+CHIPS(B3): ["ductusdeferens","epididymis","ejaculatoryduct"]
+
+### [51] R-cardiovascular-001 (R/cardiovascular)
+QUERY: How are the Posterior intercostal arteries and the Transverse cervical artery anatomically related?
+GOLD must=["posteriorintercostalarteries","transversecervicalartery"] optional=["humerus","latissimusdorsimuscle","lumbararteries","scapula","suprascapularartery","thoracodorsalartery","thoracodorsalnerve"]
+BRIEF: The blood supply to the trapezius is from the superficial branch of the transverse cervical artery, the acromial branch of the suprascapular artery, and the dorsal branches of posterior intercostal arteries.
+CHUNK: The blood supply to the trapezius is from the superficial branch of the transverse cervical artery, the acromial branch of the suprascapular artery, and the dorsal branches of posterior intercostal arteries. Latissimus dorsi is a large, flat triangular muscle that begins in the lower portion of the back and tapers as it ascends to a narrow tendon that attaches to the humerus anteriorly (Figs. 2.42
+ANSWER(B3): The **posterior intercostal arteries** and the **transverse cervical artery** are both branches of major arteries that supply different regions of the thorax and neck, but they originate from different sources. - The **posterior intercostal arteries** arise from the posterior surface of the **thoracic aorta** [4]. They supply blood to the thoracic wall and run between adjacent ribs in the intercostal spaces [2]. - The **transverse cervical artery** is a branch of the **thyrocervical trunk**, which itself arises from the subclavian artery [1][5]. The transverse cervical artery passes laterally across the base of the posterior triangle of the neck and supplies the trapezius muscle [5]. In summ…
+CHIPS(B3): ["posteriorintercostalarteries","transversecervicalartery","thoracicaorta","thyrocervicaltrunk"]
+
+### [52] R-cardiovascular-003 (R/cardiovascular)
+QUERY: How are the Anterior cerebral artery and the Cavernous sinus anatomically related?
+GOLD must=["anteriorcerebralartery","cavernoussinus"] optional=["middlemeningealartery","optictract","superiorsagittalsinus"]
+BRIEF: Neurovascular bundleV1V2Connected togetheras a structural unitSkinAponeurosisPeriosteum1234BoneOutertableInnertableDiploëAnterior cerebral arteryInternal carotidarteryDiploic veinSuperior sagittal sinusCavernous sinusOptic tractsDuraPeriostial layerMeningeal layerArachnoidSubarachnoid spacePiaEmissary vein: can spre…
+CHUNK: Neurovascular bundleV1V2Connected togetheras a structural unitSkinAponeurosisPeriosteum1234BoneOutertableInnertableDiploëAnterior cerebral arteryInternal carotidarteryDiploic veinSuperior sagittal sinusCavernous sinusOptic tractsDuraPeriostial layerMeningeal layerArachnoidSubarachnoid spacePiaEmissary vein: can spread infection fromthe scalp into the cranial cavityConnective tissue:contains majorn
+ANSWER(B3): The **anterior cerebral artery** (ACA) and the **cavernous sinus** are anatomically related through their proximity and the structures they interact with. 1. The **anterior cerebral arteries** are connected by the **anterior communicating artery**, which is located anterior to the **optic chiasm** [3][4]. 2. The **cavernous sinuses** are situated against the lateral aspect of the body of the **sphenoid bone**, and they receive blood from various sources, including the **ophthalmic veins** [2]. 3. The **internal carotid artery**, which is a major vessel supplying the brain, passes through the cavernous sinus [1]. In summary, while the **anterior cerebral artery** is part of the anterior circu…
+CHIPS(B3): ["anteriorcerebralartery","cavernoussinus","anteriorcommunicatingartery","opticchiasm","sphenoidbone","internalcarotidartery"]
+
+### [53] R-muscular-001 (R/muscular)
+QUERY: How are the Adductor brevis and the Vastus lateralis muscle anatomically related?
+GOLD must=["adductorbrevis","vastuslateralismuscle"] optional=["adductorlongus","adductormagnus","femoralartery","femoralnerve","femur","gracilismuscle","iliacusmuscle","inferiorglutealartery"]
+BRIEF: 6.67 Obturator artery.
+CHUNK: Fig. 6.67 Obturator artery. Ligament ofhead offemurObturatorarteryAnterior branchAcetabular branchPosterior branchObturatorexternus muscleArtery of ligament of head of femur Fig. 6.68 Femoral nerve. Nerve to pectineusAnterior branchNerves to iliacusNerve to sartoriusRectus femoris muscleVastus lateralis muscleVastus medialis muscleSaphenous nerveSaphenous nervePes anserinusSartorius muscleGracilis
+ANSWER(B3): The **adductor brevis** and the **vastus lateralis muscle** are both located in the thigh but belong to different compartments and have distinct functions. - The **adductor brevis** is part of the medial compartment of the thigh. It adducts and medially rotates the thigh at the hip joint and is innervated by the obturator nerve [2]. - The **vastus lateralis** is part of the anterior compartment of the thigh and is the largest of the vastus muscles. It primarily functions to extend the knee [3]. Anatomically, these muscles are situated adjacent to each other in the thigh, with the adductor brevis lying posterior to the adductor longus and the vastus lateralis located more laterally in the ant…
+CHIPS(B3): ["adductorbrevis","vastuslateralismuscle","obturatornerve","adductorlongus"]
+
+### [54] R-muscular-003 (R/muscular)
+QUERY: How are the Extensor hallucis longus and the Flexor digitorum brevis anatomically related?
+GOLD must=["extensorhallucislongus","flexordigitorumbrevis"] optional=["anteriortibialartery","deepplantarartery","dorsalispedisartery","extensordigitorum","extensordigitorumlongus","intermediatecuneiformbone","medialplantarartery","plantararch"]
+BRIEF: Near the base of metatarsal I, the medial plantar artery gives rise to a superficial branch, which divides into three vessels that pass superficial to the flexor digitorum brevis muscle to join the plantar metatarsal arteries from the deep plantar arch.
+CHUNK: Near the base of metatarsal I, the medial plantar artery gives rise to a superficial branch, which divides into three vessels that pass superficial to the flexor digitorum brevis muscle to join the plantar metatarsal arteries from the deep plantar arch. The dorsalis pedis artery is the continuation of the anterior tibial artery and begins as the anterior tibial artery crosses the ankle joint (Fig.
+ANSWER(B3): The **extensor hallucis longus** and **flexor digitorum brevis** are located in different compartments of the foot and serve different functions. - The **extensor hallucis longus** is a muscle that originates in the lower half of the leg, specifically from the medial surface of the fibula, and it descends into the foot. It inserts on the upper surface of the base of the distal phalanx of the great toe, allowing for extension of the great toe [5][6]. - The **flexor digitorum brevis**, on the other hand, is situated in the sole of the foot, lying immediately superior to the plantar aponeurosis and inferior to the tendons of the flexor digitorum longus. This muscle primarily functions to flex t…
+CHIPS(B3): ["extensorhallucislongus","flexordigitorumbrevis","fibula","sole","plantaraponeurosis","flexordigitorumlongus"]
+
+### [55] R-cardiovascular-008 (R/cardiovascular)
+QUERY: How are the Azygos vein and the Left gastric artery anatomically related?
+GOLD must=["azygosvein","leftgastricartery"] optional=["diaphragm","hemiazygosvein","thoracicaorta"]
+BRIEF: Passing through the esophageal hiatus with the esophagus are the anterior and posterior vagal trunks, the esophageal branches of the left gastric artery and vein, and a few lymphatic vessels.
+CHUNK: Passing through the esophageal hiatus with the esophagus are the anterior and posterior vagal trunks, the esophageal branches of the left gastric artery and vein, and a few lymphatic vessels. The third large opening in the diaphragm is the caval opening, through which the inferior vena cava passes from the abdominal cavity to the thoracic cavity (Fig. 4.143) at approximately vertebra TVIII in the
+ANSWER(B3): The **azygos vein** and the **left gastric artery** are not directly anatomically related based on the provided context. - The **azygos vein** is part of the azygos system of veins, which drains blood from the body wall and some thoracic viscera into the **superior vena cava** [1][2]. - The **left gastric artery** is not mentioned in the context, so there is no specific anatomical information available regarding its relationship with the azygos vein. General note: The left gastric artery typically supplies blood to the stomach and is part of the celiac trunk, while the azygos vein is involved in venous drainage. They are located in different anatomical regions (the left gastric artery in the…
+CHIPS(B3): ["azygosvein","leftgastricartery","superiorvenacava","stomach"]
+
+### [56] R-cardiovascular-011 (R/cardiovascular)
+QUERY: How are the Middle colic vein and the Splenic vein anatomically related?
+GOLD must=["middlecolicvein","splenicvein"] optional=["pancreas","rightgastroomentalvein","stomach","superiormesentericartery","superiormesentericvein"]
+BRIEF: As a corresponding vein accompanies each branch of the superior mesenteric artery, tributaries to the superior mesenteric vein include jejunal, ileal, ileocolic, right colic, and middle colic veins.
+CHUNK: Posterior to the neck of the pancreas, the superior mesenteric vein joins the splenic vein to form the portal vein. As a corresponding vein accompanies each branch of the superior mesenteric artery, tributaries to the superior mesenteric vein include jejunal, ileal, ileocolic, right colic, and middle colic veins. Additional tributaries include: the right gastro-omental vein, draining the right par
+ANSWER(B3): The **middle colic vein** and the **splenic vein** are both tributaries of the **superior mesenteric vein** and play roles in draining blood from the gastrointestinal tract. - The **middle colic vein** drains blood from the transverse colon and is a tributary of the superior mesenteric vein, which joins the splenic vein to form the portal vein [2][5]. - The **splenic vein** forms from smaller vessels leaving the hilum of the **spleen** and passes through the splenorenal ligament alongside the splenic artery and the tail of the **pancreas** [1]. Thus, while the middle colic vein drains the transverse colon, the splenic vein collects blood from the spleen and ultimately contributes to the form…
+CHIPS(B3): ["middlecolicvein","splenicvein","superiormesentericvein","transversecolon","spleen","splenicartery","pancreas"]
+
+### [57] R-cardiovascular-012 (R/cardiovascular)
+QUERY: How are the Azygos vein and the Superior mesenteric artery anatomically related?
+GOLD must=["azygosvein","superiormesentericartery"] optional=["abdominalaorta","diaphragm","duodenum","inferiormesentericartery","leftrenalvein","lumbarveins","pancreas","splenicvein"]
+BRIEF: On its right side are the cisterna chyli, thoracic duct, azygos vein, right crus of the diaphragm, and the inferior vena cava.
+CHUNK: Anterior to the abdominal aorta, as it descends, are the pancreas and splenic vein, the left renal vein, and the inferior part of the duodenum. Several left lumbar veins cross it posteriorly as they pass to the inferior vena cava. On its right side are the cisterna chyli, thoracic duct, azygos vein, right crus of the diaphragm, and the inferior vena cava. On its left side is the left crus of the d
+ANSWER(B3): The **azygos vein** and the **superior mesenteric artery** are not directly anatomically related in terms of their function or location, as they serve different systems in the body. - The **azygos vein** is part of the venous system that drains blood from the body wall and some thoracic viscera, ultimately emptying into the **superior vena cava** [1]. - The **superior mesenteric artery** is an arterial structure that supplies blood to the abdominal midgut, including the duodenum and pancreas, and is associated with the pre-aortic lymph nodes [2][3]. While both structures are located in the abdominal region, they do not have a direct anatomical connection or relationship in terms of their pat…
+CHIPS(B3): ["azygosvein","superiormesentericartery","superiorvenacava","duodenum","pancreas"]
+
+### [58] R-joints-001 (R/joints)
+QUERY: How are the Pubic symphysis and the Sacrotuberous ligament anatomically related?
+GOLD must=["pubicsymphysis","sacrotuberousligament"] optional=["coccyx","internalpudendalvein","obturatorinternus","prostate","pudendalnerve","sacrospinousligament","sacrum","ureter"]
+BRIEF: It is limited anteriorly in the midline by the pubic symphysis.
+CHUNK: The diamond-shaped pelvic outlet is formed by both bone and ligaments (Fig. 5.6). It is limited anteriorly in the midline by the pubic symphysis. On each side, the inferior margin of the pelvic bone projects posteriorly and laterally from the pubic symphysis to end in a prominent tuberosity, the ischial tuberosity. Together, these elements construct the pubic arch, which forms the margin of the an
+ANSWER(B3): The **pubic symphysis** and the **sacrotuberous ligament** are both important structures in the pelvic region, but they serve different functions and are located in different areas. - The **pubic symphysis** is a joint located anteriorly between the adjacent surfaces of the pubic bones. It is covered by hyaline cartilage and linked by fibrocartilage, surrounded by collagen fibers and associated with the superior pubic ligament [2]. - The **sacrotuberous ligament** is a ligament that stabilizes the sacrum on the pelvic bones and helps convert the greater and lesser sciatic notches into foramina [6]. It is located posteriorly in the pelvis. While they are not directly connected, both structure…
+CHIPS(B3): ["pubicsymphysis","sacrotuberousligament","superiorpubicligament","sacrum"]
+
+### [59] R-cardiovascular-018 (R/cardiovascular)
+QUERY: How are the Azygos vein and the Marginal artery anatomically related?
+GOLD must=["azygosvein","marginalartery"] optional=["commoniliacvein","externaliliacvein","inferiormesentericvein","internaliliacvein","liver","spleen","splenicvein","stomach"]
+BRIEF: 4.129 Arterial supply to the abdominal parts of the gastrointestinal system and to the spleen.
+CHUNK: Fig. 4.129 Arterial supply to the abdominal parts of the gastrointestinal system and to the spleen. Fig. 4.130 Enlarged marginal artery connecting the superior and inferior mesenteric arteries. Digital subtraction angiogram. Fig. 4.131 Portal vein. Fig. 4.132 Venous drainage of the abdominal portion of the gastrointestinal tract. Fig. 4.133 Portosystemic anastomoses. LiverSpleenSplenic veinSuperio
+ANSWER(B3): The **azygos vein** is part of the azygos system of veins, which drains blood from the body wall and some thoracic viscera into the **superior vena cava** [1]. It arises from the right ascending lumbar vein and the right subcostal vein, and it has tributaries including the right superior intercostal vein and hemiazygos veins [2][6]. On the other hand, the **marginal artery** is not mentioned in the provided context, so I cannot provide specific anatomical details about its relationship with the azygos vein. General note: The marginal artery, also known as the marginal artery of Drummond, is typically a continuous arterial channel along the inner border of the colon, formed by anastomoses of …
+CHIPS(B3): ["azygosvein","superiorvenacava","rightascendinglumbarvein","rightsubcostalvein","rightsuperiorintercostalvein","marginalartery","superiormesentericartery","inferiormesentericartery"]
+
+### [60] R-cardiovascular-021 (R/cardiovascular)
+QUERY: How are the Great saphenous vein and the Plantar arch anatomically related?
+GOLD must=["greatsaphenousvein","plantararch"] optional=["dorsalmetatarsalarteries","fibula","lateralmalleolus","medialmalleolus","plantarmetatarsalarteries","saphenousnerve","smallsaphenousvein","tibia"]
+BRIEF: 6.126): The great sapheno
+CHUNK: The dorsal metatarsal arteries connect with perforating branches from the deep plantar arch and similar branches from the plantar metatarsal arteries. There are interconnected networks of deep and superficial veins in the foot. The deep veins follow the arteries. Superficial veins drain into a dorsal venous arch on the dorsal surface of the foot over the metatarsals (Fig. 6.126): The great sapheno
+ANSWER(B3): The **great saphenous vein** and the **plantar arch** are related through their connections to the venous and arterial systems of the foot. - The **great saphenous vein** originates from a dorsal venous arch in the foot, which is located on the dorsal surface over the metatarsals [2][4]. - The **plantar arch** is formed by the lateral plantar artery, which curves medially across the posterior half of the sole and connects with the terminal branches of the posterior tibial artery [6]. While the great saphenous vein primarily drains blood from the medial side of the leg and thigh, the plantar arch is involved in supplying blood to the foot. The interconnected networks of veins and arteries in …
+CHIPS(B3): ["greatsaphenousvein","plantararch","lateralplantarartery","sole","posteriortibialartery"]
+
+### [61] R-cardiovascular-023 (R/cardiovascular)
+QUERY: How are the Brachiocephalic trunk and the Thyrocervical trunk anatomically related?
+GOLD must=["brachiocephalictrunk","thyrocervicaltrunk"] optional=["inferiorthyroidartery","thyroidgland","trachea"]
+BRIEF: The inferior thyroid artery is a branch of the thyrocervical trunk, which arises from the first part of the subclavian artery (Figs.
+CHUNK: The posterior glandular branch passes to the posterior side of the gland and may anastomose with the inferior thyroid artery (Fig. 8.180). Inferior thyroid artery. The inferior thyroid artery is a branch of the thyrocervical trunk, which arises from the first part of the subclavian artery (Figs. 8.179 and 8.180). It ascends along the medial edge of the anterior scalene muscle, passes posteriorly t
+ANSWER(B3): The **brachiocephalic trunk** and the **thyrocervical trunk** are both branches of the aorta but arise from different locations and serve different regions. - The **brachiocephalic trunk** is the first branch of the arch of the aorta, originating behind the manubrium of the sternum. It is the largest of the three branches of the aorta and supplies blood to the right arm and the head and neck via its bifurcation into the right common carotid artery and right subclavian artery [3]. - The **thyrocervical trunk**, on the other hand, is a branch of the subclavian artery. It gives rise to several arteries, including the transverse cervical artery, which supplies the neck and shoulder regions [5]. …
+CHIPS(B3): ["brachiocephalictrunk","thyrocervicaltrunk","rightcommoncarotidartery","rightsubclavianartery","transversecervicalartery"]
+
+### [62] R-cardiovascular-026 (R/cardiovascular)
+QUERY: How are the Anterior circumflex humeral artery and the Axillary vein anatomically related?
+GOLD must=["anteriorcircumflexhumeralartery","axillaryvein"] optional=["axillaryartery","brachialartery","lateralthoracicartery","longheadofbicepsbrachii","longheadoftricepsbrachii","posteriorcircumflexhumeralartery","scapula","shortheadofbicepsbrachii"]
+BRIEF: 7.49 Contents of the axilla: the axillary artery.
+CHUNK: Fig. 7.48 Contents of the axilla: muscles. Long head of biceps brachiiShort head of biceps brachiiTendon of biceps brachiiCoracobrachialisBicipital aponeurosisTransverse humeral ligament Fig. 7.49 Contents of the axilla: the axillary artery. Lower border of teres majorPectoralis minorLateral margin of rib ISubclaviusSubclavian artery1st part2nd part3rd partBrachial arteryAxillary artery Fig. 7.50
+ANSWER(B3): The anatomical relationship between the **anterior circumflex humeral artery** and the **axillary vein** is not explicitly detailed in the provided context. However, we know that: - The **anterior circumflex humeral artery** supplies branches to surrounding tissues, including the glenohumeral joint and the head of the humerus [2]. - The **axillary vein** generally follows the course of the axillary artery and is located in the same region, but specific details about its relationship with the anterior circumflex humeral artery are not mentioned in the context. General note: Typically, the axillary vein runs alongside the axillary artery, and both vessels are located in the axilla, which serve…
+CHIPS(B3): ["anteriorcircumflexhumeralartery","axillaryvein","humerus","axillaryartery"]
+
+### [63] R-nervous-007 (R/nervous)
+QUERY: How are the Flocculus and the Tentorium cerebelli anatomically related?
+GOLD must=["flocculus","tentoriumcerebelli"] optional=["fourthventricle"]
+BRIEF: Within the posterior cranial fossa, the cerebellum is covered by the tentorium cerebelli of the dura mater (eFig.
+CHUNK: Within the posterior cranial fossa, the cerebellum is covered by the tentorium cerebelli of the dura mater (eFig. 9.17) and connects to the posterior surface of the brainstem via the superior, middle, and inferior cerebellar peduncles (eFig. 9.62). Anteriorly, the cerebellum forms the roof of the fourth ventricle (eFig. 9.14). On its surface, the cerebellum has several convoluted folds, or folia,
+ANSWER(B3): The **flocculus** is a part of the cerebellum, which is located within the posterior cranial fossa. The **tentorium cerebelli** is a horizontal projection of the meningeal dura mater that covers and separates the cerebellum from the posterior parts of the cerebral hemispheres [1][2]. Anatomically, the **tentorium cerebelli** provides a supportive structure above the cerebellum, including the **flocculus**, which is situated laterally on the cerebellum. The **tentorium cerebelli** is attached to the occipital bone and the petrous part of the temporal bone, creating a division between the cerebellum and the cerebral hemispheres [1]. In summary, the **flocculus** is located beneath the **tentor…
+CHIPS(B3): ["flocculus","tentoriumcerebelli","occipitalbone","temporalbone"]
+
+### [64] R-visceral-003 (R/visceral)
+QUERY: How are the Gallbladder and the Ureter anatomically related?
+GOLD must=["gallbladder","ureter"] optional=["diaphragm","kidney","liver","pancreas","spleen","stomach","suprarenalgland"]
+BRIEF: Abdominal viscera include: major elements of the gastrointestinal system—the caudal end of the esophagus, stomach, small and large intestines, liver, pancreas, and gallbladder; the spleen; components of the urinary system—kidneys and ureters; the
+CHUNK: Abdominal viscera are either suspended in the peritoneal cavity by mesenteries or positioned between the cavity and the musculoskeletal wall (Fig. 4.1B). Abdominal viscera include: major elements of the gastrointestinal system—the caudal end of the esophagus, stomach, small and large intestines, liver, pancreas, and gallbladder; the spleen; components of the urinary system—kidneys and ureters; the
+ANSWER(B3): The **gallbladder** and the **ureter** are not directly anatomically related, as they are part of different systems in the body. However, I can provide information about their individual anatomical locations: - The **gallbladder** is a pear-shaped sac located on the visceral surface of the right lobe of the **liver**, specifically in a fossa between the right and quadrate lobes. It is positioned against the **transverse colon** and the superior part of the **duodenum** [1]. - The **ureter** is a tube that carries urine from the **kidney** to the bladder. It descends retroperitoneally on the medial aspect of the **psoas major** muscle and enters the pelvic cavity by passing through the pelvic…
+CHIPS(B3): ["gallbladder","ureter","liver","transversecolon","duodenum","kidney","psoasmajor"]
+
+### [65] R-nervous-009 (R/nervous)
+QUERY: How are the Lacrimal gland and the Medulla oblongata anatomically related?
+GOLD must=["lacrimalgland","medullaoblongata"] optional=["pons","softpalate","stylohyoidmuscle","tongue"]
+BRIEF: The GVE fibers are part of the parasympathetic part of the autonomic division of the PNS and stimulate secretomotor activity in the lacrimal gland, submandi
+CHUNK: The facial nerve [VII] carries GSA, SA, GVE, and BE fibers: The GSA fibers provide sensory input from part of the external acoustic meatus and deeper parts of the auricle. The SA fibers are for taste from the anterior two-thirds of the tongue. The GVE fibers are part of the parasympathetic part of the autonomic division of the PNS and stimulate secretomotor activity in the lacrimal gland, submandi
+ANSWER(B3): The **lacrimal gland** and the **medulla oblongata** are not directly anatomically related based on the provided context. The lacrimal gland is involved in the production and drainage of tears, located in the orbit, while the medulla oblongata is part of the brainstem that controls vital autonomic functions. However, the lacrimal gland's function is influenced by the autonomic nervous system, which is regulated by the central nervous system, including the medulla oblongata. The context does not provide specific anatomical connections between these two structures, so I cannot elaborate further on their relationship. General note: The medulla oblongata plays a role in autonomic functions, whic…
+CHIPS(B3): ["lacrimalgland","medullaoblongata"]
+
+### [66] R-nervous-011 (R/nervous)
+QUERY: How are the Cauda equina and the Central canal anatomically related?
+GOLD must=["caudaequina","centralcanal"] optional=[]
+BRIEF: Cauda equina syndrome is classed as a sur
+CHUNK: The collection of lumbar and sacral nerve roots beyond the conus medullaris has a horsetail-like appearance, from which it derives its name “cauda equina.” Compression of the cauda equina may be caused by a herniating disc (as in this case), fracture fragments following traumatic injury, tumor, abscess, or severe degenerative stenosis of the central canal. Cauda equina syndrome is classed as a sur
+ANSWER(B3): The **cauda equina** and the **central canal** are both structures associated with the spinal cord, but they serve different functions and are located in different areas. - The **cauda equina** is a collection of lumbar and sacral nerve roots that extends beyond the conus medullaris, resembling a horsetail. It can be affected by conditions such as herniated discs or tumors, which may compress it [1]. - The **central canal** is a narrow channel that runs through the center of the spinal cord, surrounded by the spinal cord's gray matter. It is part of the spinal cord's structure and is involved in the circulation of cerebrospinal fluid. While both are part of the spinal anatomy, the cauda equi…
+CHIPS(B3): ["caudaequina","centralcanal"]
+
+### [67] R-muscular-009 (R/muscular)
+QUERY: How are the Extensor indicis and the Supraspinatus muscle anatomically related?
+GOLD must=["extensorindicis","supraspinatusmuscle"] optional=["extensordigitiminimi","extensordigitorum","palm"]
+BRIEF: Extension of the index, middle, ring, and little fingers is performed by the extensor digitorum muscle.
+CHUNK: Extension of the index, middle, ring, and little fingers is performed by the extensor digitorum muscle. Placing the fist in a palm-down position on the table and pressing the middle phalanges onto the table effectively immobilizes the action of the extensor digitorum. The freshman was therefore unable to elevate his middle finger (which was sticking out). It is important to remember that if this s
+ANSWER(B3): The **extensor indicis** and the **supraspinatus muscle** are not directly anatomically related, as they serve different functions and are located in different regions of the body. - The **extensor indicis** is a muscle that acts as an accessory extensor of the index finger, originating from the posterior surface of the ulna and adjacent interosseous membrane, and inserting into the extensor hood of the index finger [4]. - The **supraspinatus muscle** is part of the rotator cuff, which stabilizes the glenohumeral joint. It originates from the supraspinous fossa of the scapula and inserts on the greater tubercle of the humerus [5]. In summary, while both muscles are involved in movement, they…
+CHIPS(B3): ["extensorindicis","supraspinatusmuscle","ulna","supraspinousfossa","scapula","greatertubercle","humerus"]
+
+### [68] R-visceral-004 (R/visceral)
+QUERY: How are the Liver and the Transverse colon anatomically related?
+GOLD must=["liver","transversecolon"] optional=["ascendingcolon","descendingcolon","diaphragm","duodenum","gallbladder","pancreas","sigmoidcolon","spleen"]
+BRIEF: At the junction of the ascending and transverse colon is the right colic flexure, which is just inferior to the right lobe of the liver (Fig.
+CHUNK: At the junction of the ascending and transverse colon is the right colic flexure, which is just inferior to the right lobe of the liver (Fig. 4.89). A similar, but more acute bend (the left colic flexure) occurs at the junction of the transverse and descending colon. This bend is just inferior to the spleen, is higher and more posterior than the right colic flexure, and is attached to the diaphrag
+ANSWER(B3): The **liver** and the **transverse colon** are anatomically related through their positioning in the abdominal cavity. - The right colic flexure, which is the junction of the ascending and transverse colon, is located just inferior to the right lobe of the **liver** [2]. - The **transverse mesocolon**, a fold of peritoneum, connects the **transverse colon** to the posterior abdominal wall and passes outward to surround the **transverse colon** [1]. This relationship indicates that the **liver** is positioned above the **transverse colon**, influencing its anatomical orientation and connections.
+CHIPS(B3): ["liver","transversecolon","mesocolon"]
+
+### [69] R-cardiovascular-033 (R/cardiovascular)
+QUERY: How are the Superior thyroid vein and the Thyrocervical trunk anatomically related?
+GOLD must=["superiorthyroidvein","thyrocervicaltrunk"] optional=["externalcarotidartery","internaljugularvein","thyroidcartilage","trachea"]
+BRIEF: 8.226): The superior laryngeal artery originates near the upper margin of the thyroid cartilage from the superior thyroid branch of the external carotid artery, and accompanies the internal branch of the superior laryngeal nerve through the thyrohyoid membrane to reach the larynx.
+CHUNK: The major blood supply to the larynx is by the superior and inferior laryngeal arteries (Fig. 8.226): The superior laryngeal artery originates near the upper margin of the thyroid cartilage from the superior thyroid branch of the external carotid artery, and accompanies the internal branch of the superior laryngeal nerve through the thyrohyoid membrane to reach the larynx. The inferior laryngeal a
+ANSWER(B3): The **superior thyroid vein** drains the area supplied by the **superior thyroid artery**, which is a branch of the **thyrocervical trunk** [5]. Therefore, anatomically, the superior thyroid vein is related to the thyrocervical trunk through its connection to the superior thyroid artery, as both structures are involved in the vascular supply and drainage of the thyroid gland. In summary: - **Thyrocervical trunk** gives rise to the **superior thyroid artery**. - **Superior thyroid vein** drains the area supplied by the **superior thyroid artery**.
+CHIPS(B3): ["superiorthyroidvein","thyrocervicaltrunk","thyroidgland"]
+
+### [70] R-muscular-012 (R/muscular)
+QUERY: How are the Calcaneal tendon and the Extensor hallucis longus anatomically related?
+GOLD must=["calcanealtendon","extensorhallucislongus"] optional=["anteriortibialartery","deepfibularnerve","fibula","lateralmalleolus","medialmalleolus","tibia"]
+BRIEF: 6.93 Muscles of the anterior compartment of leg.
+CHUNK: Fig. 6.93 Muscles of the anterior compartment of leg. Anterior surfaceof fibulaExtensordigitorumlongusOrigin of extensordigitorum longusLateral surfaceof fibulaExtensor hallucis longusOrigin of extensorhallucis longusFibularistertiusAttachment to inferior surface of medial cuneiform and metatarsal ISubcutaneoussurface of tibiaTibialisanteriorOrigin of tibialisanterior Fig. 6.94 Anterior tibial art
+ANSWER(B3): The **calcaneal tendon** and the **extensor hallucis longus** are both important structures in the lower leg and foot, but they serve different functions and are located in different anatomical regions. - The **calcaneal tendon**, also known as the Achilles tendon, is formed by the convergence of the gastrocnemius and soleus muscles in the lower leg. It attaches to the **calcaneus** (heel bone) and is primarily responsible for plantarflexing the foot [6]. - The **extensor hallucis longus** is a muscle that appears between the tendons of the tibialis anterior and extensor digitorum longus in the lower leg. It descends into the foot and inserts on the upper surface of the base of the distal ph…
+CHIPS(B3): ["calcanealtendon","extensorhallucislongus","calcaneus","extensordigitorumlongus"]
+
+### [71] R-cardiovascular-036 (R/cardiovascular)
+QUERY: How are the Right ascending lumbar vein and the Superior vena cava anatomically related?
+GOLD must=["rightascendinglumbarvein","superiorvenacava"] optional=["azygosvein","diaphragm","leftsubclavianartery","leftsuperiorintercostalvein","rightsubcostalvein","rightsuperiorintercostalvein","sympathetictrunk","thoracicaorta"]
+BRIEF: The azygos vein arises opposite vertebra LI or LII at the junction between the right ascending lumbar vein and the right subcostal vein (Fig.
+CHUNK: There is significant variation in the origin, course, tributaries, anastomoses, and termination of these vessels. The azygos vein arises opposite vertebra LI or LII at the junction between the right ascending lumbar vein and the right subcostal vein (Fig. 3.102). It may also arise as a direct branch of the inferior vena cava, which is joined by a common trunk from the junction of the right ascendi
+ANSWER(B3): The **right ascending lumbar vein** and the **superior vena cava** are related through their roles in the venous system of the body, particularly in the drainage of blood. - The **superior vena cava** enters the upper posterior portion of the **right atrium** of the heart, collecting blood from the upper body [1]. - The **right ascending lumbar vein** contributes to the formation of the **azygos vein**, which can arise at the junction of the **right ascending lumbar vein** and the **right subcostal vein** [3]. While the superior vena cava primarily drains the upper body, the right ascending lumbar vein is involved in the drainage of the lumbar region and contributes to the azygos system, whi…
+CHIPS(B3): ["rightascendinglumbarvein","superiorvenacava","rightatrium","azygosvein","rightsubcostalvein","lumbarregion"]
+
+### [72] R-visceral-007 (R/visceral)
+QUERY: How are the Accessory pancreatic duct and the Gallbladder anatomically related?
+GOLD must=["accessorypancreaticduct","gallbladder"] optional=["duodenum","kidney","pancreas","pancreaticduct","superiormesentericartery","transversecolon"]
+BRIEF: The descending part (second part) of the duodenum is just to the right of midline and extends from the neck of the gallbladder to the lower border of vertebra LIII.
+CHUNK: The descending part (second part) of the duodenum is just to the right of midline and extends from the neck of the gallbladder to the lower border of vertebra LIII. Its anterior surface is crossed by the transverse colon, posterior to it is the right kidney, and medial to it is the head of the pancreas. This part of the duodenum contains the major duodenal papilla, which is the common entrance for
+ANSWER(B3): The **accessory pancreatic duct** and the **gallbladder** are anatomically related through their proximity to the **duodenum** and the **pancreas**. - The **gallbladder** is located on the visceral surface of the right lobe of the **liver**, in a fossa between the right and quadrate lobes, and is positioned near the **duodenum** [3]. - The **accessory pancreatic duct** typically communicates with the main pancreatic duct, which is located in the **head of the pancreas**. The **duodenum** is situated just to the right of midline and extends from the neck of the gallbladder [4][5]. Thus, while they do not directly connect, their anatomical positions are closely related within the context of th…
+CHIPS(B3): ["accessorypancreaticduct","gallbladder","duodenum","pancreas","liver","pancreaticduct"]
+
+### [73] R-muscular-014 (R/muscular)
+QUERY: How are the Adductor brevis and the Vastus intermedius muscle anatomically related?
+GOLD must=["adductorbrevis","vastusintermediusmuscle"] optional=["adductorlongus","adductormagnus","femoralartery","gracilismuscle","iliacusmuscle","inferiorglutealartery","lateralcircumflexfemoralartery","medialcircumflexfemoralartery"]
+BRIEF: 6.66 Deep artery of thigh.
+CHUNK: Fig. 6.66 Deep artery of thigh. A. Anterior view. B. Posterior view. BSuperior gluteal arteryLateral femoral circumflex arteryCruciate anastomosesMedial circumflex femoral arteryFirst perforating arterySecond perforating arteryThird perforating arteryTerminal end of deepartery of thighPopliteal arteryAdductor magnus muscleAdductor hiatusInferior gluteal arteryPiriformis muscleAPsoas and iliacus mu
+ANSWER(B3): The **adductor brevis** and the **vastus intermedius muscle** are both located in the thigh, but they belong to different compartments and have distinct functions. - The **adductor brevis** is part of the medial compartment of the thigh. It adducts and medially rotates the thigh at the hip joint and is innervated by the [[obj:obturatornerve]] [1]. - The **vastus intermedius muscle** is part of the anterior compartment of the thigh and is involved in extending the knee joint. It originates from the femur and is often associated with the articularis genus muscle, which helps protect the suprapatellar bursa during knee extension [4]. In summary, while both muscles are in the thigh region, the *…
+CHIPS(B3): ["obturatornerve","adductorbrevis","vastusintermediusmuscle","femur","suprapatellarbursa"]
+
+### [74] R-cardiovascular-043 (R/cardiovascular)
+QUERY: How are the Middle meningeal artery and the Superior petrosal sinus anatomically related?
+GOLD must=["middlemeningealartery","superiorpetrosalsinus"] optional=["ascendingpharyngealartery","axillaryartery","internalcarotidartery","maxilla","maxillaryartery","pons","stapes"]
+BRIEF: Numerous arteries supply the structures in the middle ear: the two largest branches are the tympanic branch of the maxillary artery and the mastoid branch of the occipital or posterior auricular arteries; smaller branches come from the middle meningeal artery, t
+CHUNK: Contraction of the stapedius muscle, usually in response to loud noises, pulls the stapes posteriorly and prevents excessive oscillation. Numerous arteries supply the structures in the middle ear: the two largest branches are the tympanic branch of the maxillary artery and the mastoid branch of the occipital or posterior auricular arteries; smaller branches come from the middle meningeal artery, t
+ANSWER(B3): The **middle meningeal artery** and the **superior petrosal sinus** are both involved in the vascular supply and drainage of the cranial cavity, but they do not have a direct anatomical relationship. - The **middle meningeal artery** is a branch of the **maxillary artery** and supplies much of the dura mater and the bony walls of the cranial cavity [2][3]. It enters the middle cranial fossa through the foramen spinosum and divides into anterior and posterior branches [3]. - The **superior petrosal sinus** drains the cavernous sinuses into the transverse sinuses and is located along the superior margin of the petrous part of the **temporal bone** [1]. While both structures are located in the …
+CHIPS(B3): ["middlemeningealartery","superiorpetrosalsinus","maxillaryartery","temporalbone"]
+
+### [75] R-nervous-018 (R/nervous)
+QUERY: How are the Lateral pectoral nerve and the Long thoracic nerve anatomically related?
+GOLD must=["lateralpectoralnerve","longthoracicnerve"] optional=["axillaryartery","axillarynerve","cephalicvein","clavipectoralfascia","dorsalscapularnerve","inferiorsubscapularnerve","medialpectoralnerve","mediannerve"]
+BRIEF: Terminal nervesCordsDivisionsTrunksRoots (anterior rami)C5C6C7C8T1SuperiorMiddleInferiorLateralPosteriorPosteriorPosteriorPosteriorMedialAnteriorAnteriorAnterior ALateral pectoral nerveMedial pectoral nerveMedial cutaneous nerve of armMedial cutaneous nerve of forearmMusculocutaneousMedianRadialUlnarAxillaryLong tho…
+CHUNK: Terminal nervesCordsDivisionsTrunksRoots (anterior rami)C5C6C7C8T1SuperiorMiddleInferiorLateralPosteriorPosteriorPosteriorPosteriorMedialAnteriorAnteriorAnterior ALateral pectoral nerveMedial pectoral nerveMedial cutaneous nerve of armMedial cutaneous nerve of forearmMusculocutaneousMedianRadialUlnarAxillaryLong thoracicnerveSuprascapular nerveDorsal scapular nerveContribution to phrenic nerveNerv
+ANSWER(B3): The **lateral pectoral nerve** and the **long thoracic nerve** are both branches of the brachial plexus, but they originate from different roots and serve different functions. - The **lateral pectoral nerve** originates from the lateral cord of the brachial plexus, which is formed by the anterior rami of C5, C6, and C7 [4]. - The **long thoracic nerve** originates from the anterior rami of C5 to C7 as well, but it specifically passes down the medial wall of the axilla to supply the **serratus anterior muscle** [1]. While they share some common roots (C5 to C7), their paths diverge as the lateral pectoral nerve primarily innervates the pectoralis muscles, whereas the long thoracic nerve inner…
+CHIPS(B3): ["lateralpectoralnerve","longthoracicnerve","serratusanteriormuscle"]
+
+### [76] A-muscular-001 (A/muscular)
+QUERY: What is the Common tendinous ring?
+GOLD must=["commontendinousring"] optional=["cavernoussinus","inferiorobliquemuscle","inferiorrectusmuscle","lateralrectusmuscle","levatorpalpebraesuperioris","medialrectusmuscle","midbrain","pons"]
+BRIEF: The medial rectus originates from the medial part of the common tendinous ring medial to and below the optic canal, whereas the lateral rectus originates from the lateral part of the common tendinous ring as the common tendinous ring bridges the supe
+CHUNK: The orientation and actions of the medial and lateral rectus muscles are more straightforward than those of the superior and inferior rectus muscles. The medial rectus originates from the medial part of the common tendinous ring medial to and below the optic canal, whereas the lateral rectus originates from the lateral part of the common tendinous ring as the common tendinous ring bridges the supe
+ANSWER(B3): The **common tendinous ring** is an anatomical structure located in the orbit. It serves as the origin point for several extraocular muscles, specifically: - **Medial rectus muscle**: Originates from the medial part of the common tendinous ring, located medial to and below the optic canal [3]. - **Lateral rectus muscle**: Originates from the lateral part of the common tendinous ring [3]. - **Superior rectus muscle**: Originates from the superior part of the common tendinous ring, above the optic canal [4]. - **Inferior rectus muscle**: Originates from the inferior part of the common tendinous ring, below the optic canal [4]. This ring acts as a bridge over the optic canal, providing a point …
+CHIPS(B3): ["commontendinousring","medialrectusmuscle","lateralrectusmuscle","superiorrectusmuscle","inferiorrectusmuscle"]
+
+### [77] A-nervous-001 (A/nervous)
+QUERY: What is the Ganglia of sympathetic trunk?
+GOLD must=["gangliaofsympathetictrunk"] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The **ganglia of the sympathetic trunk** are collections of neuronal cell bodies located outside the central nervous system (CNS). They are part of the sympathetic nervous system and are typically found along the sympathetic trunks, which are two parallel nerve cords extending from the base of the skull to the [[obj:coccyx]]. Key points about the ganglia include: - There are usually: - **Three ganglia** in the cervical region - **Eleven or twelve ganglia** in the thoracic region - **Four ganglia** in the [[obj:lumberregion]] - **Four or five ganglia** in the [[obj:sacralregion]] [1]. These ganglia play a crucial role in the autonomic division of the peripheral nervous system, facilitating co…
+CHIPS(B3): ["coccyx","sacralregion","sympathetictrunk"]
+
+### [78] A-nervous-003 (A/nervous)
+QUERY: What is the Sulcus interm_prim-Jensen?
+GOLD must=["sulcusintermprimjensen"] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): I'm sorry, but the CONTEXT does not provide any information about the "Sulcus interm_prim-Jensen." General note: The term may refer to a specific anatomical feature or sulcus, but without additional context or details, I cannot provide an accurate description. If you have any other questions about anatomy, feel free to ask!
+CHIPS(B3): ["sulcusintermprimjensen"]
+
+### [79] A-muscular-002 (A/muscular)
+QUERY: What is the Adductor magnus?
+GOLD must=["adductormagnus"] optional=["adductorbrevis","adductorlongus","femoralnerve","femur","iliacusmuscle","inguinalligament","obturatorexternus","obturatornerve"]
+BRIEF: Like the adductor longus and brevis muscles, the adductor magnus is a triangular or fan-shaped muscle
+CHUNK: The adductor brevis adducts and medially rotates the thigh at the hip joint and is innervated by the obturator nerve. The adductor magnus is the largest and deepest of the muscles in the medial compartment of the thigh (Fig. 6.62). The muscle forms the distal posterior wall of the adductor canal. Like the adductor longus and brevis muscles, the adductor magnus is a triangular or fan-shaped muscle
+ANSWER(B3): The **adductor magnus** is the largest and deepest muscle in the medial compartment of the thigh. It has a triangular or fan-shaped structure and plays a crucial role in adducting and medially rotating the thigh at the hip joint. ### Key Features: - **Origin**: It originates from the inferior pubic ramus, the ramus of the ischium, and the ischial tuberosity [2][3]. - **Insertion**: The muscle inserts along a vertical line on the femur, specifically into the adductor tubercle on the medial condyle and the medial supracondylar line [3]. - **Innervation**: The adductor magnus is innervated by the obturator nerve [1]. The muscle also forms the distal posterior wall of the adductor canal and cont…
+CHIPS(B3): ["adductormagnus","inferiorpubicramus","ischium","ischialtuberosity","femur","adductortubercle","medialsupracondylarline","obturatornerve","femoraltriangle"]
+
+### [80] A-regions-031 (A/regions)
+QUERY: What is the Anterior notch of auricle?
+GOLD must=["anteriornotchofauricle"] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The **anterior notch of auricle** is not specifically described in the provided context. Therefore, I cannot provide detailed anatomical information about it based on the available sources. General note: The anterior notch of the auricle typically refers to a small indentation or recess located at the anterior part of the auricle (pinna) of the ear, which may play a role in the overall shape and function of the ear in sound capture. If you have more specific questions or need information about other structures, feel free to ask!
+CHIPS(B3): ["anteriornotchofauricle"]
+
+### [81] A-muscular-003 (A/muscular)
+QUERY: What is the Tensor fasciae latae?
+GOLD must=["tensorfasciaelatae"] optional=["adductormagnus","fascialata","femoralnerve","femur","fibula","glutealregion","gluteusmaximusmuscle","iliotibialtract"]
+BRIEF: Like the gluteus maximus muscle, the tensor fasciae
+CHUNK: The tensor fasciae latae originates from the outer margin of the iliac crest from the anterior superior iliac spine to approximately the tuberculum of the iliac crest. The muscle fibers descend to insert into the anterior aspect of the iliotibial tract of deep fascia, which runs down the lateral side of the thigh and attaches to the upper tibia. Like the gluteus maximus muscle, the tensor fasciae
+ANSWER(B3): The **tensor fasciae latae** is a muscle located in the gluteal region. Here are some key points about it: - **Origin**: It originates from the outer margin of the **iliac crest**, specifically from the **anterior superior iliac spine** to approximately the tuberculum of the iliac crest [1]. - **Insertion**: The muscle fibers descend and insert into the anterior aspect of the **iliotibial tract**, which is a thick band of deep fascia running down the lateral side of the thigh and attaching to the upper **tibia** [1]. - **Function**: The tensor fasciae latae, along with the **gluteus maximus muscle**, helps hold the leg in extension and stabilizes the hip joint by preventing lateral displacem…
+CHIPS(B3): ["tensorfasciaelatae","glutealregion","iliaccrest","anteriorsuperioriliacspine","iliotibialtract","tibia","gluteusmaximusmuscle"]
+
+### [82] A-joints-001 (A/joints)
+QUERY: What is the Sacrotuberous ligament?
+GOLD must=["sacrotuberousligament"] optional=["coccyx","glutealregion","obturatorinternus","piriformismuscle","pubicsymphysis","pudendalnerve","sacrospinousligament","sacrum"]
+BRIEF: Ligaments of the pelvic wall The sacrospinous and sacrotuberous ligaments (Fig.
+CHUNK: The walls of the pelvic cavity consist of the sacrum, the coccyx, the pelvic bones inferior to the linea terminalis, two ligaments, and two muscles. Ligaments of the pelvic wall The sacrospinous and sacrotuberous ligaments (Fig. 5.29A) are major components of the lateral pelvic walls that help define the apertures between the pelvic cavity and adjacent regions through which structures pass. The sm
+ANSWER(B3): The **sacrotuberous ligament** is a significant ligament of the pelvic wall. It helps stabilize the sacrum on the pelvic bones by resisting upward tilting of the inferior aspect of the sacrum [6]. Additionally, the sacrotuberous ligament plays a crucial role in converting the greater and lesser sciatic notches of the pelvic bone into foramina, which are openings that allow structures to pass between the pelvic cavity and adjacent regions [6]. In summary, the sacrotuberous ligament: - Stabilizes the sacrum on the pelvic bones. - Converts the greater and lesser sciatic notches into foramina.
+CHIPS(B3): ["sacrotuberousligament","sacrum"]
+
+### [83] A-joints-002 (A/joints)
+QUERY: What is the Intra-articular ligament of head of rib?
+GOLD must=["intraarticularligamentofheadofrib"] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The **intra-articular ligament of the head of rib** is a ligament that plays a crucial role in the articulation of the rib with the vertebrae. It attaches the crest of the head of the rib to the adjacent intervertebral disc, effectively dividing the joint into two synovial compartments. This separation allows for distinct movement and articulation between the rib and the vertebrae it connects to [1].
+CHIPS(B3): ["headofrib"]
+
+### [84] A-regions-032 (A/regions)
+QUERY: What is the Tragus?
+GOLD must=["tragus"] optional=["antihelix","antitragus","helix","intertragicincisure","lacrimalsac","nasolacrimalduct","oralregion","temporalregion"]
+BRIEF: The external ear consists of two parts.
+CHUNK: The external ear consists of two parts. The part projecting from the side of the head is the auricle (pinna) and the canal leading inward is the external acoustic meatus. The auricle is on the side of the head and assists in capturing sound. It consists of cartilage covered with skin and arranged in a pattern of various elevations and depressions (Fig. 8.114). The large outside rim of the auricle
+ANSWER(B3): The **tragus** is a small, rounded prominence located on the external ear, specifically at the anterior part of the auricle. It plays a role in directing sound waves into the ear canal. Unfortunately, the provided context does not contain detailed information about the tragus. General note: The tragus is often used in various medical examinations and can be involved in certain ear-related conditions. If you have more specific questions about its anatomy or function, feel free to ask!
+CHIPS(B3): ["tragus"]
+
+### [85] A-skeletal-001 (A/skeletal)
+QUERY: What is the Patella?
+GOLD must=["patella"] optional=["commonfibularnerve","fibula","fibularcollateralligament","posteriorcruciateligament","sartoriusmuscle","semitendinosusmuscle","tibia"]
+BRIEF: The patellar ligament is functionally the continuation of the quadriceps femoris tendon below the patella and is attached above to the apex and margins of the patella and below to the tibial tuberosity (Fig.
+CHUNK: The patellar ligament is functionally the continuation of the quadriceps femoris tendon below the patella and is attached above to the apex and margins of the patella and below to the tibial tuberosity (Fig. 6.59). The more superficial fibers of the quadriceps femoris tendon and the patellar ligament are continuous over the anterior surface of the patella, and lateral and medial fibers are continu
+ANSWER(B3): The **patella**, commonly known as the kneecap, is a prominent palpable feature at the knee joint. It serves as a protective structure and plays a crucial role in the mechanics of the knee. Key points about the **patella** include: - It is located anteriorly at the knee and is connected superiorly to the quadriceps femoris tendon. - The **patellar ligament** connects the inferior surface of the **patella** to the **tibial tuberosity**, which is easily palpable [2][4]. - The **patella** has facets for muscle attachments; the upper facet is for the lateral head of the gastrocnemius muscle, and the inferior facet is for the **popliteus muscle** [3]. Overall, the **patella** is essential for kne…
+CHIPS(B3): ["patella","tibialtuberosity","popliteusmuscle"]
+
+### [86] A-regions-001 (A/regions)
+QUERY: that muscle.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The **thalamus** is a large, egg-shaped mass of gray matter located deep within the brain, derived from the diencephalon. It plays a crucial role as a synaptic relay for pathways projecting to the cerebral cortex and acts as a gatekeeper to control the transfer of information [1]. Key features of the **thalamus** include: - **Location**: It is situated anteriorly to the interventricular foramen, which connects the **lateral ventricle** and **third ventricle** [2]. - **Function**: The thalamus relays all sensory modalities, except for olfaction, before they reach their primary cortical targets [4]. It is also involved in higher visual functions through its connections with the visual system […
+CHIPS(B3): ["thalamus","lateralventricle","thirdventricle"]
+
+### [87] A-regions-003 (A/regions)
+QUERY: the nerve.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Hello! I'm here to help you with any questions about anatomy. Feel free to explore the 3D model or ask about specific anatomical structures!
+CHIPS(B3): []
+
+### [88] A-regions-005 (A/regions)
+QUERY: the joint.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Hello! I'd be happy to help you with your anatomy studies. Feel free to explore the 3D model or ask any specific questions about anatomical structures!
+CHIPS(B3): []
+
+### [89] A-regions-007 (A/regions)
+QUERY: that muscle.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The context mentions the **visual system**, which is a complex special sensory system that begins in the eyeball and has neuronal connections to the **thalamus**, brainstem, primary visual cortex, and association cortices [3].
+CHIPS(B3): ["thalamus"]
+
+### [90] A-regions-009 (A/regions)
+QUERY: the nerve.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): It's great to see your interest in anatomy exam preparation! Since the study of anatomy can be approached in various ways, here are a few topics you might consider starting with: - **Gross Anatomy**: Focus on structures that can be seen without magnification, such as the external carotid artery and thyroid gland [3]. - **Surface Anatomy**: Learn to visualize and locate major vessels and nerves, which is crucial for understanding anatomical relationships [5]. - **Neuroanatomy**: Explore the structural organization and function of the nervous system, which is essential for understanding how different body parts communicate [4]. Feel free to explore the 3D model for a more interactive learning …
+CHIPS(B3): ["externalcarotidartery","thyroidgland"]
+
+### [91] A-regions-011 (A/regions)
+QUERY: the joint.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Could you please specify which muscle you are referring to? There are several muscles mentioned in the context, such as the **latissimus dorsi**, **levator scapulae**, **masseter**, and **pterygoid muscles**. Let me know, and I can provide more information!
+CHIPS(B3): ["levatorscapulae"]
+
+### [92] A-regions-013 (A/regions)
+QUERY: that muscle.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The **thalamus** is a large, egg-shaped mass of gray matter located deep within the brain, derived from the diencephalon. Its primary role is as a synaptic relay for pathways projecting to the cerebral cortex, acting as a gatekeeper to regulate the transfer of information based on its significance [1]. Key features of the **thalamus** include: - **Location**: It is situated anteriorly to the interventricular foramen, which connects the **lateral ventricle** and **third ventricle** [2]. - **Function**: It relays sensory modalities (except olfaction) to the primary cortical targets, playing a crucial role in sensory perception [4]. - **Connections**: The visual system, for instance, has neuron…
+CHIPS(B3): ["thalamus","lateralventricle","thirdventricle"]
+
+### [93] A-regions-015 (A/regions)
+QUERY: the nerve.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Hello! I'm here to help you with anatomy questions. Feel free to explore the 3D model or ask about any specific anatomical structures!
+CHIPS(B3): []
+
+### [94] A-regions-017 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: Name the bones that form the elbow joint. | assistant: The elbow joint involves the humerus, the radius and the ulna.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Hello! I'd be happy to help you with your anatomy revision. Feel free to explore the 3D model or ask about any specific anatomical structures or concepts you want to learn more about!
+CHIPS(B3): []
+
+### [95] A-regions-019 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: What is the difference between the radial artery and the ulnar artery? | assistant: Both the radial and ulnar arteries arise from the brachial artery and supply the forearm and hand.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The context mentions the **visual system**, which is a complex special sensory system that begins in the eyeball and has neuronal connections to the **thalamus**, brainstem, primary visual cortex, and association cortices. This system mediates visual perception and is involved in higher visual functions, such as determining spatial relationships between objects [3]. Additionally, the context includes references to the **lacrimal apparatus**, which is involved in the flow of tears and includes structures like the **lacrimal gland**, **lacrimal sac**, and **nasolacrimal duct** [4]. If you have more specific questions about these systems or any anatomical structures, feel free to ask!
+CHIPS(B3): ["thalamus","lacrimalgland","lacrimalsac","nasolacrimalduct"]
+
+### [96] A-regions-021 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: Which nerves supply the forearm? | assistant: The forearm is supplied by the median, ulnar and radial nerves.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): It's great to hear you're preparing for an anatomy exam! Since the study of anatomy encompasses various structures and systems, here are some key topics you might consider starting with: - **Gross Anatomy**: Focus on structures visible without magnification, such as the external carotid artery and thyroid gland [3]. - **Surface Anatomy**: Learn to visualize and locate major vessels and nerves, including the ulnar nerve [5]. - **Neuroanatomy**: Understanding the nervous system's structure and function can be crucial [4]. You can explore these topics in detail using the 3D model or ask about specific structures for more focused study. Good luck with your exam preparation!
+CHIPS(B3): ["externalcarotidartery","thyroidgland","ulnarnerve"]
+
+### [97] A-regions-023 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: Name the bones that form the elbow joint. | assistant: The elbow joint involves the humerus, the radius and the ulna.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Could you please specify which muscle you are referring to? There are several muscles mentioned in the context, such as the **masseter muscle**, **temporalis**, **medial pterygoid muscle**, and **geniohyoid muscle**. Let me know, and I can provide more details!
+CHIPS(B3): ["medialpterygoidmuscle","geniohyoidmuscle"]
+
+### [98] A-regions-025 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: What is the difference between the radial artery and the ulnar artery? | assistant: Both the radial and ulnar arteries arise from the brachial artery and supply the forearm and hand.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): The **thalamus** is a large, egg-shaped mass of gray matter located deep within the brain, derived from the diencephalon. Its primary role is as a synaptic relay for pathways projecting to the cerebral cortex, acting as a gatekeeper to regulate information transfer [1][2]. Key features of the **thalamus** include: - **Location**: It is situated anteriorly to the interventricular foramen, which connects the **lateral ventricle** and the **third ventricle** [2]. - **Function**: It relays all sensory modalities, except for olfaction, to their respective cortical targets [4]. - **Connections**: The **thalamus** has neuronal connections to the visual system, including the primary visual cortex, w…
+CHIPS(B3): ["thalamus","lateralventricle","thirdventricle"]
+
+### [99] A-regions-027 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: Which nerves supply the forearm? | assistant: The forearm is supplied by the median, ulnar and radial nerves.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Hello! I'm here to help you with any questions about anatomy. Feel free to explore the 3D model or ask about specific anatomical structures!
+CHIPS(B3): []
+
+### [100] A-regions-029 (A/regions)
+QUERY: Tell me more about one of them.
+HISTORY: user: Name the bones that form the elbow joint. | assistant: The elbow joint involves the humerus, the radius and the ulna.
+GOLD must=[] optional=[]
+BRIEF: (none)
+CHUNK: (none)
+ANSWER(B3): Hello! I'm here to help you with anatomy questions. Feel free to explore the 3D model or ask about any specific anatomical structures or concepts!
+CHIPS(B3): []

@@ -1,0 +1,19 @@
+{
+  "n": 260,
+  "judgeA": "openai/gpt-4o-mini",
+  "judgeB": "openai/gpt-4o",
+  "citation_validity": {
+    "meanA": 0.8772435897435897,
+    "meanB": 0.8642948717948719,
+    "binary_agreement": 0.9653846153846154,
+    "spearman": 0.798467205363757,
+    "mean_abs_diff": 0.05461538461538462
+  },
+  "faithfulness": {
+    "meanA": 4.473076923076923,
+    "meanB": 4.384615384615385,
+    "within_1": 0.9346153846153846,
+    "spearman": 0.7733088905502699
+  },
+  "note": "Inter-judge agreement between two LLM judges (multi-judge panel). NOT human inter-annotator agreement; no human annotation is claimed."
+}

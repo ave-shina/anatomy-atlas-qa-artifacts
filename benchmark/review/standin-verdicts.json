@@ -1,0 +1,60 @@
+{
+  "_provenance": "Manual stand-in verdicts by the in-session coding agent (harness base model: glm-5.3-flash) for the 11 items the external arbiter (anthropic/claude-sonnet-5 via OpenRouter) could not complete — OpenRouter credits exhausted 2026-09-22. Blinded: written before the agent viewed any panel vote or prior arbitration for these items. Rubric identical to run-review.mts.",
+  "verdicts": {
+    "A-muscular-003": {
+      "must_ok": 1, "optional_ok": 0, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 0, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Clean factual query mislabeled as type A - well-posed as asked; gold must (tensor fasciae latae) correct per chunk (origin iliac crest/ASIS, insertion into iliotibial tract). Optional list contaminated: fibula and femoral nerve unrelated to the TFL passage (TFL is superior gluteal nerve, ITT inserts on tibia), adductor magnus belongs to the medial thigh - not this passage."
+    },
+    "A-regions-009": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Bare fragment with no history - a valid negative control: the referent is unresolvable and the expected behavior is clarification/refusal, not retrieval; gold-less by construction."
+    },
+    "A-regions-011": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Same class as A-regions-009 - valid negative control, gold-less by construction."
+    },
+    "A-regions-013": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Bare deictic fragment ('that muscle.') without history - valid negative control per the rubric's negative-control branch; gold-less by construction."
+    },
+    "A-regions-015": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Valid negative control; duplicate query of A-regions-009 (curation note, not a query defect); gold-less by construction."
+    },
+    "A-regions-017": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Valid resolvable ambiguity: 'one of them' resolves against history antecedents (humerus/radius/ulna); gold-less by construction."
+    },
+    "A-regions-023": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Valid resolvable ambiguity; exact duplicate of A-regions-017 (same query and history - curation note, not a query defect); gold-less by construction."
+    },
+    "A-regions-025": {
+      "must_ok": 1, "optional_ok": 1, "query_ok": 1,
+      "weak_gold_chunk": 0, "no_gold_chunk": 1, "arbitrary_pair": 0,
+      "notes": "agent-standin(harness:glm-5.3-flash); Valid resolvable ambiguity: 'one of them' resolves against radial/ulnar artery antecedents; gold-less by construction."
+    },
+    "R-cardiovascular-033": {
+      "must_ok": 0, "optional_ok": 1, "query_ok": 0,
+      "weak_gold_chunk": 1, "no_gold_chunk": 0, "arbitrary_pair": 1,
+      "notes": "agent-standin(harness:glm-5.3-flash); Arbitrary co-occurrence pair: the superior thyroid vein drains the thyroid gland to the internal jugular vein, while the thyrocervical trunk is a subclavian branch (inferior thyroid, transverse cervical, suprascapular) - no meaningful direct anatomical relationship between the two; gold chunk covers laryngeal arterial supply and contains neither target. must_ok=0 under the rubric's 'genuinely required by what is asked' clause: with no relation to explain, the relational gold marking itself is defective."
+    },
+    "R-muscular-012": {
+      "must_ok": 0, "optional_ok": 1, "query_ok": 0,
+      "weak_gold_chunk": 1, "no_gold_chunk": 0, "arbitrary_pair": 1,
+      "notes": "agent-standin(harness:glm-5.3-flash); Arbitrary pair: the calcaneal (Achilles) tendon is the posterior-compartment gastrocnemius/soleus insertion on the calcaneus; extensor hallucis longus is an anterior-compartment muscle inserting on the hallux distal phalanx - different compartments, no shared attachment or functional chain; gold chunk (anterior compartment figure) does not contain the calcaneal tendon. must_ok=0 under the rubric's 'genuinely required' clause: the relational gold marking is defective when no relation exists."
+    },
+    "R-muscular-014": {
+      "must_ok": 0, "optional_ok": 1, "query_ok": 0,
+      "weak_gold_chunk": 1, "no_gold_chunk": 0, "arbitrary_pair": 1,
+      "notes": "agent-standin(harness:glm-5.3-flash); Arbitrary pair: adductor brevis (medial compartment, obturator nerve, adducts the thigh) and vastus intermedius (anterior compartment, femoral nerve, extends the knee) share no attachment site and no meaningful relationship; gold chunk (deep artery of thigh figure) contains neither target. must_ok=0 under the rubric's 'genuinely required' clause: the relational gold marking is defective when no relation exists."
+    }
+  }
+}

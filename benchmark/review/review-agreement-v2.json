@@ -1,0 +1,215 @@
+{
+  "raters": [
+    "glm",
+    "deepseek",
+    "qwen",
+    "claude"
+  ],
+  "arbiter": {
+    "label": "claude",
+    "model": "anthropic/claude-sonnet-5",
+    "role": "out-of-family arbiter; replaces the withdrawn author-ratified arbitration layer",
+    "coverage": {
+      "api": 89,
+      "agent_standin": 11
+    }
+  },
+  "items": 100,
+  "final_gold_rule": "trio unanimous -> consensus; non-unanimous item -> arbiter verdict",
+  "per_column": {
+    "must_ok": {
+      "trio_unanimous_pct": 0.94,
+      "panel4": {
+        "n": 100,
+        "raters": 4,
+        "observed_agreement": 0.9183,
+        "gwet_ac1": 0.9111,
+        "fleiss_kappa": -0.0034,
+        "positive_rate": 0.9575
+      },
+      "arbiter_vs_trio_consensus": {
+        "observed": 0.89,
+        "kappa": -0.0185,
+        "agreement_unanimous_items": 0.9545,
+        "agreement_non_unanimous_items": 0.8393
+      },
+      "rater_1_rate": {
+        "glm": 0.97,
+        "deepseek": 0.99,
+        "qwen": 0.97,
+        "claude": 0.9
+      }
+    },
+    "optional_ok": {
+      "trio_unanimous_pct": 0.7,
+      "panel4": {
+        "n": 100,
+        "raters": 4,
+        "observed_agreement": 0.7783,
+        "gwet_ac1": 0.6411,
+        "fleiss_kappa": 0.4203,
+        "positive_rate": 0.7425
+      },
+      "arbiter_vs_trio_consensus": {
+        "observed": 0.79,
+        "kappa": 0.4665,
+        "agreement_unanimous_items": 0.9091,
+        "agreement_non_unanimous_items": 0.6964
+      },
+      "rater_1_rate": {
+        "glm": 0.89,
+        "deepseek": 0.75,
+        "qwen": 0.64,
+        "claude": 0.69
+      }
+    },
+    "query_ok": {
+      "trio_unanimous_pct": 0.73,
+      "panel4": {
+        "n": 100,
+        "raters": 4,
+        "observed_agreement": 0.8017,
+        "gwet_ac1": 0.7199,
+        "fleiss_kappa": 0.3207,
+        "positive_rate": 0.8225
+      },
+      "arbiter_vs_trio_consensus": {
+        "observed": 0.8,
+        "kappa": 0.2163,
+        "agreement_unanimous_items": 0.8409,
+        "agreement_non_unanimous_items": 0.7679
+      },
+      "rater_1_rate": {
+        "glm": 0.77,
+        "deepseek": 0.84,
+        "qwen": 0.82,
+        "claude": 0.86
+      }
+    }
+  },
+  "final_gold_rates_v2": {
+    "must_ok": 0.92,
+    "optional_ok": 0.71,
+    "query_ok": 0.85
+  },
+  "superseded_final_rates": {
+    "must_ok": 0.95,
+    "optional_ok": 0.8,
+    "query_ok": 0.79
+  },
+  "flips_vs_superseded": {
+    "must_ok": {
+      "count": 13,
+      "items": [
+        "R-muscular-003:1->0",
+        "R-cardiovascular-008:1->0",
+        "R-cardiovascular-012:1->0",
+        "R-cardiovascular-018:1->0",
+        "R-cardiovascular-021:1->0",
+        "R-nervous-009:1->0",
+        "R-cardiovascular-033:1->0",
+        "R-muscular-012:1->0",
+        "A-regions-001:0->1",
+        "A-regions-003:0->1",
+        "A-regions-005:0->1",
+        "A-regions-011:0->1",
+        "A-regions-013:0->1"
+      ]
+    },
+    "optional_ok": {
+      "count": 17,
+      "items": [
+        "F-regions-008:1->0",
+        "F-joints-009:0->1",
+        "F-joints-020:1->0",
+        "F-skeletal-008:1->0",
+        "F-skeletal-019:1->0",
+        "F-lymphoid-008:0->1",
+        "F-lymphoid-011:0->1",
+        "F-nervous-016:1->0",
+        "F-visceral-001:1->0",
+        "F-visceral-012:1->0",
+        "R-muscular-003:1->0",
+        "R-cardiovascular-008:1->0",
+        "R-cardiovascular-012:1->0",
+        "R-cardiovascular-018:0->1",
+        "R-cardiovascular-021:1->0",
+        "R-muscular-009:1->0",
+        "A-skeletal-001:1->0"
+      ]
+    },
+    "query_ok": {
+      "count": 6,
+      "items": [
+        "R-muscular-003:0->1",
+        "A-nervous-003:0->1",
+        "A-regions-001:0->1",
+        "A-regions-003:0->1",
+        "A-regions-011:0->1",
+        "A-regions-013:0->1"
+      ]
+    }
+  },
+  "arbitration": {
+    "count": 56,
+    "items": [
+      "F-regions-008",
+      "F-regions-015",
+      "F-regions-022",
+      "F-fasciae-007",
+      "F-muscular-013",
+      "F-muscular-020",
+      "F-joints-009",
+      "F-joints-012",
+      "F-joints-020",
+      "F-skeletal-008",
+      "F-skeletal-012",
+      "F-skeletal-019",
+      "F-cardiovascular-012",
+      "F-cardiovascular-019",
+      "F-cardiovascular-022",
+      "F-lymphoid-004",
+      "F-lymphoid-008",
+      "F-lymphoid-011",
+      "F-nervous-016",
+      "F-nervous-019",
+      "F-visceral-001",
+      "F-visceral-005",
+      "F-visceral-012",
+      "F-visceral-015",
+      "F-visceral-019",
+      "R-cardiovascular-003",
+      "R-muscular-003",
+      "R-cardiovascular-008",
+      "R-cardiovascular-012",
+      "R-joints-001",
+      "R-cardiovascular-018",
+      "R-cardiovascular-021",
+      "R-cardiovascular-026",
+      "R-visceral-003",
+      "R-nervous-009",
+      "R-muscular-009",
+      "R-visceral-004",
+      "R-cardiovascular-033",
+      "R-muscular-012",
+      "R-cardiovascular-036",
+      "A-muscular-001",
+      "A-nervous-003",
+      "A-muscular-002",
+      "A-muscular-003",
+      "A-joints-001",
+      "A-regions-032",
+      "A-skeletal-001",
+      "A-regions-001",
+      "A-regions-003",
+      "A-regions-005",
+      "A-regions-011",
+      "A-regions-013",
+      "A-regions-017",
+      "A-regions-021",
+      "A-regions-027",
+      "A-regions-029"
+    ],
+    "file": "gold-verdicts-arbitration-claude.csv"
+  }
+}

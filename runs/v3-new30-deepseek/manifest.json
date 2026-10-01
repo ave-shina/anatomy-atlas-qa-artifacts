@@ -1,0 +1,29 @@
+{
+  "runId": "v3-new30-deepseek",
+  "date": "2026-09-29T12:46:14.334Z",
+  "gitSha": "06cc5e3849a6acd2f1fd19c93cb0b64072ef7ef7",
+  "conditions": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "docId": "medrag-anatomy_gray",
+  "chatModel": "deepseek/deepseek-v4.1-flash",
+  "embedModel": "baai/bge-m3",
+  "pineconeIndex": "anatomy-atlas",
+  "topK": 6,
+  "repeat": 1,
+  "limit": 0,
+  "perType": 0,
+  "types": [],
+  "dataset": {
+    "path": "research/benchmark/v3/dataset-new30.ndjson",
+    "sha256": "65490d8c162d2d8745d2a19fa1f8c72f9fe01cdd7c37273fced417e7515a99c3",
+    "items": 30
+  },
+  "meshKeys": {
+    "path": "research/benchmark/mesh-keys.json",
+    "sha256": "ba5b1a1a43b849a2605e54322330465b20c0e70684d49d5c219108e7a4edef8d",
+    "keys": 2358
+  }
+}

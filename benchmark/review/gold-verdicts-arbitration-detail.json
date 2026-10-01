@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "F-regions-008",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query target (temporal region) is correct and required  optional extras are plausible structures from the same head/neck passage (V3/abducent nerve context: mandible, cavernous sinus, lateral rectus, pons, etc.). However, the gold chunk only mentions the temporal region in passing as one sensory territory of the mandibular nerve and never describes the region's function, so the chunk only weakly supports the query."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; Gold must 'temporalregion' matches the asked entity, and optional extras are plausibly related to the same head/neural passage  however the query asks for the 'function' of a topographic region, which is ambiguous/unanswerable as phrased, and the gold chunk only lists the temporal region as a mandibular nerve sensory territory, not its function."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Temporal region is the required target, but the chunk only mentions V3 sensory innervation and does not state its function  optional structures are plausibly related to the same V3/abducent/temporal anatomy topic."
+      }
+    }
+  },
+  {
+    "id": "F-regions-015",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual location question and the deltopectoral triangle is the correct required target  optional extras (cephalic vein, clavicle, basilic vein) are plausibly tied to the same venous/clavipectoral topic. However, the gold chunk is mostly about the origins/courses of the cephalic and basilic veins and only truncatedly mentions the 'clavipectoral trian[gle]' without ever stating its location, so it only weakly supports the query (the BRIEF likewise addresses vein origins, not the triangle's location)."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must (deltopectoral triangle) is the correct target for the location query. However, the gold chunk is about cephalic/basilic veins and only mentions the clavipectoral triangle in passing, so it weakly supports the query. Optional basilic vein is unrelated to the deltopectoral triangle's location, making the optional list not fully acceptable."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is clear, but the chunk mainly describes superficial veins and only mentions a clavipectoral triangle without giving its location  optional structures are passage-related."
+      }
+    }
+  },
+  {
+    "id": "F-regions-022",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is clear and 'palm' is the correct required target  optional extras are all plausible upper-limb/hand structures. However, the gold chunk describes the course of the palmar digital nerves relative to the palmar aponeurosis and superficial palmar arch, not where the palm itself is located, so it only weakly supports the query."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must 'palm' matches the queried structure  optional hand/palm structures are related. Query is answerable, but the gold chunk only incidentally mentions the palm while discussing palmar digital nerves, so it weakly supports a location answer."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query asks palm location  chunk only mentions palm in relation to digital nerves, not where it is located. Gold must palm is the queried subject, but optional includes hand structures not clearly related to the passage/topic, such as extensor pollicis longus, dorsal metacarpal arteries, and veins."
+      }
+    }
+  },
+  {
+    "id": "F-fasciae-007",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "F-type definition query directly targets the superior fibular retinaculum, which is the sole must-have  gold chunk is the exact passage defining it  optional extras are all plausible same-passage foot/ankle/leg structures (retinacula, malleolus, calcaneus, fibularis tendons, adjacent foot ligaments/fascia)."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Gold must correctly requires the queried structure. Optional list includes unrelated foot structures (deep transverse metatarsal ligament, flexor digitorum longus, plantar aponeurosis) not plausibly tied to the fibular retinaculum passage. Query is clear and answerable  chunk directly supports it."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional includes unrelated structures such as deep transverse metatarsal ligament, flexor digitorum longus, and plantar aponeurosis."
+      }
+    }
+  },
+  {
+    "id": "F-muscular-013",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual question and 'superiorgemellusmuscle' is the correct required target  optional extras are plausible gluteal-region co-topics. However, the gold chunk is about the inferior gluteal nerve/gluteus maximus and never describes the superior gemellus (truncated before any mention), and the BRIEF states a fact about gluteal nerves unrelated to the query, so the chunk only weakly supports the item."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold chunk discusses inferior/superior gluteal nerves and obturator internus nerve, not the superior gemellus muscle  it only weakly relates to the query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must is correct and query is factual, but optional includes pudendal nerve as unrelated  chunk is mainly about gluteal nerves and weakly relates to superior gemellus."
+      }
+    }
+  },
+  {
+    "id": "F-muscular-020",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Simple factual query about the mylohyoid muscle  gold must correctly targets it, optional extras are all plausible floor-of-mouth/suprahyoid neighbors, and the chunk directly discusses the mylohyoid muscle and its innervation."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Mylohyoid muscle is the correct required target for a factual definition query  optional structures are plausibly related head/neck anatomy. Gold chunk is relevant though focused on innervation rather than a full definition."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Mylohyoid is the required target. Optional list includes soft palate, which is not plausibly related to the query or the gold chunk about mylohyoid innervation and nearby geniohyoid/mandible structures."
+      }
+    }
+  },
+  {
+    "id": "F-joints-009",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual location question  gold must (transverse humeral ligament) is correct and optional extras are plausible shoulder-region structures. However, the gold chunk is a Sternoclavicular joint figure caption that never mentions the transverse humeral ligament, so it relates only weakly to the query."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must correctly names the queried ligament. Optional extras are not plausibly tied to the sternoclavicular-joint chunk and mostly unrelated to the transverse humeral ligament. Query is well-posed, but the gold chunk is an off-topic sternoclavicular joint figure caption."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must is the queried ligament and is anatomy-correct. Optional list includes many unrelated shoulder/axillary structures not plausibly tied to the passage or query. Gold chunk is a sternoclavicular joint figure caption and does not cover transverse humeral ligament location."
+      }
+    }
+  },
+  {
+    "id": "F-joints-012",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Factual location query targeting lateral meniscus  gold must is correct. Optional extras are all knee-joint structures plausibly related to the menisci passage. Chunk directly describes meniscus location/attachments."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": ""
+      },
+      "qwen": {
+        "must_ok": "0",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Gold must only names the lateral meniscus, but the query requires its location (knee joint/intercondylar tibial plateau)  chunk and query are otherwise relevant."
+      }
+    }
+  },
+  {
+    "id": "F-joints-020",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual location question  median thyrohyoid ligament is the correct required target  optional extras are all plausible laryngeal-region structures  gold chunk directly describes the median thyrohyoid ligament as the anterior midline thickening of the thyrohyoid membrane."
+      },
+      "deepseek": {
+        "must_ok": "0",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Gold must is the queried structure itself, not the location  for a 'where' question the required target should be the location (e.g., thyrohyoid membrane, thyroid cartilage, hyoid bone)."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual location question  gold must includes the target structure. Chunk directly states the median thyrohyoid ligament forms from the anterior midline thyrohyoid membrane. Optional laryngeal structures are plausibly related and not clearly wrong."
+      }
+    }
+  },
+  {
+    "id": "F-skeletal-008",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual question  clavicle is the correct required target. Optional extras (humerus, scapula, radius, ulna, levator scapulae, teres minor) are all upper-limb/shoulder structures plausibly tied to the shoulder-bones chunk. Chunk is a substantive passage on the clavicle's articulations/role, not a caption. Minor caveat: gold BRIEF ('long bone') addresses classification rather than function, a brief/query mismatch, but it does not affect structure or query validity."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Clavicle is the correct required target and the query is clear. Optional extras include forearm bones and shoulder/neck muscles not directly tied to clavicle function, so they are not acceptable. The gold chunk describes shoulder bones and clavicle articulations but does not explicitly state the clavicle's function, making it weak for this function query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Gold must correctly targets clavicle for its function  optional extras are plausibly shoulder/upper-limb related  chunk describes shoulder bones and clavicle articulations, relevant to function."
+      }
+    }
+  },
+  {
+    "id": "F-skeletal-012",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Query is a clear factual question and 'scapula' is the correct required target. However, the optional list includes 'supraspinousligament', which is a vertebral-column ligament (spanning spinous processes) clearly unrelated to scapula function  the other extras (humerus, levator scapulae, teres muscles, dorsal scapular nerve, scapular region) are acceptable. Gold chunk directly discusses the scapula (muscles elevating/attaching to it), so it is adequately related."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual question about scapula function, and scapula is the correct required target. Optional structures are plausibly related to scapular anatomy. However, the gold chunk mainly discusses levator scapulae and rhomboid attachments, not the function of the scapula itself, so it relates only weakly to the query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Chunk mainly describes levator scapulae/rhomboid actions and attachments rather than scapula function  optional terms are plausible scapula/shoulder-related extras."
+      }
+    }
+  },
+  {
+    "id": "F-skeletal-019",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Factual definitional query  medial cuneiform is the correct required target. Optional extras (calcaneus, fibula, fibularis longus, navicular) are all plausibly tied to the tarsal-bone passage. Chunk is the distal tarsal group passage containing the cuneiforms, so it is on-topic."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must structure is correct. Optional extras are related foot/tarsal structures. Query is clear factual. Gold chunk discusses tarsal bones but does not mention the medial cuneiform specifically, so it relates only weakly."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold chunk omits medial cuneiform and is weakly related  optional includes fibula, not plausibly related to the query/passage."
+      }
+    }
+  },
+  {
+    "id": "F-cardiovascular-012",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual 'what is' question and SVC is the correct required target  optional extras are plausible related structures (tributaries/neighbors). However, the gold chunk is a clinical note about using the SVC to access the IVC, not a definitional passage, so it only weakly supports the expected answer (SVC as a trunk of the systemic venous tree)."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; SVC is the correct required structure for a factual definition query  optional structures are plausible mediastinal/venous neighbors. However, the gold chunk is a clinical access passage rather than a definition of the SVC, so it only weakly supports the query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; SVC is correctly required and query is well-posed, but optional includes left-sided/mediastinal structures not plausibly related to SVC, and the chunk is only a clinical-access passage rather than a definitional source."
+      }
+    }
+  },
+  {
+    "id": "F-cardiovascular-019",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Simple F query directly targeting left gastric artery  gold must correct. Optional extras are plausible co-passage structures (celiac/hepatic branches, upper GI organs). Chunk directly describes the left gastric artery from the celiac trunk."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query asks for definition of left gastric artery  gold must is correct. Optional structures are plausibly related upper-abdominal/arterial-supply context. Chunk directly supports the target."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional includes several structures unrelated to the left gastric artery query/chunk, such as bile duct, gallbladder, duodenum, jejunum, and inferior phrenic artery."
+      }
+    }
+  },
+  {
+    "id": "F-cardiovascular-022",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual question about the short posterior ciliary arteries  gold must correctly targets that structure. Chunk directly describes these arteries (origin from ophthalmic artery, piercing sclera, entering choroid), matching the brief. Optional extras are all ocular/ophthalmic-artery-related structures plausibly tied to the same topic."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "All verdicts pass  gold must is the asked structure, optional extras are related ocular/ophthalmic artery structures, and the chunk directly supports the factual function query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Required target is correct, but optional list includes lacrimal gland/artery and supraorbital artery, which are not plausibly related to the function of short posterior ciliary arteries or the eyeball-supply chunk."
+      }
+    }
+  },
+  {
+    "id": "F-lymphoid-004",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query clearly targets brachiocephalic nodes (minor grammar only)  gold must matches the definition in the chunk (nodes anterior to brachiocephalic veins in superior mediastinum)  optional extras are all thoracic-region structures plausibly co-occurring with the passage (diaphragm, parasternal nodes directly mentioned  heart chambers/pleura/intercostal nerves/cephalic vein same thoracic topic)  gold chunk directly contains the answer."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Gold must correctly targets brachiocephalic nodes. Optional list includes clearly unrelated structures such as cephalicvein, leftatrium, leftventricle, and rightatrium, so optional_ok is 0. Query is understandable and answerable despite minor plural grammar."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional list includes unrelated structures (cardiac chambers, pleura, cephalic vein) not plausibly tied to the query or passage."
+      }
+    }
+  },
+  {
+    "id": "F-lymphoid-008",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query targets parasternal nodes' function  chunk directly states superficial thoracic wall drains into axillary or parasternal nodes, matching the brief. Optional extras are all plausibly tied to thoracic wall lymphatic drainage/innervation topic."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Must target parasternal nodes is correct for the function query. Optional extras include clearly unrelated structures such as azygos vein and cephalic vein, not tied to parasternal node function or the passage."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional list includes venous/neural structures (azygos vein, cephalic vein, intercostal nerves) not clearly required or plausibly related to parasternal node function."
+      }
+    }
+  },
+  {
+    "id": "F-lymphoid-011",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is clear/answerable and 'spleen' is the correct required target  optional extras are neighboring abdominal viscera/vessels from the same section, acceptable. However, the gold chunk covers only peritoneal attachments, hilum, and blood supply of the spleen — it contains no functional information, so it only weakly supports a 'function' question  the BRIEF ('corticomedullary organ') is a classification claim rather than a function and is itself dubious for spleen (red/white pulp, not cortex/medulla)."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Spleen is the correct required target for a function query. Optional list includes several structures (liver, gallbladder, bile duct, abdominal aorta, diaphragm) not related to spleen function/passage. Gold chunk covers spleen anatomy/supply, not function, so weak for the query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Spleen is required, but optional includes unrelated/not-in-chunk structures (e.g., abdominalaorta, bileduct, gallbladder, liver) and the chunk covers anatomy not function."
+      }
+    }
+  },
+  {
+    "id": "F-nervous-016",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual location question  musculocutaneous nerve is the correct required target. Chunk directly describes its identifying relationships (M over third part of axillary artery, penetration of coracobrachialis), and all optional extras are plausible same-topic upper-limb/brachial-plexus structures."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Must target (musculocutaneous nerve) is correct for the location query. Optional list includes flexor digitorum profundus, which is not related to the musculocutaneous nerve or the axillary/brachial-plexus passage and is therefore an unrelated extra."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Gold optional includes clearly unrelated structures for the musculocutaneous nerve location, especially flexor digitorum profundus."
+      }
+    }
+  },
+  {
+    "id": "F-nervous-019",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Well-posed factual query about a real posterior-cord branch  must list correctly targets the queried nerve  optional extras (axillary artery/nerve, pectoral/scapular nerves, latissimus dorsi, etc.) are all plausibly tied to the brachial plexus/axilla topic  gold chunk is the brachial plexus diagram text (truncated) and topically on-target, though it only contextually frames the nerve rather than defining it."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must correctly targets the inferior subscapular nerve  optional extras are plausibly related to the axillary/brachial plexus region. The gold chunk is essentially a brachial plexus figure/label list and does not mention the inferior subscapular nerve, so it relates only weakly to the specific query."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Target nerve is correct and query is clear, but optional extras include unrelated axilla/bone/node/muscle items and the chunk is only a brachial plexus label list that does not define or explicitly mention the inferior subscapular nerve."
+      }
+    }
+  },
+  {
+    "id": "F-visceral-001",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual definition question and 'submandibularduct' is the correct required target  optional extras are all plausible same-region structures (salivary glands, ducts, lingual nerve, vasculature). However, the gold chunk is mostly about sublingual gland drainage (minor/major sublingual ducts) and only mentions the submandibular duct in passing as the co-opening at the sublingual caruncle — it does not define the duct, so it relates only weakly to the query."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must correctly targets submandibular duct for a factual query  optional head/neck structures are plausibly related. Gold chunk is weak because it mainly describes the sublingual gland and only incidentally mentions the submandibular duct."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must is correct for the queried structure, but optional includes clearly unrelated extras such as external jugular vein and facial vein, and broader salivary/vascular structures not needed for the definition. The chunk mostly discusses sublingual gland drainage and parotid blood supply, only briefly mentioning the submandibular duct opening."
+      }
+    }
+  },
+  {
+    "id": "F-visceral-005",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a clear factual question and 'kidney' is the correct required target  optional extras (suprarenal gland, ureter, spleen, etc.) are plausible kidney-region co-mentions. However, the gold chunk covers surface projection/rib relations of the kidneys, not their function, so it only weakly supports a 'function' query  the brief also gives a classification rather than a function."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Kidney is the correct required target, but the gold chunk describes kidney position/relations, not function, so it is weak for a function query. Optional extras include ilioinguinal nerve and transversalis fascia, which are not plausibly related to the kidney passage/topic."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Kidney is the correct required target and optional structures are plausible kidney-related anatomy, but the query asks function while the chunk covers location/relations, not function."
+      }
+    }
+  },
+  {
+    "id": "F-visceral-012",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Factual location query is unambiguous  'epididymis' is the correct required target  chunk directly describes its location along the posterolateral testis  optional extras are plausible same-region male reproductive/pelvic structures (testis, ductus deferens, downstream tract, inguinal/pelvic vessels). Minor non-scored issue: BRIEF ('is a type of duct') answers classification, not location."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Factual location query  epididymis is the correct queried target, optional structures are plausibly related male pelvic/reproductive anatomy, and the chunk directly supports the answer."
+      },
+      "qwen": {
+        "must_ok": "0",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Gold must omits testis, which is required for the location answer  optional includes unrelated vascular/ureteral/prostatic structures."
+      }
+    }
+  },
+  {
+    "id": "F-visceral-015",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual question about mesocolon function  gold must correctly targets mesocolon  optional extras are plausible same-topic structures (colon segments, pancreas, omentum, related vessels)  gold chunk directly describes the transverse mesocolon."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is well-posed  gold must mesocolon is the correct required target  optional structures are plausibly related abdominal/peritoneal anatomy  gold chunk directly describes the transverse mesocolon."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Mesocolon is the correct required target, but optional list includes several structures unrelated to the query/chunk (e.g. common iliac artery, kidney, diaphragm), so it is not acceptable."
+      }
+    }
+  },
+  {
+    "id": "F-visceral-019",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear, well-posed factual question targeting the ductus deferens, which is correctly the sole required structure. Optional extras (epididymis, ejaculatory duct, and regional vessels/nerves along its course) are plausibly related to the same topic  none clearly wrong. Gold chunk is a substantive on-topic passage about the ductus deferens, not a weak caption. F-type item, so no pair to judge."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional list includes many structures (aorta, iliac vessels, femoral/genitofemoral nerves, inferior epigastric artery) unrelated to the function of the ductus deferens  only ejaculatory duct/epididymis are plausible."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must is correct, but optional includes structures unrelated to the function query/chunk (e.g. abdominal aorta, femoral nerve), and the chunk describes anatomy/ampulla rather than function."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-003",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; ACA and cavernous sinus have no direct anatomical relationship (only an indirect link via the internal carotid artery, which is not even in gold must), so the relational question is unanswerable as posed and the pair is an arbitrary co-occurrence of figure labels. The gold chunk is a garbled OCR dump of figure callouts (scalp/meninges labels) with no relational content, i.e., only weakly related. Must list correctly mirrors the two queried structures  optional extras (optic tracts, superior sagittal sinus, middle meningeal artery) fit the same cranial meninges/vasculature topic."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Both queried structures are correct targets, but the gold chunk is only a diagram-label list with no explanatory relation  ACA and cavernous sinus are an arbitrary co-occurrence with no direct meaningful anatomical relationship."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must correctly names both queried structures  query is answerable via indirect ICA relationship. Optional extras are plausible meningeal/venous/optic structures, but the chunk is mostly a label list and weakly supports the relation."
+      }
+    }
+  },
+  {
+    "id": "R-muscular-003",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Query names both structures so must list is correct, but EHL (anterior leg muscle, dorsal hallux tendon) and FDB (plantar intrinsic muscle) have no meaningful direct anatomical relationship  the gold brief/chunk never mention EHL and only describe plantar vessels passing superficial to FDB, so the asked-for relationship is ungrounded — an arbitrary co-occurrence pair. Chunk only weakly relates to the query (covers FDB/foot vessels, absent EHL), making the R item unanswerable as asked. Optional extras are all plausible foot-region structures from the same passage."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; The two muscles are named in the query and are correct targets, but the gold chunk only discusses the medial plantar artery and flexor digitorum brevis, not extensor hallucis longus  the pair is an arbitrary co-occurrence with no meaningful direct anatomical relationship."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold chunk mentions flexor digitorum brevis and nearby arteries but not extensor hallucis longus or their relationship, so it weakly supports the relational query."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-008",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Relational pair is arbitrary: the azygos vein has no direct anatomical relationship with the left gastric artery (the classic relationship is with the left gastric VEIN via the esophageal portocaval anastomosis), so the R query presupposes a relationship that does not meaningfully exist. The gold chunk covers only the esophageal branches of the left gastric artery/vein at the diaphragmatic hiatus and never mentions the azygos vein, so it cannot support any relationship  the BRIEF likewise describes none. Must list correctly mirrors the two queried structures, and optional extras (diaphragm, hemiazygos vein, thoracic aorta) are plausible topic-related extras."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold chunk mentions left gastric artery but not azygos vein, so weak support  the pair lacks a meaningful relationship in the passage, making it arbitrary."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold must is correct  query is clear but the pair lacks a direct meaningful relationship, and the chunk supports only left gastric artery via esophageal hiatus, not the azygos relation."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-012",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Relational query pairs the azygos vein (posterior mediastinum, drains to SVC) with the superior mesenteric artery (abdominal aortic branch supplying midgut)  they have no meaningful anatomical relationship, so the query presupposes a relation that does not exist (arbitrary pair) and is ill-posed as asked. The gold chunk describes relations of the abdominal aorta and names the azygos vein but never mentions the superior mesenteric artery, so it supports the query only weakly."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold must lists both query endpoints, which are required to answer the relational question. Optional extras are from the same abdominal aorta passage and plausibly related. Query is unambiguous and answerable (answer: no direct anatomical relationship). However, the gold chunk only mentions the azygos vein relative to the abdominal aorta and never mentions the superior mesenteric artery, so it weakly supports the query. The azygos vein and superior mesenteric artery have no meaningful direct anatomical relationship, making the pair arbitrary for a relational item."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Both named structures are required, but the pair lacks a direct meaningful relation and the gold chunk only describes azygos relations to the abdominal aorta, not SMA."
+      }
+    }
+  },
+  {
+    "id": "R-joints-001",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Query is a valid relational item: both structures are meaningful co-boundaries of the pelvic outlet (symphysis anteriorly, sacrotuberous ligament posterolaterally), so must-list is correct and the pair is not arbitrary. Optional extras are all plausible pelvic-region associates (sacrum, coccyx, sacrospinous ligament, pudendal neurovasculature, etc.). However, weak_gold_chunk=1: the gold chunk describes only the pubic symphysis as the anterior limit of the pelvic outlet and never mentions the sacrotuberous ligament (it truncates at the pubic arch), and the BRIEF likewise states only the symphysis's role, so the chunk grounds only half of the asserted relationship."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Both gold must structures are required for the relational query, but the gold chunk only mentions the pubic symphysis and not the sacrotuberous ligament, making it weak. Optional list includes unrelated pelvic viscera such as prostate and ureter."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Optional extras include prostate/ureter, which are not clearly related to the pelvic-outlet boundary topic  the chunk mentions pubic symphysis but not sacrotuberous ligament, so it weakly supports the relational query."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-018",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Azygos vein (thoracic venous drainage into SVC) and marginal artery (colonic arterial anastomosis of SMA/IMA) occupy different regions and systems with no meaningful anatomical relationship  the relational query presupposes a relationship that does not exist, so it is not answerable as posed. Gold chunk is a list of figure captions that mentions the marginal artery only in passing and never mentions the azygos vein nor any relationship between them."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold must names both queried structures, but the chunk is a figure caption about abdominal arterial/portal supply and does not mention the azygos vein  the azygos–marginal artery pair has no meaningful anatomical relationship. Optional list includes unrelated iliac veins."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Azygos vein and marginal artery lack a meaningful direct anatomical relationship  chunk mentions marginal artery but not azygos, and optional iliac veins are unrelated."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-021",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "arbitrary_pair; Both must structures are the named query targets. Optional extras (saphenous nerve, small saphenous vein, malleoli, tibia/fibula, metatarsal arteries) all plausibly relate to leg/foot vasculature. Query is unambiguous and answerable from the chunk (indirect link via interconnected superficial/deep networks of the foot), but the pair itself is an arbitrary co-occurrence: the great saphenous vein is a superficial vein of the medial leg arising from the dorsal venous arch, while the plantar arch is a deep arterial structure of the sole — no direct anatomical relationship specific to these two structures. Chunk is on-topic but truncated mid-sentence ('The great sapheno'), and the gold BRIEF is a mere fragment."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold must structures are the two named targets, but the query asks for a direct relationship between a superficial vein and a deep arterial arch  the chunk only co-mentions them in a truncated foot-vasculature passage without establishing a meaningful relationship, making the pair arbitrary and the query ill-posed."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query asks relation between two named structures  both are required. Chunk is foot vascular anatomy including plantar arch and great saphenous vein  optional extras are plausibly related."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-026",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Must list exactly matches the two queried structures (both real axillary vessels with a describable spatial relationship: axillary vein lies medial to the axillary artery from which the anterior circumflex humeral artery arises). Optional extras are all plausible axilla-content structures (axillary/brachial/lateral thoracic/posterior circumflex arteries, biceps heads, triceps long head, scapula). Query is unambiguous and answerable. However, the gold chunk is only a figure-label list of axilla contents (muscles, axillary artery parts) that never mentions the anterior circumflex humeral artery or the axillary vein, so it only weakly supports the specific relationship asked."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold chunk is a figure caption about the axillary artery and never mentions the anterior circumflex humeral artery or axillary vein  the queried pair has no direct meaningful anatomical relationship, making the relational query ill-posed."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold chunk is only axilla/axillary artery figure captions and omits the queried artery and vein, so weak  query and required targets are valid."
+      }
+    }
+  },
+  {
+    "id": "R-visceral-003",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "arbitrary_pair; Gallbladder (biliary/GI) and ureter (retroperitoneal urinary) have no meaningful direct anatomical relationship  the pair is an arbitrary co-occurrence drawn from a list of abdominal viscera. The gold brief/chunk only lists both as abdominal viscera and describes no relationship, so the relational query presupposes a relationship that does not exist and is unanswerable as asked. Must list correctly reflects the two named structures, and optional extras are plausible same-passage abdominal viscera."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "arbitrary_pair; Gallbladder and ureter are both correct targets, but the pair is an arbitrary co-occurrence in a list of abdominal viscera with no specific anatomical relationship  optional extras are plausible same-topic abdominal structures."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Gallbladder and ureter are both named as abdominal viscera in the chunk, making the relational query answerable  optional extras are plausible abdominal-viscera/topic-related structures."
+      }
+    }
+  },
+  {
+    "id": "R-nervous-009",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Lacrimal gland and medulla oblongata are an arbitrary pair: secretomotor (GVE) supply to the lacrimal gland arises from the superior salivatory nucleus in the PONS via CN VII, not the medulla, so no meaningful direct anatomical relationship exists and the relational query is unanswerable as asked. The gold chunk (facial nerve fiber types) supports only the lacrimal gland half and never mentions the medulla. Must list correctly mirrors the two queried structures  optional extras (pons, soft palate, stylohyoid, tongue) are all plausible facial-nerve-passage structures."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Both structures are named in the query and thus required targets, but the gold chunk only covers the lacrimal gland via facial nerve fibers and never mentions the medulla oblongata  the pair lacks a direct meaningful anatomical relationship."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; The query asks a relation between lacrimal gland and medulla oblongata, but no meaningful direct anatomical relation is supported  chunk only covers facial nerve/lacrimal gland, making it weak and arbitrary. Gold must are the query entities, optional extras are plausible for the facial nerve topic."
+      }
+    }
+  },
+  {
+    "id": "R-muscular-009",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Relational item pairs two muscles with no meaningful anatomical relationship (forearm extensor vs rotator cuff muscle)  gold chunk only covers extensor digitorum and never mentions supraspinatus, so the pair is arbitrary and the chunk weakly supports the query."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold must lists the two queried muscles, so required targets are correct. Optional extras are plausible hand/forearm structures. Query is answerable (they are not directly related). However, the pair is an arbitrary co-occurrence with no meaningful anatomical relationship, and the gold chunk discusses extensor digitorum, not the queried muscles, so it is only weakly related."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold chunk is about extensor digitorum/palm and omits supraspinatus  the queried pair has no direct anatomical relationship."
+      }
+    }
+  },
+  {
+    "id": "R-visceral-004",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query asks a valid relational question  liver and transverse colon have a genuine anatomical relationship (right colic/hepatic flexure lies just inferior to the right lobe of the liver), directly supported by the gold chunk. Optional extras are plausible regional structures (colic flexures, spleen, diaphragm, adjacent organs)."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": ""
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional includes sigmoid colon and other non-passage viscera not clearly related to the liver-transverse colon relationship."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-033",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Must list matches the query pair exactly, and optional extras (ECA, IJV, thyroid cartilage, trachea) are plausible same-region structures. However, the pair is an arbitrary co-occurrence: the superior thyroid vein drains the upper thyroid into the internal jugular vein, while the thyrocervical trunk arises from the subclavian artery and gives the inferior thyroid artery — no direct anatomical relationship exists, so the relational query is not well-posed. The gold chunk covers laryngeal arterial supply and mentions neither must structure, only weakly relating via the external carotid/superior thyroid artery mention."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold chunk discusses the superior laryngeal artery, not the queried superior thyroid vein or thyrocervical trunk. The pair has no direct anatomical relationship: the superior thyroid vein drains to the internal jugular vein, while the thyrocervical trunk gives rise to the inferior thyroid artery, not the superior thyroid artery/vein."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Both named structures are required by the query, but the gold chunk concerns superior laryngeal/superior thyroid artery and does not support a direct relation  the pair is only indirect thyroid-vascular co-occurrence."
+      }
+    }
+  },
+  {
+    "id": "R-muscular-012",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; arbitrary_pair; Calcaneal tendon (posterior compartment/Achilles) and extensor hallucis longus (anterior compartment) have no meaningful direct relationship — the relational pair is an arbitrary co-occurrence, making the query's premise poorly posed. The gold chunk (Fig. 6.93 anterior compartment caption) mentions only EHL and omits the calcaneal tendon entirely, so the relationship cannot be grounded in it (weak chunk). Must structures are correctly the two named targets  optional extras (anterior tibial artery, deep fibular nerve, leg bones/malleoli) are plausible leg-region additions."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; arbitrary_pair; Gold must are the two queried structures, but the chunk only covers the anterior compartment and never mentions the calcaneal tendon  the pair is an arbitrary co-occurrence with no direct anatomical relationship."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold chunk covers anterior compartment/EHL but omits calcaneal tendon, making it weak for the relational query  required and optional structures are plausible."
+      }
+    }
+  },
+  {
+    "id": "R-cardiovascular-036",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Pair is meaningful: right ascending lumbar vein joins right subcostal vein to form the azygos vein, which drains into the superior vena cava, so both query-named structures are genuinely required targets. Optional extras (azygos vein, right subcostal vein, intercostal veins, diaphragm, thoracic aorta, sympathetic trunk) are plausible azygos-system/thoracic neighbors  left subclavian artery is a mild stretch but not clearly wrong. Query is unambiguous and answerable as a relational item. Chunk is the relevant azygos-origin passage, though it covers only the RALV-azygos link and does not itself name the SVC."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold chunk describes azygos origin from right ascending lumbar vein but does not mention superior vena cava, so it weakly supports the full relational query  the pair is meaningfully related via the azygos system."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional includes leftsubclavianartery and other items not clearly related to the right ascending lumbar vein–SVC relation  query is answerable via the azygos pathway."
+      }
+    }
+  },
+  {
+    "id": "A-muscular-001",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "Query is a plain factual definition, not a valid ambiguity/negative control despite being typed A. Optional list includes unrelated structures (midbrain, pons, cavernous sinus) not plausibly tied to the tendinous ring passage."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Optional extras include midbrain, pons, and cavernous sinus, which are not related to the common tendinous ring  only extraocular muscles arising from/near the ring are plausible."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "Query is a straightforward factual definition, not an ambiguity/negative control for type A  optional includes unrelated/wrong structures such as midbrain, pons, and inferior oblique."
+      }
+    }
+  },
+  {
+    "id": "A-nervous-003",
+    "per_rater": {
+      "glm": {
+        "must_ok": "0",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query term 'Sulcus interm_prim-Jensen' is garbled/non-existent anatomy (looks like a corrupted token, not a real sulcus)  marking it as gold must is wrong for any item type, and as an A-item it is not a valid negative control since gold must is non-empty. No gold brief and no gold chunk provided."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Gold must matches the queried structure  no gold chunk provided (negative control)."
+      },
+      "qwen": {
+        "must_ok": "0",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; The query appears to be a valid negative-control style request for an unclear/nonstandard term, but the gold must list a non-anatomical/garbled term as a required structure, so must_ok is 0. No gold chunk is present."
+      }
+    }
+  },
+  {
+    "id": "A-muscular-002",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual 'what is' question targeting adductor magnus  gold must is correct. Optional extras are all plausible thigh/hip-region structures related to the same passage (adductor group, obturator nerve, femur, canal region). Gold chunk directly contains the brief's defining sentence. Note: item typed A but reads as a plain F question  still unambiguous and answerable."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Gold must is correct for the definition question. Optional list includes structures not related to the adductor magnus/medial thigh passage, such as iliacus muscle, inguinal ligament, and femoral nerve."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "gold must is correct, but optional includes unrelated structures (e.g., iliacus muscle, inguinal ligament)  query is a plain factual question, not an ambiguity/negative control as item type A requires."
+      }
+    }
+  },
+  {
+    "id": "A-muscular-003",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear, answerable factual definition question whose sole required target (tensor fasciae latae) is correct  optional extras (fascia lata, IT tract, gluteus maximus, gluteal region, and nearby thigh/leg structures) are plausibly from the same passage and none clearly wrong  gold chunk directly describes TFL origin/insertion. Minor note: item is typed A but reads as a plain F question  query itself is well-posed."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "Gold must is correct: the query asks about the tensor fasciae latae itself. Optional list includes clearly unrelated/incorrect extras for this passage, e.g. fibula is not involved in TFL anatomy and femoral nerve is not its innervation."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "Gold must is correct, but optional includes several unrelated extras (e.g., adductor magnus, femoral nerve, fibula). Query is a plain factual definition, not a valid ambiguity/negative control for item type A."
+      }
+    }
+  },
+  {
+    "id": "A-joints-001",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear, unambiguous factual definition request targeting the sacrotuberous ligament  gold must is correct. Optional extras are plausible pelvic-wall/adjacent-region structures (sacrospinous ligament, sacrum, coccyx, piriformis, obturator internus, pudendal nerve, gluteal region  pubic symphysis is peripheral but still pelvic anatomy). Gold chunk directly describes the sacrotuberous ligament. Minor note: item is typed A but reads as a plain F question  the query itself is well-posed."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Factual definition query  sacrotuberous ligament is the required target and the optional pelvic-related structures are reasonable extras. The gold chunk directly discusses the ligament."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "A item but query is straightforward factual, not ambiguity/negative."
+      }
+    }
+  },
+  {
+    "id": "A-regions-032",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query 'What is the Tragus?' is a clear, answerable definitional question with target 'tragus' matching gold must (though item is labeled type A, it reads as a clean factual query). Gold chunk covers external ear/auricle anatomy including elevations/depressions, directly relevant. Optional extras (antihelix, antitragus, helix, intertragic incisure) are same-topic auricle structures  lacrimal sac, nasolacrimal duct, oral/temporal regions are regional head anatomy plausibly co-occurring in the same passage, none clearly unrelated."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "1",
+        "notes": "weak_gold_chunk; Gold must 'tragus' is correct, and the query is clear/answerable. But optional includes clearly unrelated structures (lacrimal sac, nasolacrimal duct, oral/temporal regions), and the chunk only discusses the external ear/auricle generally without defining the tragus, making it weak support."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; Query is direct factual, not a valid A ambiguity/negative  chunk omits tragus  optional includes unrelated lacrimal/oral structures."
+      }
+    }
+  },
+  {
+    "id": "A-skeletal-001",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "Query is a clear factual definition question with 'patella' as the correct required target  optional extras are all knee-region structures plausibly co-occurring with the patella/patellar ligament topic  gold chunk directly discusses the patella and its ligamentous attachments. Note: item is labeled type A but reads as a plain F-type question, though it is well-posed and answerable either way."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; Item typed A but query is a straightforward factual definition, not a valid ambiguity or negative control. Gold chunk concerns the patellar ligament rather than defining the patella, so it relates only weakly."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "0",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; Gold must is correct  optional list includes many knee/leg structures unrelated to the patella/patellar ligament topic  query is straightforward factual despite A ambiguity/negative type  chunk mainly describes patellar ligament attachments rather than defining the patella."
+      }
+    }
+  },
+  {
+    "id": "A-regions-001",
+    "per_rater": {
+      "glm": {
+        "must_ok": "0",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query is a garbled fragment ('that muscle.') with no HISTORY or antecedent, so its target is unresolvable — not a valid ambiguity or negative control. Gold must is empty even though the query implies a muscle target, and the gold chunk is absent entirely."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query is a context-dependent fragment ('that muscle.') with no prior history, so its target is unclear and unanswerable as asked. Gold must/optional are empty, and no gold chunk is present."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'that muscle.' lacks antecedent/context and is unanswerable  no gold chunk provided."
+      }
+    }
+  },
+  {
+    "id": "A-regions-003",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'the nerve.' is a garbled, unresolvable fragment with no identifiable target, so it fails as an ambiguity/negative-control item (query_ok=0)  gold must/optional are empty and no gold chunk or brief exists (no_gold_chunk=1), making the item unusable for grounding."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'the nerve' is too underspecified to be a resolvable ambiguity  no gold chunk or brief is provided."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; A negative control: underspecified 'the nerve' with no required structures  gold chunk absent."
+      }
+    }
+  },
+  {
+    "id": "A-regions-005",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Query 'the joint.' is a maximally underspecified negative control: no specific joint is identifiable, so empty gold must/optional is correct and the expected behavior is clarification/abstention. Gold chunk is absent (no_gold_chunk=1), which is consistent with a negative-control item but flagged per criteria."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'the joint' is too vague/underspecified to have a clear, answerable target  no gold structures, brief, or chunk are provided."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'the joint.' is too vague/unanswerable as an ambiguity/negative item  no gold chunk provided."
+      }
+    }
+  },
+  {
+    "id": "A-regions-011",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'the joint.' is a bare fragment with no context or history  it is not a resolvable ambiguity or a valid negative control, so it is unanswerable as asked. Gold must/optional are empty (vacuously acceptable for an A item), but no gold chunk is provided, leaving nothing to ground the item."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'the joint.' is too vague/unresolvable with no context or specified joint  gold chunk is absent."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Gold lists are empty and no chunk is provided. As an A-type item, the bare phrase 'the joint.' is an underspecified clarification/negative control rather than a factual query."
+      }
+    }
+  },
+  {
+    "id": "A-regions-013",
+    "per_rater": {
+      "glm": {
+        "must_ok": "0",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query is a garbled fragment ('that muscle.') with no antecedent or history  target is unclear and it is not a valid ambiguity or negative control. Gold must is empty despite the query implying a specific muscle target, and no gold chunk or brief is provided."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query is a fragment ('that muscle.') with no antecedent/history, so its target is unclear and unanswerable  gold must/optional are empty, and no gold chunk is present."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "weak_gold_chunk; no_gold_chunk; Query 'that muscle' lacks antecedent and is unanswerable  gold chunk absent."
+      }
+    }
+  },
+  {
+    "id": "A-regions-017",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query is a vague anaphoric follow-up: 'one of them' leaves the target indeterminate (humerus vs radius vs ulna) with no cue to resolve it, so it is neither a resolvable ambiguity nor a valid negative control  no gold chunk or brief provided to anchor expected behavior."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query's 'one of them' ambiguously refers to humerus, radius, or ulna and lacks a resolvable target. No gold chunk or brief provided."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Gold must/optional are empty, vacuously correct. Query is a valid ambiguous follow-up. Gold chunk is absent."
+      }
+    }
+  },
+  {
+    "id": "A-regions-021",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Query 'Tell me more about one of them' is an unresolvable anaphoric follow-up: 'one of them' could be any of the median, ulnar, or radial nerves and context gives no way to pick one, so it is neither a resolvable ambiguity nor a clearly designed negative control. Gold must/optional are empty and there is no gold chunk or brief, leaving no verifiable target for the item."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; No gold chunk provided  query is a valid ambiguity item because 'one of them' refers to the previously listed median, ulnar, and radial nerves."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Ambiguous follow-up referencing one of three nerves  no specific gold structure required. Gold chunk is absent."
+      }
+    }
+  },
+  {
+    "id": "A-regions-027",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Valid ambiguity/negative item: 'one of them' anaphorically refers to median/ulnar/radial nerves, so correctly no single required or optional structure  however, no gold chunk was provided for the item."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; Follow-up 'one of them' is ambiguous because the prior answer names three nerves and does not specify which one  no gold chunk is provided."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Empty gold must/optional is acceptable for an ambiguous follow-up  query is validly ambiguous because 'one of them' could refer to median, ulnar, or radial nerve. Gold chunk is absent."
+      }
+    }
+  },
+  {
+    "id": "A-regions-029",
+    "per_rater": {
+      "glm": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Follow-up 'one of them' resolves via history to the three elbow bones (humerus, radius, ulna)  as an A-item the underspecification is valid and resolvable (system should ask which bone or describe one), so empty gold lists are acceptable. However, no gold chunk (or brief) is provided, so the item has no retrieval ground truth."
+      },
+      "deepseek": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "1",
+        "notes": "no_gold_chunk; Gold must/optional lists are empty, so they pass vacuously. The follow-up refers anaphorically to the elbow bones and is an under-specified but valid ambiguity resolvable by clarification. No gold chunk is present."
+      },
+      "qwen": {
+        "must_ok": "1",
+        "optional_ok": "1",
+        "query_ok": "0",
+        "notes": "no_gold_chunk; The follow-up query is ambiguous because 'one of them' does not specify which bone  no gold chunk is present."
+      }
+    }
+  }
+]

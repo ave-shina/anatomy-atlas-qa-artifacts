@@ -1,0 +1,11 @@
+{
+  "runId": "sub45-qwen",
+  "condition": "B3",
+  "judgeModel": "openai/gpt-4o-mini",
+  "judged": 29,
+  "failed": 0,
+  "skipped": 16,
+  "citation_validity_mean": 0.8879310344827587,
+  "faithfulness_mean": 4.551724137931035,
+  "note": "LLM judge; run the manual-verification.csv audit (>=20%) before reporting."
+}

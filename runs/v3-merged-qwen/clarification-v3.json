@@ -1,0 +1,23 @@
+{
+ "B1": {
+  "n": 50,
+  "expected_rate": 0.6,
+  "issued_rate": 0.0,
+  "correct_rate": 0.4,
+  "candidate_hit_rate": 0
+ },
+ "B2": {
+  "n": 50,
+  "expected_rate": 0.6,
+  "issued_rate": 0.0,
+  "correct_rate": 0.4,
+  "candidate_hit_rate": 0
+ },
+ "B3": {
+  "n": 50,
+  "expected_rate": 0.6,
+  "issued_rate": 0.38,
+  "correct_rate": 0.78,
+  "candidate_hit_rate": 0.0
+ }
+}

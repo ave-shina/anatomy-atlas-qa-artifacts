@@ -1,0 +1,493 @@
+{
+  "purpose": "v3 gold refresh \u2014 38 items without certified gold chunks (29 F/R + 9 negative controls). Phase 1: rescue screening against the fulltext corpus; items failing it are replaced chunk-first.",
+  "base_kit": "anatomy3d-qb.v2.ndjson",
+  "counts": {
+    "total": 38,
+    "F": 13,
+    "R": 16,
+    "control": 9
+  },
+  "by_system": {
+    "cardiovascular": 11,
+    "joints": 5,
+    "muscular": 5,
+    "nervous": 7,
+    "regions": 5,
+    "skeletal": 1,
+    "visceral": 4
+  },
+  "items": [
+    {
+      "id": "F-regions-008",
+      "type": "F",
+      "system": "regions",
+      "query": "What is the function of the Temporal region?",
+      "gold_structures_must": [
+        "temporalregion"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Candidates describe temporalis muscle, fossa boundaries, or neurovasculature; none state the temporal region's function.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-regions-015",
+      "type": "F",
+      "system": "regions",
+      "query": "Where is the Deltopectoral triangle located?",
+      "gold_structures_must": [
+        "deltopectoraltriangle"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate mentions the deltopectoral triangle; all discuss other triangles or unrelated deltoid content.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-regions-022",
+      "type": "F",
+      "system": "regions",
+      "query": "Where is the Palm located?",
+      "gold_structures_must": [
+        "palm"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate defines or locates the palm; C6 defines the hand but never mentions the palm.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-joints-009",
+      "type": "F",
+      "system": "joints",
+      "query": "Where is the Transverse humeral ligament located?",
+      "gold_structures_must": [
+        "transversehumeralligament"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Transverse humeral ligament (bridging intertubercular sulcus) is not described in any retrieved chunk; texts may be truncated before mention.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-joints-016",
+      "type": "F",
+      "system": "joints",
+      "query": "What is the function of the Transverse acetabular ligament?",
+      "gold_structures_must": [
+        "transverseacetabularligament"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate describes its function (bridging acetabular notch, completing acetabular rim). All are passing mentions or caption dumps.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-skeletal-019",
+      "type": "F",
+      "system": "skeletal",
+      "query": "What is the Medial cuneiform bone?",
+      "gold_structures_must": [
+        "medialcuneiformbone"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate contains information about the medial cuneiform bone; relevant passage likely elsewhere in tarsal-bones section.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-cardiovascular-004",
+      "type": "F",
+      "system": "cardiovascular",
+      "query": "What is the Supreme intercostal artery?",
+      "gold_structures_must": [
+        "supremeintercostalartery"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); GLM re-endorsed old gold id medrag-anatomy_gray:2462: Describes costocervical trunk origin and branches; supreme intercostal artery is its terminal branch, though text appears truncated before naming it.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-cardiovascular-008",
+      "type": "F",
+      "system": "cardiovascular",
+      "query": "What is the function of the Common iliac artery?",
+      "gold_structures_must": [
+        "commoniliacartery"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate describes the common iliac artery's function; C1 only notes internal iliac origin from it.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-cardiovascular-015",
+      "type": "F",
+      "system": "cardiovascular",
+      "query": "What is the function of the Left testicular artery?",
+      "gold_structures_must": [
+        "lefttesticularartery"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate mentions the testicular artery; C2 lists visceral branches but truncates before testicular arteries.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-nervous-005",
+      "type": "F",
+      "system": "nervous",
+      "query": "Where is the Flocculus located?",
+      "gold_structures_must": [
+        "flocculus"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate contains flocculus location information; a different chunk describing cerebellar flocculus is needed.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-visceral-001",
+      "type": "F",
+      "system": "visceral",
+      "query": "What is the Submandibular duct?",
+      "gold_structures_must": [
+        "submandibularduct"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Describes submandibular gland and its hook-shaped parts, context for the duct's course and relations.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-visceral-005",
+      "type": "F",
+      "system": "visceral",
+      "query": "What is the function of the Kidney?",
+      "gold_structures_must": [
+        "kidney"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate defines kidney function; dialysis chunks only imply it indirectly.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "F-visceral-008",
+      "type": "F",
+      "system": "visceral",
+      "query": "What is the Free taenia?",
+      "gold_structures_must": [
+        "freetaenia"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate defines the free taenia (taeniae coli of the large intestine); a chunk describing the colon's taeniae is needed.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-003",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Anterior cerebral artery and the Cavernous sinus anatomically related?",
+      "gold_structures_must": [
+        "anteriorcerebralartery",
+        "cavernoussinus"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); C5 covers ACA course and C1/C2 cover cavernous sinus contents, but none links the two structures.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-muscular-001",
+      "type": "R",
+      "system": "muscular",
+      "query": "How are the Adductor brevis and the Vastus lateralis muscle anatomically related?",
+      "gold_structures_must": [
+        "adductorbrevis",
+        "vastuslateralismuscle"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Muscles lie in different compartments; no retrieved passage describes their anatomical relationship. A relation may not exist in the source.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-muscular-003",
+      "type": "R",
+      "system": "muscular",
+      "query": "How are the Extensor hallucis longus and the Flexor digitorum brevis anatomically related?",
+      "gold_structures_must": [
+        "extensorhallucislongus",
+        "flexordigitorumbrevis"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate contains both muscles or describes any anatomical relationship between them; C2 and C4 cover each muscle separately.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-008",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Azygos vein and the Left gastric artery anatomically related?",
+      "gold_structures_must": [
+        "azygosvein",
+        "leftgastricartery"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate contains both structures' anatomical relation; azygos chunks omit left gastric artery entirely.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-012",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Azygos vein and the Superior mesenteric artery anatomically related?",
+      "gold_structures_must": [
+        "azygosvein",
+        "superiormesentericartery"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Candidates cover azygos system and SMA separately; none states a relation between the two structures.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-joints-001",
+      "type": "R",
+      "system": "joints",
+      "query": "How are the Pubic symphysis and the Sacrotuberous ligament anatomically related?",
+      "gold_structures_must": [
+        "pubicsymphysis",
+        "sacrotuberousligament"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate contains both structures with an explicit anatomical relation; C1 and C8 cover them separately.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-018",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Azygos vein and the Marginal artery anatomically related?",
+      "gold_structures_must": [
+        "azygosvein",
+        "marginalartery"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Azygos vein and marginal artery are unrelated structures; no candidate describes any anatomical relation between them.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-023",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Brachiocephalic trunk and the Thyrocervical trunk anatomically related?",
+      "gold_structures_must": [
+        "brachiocephalictrunk",
+        "thyrocervicaltrunk"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); C2 covers brachiocephalic trunk; C4/C6 cover thyrocervical trunk from subclavian; no chunk links both structures.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-026",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Anterior circumflex humeral artery and the Axillary vein anatomically related?",
+      "gold_structures_must": [
+        "anteriorcircumflexhumeralartery",
+        "axillaryvein"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Candidates mention each structure separately but none states any direct anatomical relation between them.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-nervous-009",
+      "type": "R",
+      "system": "nervous",
+      "query": "How are the Lacrimal gland and the Medulla oblongata anatomically related?",
+      "gold_structures_must": [
+        "lacrimalgland",
+        "medullaoblongata"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate connects the two structures; lacrimal innervation chunks trace to pterygopalatine ganglion, not medulla.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-muscular-009",
+      "type": "R",
+      "system": "muscular",
+      "query": "How are the Extensor indicis and the Supraspinatus muscle anatomically related?",
+      "gold_structures_must": [
+        "extensorindicis",
+        "supraspinatusmuscle"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Query presumes a relation that does not exist anatomically; no candidate contains both structures' relation.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-033",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Superior thyroid vein and the Thyrocervical trunk anatomically related?",
+      "gold_structures_must": [
+        "superiorthyroidvein",
+        "thyrocervicaltrunk"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Candidates mention each structure separately; none states a relationship between them.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-muscular-012",
+      "type": "R",
+      "system": "muscular",
+      "query": "How are the Calcaneal tendon and the Extensor hallucis longus anatomically related?",
+      "gold_structures_must": [
+        "calcanealtendon",
+        "extensorhallucislongus"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); C1 covers only EHL course; no candidate relates it to the calcaneal tendon. Query likely unanswerable from this corpus set.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-visceral-007",
+      "type": "R",
+      "system": "visceral",
+      "query": "How are the Accessory pancreatic duct and the Gallbladder anatomically related?",
+      "gold_structures_must": [
+        "accessorypancreaticduct",
+        "gallbladder"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate describes any direct anatomical relation between accessory pancreatic duct and gallbladder; they are separate systems.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-muscular-014",
+      "type": "R",
+      "system": "muscular",
+      "query": "How are the Adductor brevis and the Vastus intermedius muscle anatomically related?",
+      "gold_structures_must": [
+        "adductorbrevis",
+        "vastusintermediusmuscle"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); Candidates cover each muscle separately; no passage states their spatial or compartmental relationship.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "R-cardiovascular-043",
+      "type": "R",
+      "system": "cardiovascular",
+      "query": "How are the Middle meningeal artery and the Superior petrosal sinus anatomically related?",
+      "gold_structures_must": [
+        "middlemeningealartery",
+        "superiorpetrosalsinus"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); C1 covers only the sinus; C2-C4 cover only the artery. No chunk states their relationship.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-nervous-001",
+      "type": "A",
+      "system": "nervous",
+      "query": "What is the Ganglia of sympathetic trunk?",
+      "gold_structures_must": [
+        "gangliaofsympathetictrunk"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-nervous-002",
+      "type": "A",
+      "system": "nervous",
+      "query": "What is the Septum pellucidum?",
+      "gold_structures_must": [
+        "septumpellucidum"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-nervous-003",
+      "type": "A",
+      "system": "nervous",
+      "query": "What is the Sulcus interm_prim-Jensen?",
+      "gold_structures_must": [
+        "sulcusintermprimjensen"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-nervous-004",
+      "type": "A",
+      "system": "nervous",
+      "query": "What is the Ampulla of lacrimal canaliculus?",
+      "gold_structures_must": [
+        "ampullaoflacrimalcanaliculus"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-regions-031",
+      "type": "A",
+      "system": "regions",
+      "query": "What is the Anterior notch of auricle?",
+      "gold_structures_must": [
+        "anteriornotchofauricle"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-nervous-007",
+      "type": "A",
+      "system": "nervous",
+      "query": "What is the Aqueduct of midbrain?",
+      "gold_structures_must": [
+        "aqueductofmidbrain"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-joints-002",
+      "type": "A",
+      "system": "joints",
+      "query": "What is the Intra-articular ligament of head of rib?",
+      "gold_structures_must": [
+        "intraarticularligamentofheadofrib"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-regions-032",
+      "type": "A",
+      "system": "regions",
+      "query": "What is the Tragus?",
+      "gold_structures_must": [
+        "tragus"
+      ],
+      "expects_clarification": false,
+      "v2_notes": "[curated45 v2 2026-09-26] gold_chunk_ids none (none); No candidate defines the tragus; the needed passage listing auricle elevations (helix, antihelix, tragus) is absent from retrieved set.",
+      "phase": "rescue_first"
+    },
+    {
+      "id": "A-joints-003",
+      "type": "A",
+      "system": "joints",
+      "query": "What is the Interpubic disc?",
+      "gold_structures_must": [
+        "interpubicdisc"
+      ],
+      "expects_clarification": false,
+      "v2_notes": null,
+      "phase": "rescue_first"
+    }
+  ]
+}

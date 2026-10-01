@@ -1,0 +1,68 @@
+{
+  "runId": "trio-deepseek-r1",
+  "items": 330,
+  "conditions": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "perCondition": {
+    "B1": {
+      "generations": 330,
+      "ok": 328,
+      "failed": 2,
+      "chip_precision": 0.09090909090909091,
+      "chip_precision_optional": 1,
+      "chip_recall": 0.09090909090909091,
+      "chip_f1": 0.09090909090909091,
+      "chip_f1_optional": 0.09090909090909091,
+      "hallucinated_total": 0,
+      "non_renderable_total": 0,
+      "wrong_link_total": 0,
+      "extra_optional_total": 0,
+      "missed_link_total": 400,
+      "clarification_runs": 0,
+      "mean_duration_ms": 12832.830303030303
+    },
+    "B2": {
+      "generations": 330,
+      "ok": 330,
+      "failed": 0,
+      "chip_precision": 0.2226823429096156,
+      "chip_precision_optional": 0.5400454764091132,
+      "chip_recall": 0.65,
+      "chip_f1": 0.29688678325041956,
+      "chip_f1_optional": 0.4569988300469581,
+      "hallucinated_total": 2,
+      "non_renderable_total": 163,
+      "wrong_link_total": 665,
+      "extra_optional_total": 435,
+      "missed_link_total": 137,
+      "clarification_runs": 0,
+      "mean_duration_ms": 26980.92121212121
+    },
+    "B3": {
+      "generations": 330,
+      "ok": 329,
+      "failed": 1,
+      "chip_precision": 0.2560751453933274,
+      "chip_precision_optional": 0.5276644147098694,
+      "chip_recall": 0.9590909090909091,
+      "chip_f1": 0.36966271102634723,
+      "chip_f1_optional": 0.6131622560914712,
+      "hallucinated_total": 0,
+      "non_renderable_total": 236,
+      "wrong_link_total": 878,
+      "extra_optional_total": 511,
+      "missed_link_total": 14,
+      "clarification_runs": 17,
+      "mean_duration_ms": 30943.172727272726
+    }
+  },
+  "retrieval": {
+    "recall_at_3": 0.39292929292929296,
+    "recall_at_6": 0.48686868686868695,
+    "recall_at_10": 0.48686868686868695,
+    "mrr": 0.3826767676767676
+  }
+}

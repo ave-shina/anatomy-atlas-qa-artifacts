@@ -1,0 +1,270 @@
+{
+  "runs": [
+    "v3-merged-glm",
+    "v3-merged-deepseek",
+    "v3-merged-qwen"
+  ],
+  "judges": [
+    "glm",
+    "deepseek",
+    "qwen"
+  ],
+  "condition": "B3",
+  "matrix": {
+    "citation_validity": {
+      "v3-merged-glm": {
+        "glm": 0.8863,
+        "deepseek": 0.7906,
+        "qwen": 0.7587
+      },
+      "v3-merged-deepseek": {
+        "glm": 0.9076,
+        "deepseek": 0.8477,
+        "qwen": 0.819
+      },
+      "v3-merged-qwen": {
+        "glm": 0.8991,
+        "deepseek": 0.8677,
+        "qwen": 0.8694
+      }
+    },
+    "faithfulness": {
+      "v3-merged-glm": {
+        "glm": 4.1379,
+        "deepseek": 3.8527,
+        "qwen": 3.6
+      },
+      "v3-merged-deepseek": {
+        "glm": 4.3086,
+        "deepseek": 4.0494,
+        "qwen": 3.8421
+      },
+      "v3-merged-qwen": {
+        "glm": 4.4586,
+        "deepseek": 4.3153,
+        "qwen": 4.2508
+      }
+    },
+    "per_cell_n": {
+      "v3-merged-glm": {
+        "glm": {
+          "judged": 319,
+          "failed": 0,
+          "skipped": 11
+        },
+        "deepseek": {
+          "judged": 319,
+          "failed": 0,
+          "skipped": 11
+        },
+        "qwen": {
+          "judged": 319,
+          "failed": 0,
+          "skipped": 11
+        }
+      },
+      "v3-merged-deepseek": {
+        "glm": {
+          "judged": 324,
+          "failed": 0,
+          "skipped": 6
+        },
+        "deepseek": {
+          "judged": 324,
+          "failed": 0,
+          "skipped": 6
+        },
+        "qwen": {
+          "judged": 324,
+          "failed": 0,
+          "skipped": 6
+        }
+      },
+      "v3-merged-qwen": {
+        "glm": {
+          "judged": 314,
+          "failed": 0,
+          "skipped": 16
+        },
+        "deepseek": {
+          "judged": 314,
+          "failed": 0,
+          "skipped": 16
+        },
+        "qwen": {
+          "judged": 314,
+          "failed": 0,
+          "skipped": 16
+        }
+      }
+    }
+  },
+  "headline_offdiagonal": {
+    "citation_validity": 0.8404,
+    "faithfulness": 4.0629
+  },
+  "self_bias_rowwise": {
+    "glm": {
+      "diagonal": {
+        "cv": 0.8863,
+        "ff": 4.1379
+      },
+      "row_offdiag_mean": {
+        "cv": 0.7746,
+        "ff": 3.7263
+      },
+      "delta": {
+        "cv": 0.1117,
+        "ff": 0.4116
+      },
+      "row_offdiag_mean_by": {
+        "deepseek": {
+          "cv": 0.7906,
+          "ff": 3.8527
+        },
+        "qwen": {
+          "cv": 0.7587,
+          "ff": 3.6
+        }
+      },
+      "delta_by": {
+        "deepseek": {
+          "cv": 0.0957,
+          "ff": 0.2853
+        },
+        "qwen": {
+          "cv": 0.1277,
+          "ff": 0.5379
+        }
+      }
+    },
+    "deepseek": {
+      "diagonal": {
+        "cv": 0.8477,
+        "ff": 4.0494
+      },
+      "row_offdiag_mean": {
+        "cv": 0.8633,
+        "ff": 4.0754
+      },
+      "delta": {
+        "cv": -0.0156,
+        "ff": -0.026
+      },
+      "row_offdiag_mean_by": {
+        "glm": {
+          "cv": 0.9076,
+          "ff": 4.3086
+        },
+        "qwen": {
+          "cv": 0.819,
+          "ff": 3.8421
+        }
+      },
+      "delta_by": {
+        "glm": {
+          "cv": -0.0599,
+          "ff": -0.2593
+        },
+        "qwen": {
+          "cv": 0.0287,
+          "ff": 0.2073
+        }
+      }
+    },
+    "qwen": {
+      "diagonal": {
+        "cv": 0.8694,
+        "ff": 4.2508
+      },
+      "row_offdiag_mean": {
+        "cv": 0.8834,
+        "ff": 4.3869
+      },
+      "delta": {
+        "cv": -0.0139,
+        "ff": -0.1361
+      },
+      "row_offdiag_mean_by": {
+        "glm": {
+          "cv": 0.8991,
+          "ff": 4.4586
+        },
+        "deepseek": {
+          "cv": 0.8677,
+          "ff": 4.3153
+        }
+      },
+      "delta_by": {
+        "glm": {
+          "cv": -0.0297,
+          "ff": -0.2078
+        },
+        "deepseek": {
+          "cv": 0.0018,
+          "ff": -0.0645
+        }
+      }
+    }
+  },
+  "interjudge_cross_only": {
+    "glm+deepseek": {
+      "shared_runs": [
+        "v3-merged-qwen"
+      ],
+      "n_pairs": 314,
+      "citation_validity": {
+        "meanA": 0.8990976645435244,
+        "meanB": 0.8676574663835809,
+        "binary_agreement": 0.9713,
+        "spearman": 0.8357478968788378,
+        "mean_abs_diff": 0.03313871196036801
+      },
+      "faithfulness": {
+        "meanA": 4.45859872611465,
+        "meanB": 4.3152866242038215,
+        "within_1": 0.9840764331210191,
+        "spearman": 0.8476556765505421
+      }
+    },
+    "glm+qwen": {
+      "shared_runs": [
+        "v3-merged-deepseek"
+      ],
+      "n_pairs": 323,
+      "citation_validity": {
+        "meanA": 0.9072927416580668,
+        "meanB": 0.8189886480908152,
+        "binary_agreement": 0.9133,
+        "spearman": 0.6249037216226399,
+        "mean_abs_diff": 0.09057447540419675
+      },
+      "faithfulness": {
+        "meanA": 4.309597523219814,
+        "meanB": 3.8421052631578947,
+        "within_1": 0.9226006191950464,
+        "spearman": 0.7746723462332622
+      }
+    },
+    "deepseek+qwen": {
+      "shared_runs": [
+        "v3-merged-glm"
+      ],
+      "n_pairs": 315,
+      "citation_validity": {
+        "meanA": 0.788994708994709,
+        "meanB": 0.7586772486772485,
+        "binary_agreement": 0.8857,
+        "spearman": 0.6606641258922241,
+        "mean_abs_diff": 0.11285714285714285
+      },
+      "faithfulness": {
+        "meanA": 3.8412698412698414,
+        "meanB": 3.6,
+        "within_1": 0.9841269841269841,
+        "spearman": 0.8336309070605377
+      }
+    }
+  },
+  "note": "Headline = off-diagonal mean (no model judged by itself). Diagonal cells = measured self-preference (Panickssery et al. 2024), reported separately, never folded into the headline. Inter-judge agreement uses cross cells only. NOT human annotation."
+}

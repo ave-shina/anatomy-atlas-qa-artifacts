@@ -1,0 +1,270 @@
+{
+  "runs": [
+    "trio-glm-r1",
+    "trio-deepseek-r1",
+    "trio-qwen-r1"
+  ],
+  "judges": [
+    "glm",
+    "deepseek",
+    "qwen"
+  ],
+  "condition": "B3",
+  "matrix": {
+    "citation_validity": {
+      "trio-glm-r1": {
+        "glm": 0.8956,
+        "deepseek": 0.7604,
+        "qwen": 0.767
+      },
+      "trio-deepseek-r1": {
+        "glm": 0.897,
+        "deepseek": 0.8337,
+        "qwen": 0.7733
+      },
+      "trio-qwen-r1": {
+        "glm": 0.9063,
+        "deepseek": 0.8833,
+        "qwen": 0.8645
+      }
+    },
+    "faithfulness": {
+      "trio-glm-r1": {
+        "glm": 3.695,
+        "deepseek": 3.2702,
+        "qwen": 3.1444
+      },
+      "trio-deepseek-r1": {
+        "glm": 3.9195,
+        "deepseek": 3.7065,
+        "qwen": 3.3494
+      },
+      "trio-qwen-r1": {
+        "glm": 4.134,
+        "deepseek": 3.9248,
+        "qwen": 3.7303
+      }
+    },
+    "per_cell_n": {
+      "trio-glm-r1": {
+        "glm": {
+          "judged": 318,
+          "failed": 0,
+          "skipped": 12
+        },
+        "deepseek": {
+          "judged": 285,
+          "failed": 33,
+          "skipped": 12
+        },
+        "qwen": {
+          "judged": 284,
+          "failed": 34,
+          "skipped": 12
+        }
+      },
+      "trio-deepseek-r1": {
+        "glm": {
+          "judged": 323,
+          "failed": 0,
+          "skipped": 7
+        },
+        "deepseek": {
+          "judged": 293,
+          "failed": 30,
+          "skipped": 7
+        },
+        "qwen": {
+          "judged": 312,
+          "failed": 11,
+          "skipped": 7
+        }
+      },
+      "trio-qwen-r1": {
+        "glm": {
+          "judged": 306,
+          "failed": 0,
+          "skipped": 24
+        },
+        "deepseek": {
+          "judged": 306,
+          "failed": 0,
+          "skipped": 24
+        },
+        "qwen": {
+          "judged": 304,
+          "failed": 2,
+          "skipped": 24
+        }
+      }
+    }
+  },
+  "headline_offdiagonal": {
+    "citation_validity": 0.8312,
+    "faithfulness": 3.6237
+  },
+  "self_bias_rowwise": {
+    "glm": {
+      "diagonal": {
+        "cv": 0.8956,
+        "ff": 3.695
+      },
+      "row_offdiag_mean": {
+        "cv": 0.7637,
+        "ff": 3.2073
+      },
+      "delta": {
+        "cv": 0.1319,
+        "ff": 0.4877
+      },
+      "row_offdiag_mean_by": {
+        "deepseek": {
+          "cv": 0.7604,
+          "ff": 3.2702
+        },
+        "qwen": {
+          "cv": 0.767,
+          "ff": 3.1444
+        }
+      },
+      "delta_by": {
+        "deepseek": {
+          "cv": 0.1352,
+          "ff": 0.4248
+        },
+        "qwen": {
+          "cv": 0.1287,
+          "ff": 0.5506
+        }
+      }
+    },
+    "deepseek": {
+      "diagonal": {
+        "cv": 0.8337,
+        "ff": 3.7065
+      },
+      "row_offdiag_mean": {
+        "cv": 0.8351,
+        "ff": 3.6344
+      },
+      "delta": {
+        "cv": -0.0015,
+        "ff": 0.0721
+      },
+      "row_offdiag_mean_by": {
+        "glm": {
+          "cv": 0.897,
+          "ff": 3.9195
+        },
+        "qwen": {
+          "cv": 0.7733,
+          "ff": 3.3494
+        }
+      },
+      "delta_by": {
+        "glm": {
+          "cv": -0.0633,
+          "ff": -0.213
+        },
+        "qwen": {
+          "cv": 0.0604,
+          "ff": 0.3571
+        }
+      }
+    },
+    "qwen": {
+      "diagonal": {
+        "cv": 0.8645,
+        "ff": 3.7303
+      },
+      "row_offdiag_mean": {
+        "cv": 0.8948,
+        "ff": 4.0294
+      },
+      "delta": {
+        "cv": -0.0303,
+        "ff": -0.2991
+      },
+      "row_offdiag_mean_by": {
+        "glm": {
+          "cv": 0.9063,
+          "ff": 4.134
+        },
+        "deepseek": {
+          "cv": 0.8833,
+          "ff": 3.9248
+        }
+      },
+      "delta_by": {
+        "glm": {
+          "cv": -0.0418,
+          "ff": -0.4037
+        },
+        "deepseek": {
+          "cv": -0.0188,
+          "ff": -0.1946
+        }
+      }
+    }
+  },
+  "interjudge_cross_only": {
+    "glm+deepseek": {
+      "shared_runs": [
+        "trio-qwen-r1"
+      ],
+      "n_pairs": 306,
+      "citation_validity": {
+        "meanA": 0.9063180827886711,
+        "meanB": 0.8833333333333335,
+        "binary_agreement": 0.9837,
+        "spearman": 0.8524972586750736,
+        "mean_abs_diff": 0.022984749455337693
+      },
+      "faithfulness": {
+        "meanA": 4.133986928104576,
+        "meanB": 3.9248366013071894,
+        "within_1": 0.9901960784313726,
+        "spearman": 0.9127778207981065
+      }
+    },
+    "glm+qwen": {
+      "shared_runs": [
+        "trio-deepseek-r1"
+      ],
+      "n_pairs": 312,
+      "citation_validity": {
+        "meanA": 0.8933226495726495,
+        "meanB": 0.7733440170940171,
+        "binary_agreement": 0.8942,
+        "spearman": 0.613545854450084,
+        "mean_abs_diff": 0.11997863247863254
+      },
+      "faithfulness": {
+        "meanA": 3.907051282051282,
+        "meanB": 3.3493589743589745,
+        "within_1": 0.907051282051282,
+        "spearman": 0.8228117500316547
+      }
+    },
+    "deepseek+qwen": {
+      "shared_runs": [
+        "trio-glm-r1"
+      ],
+      "n_pairs": 251,
+      "citation_validity": {
+        "meanA": 0.7895940049326503,
+        "meanB": 0.7582337317397079,
+        "binary_agreement": 0.8924,
+        "spearman": 0.682874943673315,
+        "mean_abs_diff": 0.10024663251754881
+      },
+      "faithfulness": {
+        "meanA": 3.354581673306773,
+        "meanB": 3.1314741035856573,
+        "within_1": 0.9920318725099602,
+        "spearman": 0.8835861958236219
+      }
+    }
+  },
+  "note": "Headline = off-diagonal mean (no model judged by itself). Diagonal cells = measured self-preference (Panickssery et al. 2024), reported separately, never folded into the headline. Inter-judge agreement uses cross cells only. NOT human annotation."
+}
